@@ -8,10 +8,7 @@
       "archetype": "Recon",
       "reveal": "As a STRATEGIC GAMBIT.",
       "additionalRules": "Divide the killzone into two flanks (left and right) by drawing an imaginary line that’s just like the centreline, except it runs from the centre of each player’s killzone edge. An operative contests a flank while both wholly within it and within their opponent’s territory. Friendly operatives control a flank if the total APL stat of those contesting it is greater than that of enemy operatives.",
-      "actions": [
-        "ACTION-REPOSITION",
-        "ACTION-DASH"
-      ],
+      "actions": [],
       "victoryPoints": [
         "After you reveal this op, at the end of each turning point after the first, for each flank friendly operatives control, you score 1VP.\nIf friendly operatives also controlled that flank at the end of the previous turning point (excluding the first), you score 2VP instead.\nYou cannot score more than 2VP from this op per turning point."
       ]
