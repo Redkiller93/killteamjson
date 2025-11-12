@@ -20297,8 +20297,8 @@ normal success instead of discarding it."
   {
     "factionId": "VOT",
     "killteamId": "VOT-HKY",
-    "version": "",
-    "file": "",
+    "version": "October '25",
+    "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_hernkyn_yaegirs-u6vcl11gya-xqaxu2zqwb.pdf",
     "killteamName": "Hernkyn Yaegirs",
     "description": "The Hernkyn are those Kin who serve as the Leagues of Votann's explorers, scouts, prospectors and pioneers. To the Kin, any region of blank space upon their star charts is a mystery in need of solving. The desire to plumb the depths of the void, to discover its secrets and claim its riches is deeply ingrained in their psyche, as is the need to know what -- if any -- sources of peril might lurk amidst the shadows. ",
     "composition": "A HERNKYN YAEGIR killteam is composed of:\n\n- 1 HERNKYN YAEGIR Theyn operative\n- 9 HERNKYN YAEGIR operatives selected from the following list:\n  - Bladekyn\n  - Bombast\n  - Gunner\n  - Ironbreak\n  - Riflekyn\n  - Tracker\n  - Warrior with one of the following options:\n    - Bolt Revolver, plasma knife\n    - Bolt Shotgun, Fists\nOther than Warrior operatives, your kill team can only include each operative on this list once.",
@@ -20410,7 +20410,7 @@ normal success instead of discarding it."
             "opTypeId": "VOT-HKY-THEYN",
             "abilityName": "Resourceful",
             "AP": null,
-            "description": "In the Ready step of each Strategy Phase after the first, you gain Resourceful points determined by the number of friendly HERNKYN YAEGIR operatives in the killzone that aren't within control range of enemy operatives.\nAt the end of each turning point, discard your Resourceful points.\n\n| **Operatives** | **Resourceful Points** |\n|:---:|:---:|\n|6+|2|\n|3-5|1|\n|0-2|0|\n\nWhenever a friendly HERNKYN YAEGIR operative that is not within control range of enemy operatives is activated, you can spend 1 of your Resourceful points to do one of the following:\n\n- Until the end of its activation, add 1 to its APL stat\n- It regains D3+1 wounds"
+            "description": "In the Ready step of each Strategy Phase after the first, you gain Resourceful points determined by the number of friendly HERNKYN YAEGIR operatives in the killzone that aren't within control range of enemy operatives.\nAt the end of each turning point, discard your Resourceful points.\n\n| **Operatives** | **Resourceful Points** |\n|:---:|:---:|\n|5+|2|\n|1-4|1|\n\nYou can spend 1 of your Resourceful points during each activation of each friendly HERNKYN YAEGIR operative to do one of the following:\n\n- Before or after it performs an action, if it’s not within control range of enemy operatives, you can use this rule. If you do, add 1 to that friendly operative’s APL stat until the end of its activation.\n- When it’s activated, if it’s not within control range of enemy operatives, it regains up to D3+1 lost wounds."
           },
           {
             "abilityId": "VOT-HKY-THEYN-A-VETA",
@@ -20500,7 +20500,7 @@ normal success instead of discarding it."
             "opTypeId": "VOT-HKY-BLD",
             "abilityName": "Resourceful",
             "AP": null,
-            "description": "In the Ready step of each Strategy Phase after the first, you gain Resourceful points determined by the number of friendly HERNKYN YAEGIR operatives in the killzone that aren't within control range of enemy operatives.\nAt the end of each turning point, discard your Resourceful points.\n\n| **Operatives** | **Resourceful Points** |\n|:---:|:---:|\n|6+|2|\n|3-5|1|\n|0-2|0|\n\nWhenever a friendly HERNKYN YAEGIR operative that is not within control range of enemy operatives is activated, you can spend 1 of your Resourceful points to do one of the following:\n\n- Until the end of its activation, add 1 to its APL stat\n- It regains D3+1 wounds"
+            "description": "In the Ready step of each Strategy Phase after the first, you gain Resourceful points determined by the number of friendly HERNKYN YAEGIR operatives in the killzone that aren't within control range of enemy operatives.\nAt the end of each turning point, discard your Resourceful points.\n\n| **Operatives** | **Resourceful Points** |\n|:---:|:---:|\n|5+2|\n|1-4|1|\n\nYou can spend 1 of your Resourceful points during each activation of each friendly HERNKYN YAEGIR operative to do one of the following:\n\n- Before or after it performs an action, if it’s not within control range of enemy operatives, you can use this rule. If you do, add 1 to that friendly operative’s APL stat until the end of its activation.\n- When it’s activated, if it’s not within control range of enemy operatives, it regains up to D3+1 lost wounds."
           },
           {
             "abilityId": "VOT-HKY-BLD-A-ST",
@@ -20590,7 +20590,7 @@ normal success instead of discarding it."
             "opTypeId": "VOT-HKY-BOMB",
             "abilityName": "Resourceful",
             "AP": null,
-            "description": "In the Ready step of each Strategy Phase after the first, you gain Resourceful points determined by the number of friendly HERNKYN YAEGIR operatives in the killzone that aren't within control range of enemy operatives.\nAt the end of each turning point, discard your Resourceful points.\n\n| **Operatives** | **Resourceful Points** |\n|:---:|:---:|\n|6+|2|\n|3-5|1|\n|0-2|0|\n\nWhenever a friendly HERNKYN YAEGIR operative that is not within control range of enemy operatives is activated, you can spend 1 of your Resourceful points to do one of the following:\n\n- Until the end of its activation, add 1 to its APL stat\n- It regains D3+1 wounds"
+            "description": "In the Ready step of each Strategy Phase after the first, you gain Resourceful points determined by the number of friendly HERNKYN YAEGIR operatives in the killzone that aren't within control range of enemy operatives.\nAt the end of each turning point, discard your Resourceful points.\n\n| **Operatives** | **Resourceful Points** |\n|:---:|:---:|\n|5+2|\n|1-4|1|\n\nYou can spend 1 of your Resourceful points during each activation of each friendly HERNKYN YAEGIR operative to do one of the following:\n\n- Before or after it performs an action, if it’s not within control range of enemy operatives, you can use this rule. If you do, add 1 to that friendly operative’s APL stat until the end of its activation.\n- When it’s activated, if it’s not within control range of enemy operatives, it regains up to D3+1 lost wounds."
           },
           {
             "abilityId": "VOT-HKY-BOMB-A-WLN",
@@ -20700,7 +20700,7 @@ normal success instead of discarding it."
             "opTypeId": "VOT-HKY-GNR",
             "abilityName": "Resourceful",
             "AP": null,
-            "description": "In the Ready step of each Strategy Phase after the first, you gain Resourceful points determined by the number of friendly HERNKYN YAEGIR operatives in the killzone that aren't within control range of enemy operatives.\nAt the end of each turning point, discard your Resourceful points.\n\n| **Operatives** | **Resourceful Points** |\n|:---:|:---:|\n|6+|2|\n|3-5|1|\n|0-2|0|\n\nWhenever a friendly HERNKYN YAEGIR operative that is not within control range of enemy operatives is activated, you can spend 1 of your Resourceful points to do one of the following:\n\n- Until the end of its activation, add 1 to its APL stat\n- It regains D3+1 wounds"
+            "description": "In the Ready step of each Strategy Phase after the first, you gain Resourceful points determined by the number of friendly HERNKYN YAEGIR operatives in the killzone that aren't within control range of enemy operatives.\nAt the end of each turning point, discard your Resourceful points.\n\n| **Operatives** | **Resourceful Points** |\n|:---:|:---:|\n|5+2|\n|1-4|1|\n\nYou can spend 1 of your Resourceful points during each activation of each friendly HERNKYN YAEGIR operative to do one of the following:\n\n- Before or after it performs an action, if it’s not within control range of enemy operatives, you can use this rule. If you do, add 1 to that friendly operative’s APL stat until the end of its activation.\n- When it’s activated, if it’s not within control range of enemy operatives, it regains up to D3+1 lost wounds."
           }
         ],
         "options": [],
@@ -20790,7 +20790,7 @@ normal success instead of discarding it."
             "opTypeId": "VOT-HKY-IRN",
             "abilityName": "Resourceful",
             "AP": null,
-            "description": "In the Ready step of each Strategy Phase after the first, you gain Resourceful points determined by the number of friendly HERNKYN YAEGIR operatives in the killzone that aren't within control range of enemy operatives.\nAt the end of each turning point, discard your Resourceful points.\n\n| **Operatives** | **Resourceful Points** |\n|:---:|:---:|\n|6+|2|\n|3-5|1|\n|0-2|0|\n\nWhenever a friendly HERNKYN YAEGIR operative that is not within control range of enemy operatives is activated, you can spend 1 of your Resourceful points to do one of the following:\n\n- Until the end of its activation, add 1 to its APL stat\n- It regains D3+1 wounds"
+            "description": "In the Ready step of each Strategy Phase after the first, you gain Resourceful points determined by the number of friendly HERNKYN YAEGIR operatives in the killzone that aren't within control range of enemy operatives.\nAt the end of each turning point, discard your Resourceful points.\n\n| **Operatives** | **Resourceful Points** |\n|:---:|:---:|\n|5+2|\n|1-4|1|\n\nYou can spend 1 of your Resourceful points during each activation of each friendly HERNKYN YAEGIR operative to do one of the following:\n\n- Before or after it performs an action, if it’s not within control range of enemy operatives, you can use this rule. If you do, add 1 to that friendly operative’s APL stat until the end of its activation.\n- When it’s activated, if it’s not within control range of enemy operatives, it regains up to D3+1 lost wounds."
           }
         ],
         "options": [],
@@ -20893,7 +20893,7 @@ normal success instead of discarding it."
             "opTypeId": "VOT-HKY-RFL",
             "abilityName": "Resourceful",
             "AP": null,
-            "description": "In the Ready step of each Strategy Phase after the first, you gain Resourceful points determined by the number of friendly HERNKYN YAEGIR operatives in the killzone that aren't within control range of enemy operatives.\nAt the end of each turning point, discard your Resourceful points.\n\n| **Operatives** | **Resourceful Points** |\n|:---:|:---:|\n|6+|2|\n|3-5|1|\n|0-2|0|\n\nWhenever a friendly HERNKYN YAEGIR operative that is not within control range of enemy operatives is activated, you can spend 1 of your Resourceful points to do one of the following:\n\n- Until the end of its activation, add 1 to its APL stat\n- It regains D3+1 wounds"
+            "description": "In the Ready step of each Strategy Phase after the first, you gain Resourceful points determined by the number of friendly HERNKYN YAEGIR operatives in the killzone that aren't within control range of enemy operatives.\nAt the end of each turning point, discard your Resourceful points.\n\n| **Operatives** | **Resourceful Points** |\n|:---:|:---:|\n|5+2|\n|1-4|1|\n\nYou can spend 1 of your Resourceful points during each activation of each friendly HERNKYN YAEGIR operative to do one of the following:\n\n- Before or after it performs an action, if it’s not within control range of enemy operatives, you can use this rule. If you do, add 1 to that friendly operative’s APL stat until the end of its activation.\n- When it’s activated, if it’s not within control range of enemy operatives, it regains up to D3+1 lost wounds."
           },
           {
             "abilityId": "VOT-HKY-RFL-A-WWC",
@@ -21003,7 +21003,7 @@ normal success instead of discarding it."
             "opTypeId": "VOT-HKY-TRK",
             "abilityName": "Resourceful",
             "AP": null,
-            "description": "In the Ready step of each Strategy Phase after the first, you gain Resourceful points determined by the number of friendly HERNKYN YAEGIR operatives in the killzone that aren't within control range of enemy operatives.\nAt the end of each turning point, discard your Resourceful points.\n\n| **Operatives** | **Resourceful Points** |\n|:---:|:---:|\n|6+|2|\n|3-5|1|\n|0-2|0|\n\nWhenever a friendly HERNKYN YAEGIR operative that is not within control range of enemy operatives is activated, you can spend 1 of your Resourceful points to do one of the following:\n\n- Until the end of its activation, add 1 to its APL stat\n- It regains D3+1 wounds"
+            "description": "In the Ready step of each Strategy Phase after the first, you gain Resourceful points determined by the number of friendly HERNKYN YAEGIR operatives in the killzone that aren't within control range of enemy operatives.\nAt the end of each turning point, discard your Resourceful points.\n\n| **Operatives** | **Resourceful Points** |\n|:---:|:---:|\n|5+2|\n|1-4|1|\n\nYou can spend 1 of your Resourceful points during each activation of each friendly HERNKYN YAEGIR operative to do one of the following:\n\n- Before or after it performs an action, if it’s not within control range of enemy operatives, you can use this rule. If you do, add 1 to that friendly operative’s APL stat until the end of its activation.\n- When it’s activated, if it’s not within control range of enemy operatives, it regains up to D3+1 lost wounds."
           },
           {
             "abilityId": "VOT-HKY-TRK-A-TRK",
@@ -21143,7 +21143,7 @@ normal success instead of discarding it."
             "opTypeId": "VOT-HKY-WAR",
             "abilityName": "Resourceful",
             "AP": null,
-            "description": "In the Ready step of each Strategy Phase after the first, you gain Resourceful points determined by the number of friendly HERNKYN YAEGIR operatives in the killzone that aren't within control range of enemy operatives.\nAt the end of each turning point, discard your Resourceful points.\n\n| **Operatives** | **Resourceful Points** |\n|:---:|:---:|\n|6+|2|\n|3-5|1|\n|0-2|0|\n\nWhenever a friendly HERNKYN YAEGIR operative that is not within control range of enemy operatives is activated, you can spend 1 of your Resourceful points to do one of the following:\n\n- Until the end of its activation, add 1 to its APL stat\n- It regains D3+1 wounds"
+            "description": "In the Ready step of each Strategy Phase after the first, you gain Resourceful points determined by the number of friendly HERNKYN YAEGIR operatives in the killzone that aren't within control range of enemy operatives.\nAt the end of each turning point, discard your Resourceful points.\n\n| **Operatives** | **Resourceful Points** |\n|:---:|:---:|\n|5+2|\n|1-4|1|\n\nYou can spend 1 of your Resourceful points during each activation of each friendly HERNKYN YAEGIR operative to do one of the following:\n\n- Before or after it performs an action, if it’s not within control range of enemy operatives, you can use this rule. If you do, add 1 to that friendly operative’s APL stat until the end of its activation.\n- When it’s activated, if it’s not within control range of enemy operatives, it regains up to D3+1 lost wounds."
           }
         ],
         "options": [],
