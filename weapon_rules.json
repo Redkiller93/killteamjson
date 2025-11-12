@@ -15,43 +15,43 @@
     {
       "id": "WR-UNIV-BLAST",
       "name": "Blast",
-      "description": "Shoot the primary target, then shoot each visible operative within X as secondary targets. Roll each sequence separately. Secondary targets count as in cover and obscured if the primary target was.",
+      "description": "Whenever this operative performs the Fight action, at the start of the Roll Attack Dice step, you can use this rule. If you do, inflict 2 damage on the enemy operative in that sequence.",
       "team": null
     },
     {
       "id": "WR-UNIV-BRUTAL",
       "name": "Brutal",
-      "description": "Opponent can only block with critical successes.",
+      "description": "Whenever this operative is fighting, its heavy thunder hammer has the Brutal weapon rule. Whenever this operative performs the Charge action, its heavy thunder hammer has the Ceaseless weapon rule until the end of the activation/counteraction.",
       "team": null
     },
     {
       "id": "WR-UNIV-CEASELESS",
       "name": "Ceaseless",
-      "description": "You can re-roll any of your attack dice of one result (e.g., all 2s).",
+      "description": "As a STRATEGIC GAMBIT in each turning point after the first, if you have less than three non- incapacitated friendly CANOPTEK CIRCLE WARRIOR operatives, you can set up another one ready and with a Conceal order wholly within your drop zone (you can select its weapon options as normal).",
       "team": null
     },
     {
       "id": "WR-UNIV-DEVASTATING",
       "name": "Devastating",
-      "description": "Each retained critical success inflicts X damage. If given as distance + X, deal X damage to the target and each visible operative within that distance. The success is not discarded.",
+      "description": "\n- Whenever this operative is fighting or retaliating, enemy operatives cannot assist.\n- At the end of each enemy operative’s activation or counteraction, you can select an enemy operative within 2\" of this operative.\nThis operative can perform a free Charge action (you can change its order to Engage to do so), but it cannot move more than 2\" and must end that move within control range of that selected operative.\n",
       "team": null
     },
     {
       "id": "WR-UNIV-HEAVY",
       "name": "Heavy",
-      "description": "An operative cannot move in an activation/counteraction in which it uses this weapon, and vice-versa. If Heavy (X only), only that move type is allowed. Doesn't prevent Guard.",
+      "description": "Whenever this operative is shooting with a weapon from its datacard, if it hasn’t moved during the activation, or if it’s a counteraction, that weapon has the Ceaseless weapon rule;\nif the weapon already has that weapon rule (i.e. from the Cult Ambush faction rule), it has the Relentless weapon rule.\nNote this operative isn’t restricted from moving after shooting.",
       "team": null
     },
     {
       "id": "WR-UNIV-HOT",
       "name": "Hot",
-      "description": "After use, roll 1D6. If the result is less than the weapon’s Hit stat, inflict damage equal to the result ×2. Only roll once even if used multiple times.",
+      "description": "Select a point on a terrain feature that is visible to and within 6\" of this operative.\nRemove this operative from the killzone and set it back up wholly within 6\" horizontally of that point, not within Control Range of an enemy operative, and with that point visible to it.\n\nThis action is treated as a Reposition action.\nThis operative cannot perform this action while within Control Range of an enemy operative, or during an activation in which it performed the Charge, Fall Back, or Shoot action (or vice-versa).",
       "team": null
     },
     {
       "id": "WR-UNIV-LETHAL",
       "name": "Lethal",
-      "description": "Successes equal to or greater than X are critical successes.",
+      "description": "Whenever this operative is retaliating, before resolving attack dice in Step 4 of the fight sequence, if you have any critical successes, you can immediately resolve one of them (before the NPO resolves any).",
       "team": null
     },
     {
@@ -64,6 +64,12 @@
       "id": "WR-UNIV-PIERCING",
       "name": "Piercing",
       "description": "Defender rolls X fewer defence dice. If Piercing Crits X, effect applies only when you retain critical successes.",
+      "team": null
+    },
+    {
+      "id": "WR-UNIV-PSYCHIC",
+      "name": "Psychic",
+      "description": "Weapon profile has the Psychic keyword.",
       "team": null
     },
     {
@@ -99,7 +105,7 @@
     {
       "id": "WR-UNIV-SEEK",
       "name": "Seek",
-      "description": "Targets cannot use terrain for cover when being selected. If Seek Light, they cannot use Light terrain. Does not remove cover saves if applicable.",
+      "description": "STRATEGIC GAMBIT. You can immediately change this operative’s order and/or it can immediately perform a free Omniscanner, Fall Back, Place Marker, Pick Up Marker, Reposition or mission action.\nIf it’s the Fall Back or Reposition action and this operative isn’t carrying a marker, it must end that move either within your drop zone (if this isn’t possible, then as close as possible to it), or with an objective marker or one of your mission markers within its control range.",
       "team": null
     },
     {
@@ -123,37 +129,37 @@
     {
       "id": "WR-UNIV-STUN",
       "name": "Stun",
-      "description": "If you retain any critical successes, subtract 1 APL from the target until the end of its next activation.",
+      "description": "\r - Select one enemy operative visible to and within 6\" of this operative. That operative and each other operative within 1\" of it takes a stun test. For an operative to take a stun test, roll one D6: on a 3+, subtract 1 from its APL stat until the end of its next activation.\r - An operative cannot perform this action while within control range of an enemy operative, or if you have reached the total number of times your kill team can perform it.\r ",
       "team": null
     },
     {
       "id": "WR-UNIV-TORRENT",
       "name": "Torrent",
-      "description": "Select a primary target normally, then select any number of valid targets within X as secondary. Shoot all in any order, rolling each sequence separately.",
+      "description": "Note that Torrent 0\" means you cannot select secondary targets, but this weapon still has the Torren weapon rule for all other rules purposes, e.g. the Condensed Stronghold rule (see Killzone: Volkus).",
       "team": null
     },
     {
       "id": "WR-IMP-NOV-ANTI-PSYKER",
       "name": "Anti Psyker",
-      "description": "",
+      "description": "Whenever this weapon is being used against an operative that has the PSYKER keyword, add 1 to both Dmg stats of this weapon and it has the Lethal 5+ weapon rule.",
       "team": "IMP-NOV"
     },
     {
       "id": "WR-VOT-HKS-BEAM",
       "name": "Beam",
-      "description": "",
+      "description": "Whenever this operative is shooting with this weapon, each retained critical success immediately inflicts D3 damage on each other operative along one (and only one) beam line (roll separately for each operative),\nbut the target isn’t affected. An operative is along a beam line if a targeting line can be drawn from this operative to its base, and that line crosses the base of the original target but doesn’t cross Heavy terrain.",
       "team": "VOT-HKS"
     },
     {
       "id": "WR-VOT-HKY-BIPOD",
       "name": "Bipod",
-      "description": "",
+      "description": "Whenever this operative is shooting with this weapon, if it has not moved during the activation, or if it is a counteraction, this weapon has the Ceaseless weapon rule. Note this operative is not restricted from moving after shooting.",
       "team": "VOT-HKY"
     },
     {
       "id": "WR-IMP-SANC-BLAZE",
       "name": "Blaze",
-      "description": "",
+      "description": "If you inflict damage with any critical successes, the operative this weapon is being used against gains one of your Blaze tokens (if it doesn’t already have one).\r Whenever an operative that has one of your Blaze tokens is activated, inflict D3 damage on it. Then that operative’s controlling player selects one of the following:\r \r - Roll one D6: on a 3+, remove that token.\r - Subtract 1 from the operative’s APL stat until the end of that activation to remove that token.\r ",
       "team": "IMP-SANC"
     },
     {
@@ -171,19 +177,19 @@
     {
       "id": "WR-TYR-RAV-CRUSH",
       "name": "Crush",
-      "description": "",
+      "description": "Whenever you strike, you and your opponent roll-off, adding 1 to your result if the operative this weapon is being used against has a Wounds stat of 9 or less. If you win, inflict additional damage on that operative equal to the difference between the dice results (to a maximum of 3 additional damage).",
       "team": "TYR-RAV"
     },
     {
       "id": "WR-IMP-PHO-CUSTOM",
       "name": "Custom",
-      "description": "",
+      "description": "At the end of the Select Operatives step, if this operative is selected for deployment, select up to two of the following weapon rules for this weapon to have for the battle:\n\n- Balanced\n- Lethal 5+\n- Piercing Crits 1\n- Rending\n- Saturate\n",
       "team": "IMP-PHO"
     },
     {
       "id": "WR-IMP-DKK-DETONATE",
       "name": "Detonate",
-      "description": "",
+      "description": "Do not select a valid target. Instead, shoot against each operative within 2\" of your Mine marker, unless Heavy terrain is wholly intervening between that operative and that marker.\nEach of those operatives cannot be in cover or obscured. Roll each sequence separately in an order of your choice.\nThis weapon cannot be selected if your Mine marker isn’t in the killzone. At the end of the action, remove your Mine marker from the killzone.",
       "team": "IMP-DKK"
     },
     {
@@ -195,31 +201,31 @@
     {
       "id": "WR-CHAOS-GORE-DRAG",
       "name": "Drag",
-      "description": "",
+      "description": "Whenever this operative is shooting with this weapon, at the start of the Resolve Attack Dice step (before inflicting damage), you can move the target up to x\". X is your total number of successful unblocked attack dice, multiplied by 2.\nThe target must be moved to a location it can be placed as close as possible to this operative, determined by the x\" you choose to use. The move must be done in one or more straight-line increments, and increments are always rounded up to the nearest inch.\nWhenever the target is dropping during that move, ignore the vertical distance.",
       "team": "CHAOS-GORE"
     },
     {
       "id": "WR-CHAOS-GPI-ENGINEERED",
       "name": "Engineered",
-      "description": "",
+      "description": "At the end of the Select Operatives step, if this operative is selected for deployment, select up to two of the following improvements or weapon rules for this weapon to have for the battle:  \n\nAdd 1 to the Normal Dmg stat, add 1 to the Critical Dmg stat, Balanced, Brutal, Lethal 5+, Rending.",
       "team": "CHAOS-GPI"
     },
     {
       "id": "WR-ORK-KOM-EXPLOSIVE",
       "name": "Explosive",
-      "description": "",
+      "description": "This operative can perform the shoot action with this weapon while within control range of an enemy operative.\nDo not select a valid target, instead this operative is always the primary target and cannot be in cover or obscured.",
       "team": "ORK-KOM"
     },
     {
       "id": "WR-CHAOS-GPI-FEAST",
       "name": "Feast",
-      "description": "",
+      "description": "Whenever this operative is using this weapon against a wounded operative, add 1 to the Atk stat of this weapon and it has the Lethal 5+ weapon rule.",
       "team": "CHAOS-GPI"
     },
     {
       "id": "WR-AEL-HOTA-FLAY",
       "name": "Flay",
-      "description": "",
+      "description": "Whenever this operative is using this weapon, the first time you strike with a critical success during that sequence, you can select one friendly HAND OF THE ARCHON operative within 6\" of it to gain one of your Pain tokens.",
       "team": "AEL-HOTA"
     },
     {
@@ -231,7 +237,7 @@
     {
       "id": "WR-CHAOS-FELL-HEADTAKER",
       "name": "Headtaker",
-      "description": "",
+      "description": "Whenever this operative incapacitates an operative with this weapon, roll one D3:\n\n- This operative regains a number of lost wounds equal to the result (unless it has one of your Frenzy tokens).\n- Until the end of the battle, add the result to the Critical Dmg stat of this operative’s skullcleaver (to a maximum of 8).\n",
       "team": "CHAOS-FELL"
     },
     {
@@ -243,187 +249,175 @@
     {
       "id": "WR-TYR-WB-HYPERSENSE",
       "name": "Hypersense",
-      "description": "",
+      "description": "Whenever this operative is shooting with this weapon profile, enemy operatives cannot be obscured.",
       "team": "TYR-WB"
     },
     {
       "id": "WR-NEC-HIER-MAGNIFY",
       "name": "Magnify",
-      "description": "",
+      "description": "Whenever this operative is performing the Shoot action with this weapon, if the target is visible to this operative, and another friendly HIEROTEK CIRCLE APPRENTEK or HIEROTEK CIRCLE CRYPTEK operative has an Engage order and is visible to this operative,\nyou can treat that operative as the active operative for the purposes of determining a valid target, that Shoot action’s conditions, cover and obscured.\nIf you do, this weapon has the Ceaseless weapon rule until the end of that action.",
       "team": "NEC-HIER"
     },
     {
       "id": "WR-CHAOS-WC-MINDBURN",
       "name": "Mindburn",
-      "description": "",
+      "description": " In the Resolve Attack Dice step, if you inflict damage with any critical successes, the operative this weapon is being used against gains one of your Mindburn tokens (if it does not already have one)\nuntil the end of its next activation, until it’s incapacitated or until a friendly operative uses this weapon again (whichever comes first).\nWhenever an operative has one of your Mindburn tokens, worsen the Hit stat of its weapons by 1 (this is not cumulative with being injured).",
       "team": "CHAOS-WC"
     },
     {
       "id": "WR-TAU-VESP-NEUTRON",
       "name": "Neutron Fragment",
-      "description": "",
+      "description": "If the target is not incapacitated but you resolve any Attack Dice, the target gains one of your Neutron Fragment tokens. Whenever an operative that has one of your Neutron Fragment tokens is activated, inflict D3 damage on it for each Neutron Fragment token it has (roll separately for each).",
       "team": "TAU-VESP"
     },
     {
       "id": "WR-TAU-VESP-NEUTRONB",
       "name": "Neutron Bombardment",
-      "description": "",
+      "description": "Place one of your Neutron Fallout markers within the primary target's control range.",
       "team": "TAU-VESP"
     },
     {
       "id": "WR-IMP-DW-PHASE",
-      "name": "Sweep Phase",
-      "description": "",
+      "name": "Phase Sweep",
+      "description": "Whenever this operative performs the Fight action with this weapon profile, if it isn't incapacitated, it can immediately perform a free Fight action afterwards, but you must select this weapon profile and it can only fight against each enemy operative within its control range once per activation or counteraction using this weapon profile.\nThis takes precedence over action restrictions, and you can continue to perform free Fight actions until this operative is incapacitated or has fought against every enemy operative within its control range.",
       "team": "IMP-DW"
     },
     {
       "id": "WR-CHAOS-PM-POISON",
       "name": "Poison",
-      "description": "",
+      "description": "In the Resolve Attack Dice step, if you inflict damage with any successes, the operative this weapon is being used against (excluding friendly PLAGUE MARINE operatives) gains one of your Poison tokens (if it does not already have one).\r Whenever an operative that has one of your Poison tokens is activated, inflict 1 damage on it.",
       "team": "CHAOS-PM"
     },
     {
       "id": "WR-CHAOS-GORE-PREY",
       "name": "Prey",
-      "description": "",
+      "description": "Whenever this operative is shooting with this weapon, in the Resolve Attack Dice step, after resolving the Drag weapon rule (if you choose to), you can discard any of your successful unblocked attack dice.\nIn other words, you can choose not to inflict damage with any number of them.",
       "team": "CHAOS-GORE"
     },
     {
       "id": "WR-ORK-WK-PULSA",
       "name": "Pulsa",
-      "description": "",
+      "description": "Do not select a valid target. Instead, place your Pulsa marker Visible to this operative, or on Vantage terrain of a terrain feature Visible to this operative.\nThat marker gains 1 Pulsa point, then roll attack dice: \nIt gains 1 additional Pulsa point for each success (to a maximum of 3 additional points). Separately inflict 1D3 damage on each operative wholly within x\" of that marker, where x is that marker's Pulsa points.\nThen the action ends.",
       "team": "ORK-WK"
     },
     {
       "id": "WR-IMP-AES-REPRESS",
       "name": "Repress",
-      "description": "",
+      "description": "Whenever this operative is using this weapon:\n\n- Each of your blocks can be allocated to block two unresolved successes (instead of one).\n- If this operative is retaliating, you resolve the first attack dice (i.e. defender instead of attacker).\n",
       "team": "IMP-AES"
     },
     {
       "id": "WR-IMP-NOV-RIPOSTE",
       "name": "Riposte",
-      "description": "",
+      "description": "Whenever you block with a critical success, you can also inflict damage equal to the weapon’s Critical Dmg stat on the enemy operative in that sequence.",
       "team": "IMP-NOV"
     },
     {
       "id": "WR-CHAOS-GORE-RITUAL",
       "name": "Ritual",
-      "description": "",
+      "description": "Whenever this operative is using this weapon, the first time you inflict damage on an operative within its control range during that sequence, you can increase this operative’s GORE TANK.\nNote this is cumulative with the normal rules for increasing its GORE TANK (i.e. if it incapacitates an operative within its control range).",
       "team": "CHAOS-GORE"
     },
     {
       "id": "WR-IMP-TEMPAQ-SALVO",
       "name": "Salvo",
-      "description": "",
+      "description": "Select up to two valid targets. Shoot this weapon against both of them in an order of your choice (roll each sequence separately).",
       "team": "IMP-TEMPAQ"
     },
     {
       "id": "WR-CHAOS-BLD-SHIELD",
       "name": "Shield",
-      "description": "",
+      "description": "Whenever this operative is fighting or retaliating with this weapon, each of your blocks can be allocated to block two unresolved successes (Instead of one).",
       "team": "CHAOS-BLD"
     },
     {
       "id": "WR-CHAOS-LEG-SIPHON",
       "name": "Siphon Life",
-      "description": "",
+      "description": "When you select this weapon, you can use this rule. If you do, at the start of the Resolve Attack Dice step, select one friendly LEGIONARY operative visible to and within 6\" of this operative.\r For each attack die you resolve during that step that inflicts damage, that friendly operative regains 1 lost wound, or D3 lost wounds if it was a critical success. You cannot use this weapon rule more than once per Turning Point.",
       "team": "CHAOS-LEG"
     },
     {
       "id": "WR-TAU-VESP-SKYTORCH",
       "name": "Skytorch",
-      "description": "",
+      "description": "An operative can only use this weapon during the Skytorch Assault action.\r If it does, do not select a valid target. Instead, shoot against each operative within its Torch Zone (excluding operatives wholly underneath Vantage terrain), they are not in Cover or Obscured.\r Roll each sequence separately in order of furthest operative to closest. The Torch Zone is the area between the operative's current and previous locations.\r A 28mm round Skytorch marker can be temporarily placed underneath this operative before it moves to help determine this.",
       "team": "TAU-VESP"
     },
     {
       "id": "WR-ORK-WK-SMASH",
       "name": "Smash",
-      "description": "",
+      "description": "Whenever you strike, you can move the enemy operative in a straight line increment of up to 1\".\nIf you do, it must finish the move further away from this operative and in a location it can be placed.\nThen move this operative in a straight line increment of up to 1\", but it must end that move within that enemy operative's control range (if either is not possible, you cannot move them).",
       "team": "ORK-WK"
     },
     {
       "id": "WR-AEL-MND-SOULSTRIKE",
       "name": "Soulstrike",
-      "description": "",
+      "description": "Successful defence dice are determined differently. Each result that is equal to or less than the target's APL stat is a success and is retained.\nEach result that is higher than the target's APL stat is a fail and is discarded.\nEach result of a 1 is always a critical success. Each other success is a normal success. Each result of 6 is always a fail.",
       "team": "AEL-MND"
     },
     {
       "id": "WR-CHAOS-BLD-STALK",
       "name": "Stalk",
-      "description": "",
+      "description": "Whenever this operative is fighting or retaliating with this weapon, if light or heavy terrain is within its control range, this weapon has the Lethal 5+ rule.",
       "team": "CHAOS-BLD"
     },
     {
       "id": "WR-AEL-HOTA-STINGER",
       "name": "Stinger",
-      "description": "",
+      "description": "Whenever an enemy operative is incapacitated by this weapon, before it’s removed from the killzone, inflict D3 damage on each other operative visible to and within 2\" of it.\nEach operative subsequently incapacitated as a result of this weapon rule will cause this to happen again.",
       "team": "AEL-HOTA"
     },
     {
       "id": "WR-CHAOS-GPI-SWIPE",
       "name": "Swipe",
-      "description": "",
+      "description": "Whenever this operative performs the Fight action and you select this weapon profile, if it is not incapacitated, it can immediately perform a free Fight action afterwards,\nbut you must select this weapon profile and it can only fight against each enemy operative within its control range once per activation or counteraction using this weapon profile.\nThis takes precedence over action restrictions, and you can continue to perform free Fight actions until this operative is incapacitated or has fought against every enemy operative within its control range.",
       "team": "CHAOS-GPI"
     },
     {
       "id": "WR-CHAOS-FELL-TACTUAL",
       "name": "Tactual Hunter",
-      "description": "",
+      "description": "Whenever this operative is fighting with this weapon against an expended operative, the first time you strike with a critical success during that sequence,\nyou can immediately resolve another of your successes as a strike (before your opponent).",
       "team": "CHAOS-FELL"
     },
     {
       "id": "WR-AEL-HOTA-TANGLE",
       "name": "Tangle",
-      "description": "",
+      "description": "Whenever this operative is fighting or retaliating with this weapon, each of your blocks can be allocated to block two unresolved successes (instead of one).",
       "team": "AEL-HOTA"
     },
     {
       "id": "WR-CHAOS-NC-TERRORCHEM",
       "name": "Terrorchem",
-      "description": "",
+      "description": "In the Resolve Attack Dice step, if you inflict damage with any Critical successes, the operative this weapon is being used against gains one of your Terrorchem tokens (if it does not already have one).",
       "team": "CHAOS-NC"
     },
     {
       "id": "WR-CHAOS-PM-TOXIC",
       "name": "Toxic",
-      "description": "",
+      "description": "Whenever this operative is using this weapon against an enemy operative that has one of your Poison tokens, add 1 to both Dmg stats of this weapon.",
       "team": "CHAOS-PM"
     },
     {
       "id": "WR-IMP-SANC-TWIN",
       "name": "Twin Torrent",
-      "description": "",
+      "description": "Select up to two valid targets. Shoot with this weapon against both of them in an order of your choice (roll each sequence separately).",
       "team": "IMP-SANC"
     },
     {
       "id": "WR-CHAOS-FELL-VICIOUS",
       "name": "Vicious Blows",
-      "description": "",
+      "description": "Whenever this operative is fighting, this weapon has the Ceaseless weapon rule.",
       "team": "CHAOS-FELL"
     },
     {
       "id": "WR-IMP-NOV-ZEALOUS",
       "name": "Zealous Rage",
-      "description": "",
+      "description": "Whenever this operative is fighting with this weapon, it has the Ceaseless weapon rule.",
       "team": "IMP-NOV"
     },
     {
-      "id": "WR-AEL-COR-PSYCHIC",
-      "name": "Psychic",
-      "description": "",
-      "team": "AEL-COR"
-    },
-    {
-      "id": "WR-IMP-TEMPAQ-REND",
-      "name": "Rend",
-      "description": "",
-      "team": "IMP-TEMPAQ"
-    },
-    {
       "id": "WR-IMP-SANC-WREATHED",
-      "name": "Wreathed*",
-      "description": "",
+      "name": "Wreathed",
+      "description": "This operative can perform the Shoot action with this weapon while within control range of an enemy operative.\nDon’t select a valid target. Instead, this operative is always the primary target, but only shoot against secondary targets and they cannot be in cover or obscured (in other words, determine Blast from this operative, but this operative isn’t affected).",
       "team": "IMP-SANC"
     }
   ]

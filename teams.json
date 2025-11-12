@@ -2220,12 +2220,6 @@
             "description": "Whenever a friendly BATTLECLADE SERVITOR operative is activated, you can TRANSFER POWER.\nIf you do, subtract 1 from its APL stat until the end of that activation.  \n\nAfter that activation, you can NETWORK COUNTERACT with one other friendly BATTLECLADE SERVITOR operative before your opponent activates. Whenever you NETWORK COUNTERACT with a friendly operative, first select its order.\nIt can then perform a 1AP action for free, but cannot move. Once it’s done so, your opponent then activates as normal.  \n\nAn operative cannot TRANSFER POWER or NETWORK COUNTERACT if it has an APL stat of less than 2 (e.g. if the stat has been changed to less than 2 by a rule).\nNETWORK COUNTERACT is a counteraction, but the operative doesn’t need to be expended with an Engage order to do it.\nThat means if they’re ready when they NETWORK COUNTERACT, they can still be activated as normal later in the turning point. An operative that does NETWORK COUNTERACT cannot do so again, or counteract, during the same turning point."
           },
           {
-            "abilityId": "IMP-BC-TA-A-SODA",
-            "opTypeId": "IMP-BC-TA",
-            "abilityName": "Seeker of Divine Arcana",
-            "description": "STRATEGIC GAMBIT. You can immediately change this operative’s order and/or it can immediately perform a free Omniscanner, Fall Back, Place Marker, Pick Up Marker, Reposition or mission action.\nIf it’s the Fall Back or Reposition action and this operative isn’t carrying a marker, it must end that move either within your drop zone (if this isn’t possible, then as close as possible to it), or with an objective marker or one of your mission markers within its control range."
-          },
-          {
             "abilityId": "IMP-BC-TA-OS",
             "opTypeId": "IMP-BC-TA",
             "abilityName": "Omniscanner",
@@ -3532,12 +3526,6 @@
             "description": "This operative can perform two Fight or two Shoot actions during its activation."
           },
           {
-            "abilityId": "AEL-BOK-SSX-A-MB",
-            "opTypeId": "AEL-BOK-SSX",
-            "abilityName": "Mandiblasters",
-            "description": "Whenever this operative performs the Fight action, at the start of the Roll Attack Dice step, you can use this rule. If you do, inflict 2 damage on the enemy operative in that sequence."
-          },
-          {
             "abilityId": "AEL-BOK-SSX-A-SSAT",
             "opTypeId": "AEL-BOK-SSX",
             "abilityName": "Aspect Techniques",
@@ -3776,12 +3764,6 @@
           }
         ],
         "abilities": [
-          {
-            "abilityId": "AEL-BOK-SSW-A-MB",
-            "opTypeId": "AEL-BOK-SSW",
-            "abilityName": "Mandiblasters",
-            "description": "Whenever this operative performs the Fight action, at the start of the Roll Attack Dice step, you can use this rule. If you do, inflict 2 damage on the enemy operative in that sequence."
-          },
           {
             "abilityId": "AEL-BOK-SSW-A-SSAT",
             "opTypeId": "AEL-BOK-SSW",
@@ -4229,7 +4211,7 @@
                   },
                   {
                     "id": "WR-UNIV-HEAVY",
-                    "details": "Repos"
+                    "details": "Reposition"
                   },
                   {
                     "id": "WR-UNIV-PIERCING",
@@ -4761,12 +4743,6 @@
             "description": "You gain one Blooded token:\n\n- In the ready step of each strategy phase.\n- The first time an enemy operative is incapacitated during each turning point.\n- The first time a friendly operative is incapacitated within 6\" of an enemy operative during each turning point.\n\nAs a strategic gambit, you can assign any of your unassigned blooded tokens to friendly\nblooded operatives. Each operative cannot have more than one of your blooded tokens.  \n\nThen, if four or more friendly operatives in the killzone have one of your Blooded tokens,\nyou can select one of them to be under the GAZE OF THE GODS until the end of the\nturning point.  \n\nWhenever a friendly BLOODED operative has one of your Blooded tokens, its weapons\nhave the accurate 1 weapon rule. If that friendly BLOODED operative is under the GAZE\nOF THE GODS, you can retain one of your normal successes as a result of the Accurate\n1 weapon rule as a critical success instead."
           },
           {
-            "abilityId": "CHAOS-BLD-FLN-A-ST",
-            "opTypeId": "CHAOS-BLD-FLN",
-            "abilityName": "*Stalk",
-            "description": "Whenever this operative is fighting or retaliating with this weapon, if light or heavy terrain is within its control range, this weapon has the Lethal 5+ rule."
-          },
-          {
             "abilityId": "CHAOS-BLD-FLN-A-WR",
             "opTypeId": "CHAOS-BLD-FLN",
             "abilityName": "Wretched",
@@ -5271,12 +5247,6 @@
             "opTypeId": "CHAOS-BLD-TRS",
             "abilityName": "Blooded",
             "description": "You gain one Blooded token:\n\n- In the ready step of each strategy phase.\n- The first time an enemy operative is incapacitated during each turning point.\n- The first time a friendly operative is incapacitated within 6\" of an enemy operative during each turning point.\n\nAs a strategic gambit, you can assign any of your unassigned blooded tokens to friendly\nblooded operatives. Each operative cannot have more than one of your blooded tokens.  \n\nThen, if four or more friendly operatives in the killzone have one of your Blooded tokens,\nyou can select one of them to be under the GAZE OF THE GODS until the end of the\nturning point.  \n\nWhenever a friendly BLOODED operative has one of your Blooded tokens, its weapons\nhave the accurate 1 weapon rule. If that friendly BLOODED operative is under the GAZE\nOF THE GODS, you can retain one of your normal successes as a result of the Accurate\n1 weapon rule as a critical success instead."
-          },
-          {
-            "abilityId": "CHAOS-BLD-TRS-A-SHLD",
-            "opTypeId": "CHAOS-BLD-TRS",
-            "abilityName": "*Shield",
-            "description": "Whenever this operative is fighting or retaliating with this weapon, each of your blocks can be allocated to block two unresolved successes (Instead of one)."
           },
           {
             "abilityId": "CHAOS-BLD-TRS-A-SHLDg",
@@ -6702,7 +6672,7 @@
                 "DMG": "4/6",
                 "WR": [
                   {
-                    "id": "WR-AEL-COR-PSYCHIC"
+                    "id": "WR-UNIV-PSYCHIC"
                   },
                   {
                     "id": "WR-UNIV-SHOCK"
@@ -7541,12 +7511,6 @@
         ],
         "abilities": [
           {
-            "abilityId": "NEC-CAN-WAR-ACS",
-            "opTypeId": "NEC-CAN-WAR",
-            "abilityName": "A Ceaseless Scuttling",
-            "description": "As a STRATEGIC GAMBIT in each turning point after the first, if you have less than three non- incapacitated friendly CANOPTEK CIRCLE WARRIOR operatives, you can set up another one ready and with a Conceal order wholly within your drop zone (you can select its weapon options as normal)."
-          },
-          {
             "abilityId": "NEC-CAN-WAR-AD",
             "opTypeId": "NEC-CAN-WAR",
             "abilityName": "Aggressive Defence",
@@ -8170,7 +8134,7 @@
                 "DMG": "0/0",
                 "WR": [
                   {
-                    "id": "WR-AEL-COR-PSYCHIC"
+                    "id": "WR-UNIV-PSYCHIC"
                   },
                   {
                     "id": "WR-UNIV-RANGE",
@@ -9828,7 +9792,7 @@
                 "DMG": "1/2",
                 "WR": [
                   {
-                    "id": "WR-AEL-COR-PSYCHIC"
+                    "id": "WR-UNIV-PSYCHIC"
                   },
                   {
                     "id": "WR-UNIV-SEVERE"
@@ -9861,7 +9825,7 @@
                 "DMG": "4/3",
                 "WR": [
                   {
-                    "id": "WR-AEL-COR-PSYCHIC"
+                    "id": "WR-UNIV-PSYCHIC"
                   },
                   {
                     "id": "WR-UNIV-DEVASTATING",
@@ -9918,7 +9882,7 @@
                 "DMG": "3/5",
                 "WR": [
                   {
-                    "id": "WR-AEL-COR-PSYCHIC"
+                    "id": "WR-UNIV-PSYCHIC"
                   },
                   {
                     "id": "WR-UNIV-SHOCK"
@@ -11031,12 +10995,6 @@
         ],
         "abilities": [
           {
-            "abilityId": "IMP-DKK-SAP-A-DET",
-            "opTypeId": "IMP-DKK-SAP",
-            "abilityName": "*Detonate",
-            "description": "Do not select a valid target. Instead, shoot against each operative within 2\" of your Mine marker, unless Heavy terrain is wholly intervening between that operative and that marker.\nEach of those operatives cannot be in cover or obscured. Roll each sequence separately in an order of your choice.\nThis weapon cannot be selected if your Mine marker isn’t in the killzone. At the end of the action, remove your Mine marker from the killzone."
-          },
-          {
             "abilityId": "IMP-DKK-SAP-A-ML",
             "opTypeId": "IMP-DKK-SAP",
             "abilityName": "Mine Layer",
@@ -11972,12 +11930,6 @@
             "description": "You can ignore any changes to the Hit stat of this operative’s Xenophase blade. Whenever this operative is fighting or retaliating, you can resolve one of your successes before the normal order. If you do, that success must be used to block."
           },
           {
-            "abilityId": "IMP-DW-BLM-PS",
-            "opTypeId": "IMP-DW-BLM",
-            "abilityName": "*Phase Sweep",
-            "description": "Whenever this operative performs the Fight action with this weapon profile, if it isn't incapacitated, it can immediately perform a free Fight action afterwards, but you must select this weapon profile and it can only fight against each enemy operative within its control range once per activation or counteraction using this weapon profile.\nThis takes precedence over action restrictions, and you can continue to perform free Fight actions until this operative is incapacitated or has fought against every enemy operative within its control range."
-          },
-          {
             "abilityId": "IMP-DW-BLM-SIA",
             "opTypeId": "IMP-DW-BLM",
             "abilityName": "Special Issue Ammunition",
@@ -12216,7 +12168,7 @@
                   },
                   {
                     "id": "WR-UNIV-HEAVY",
-                    "details": "Repos"
+                    "details": "Reposition"
                   },
                   {
                     "id": "WR-UNIV-LIMITED",
@@ -12341,12 +12293,6 @@
             "opTypeId": "IMP-DW-DEM",
             "abilityName": "Aggressive Force",
             "description": "Whenever this operative is fighting or retaliating, Normal and Critical Dmg of 3 or more inflicts 1 less damage on it. This isn't cumulative with the Shield that Slays strategy ploy."
-          },
-          {
-            "abilityId": "IMP-DW-DEM-BA",
-            "opTypeId": "IMP-DW-DEM",
-            "abilityName": "Brutal Assault",
-            "description": "Whenever this operative is fighting, its heavy thunder hammer has the Brutal weapon rule. Whenever this operative performs the Charge action, its heavy thunder hammer has the Ceaseless weapon rule until the end of the activation/counteraction."
           },
           {
             "abilityId": "IMP-DW-DEM-SIA",
@@ -14019,12 +13965,6 @@
             "description": "Whenever a friendly EXACTION SQUAD operative is shooting (excluding with frag or krak grenades) and you’re selecting a valid target, you can use this rule.\nIf you do, having other friendly EXACTION SQUAD operatives within an enemy operative’s control range doesn’t prevent that enemy operative from being selected."
           },
           {
-            "abilityId": "IMP-AES-PE-A-REP",
-            "opTypeId": "IMP-AES-PE",
-            "abilityName": "*Repress",
-            "description": "Whenever this operative is using this weapon:\n\n- Each of your blocks can be allocated to block two unresolved successes (instead of one).\n- If this operative is retaliating, you resolve the first attack dice (i.e. defender instead of attacker).\n"
-          },
-          {
             "abilityId": "IMP-AES-PE-DNA",
             "opTypeId": "IMP-AES-PE",
             "abilityName": "Deploy Nuncio-Aquila",
@@ -15012,12 +14952,6 @@
             "description": "Whenever a friendly EXACTION SQUAD operative is shooting (excluding with frag or krak grenades) and you’re selecting a valid target, you can use this rule.\nIf you do, having other friendly EXACTION SQUAD operatives within an enemy operative’s control range doesn’t prevent that enemy operative from being selected."
           },
           {
-            "abilityId": "IMP-AES-SUB-A-REP",
-            "opTypeId": "IMP-AES-SUB",
-            "abilityName": "*Repress",
-            "description": "Whenever this operative is using this weapon:\n\n- Each of your blocks can be allocated to block two unresolved successes (instead of one).\n- If this operative is retaliating, you resolve the first attack dice (i.e. defender instead of attacker).\n"
-          },
-          {
             "abilityId": "IMP-AES-SUB-A-SS",
             "opTypeId": "IMP-AES-SUB",
             "abilityName": "Stubborn Subjugator",
@@ -15715,7 +15649,7 @@
                   },
                   {
                     "id": "WR-UNIV-HEAVY",
-                    "details": "Repos"
+                    "details": "Reposition"
                   },
                   {
                     "id": "WR-UNIV-PIERCING",
@@ -15748,7 +15682,7 @@
                 "WR": [
                   {
                     "id": "WR-UNIV-HEAVY",
-                    "details": "Repos"
+                    "details": "Reposition"
                   },
                   {
                     "id": "WR-UNIV-PIERCING",
@@ -16962,12 +16896,6 @@
             "opTypeId": "CHAOS-FELL-GH",
             "abilityName": "Frenzy",
             "description": "Whenever a friendly FELLGOR RAVAGER operative that does not have one of your Frenzy tokens would be incapacitated during the battle, it is not incapacitated and it gains one of your Frenzy tokens.\nAll remaining attack dice are discarded (including yours if this operative is fighting or retaliating).\nIf it has a Conceal order, change it to Engage.  \n\nWhenever a friendly FELLGOR RAVAGER operative has one of your Frenzy tokens:\n\n- It’s only incapacitated as detailed below.\n- It cannot have a Conceal order.\n- It’s injured.\n- It cannot perform the Pick Up Marker, unique (excluding Sweeping Blow, see VANDAL) or mission actions (excluding Operate Hatch).\n- For the purpose of determining control of markers, treat its APL stat as 1. This takes precedence over any stat changes.\n\n\nA friendly FELLGOR RAVAGER operative that has one of your Frenzy tokens is incapacitated when one of the following is met:\n\n- Its activation or counteraction ends.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes with a critical success.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes it for a second time with a normal success. Note this can be strikes from two different Fight actions.\n- An enemy operative is shooting it and Critical Dmg is inflicted on it.\n- The battle ends (resolve this before any victory conditions that resolve at the end of the battle).\n\n\nYour opponent treats a FELLGOR RAVAGER operative as being incapacitated (instead of when it would be incapacitated normally) when it gains one of your Frenzy\ntokens for the purposes of scoring VPs (e.g. kill op) and faction rules that require it to be incapacitated (e.g. HAND OF THE ARCHON Power From Pain, CHAOS CULT Mutation, etc.)."
-          },
-          {
-            "abilityId": "CHAOS-FELL-GH-A-HT",
-            "opTypeId": "CHAOS-FELL-GH",
-            "abilityName": "*Headtaker",
-            "description": "Whenever this operative incapacitates an operative with this weapon, roll one D3:\n\n- This operative regains a number of lost wounds equal to the result (unless it has one of your Frenzy tokens).\n- Until the end of the battle, add the result to the Critical Dmg stat of this operative’s skullcleaver (to a maximum of 8).\n"
           }
         ],
         "options": [],
@@ -17157,12 +17085,6 @@
             "opTypeId": "CHAOS-FELL-MNG",
             "abilityName": "Savage",
             "description": "The first time this operative performs the Fight action during each of its activations, if it isn’t incapacitated, it can immediately perform a free Fight action afterwards\n(you don’t have to select the same enemy operative to fight against).\nThis takes precedence over action restrictions, and you cannot use the Ruthless Rampage firefight ploy between those two Fight actions."
-          },
-          {
-            "abilityId": "CHAOS-FELL-MNG-A-TC",
-            "opTypeId": "CHAOS-FELL-MNG",
-            "abilityName": "*Tactual Hunter",
-            "description": "Whenever this operative is fighting with this weapon against an expended operative, the first time you strike with a critical success during that sequence,\nyou can immediately resolve another of your successes as a strike (before your opponent)."
           }
         ],
         "options": [],
@@ -17225,7 +17147,7 @@
                 "DMG": "1/3",
                 "WR": [
                   {
-                    "id": "WR-AEL-COR-PSYCHIC"
+                    "id": "WR-UNIV-PSYCHIC"
                   },
                   {
                     "id": "WR-UNIV-RENDING"
@@ -17422,12 +17344,6 @@
             "opTypeId": "CHAOS-FELL-VND",
             "abilityName": "Frenzy",
             "description": "Whenever a friendly FELLGOR RAVAGER operative that does not have one of your Frenzy tokens would be incapacitated during the battle, it is not incapacitated and it gains one of your Frenzy tokens.\nAll remaining attack dice are discarded (including yours if this operative is fighting or retaliating).\nIf it has a Conceal order, change it to Engage.  \n\nWhenever a friendly FELLGOR RAVAGER operative has one of your Frenzy tokens:\n\n- It’s only incapacitated as detailed below.\n- It cannot have a Conceal order.\n- It’s injured.\n- It cannot perform the Pick Up Marker, unique (excluding Sweeping Blow, see VANDAL) or mission actions (excluding Operate Hatch).\n- For the purpose of determining control of markers, treat its APL stat as 1. This takes precedence over any stat changes.\n\n\nA friendly FELLGOR RAVAGER operative that has one of your Frenzy tokens is incapacitated when one of the following is met:\n\n- Its activation or counteraction ends.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes with a critical success.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes it for a second time with a normal success. Note this can be strikes from two different Fight actions.\n- An enemy operative is shooting it and Critical Dmg is inflicted on it.\n- The battle ends (resolve this before any victory conditions that resolve at the end of the battle).\n\n\nYour opponent treats a FELLGOR RAVAGER operative as being incapacitated (instead of when it would be incapacitated normally) when it gains one of your Frenzy\ntokens for the purposes of scoring VPs (e.g. kill op) and faction rules that require it to be incapacitated (e.g. HAND OF THE ARCHON Power From Pain, CHAOS CULT Mutation, etc.)."
-          },
-          {
-            "abilityId": "CHAOS-FELL-VND-A-VB",
-            "opTypeId": "CHAOS-FELL-VND",
-            "abilityName": "*Vicious Blows",
-            "description": "Whenever this operative is fighting, this weapon has the Ceaseless weapon rule."
           },
           {
             "abilityId": "CHAOS-FELL-VND-SB",
@@ -17751,12 +17667,6 @@
         ],
         "abilities": [
           {
-            "abilityId": "CHAOS-GPI-VTC-A-ENG",
-            "opTypeId": "CHAOS-GPI-VTC",
-            "abilityName": "*Engineered",
-            "description": "At the end of the Select Operatives step, if this operative is selected for deployment, select up to two of the following improvements or weapon rules for this weapon to have for the battle:  \n\nAdd 1 to the Normal Dmg stat, add 1 to the Critical Dmg stat, Balanced, Brutal, Lethal 5+, Rending."
-          },
-          {
             "abilityId": "CHAOS-GPI-VTC-A-NH",
             "opTypeId": "CHAOS-GPI-VTC",
             "abilityName": "Nightmare Hulk",
@@ -17899,12 +17809,6 @@
             "opTypeId": "CHAOS-GPI-BS",
             "abilityName": "Revoltingly Resilient",
             "description": "Whenever an attack dice inflicts damage of 3 or more on a friendly GELLERPOX INFECTED NIGHTMARE HULK or GELLERPOX INFECTED MUTANT operative, roll one D6: on a 4+, subtract 1 from that inflicted damage."
-          },
-          {
-            "abilityId": "CHAOS-GPI-BS-A-SWI",
-            "opTypeId": "CHAOS-GPI-BS",
-            "abilityName": "*Swipe",
-            "description": "Whenever this operative performs the Fight action and you select this weapon profile, if it is not incapacitated, it can immediately perform a free Fight action afterwards,\nbut you must select this weapon profile and it can only fight against each enemy operative within its control range once per activation or counteraction using this weapon profile.\nThis takes precedence over action restrictions, and you can continue to perform free Fight actions until this operative is incapacitated or has fought against every enemy operative within its control range."
           },
           {
             "abilityId": "CHAOS-GPI-BS-A-TC",
@@ -18454,12 +18358,6 @@
           }
         ],
         "abilities": [
-          {
-            "abilityId": "CHAOS-GPI-CM-A-FST",
-            "opTypeId": "CHAOS-GPI-CM",
-            "abilityName": "*Feast",
-            "description": "Whenever this operative is using this weapon against a wounded operative, add 1 to the Atk stat of this weapon and it has the Lethal 5+ weapon rule."
-          },
           {
             "abilityId": "CHAOS-GPI-CM-A-GA",
             "opTypeId": "CHAOS-GPI-CM",
@@ -19109,12 +19007,6 @@
             "description": "Each friendly GOREMONGER operative has a GORE TANK that has three levels: full, half and empty.\nThey start the battle at half. Whenever a GORE TANK increases, it goes up one level; whenever it decreases, it goes down one level.\nA GORE TANK cannot increase when it’s already full, or decrease when it’s already empty.  \n\nWhenever a friendly GOREMONGER operative incapacitates an operative within its control range, or visible to and within 2\" of it, you can increase its GORE TANK.  \n\nWhenever a friendly GOREMONGER operative uses a SANGUAVITAE rule, you must decrease its GORE TANK."
           },
           {
-            "abilityId": "CHAOS-GORE-BT-A-RIT",
-            "opTypeId": "CHAOS-GORE-BT",
-            "abilityName": "*Ritual",
-            "description": "Whenever this operative is using this weapon, the first time you inflict damage on an operative within its control range during that sequence, you can increase this operative’s GORE TANK.\nNote this is cumulative with the normal rules for increasing its GORE TANK (i.e. if it incapacitates an operative within its control range)."
-          },
-          {
             "abilityId": "CHAOS-GORE-BT-A-ROK",
             "opTypeId": "CHAOS-GORE-BT",
             "abilityName": "Runes Of Khorne",
@@ -19233,22 +19125,10 @@
         ],
         "abilities": [
           {
-            "abilityId": "CHAOS-GORE-IMP-A-DRAG",
-            "opTypeId": "CHAOS-GORE-IMP",
-            "abilityName": "*Drag",
-            "description": "Whenever this operative is shooting with this weapon, at the start of the Resolve Attack Dice step (before inflicting damage), you can move the target up to x\". X is your total number of successful unblocked attack dice, multiplied by 2.\nThe target must be moved to a location it can be placed as close as possible to this operative, determined by the x\" you choose to use. The move must be done in one or more straight-line increments, and increments are always rounded up to the nearest inch.\nWhenever the target is dropping during that move, ignore the vertical distance."
-          },
-          {
             "abilityId": "CHAOS-GORE-IMP-A-GT",
             "opTypeId": "CHAOS-GORE-IMP",
             "abilityName": "Gore Tank",
             "description": "Each friendly GOREMONGER operative has a GORE TANK that has three levels: full, half and empty.\nThey start the battle at half. Whenever a GORE TANK increases, it goes up one level; whenever it decreases, it goes down one level.\nA GORE TANK cannot increase when it’s already full, or decrease when it’s already empty.  \n\nWhenever a friendly GOREMONGER operative incapacitates an operative within its control range, or visible to and within 2\" of it, you can increase its GORE TANK.  \n\nWhenever a friendly GOREMONGER operative uses a SANGUAVITAE rule, you must decrease its GORE TANK."
-          },
-          {
-            "abilityId": "CHAOS-GORE-IMP-A-PREY",
-            "opTypeId": "CHAOS-GORE-IMP",
-            "abilityName": "*Prey",
-            "description": "Whenever this operative is shooting with this weapon, in the Resolve Attack Dice step, after resolving the Drag weapon rule (if you choose to), you can discard any of your successful unblocked attack dice.\nIn other words, you can choose not to inflict damage with any number of them."
           },
           {
             "abilityId": "CHAOS-GORE-IMP-A-ROK",
@@ -20070,12 +19950,6 @@
         ],
         "abilities": [
           {
-            "abilityId": "AEL-HOTA-KCD-A-BD",
-            "opTypeId": "AEL-HOTA-KCD",
-            "abilityName": "Brutal Display",
-            "description": "Once per turning point, when this operative incapacitates an enemy operative within its control range, you can select one other enemy operative visible to and within 6\" of either this operative or the incapacitated\nenemy operative. Until the start of the next turning point, that other enemy operative cannot control markers or perform the Pick Up Marker or mission actions."
-          },
-          {
             "abilityId": "AEL-HOTA-KCD-A-CD",
             "opTypeId": "AEL-HOTA-KCD",
             "abilityName": "Crimson Duellist",
@@ -20086,12 +19960,6 @@
             "opTypeId": "AEL-HOTA-KCD",
             "abilityName": "Power From Pain",
             "description": "After a friendly HAND OF THE ARCHON operative performs an action, it gains one of your Pain tokens if:\n\n- An enemy operative was injured during that action, but was not incapacitated.\n- An enemy operative was incapacitated during that action. If that enemy operative had a Wounds stat of 12 or more, that friendly operative gains two of your Pain tokens instead.\n\nYou can spend friendly operatives' Pain tokens on the invigorations below when the \"when\" condition is met.\nYou cannot use more than one invigoration per activation or counteraction, except Stimulated Senses, which can be used in addition to other invigorations.  \n  \n\n**Dark Animus**\n\n- When: During the operative’s activation, before or after it performs an action.\n- Effect: Until the start of the operative’s next activation, add 1 to its APL stat.\n\n**Accelerated Rejuvenation**\n\n- When: During the operative’s activation or counteraction, before or after it performs an action.\n- Effect: The operative regains D3+1 lost wounds.\n\n**Vitalised Surge**\n\n- When: After the operative incapacitates an enemy operative and that enemy operative is removed from the killzone.\n- Effect: The operative can immediately perform a free Dash action, even if it’s performed an action that prevents it from performing the Dash action.\n\n**Stimulated Senses**\n\n- When: After rolling your attack or defence dice for the operative.\n- Effect: any of your dice results of one result (e.g. results of 2).\n"
-          },
-          {
-            "abilityId": "AEL-HOTA-KCD-A-TNG",
-            "opTypeId": "AEL-HOTA-KCD",
-            "abilityName": "*Tangle",
-            "description": "Whenever this operative is fighting or retaliating with this weapon, each of your blocks can be allocated to block two unresolved successes (instead of one)."
           }
         ],
         "options": [],
@@ -20170,12 +20038,6 @@
             "opTypeId": "AEL-HOTA-KDOY",
             "abilityName": "Power From Pain",
             "description": "After a friendly HAND OF THE ARCHON operative performs an action, it gains one of your Pain tokens if:\n\n- An enemy operative was injured during that action, but was not incapacitated.\n- An enemy operative was incapacitated during that action. If that enemy operative had a Wounds stat of 12 or more, that friendly operative gains two of your Pain tokens instead.\n\nYou can spend friendly operatives' Pain tokens on the invigorations below when the \"when\" condition is met.\nYou cannot use more than one invigoration per activation or counteraction, except Stimulated Senses, which can be used in addition to other invigorations.  \n  \n\n**Dark Animus**\n\n- When: During the operative’s activation, before or after it performs an action.\n- Effect: Until the start of the operative’s next activation, add 1 to its APL stat.\n\n**Accelerated Rejuvenation**\n\n- When: During the operative’s activation or counteraction, before or after it performs an action.\n- Effect: The operative regains D3+1 lost wounds.\n\n**Vitalised Surge**\n\n- When: After the operative incapacitates an enemy operative and that enemy operative is removed from the killzone.\n- Effect: The operative can immediately perform a free Dash action, even if it’s performed an action that prevents it from performing the Dash action.\n\n**Stimulated Senses**\n\n- When: After rolling your attack or defence dice for the operative.\n- Effect: any of your dice results of one result (e.g. results of 2).\n"
-          },
-          {
-            "abilityId": "AEL-HOTA-KDOY-A-STNG",
-            "opTypeId": "AEL-HOTA-KDOY",
-            "abilityName": "*Stinger",
-            "description": "Whenever an enemy operative is incapacitated by this weapon, before it’s removed from the killzone, inflict D3 damage on each other operative visible to and within 2\" of it.\nEach operative subsequently incapacitated as a result of this weapon rule will cause this to happen again."
           },
           {
             "abilityId": "AEL-HOTA-KDOY-TG",
@@ -20353,12 +20215,6 @@
           }
         ],
         "abilities": [
-          {
-            "abilityId": "AEL-HOTA-KFLAY-A-FLAY",
-            "opTypeId": "AEL-HOTA-KFLAY",
-            "abilityName": "*Flay",
-            "description": "Whenever this operative is using this weapon, the first time you strike with a critical success during that sequence, you can select one friendly HAND OF THE ARCHON operative within 6\" of it to gain one of your Pain tokens."
-          },
           {
             "abilityId": "AEL-HOTA-KFLAY-A-ITP",
             "opTypeId": "AEL-HOTA-KFLAY",
@@ -21352,7 +21208,7 @@
                   },
                   {
                     "id": "WR-UNIV-HEAVY",
-                    "details": "Repos"
+                    "details": "Reposition"
                   },
                   {
                     "id": "WR-UNIV-LIMITED",
@@ -21475,13 +21331,6 @@
             "description": "\r - Place one of your Smoke Grenade markers within 6\" of this operative. It must be visible to this operative,\r or on Vantage terrain of a terrain feature that is visible to this operative. The marker creates an area of smoke 1\" horizontally and unlimited height vertically from (but not below) it.\r - While an operative is wholly within an area of smoke, it is obscured to operatives more than 2\" from it, and vice versa.\r In addition, whenever an operative is shooting an enemy operative wholly within an area of smoke, ignore the Piercing weapon rule unless they are within 2\" of each other.\r - In the Ready step of the next Strategy phase, roll one D3. Remove that Smoke Grenade marker after a number of activations equal to that D3 have been completed\r or at the end of the turning point (whichever comes first).\r - An operative cannot perform this action while within control range of an enemy operative, or if you have reached the total number of times your kill team can perform it.\r "
           },
           {
-            "abilityId": "VOT-HKS-GRN-STN",
-            "opTypeId": "VOT-HKS-GRN",
-            "abilityName": "Stun Grenade",
-            "AP": 1,
-            "description": "\r - Select one enemy operative visible to and within 6\" of this operative. That operative and each other operative within 1\" of it takes a stun test. For an operative to take a stun test, roll one D6: on a 3+, subtract 1 from its APL stat until the end of its next activation.\r - An operative cannot perform this action while within control range of an enemy operative, or if you have reached the total number of times your kill team can perform it.\r "
-          },
-          {
             "abilityId": "VOT-HKS-GRN-V3UG",
             "opTypeId": "VOT-HKS-GRN",
             "abilityName": "Bayr-3 Utility Grenade",
@@ -21583,7 +21432,7 @@
                   },
                   {
                     "id": "WR-UNIV-HEAVY",
-                    "details": "Repos"
+                    "details": "Reposition"
                   },
                   {
                     "id": "WR-UNIV-SATURATE"
@@ -21604,7 +21453,7 @@
                   },
                   {
                     "id": "WR-UNIV-HEAVY",
-                    "details": "Repos"
+                    "details": "Reposition"
                   },
                   {
                     "id": "WR-UNIV-SATURATE"
@@ -21712,12 +21561,6 @@
           }
         ],
         "abilities": [
-          {
-            "abilityId": "VOT-HKS-GNR-A-BM",
-            "opTypeId": "VOT-HKS-GNR",
-            "abilityName": "*Beam",
-            "description": "Whenever this operative is shooting with this weapon, each retained critical success immediately inflicts D3 damage on each other operative along one (and only one) beam line (roll separately for each operative),\nbut the target isn’t affected. An operative is along a beam line if a targeting line can be drawn from this operative to its base, and that line crosses the base of the original target but doesn’t cross Heavy terrain."
-          },
           {
             "abilityId": "VOT-HKS-GNR-A-GRU",
             "opTypeId": "VOT-HKS-GNR",
@@ -22851,7 +22694,7 @@
                   },
                   {
                     "id": "WR-UNIV-HEAVY",
-                    "details": "Repos"
+                    "details": "Reposition"
                   },
                   {
                     "id": "WR-UNIV-PIERCING",
@@ -22873,7 +22716,7 @@
                   },
                   {
                     "id": "WR-UNIV-HEAVY",
-                    "details": "Repos"
+                    "details": "Reposition"
                   },
                   {
                     "id": "WR-UNIV-BLAST",
@@ -22895,7 +22738,7 @@
                   },
                   {
                     "id": "WR-UNIV-HEAVY",
-                    "details": "Repos"
+                    "details": "Reposition"
                   },
                   {
                     "id": "WR-UNIV-BLAST",
@@ -22927,12 +22770,6 @@
           }
         ],
         "abilities": [
-          {
-            "abilityId": "VOT-HKY-GNR-A-BP",
-            "opTypeId": "VOT-HKY-GNR",
-            "abilityName": "*Bipod",
-            "description": "Whenever this operative is shooting with this weapon, if it has not moved during the activation, or if it is a counteraction, this weapon has the Ceaseless weapon rule. Note this operative is not restricted from moving after shooting."
-          },
           {
             "abilityId": "VOT-HKY-GNR-A-DE",
             "opTypeId": "VOT-HKY-GNR",
@@ -23099,7 +22936,7 @@
                 "WR": [
                   {
                     "id": "WR-UNIV-HEAVY",
-                    "details": "Repos"
+                    "details": "Reposition"
                   },
                   {
                     "id": "WR-UNIV-PIERCING",
@@ -23700,12 +23537,6 @@
             "description": "In the Ready step of each Strategy phase, after resolving all other rules in this step (e.g. Reanimation Protocols faction rule), each friendly HIEROTEK CIRCLE operative regains 1D3+1 lost wounds (roll separately for each)."
           },
           {
-            "abilityId": "NEC-HIER-CHRON-A-MAG",
-            "opTypeId": "NEC-HIER-CHRON",
-            "abilityName": "*Magnify",
-            "description": "Whenever this operative is performing the Shoot action with this weapon, if the target is visible to this operative, and another friendly HIEROTEK CIRCLE APPRENTEK or HIEROTEK CIRCLE CRYPTEK operative has an Engage order and is visible to this operative,\nyou can treat that operative as the active operative for the purposes of determining a valid target, that Shoot action’s conditions, cover and obscured.\nIf you do, this weapon has the Ceaseless weapon rule until the end of that action."
-          },
-          {
             "abilityId": "NEC-HIER-CHRON-A-RP",
             "opTypeId": "NEC-HIER-CHRON",
             "abilityName": "Reanimation Protocols",
@@ -23828,12 +23659,6 @@
             "description": "In the Ready step of each Strategy phase, after resolving all other rules in this step (e.g. Reanimation Protocols faction rule), each friendly HIEROTEK CIRCLE operative regains 1D3+1 lost wounds (roll separately for each)."
           },
           {
-            "abilityId": "NEC-HIER-PSYCH-A-MAG",
-            "opTypeId": "NEC-HIER-PSYCH",
-            "abilityName": "*Magnify",
-            "description": "Whenever this operative is performing the Shoot action with this weapon, if the target is visible to this operative, and another friendly HIEROTEK CIRCLE APPRENTEK or HIEROTEK CIRCLE CRYPTEK operative has an Engage order and is visible to this operative,\nyou can treat that operative as the active operative for the purposes of determining a valid target, that Shoot action’s conditions, cover and obscured.\nIf you do, this weapon has the Ceaseless weapon rule until the end of that action."
-          },
-          {
             "abilityId": "NEC-HIER-PSYCH-A-RP",
             "opTypeId": "NEC-HIER-PSYCH",
             "abilityName": "Reanimation Protocols",
@@ -23943,12 +23768,6 @@
             "opTypeId": "NEC-HIER-TECH",
             "abilityName": "Living Metal",
             "description": "In the Ready step of each Strategy phase, after resolving all other rules in this step (e.g. Reanimation Protocols faction rule), each friendly HIEROTEK CIRCLE operative regains 1D3+1 lost wounds (roll separately for each)."
-          },
-          {
-            "abilityId": "NEC-HIER-TECH-A-MAG",
-            "opTypeId": "NEC-HIER-TECH",
-            "abilityName": "*Magnify",
-            "description": "Whenever this operative is performing the Shoot action with this weapon, if the target is visible to this operative, and another friendly HIEROTEK CIRCLE APPRENTEK or HIEROTEK CIRCLE CRYPTEK operative has an Engage order and is visible to this operative,\nyou can treat that operative as the active operative for the purposes of determining a valid target, that Shoot action’s conditions, cover and obscured.\nIf you do, this weapon has the Ceaseless weapon rule until the end of that action."
           },
           {
             "abilityId": "NEC-HIER-TECH-A-RP",
@@ -24251,12 +24070,6 @@
             "opTypeId": "NEC-HIER-APP",
             "abilityName": "Living Metal",
             "description": "In the Ready step of each Strategy phase, after resolving all other rules in this step (e.g. Reanimation Protocols faction rule), each friendly HIEROTEK CIRCLE operative regains 1D3+1 lost wounds (roll separately for each)."
-          },
-          {
-            "abilityId": "NEC-HIER-APP-A-MAG",
-            "opTypeId": "NEC-HIER-APP",
-            "abilityName": "*Magnify",
-            "description": "Whenever this operative is performing the Shoot action with this weapon, if the target is visible to this operative, and another friendly HIEROTEK CIRCLE APPRENTEK or HIEROTEK CIRCLE CRYPTEK operative has an Engage order and is visible to this operative,\nyou can treat that operative as the active operative for the purposes of determining a valid target, that Shoot action’s conditions, cover and obscured. If you do, this weapon has the Ceaseless weapon rule until the end of that action."
           },
           {
             "abilityId": "NEC-HIER-APP-A-RP",
@@ -24991,7 +24804,7 @@
                 "WR": [
                   {
                     "id": "WR-UNIV-HEAVY",
-                    "details": "Repos"
+                    "details": "Reposition"
                   },
                   {
                     "id": "WR-UNIV-PIERCING",
@@ -25699,7 +25512,7 @@
                 "WR": [
                   {
                     "id": "WR-UNIV-HEAVY",
-                    "details": "Repos"
+                    "details": "Reposition"
                   },
                   {
                     "id": "WR-UNIV-PIERCING",
@@ -25973,7 +25786,7 @@
                 "WR": [
                   {
                     "id": "WR-UNIV-HEAVY",
-                    "details": "Repos"
+                    "details": "Reposition"
                   },
                   {
                     "id": "WR-UNIV-PIERCING",
@@ -26062,7 +25875,7 @@
                 "WR": [
                   {
                     "id": "WR-UNIV-HEAVY",
-                    "details": "Repos"
+                    "details": "Reposition"
                   },
                   {
                     "id": "WR-UNIV-PIERCING",
@@ -27286,7 +27099,7 @@
                   },
                   {
                     "id": "WR-UNIV-HEAVY",
-                    "details": "Repos"
+                    "details": "Reposition"
                   },
                   {
                     "id": "WR-UNIV-LIMITED",
@@ -32243,7 +32056,7 @@
                   },
                   {
                     "id": "WR-UNIV-HEAVY",
-                    "details": "Repos"
+                    "details": "Reposition"
                   },
                   {
                     "id": "WR-UNIV-LIMITED",
@@ -33030,12 +32843,6 @@
           }
         ],
         "abilities": [
-          {
-            "abilityId": "IMP-INQ-INQ-KAS24-DT-A-BP",
-            "opTypeId": "IMP-INQ-KAS24-DT",
-            "abilityName": "Blast Padding",
-            "description": "Whenever an operative is shooting this operative with a weapon that has the Blast or Torrent weapon rule (excluding weapons that have a sweeping profile),\nyou can re-roll one of your defence dice.\nIn addition, this operative is not affected by the x\" Devastating x weapon rule (i.e. Devastating with a distance) unless they are the target during that sequence."
-          },
           {
             "abilityId": "IMP-INQ-INQ-KAS24-DT-A-MM",
             "opTypeId": "IMP-INQ-KAS24-DT",
@@ -34081,12 +33888,6 @@
           }
         ],
         "abilities": [
-          {
-            "abilityId": "IMP-KAS-DT-A-BP",
-            "opTypeId": "IMP-KAS-DT",
-            "abilityName": "Blast Padding",
-            "description": "Whenever an operative is shooting this operative with a weapon that has the Blast or Torrent weapon rule (excluding weapons that have a sweeping profile),\nyou can re-roll one of your defence dice.\nIn addition, this operative is not affected by the x\" Devastating x weapon rule (i.e. Devastating with a distance) unless they are the target during that sequence."
-          },
           {
             "abilityId": "IMP-KAS-DT-A-MM",
             "opTypeId": "IMP-KAS-DT",
@@ -35638,12 +35439,6 @@
         ],
         "abilities": [
           {
-            "abilityId": "ORK-KOM-BRN-A-TOR0",
-            "opTypeId": "ORK-KOM-BRN",
-            "abilityName": "*Torrent 0\"",
-            "description": "Note that Torrent 0\" means you cannot select secondary targets, but this weapon still has the Torren weapon rule for all other rules purposes, e.g. the Condensed Stronghold rule (see Killzone: Volkus)."
-          },
-          {
             "abilityId": "ORK-KOM-BRN-A-TS",
             "opTypeId": "ORK-KOM-BRN",
             "abilityName": "Throat Slittas",
@@ -35825,12 +35620,6 @@
             "opTypeId": "ORK-KOM-SQUIG",
             "abilityName": "Expendable",
             "description": "This operative is ignored for your opponent's kill/elimination op (when it is incapacitated, and when determining your starting number of operatives).\r It is also ignored for victory conditions and scoring VPs that require operatives to \"escape\", \"survive\", or be incapacitated by enemy operatives (if it escapes/survives/is incapacitated, determining how many operative must escape/survive/ be incapacitated, etc)."
-          },
-          {
-            "abilityId": "ORK-KOM-SQUIG-A-EXPL",
-            "opTypeId": "ORK-KOM-SQUIG",
-            "abilityName": "*Explosive",
-            "description": "This operative can perform the shoot action with this weapon while within control range of an enemy operative.\nDo not select a valid target, instead this operative is always the primary target and cannot be in cover or obscured."
           },
           {
             "abilityId": "ORK-KOM-SQUIG-A-STP",
@@ -36594,7 +36383,7 @@
                 "DMG": "3/4",
                 "WR": [
                   {
-                    "id": "WR-AEL-COR-PSYCHIC"
+                    "id": "WR-UNIV-PSYCHIC"
                   },
                   {
                     "id": "WR-UNIV-BLAST",
@@ -36630,7 +36419,7 @@
                 "DMG": "3/3",
                 "WR": [
                   {
-                    "id": "WR-AEL-COR-PSYCHIC"
+                    "id": "WR-UNIV-PSYCHIC"
                   },
                   {
                     "id": "WR-UNIV-SATURATE"
@@ -36660,7 +36449,7 @@
                 "DMG": "3/4",
                 "WR": [
                   {
-                    "id": "WR-AEL-COR-PSYCHIC"
+                    "id": "WR-UNIV-PSYCHIC"
                   },
                   {
                     "id": "WR-UNIV-RENDING"
@@ -36685,12 +36474,6 @@
             "opTypeId": "CHAOS-LEG-BA",
             "abilityName": "Mark Of Chaos",
             "description": "Whenever you select a LEGIONARY operative for the battle, you must select one of the following keywords for it to have for that battle: KHORNE, NURGLE, SLAANESH, TZEENTCH, UNDIVIDED.\nEach operative's keyword can be different, but a BALEFIRE ACOLYTE operative cannot have the KHORNE keyword.  \n\nFriendly LEGIONARY operatives have an additional rule determined by this keyword. In addition, LEGIONARY ploys have additional benefits for operatives with the relevant keyword."
-          },
-          {
-            "abilityId": "CHAOS-LEG-BA-A-SL",
-            "opTypeId": "CHAOS-LEG-BA",
-            "abilityName": "*Siphon Life",
-            "description": "When you select this weapon, you can use this rule. If you do, at the start of the Resolve Attack Dice step, select one friendly LEGIONARY operative visible to and within 6\" of this operative.\r For each attack die you resolve during that step that inflicts damage, that friendly operative regains 1 lost wound, or D3 lost wounds if it was a critical success. You cannot use this weapon rule more than once per Turning Point."
           }
         ],
         "options": [
@@ -36807,12 +36590,6 @@
             "opTypeId": "CHAOS-LEG-BUT",
             "abilityName": "Astartes",
             "description": "During each friendly LEGIONARY operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt pistol, boltgun or tainted bolt pistol must be selected for at least one of them.  \n\nEach friendly LEGIONARY operative can counteract regardless of its order."
-          },
-          {
-            "abilityId": "CHAOS-LEG-BUT-A-DOS",
-            "opTypeId": "CHAOS-LEG-BUT",
-            "abilityName": "Devastating Onslaught",
-            "description": "\n- Whenever this operative is fighting or retaliating, enemy operatives cannot assist.\n- At the end of each enemy operative’s activation or counteraction, you can select an enemy operative within 2\" of this operative.\nThis operative can perform a free Charge action (you can change its order to Engage to do so), but it cannot move more than 2\" and must end that move within control range of that selected operative.\n"
           },
           {
             "abilityId": "CHAOS-LEG-BUT-A-MOC",
@@ -37153,7 +36930,7 @@
                 "WR": [
                   {
                     "id": "WR-UNIV-HEAVY",
-                    "details": "Repos"
+                    "details": "Reposition"
                   },
                   {
                     "id": "WR-UNIV-PIERCING",
@@ -37173,7 +36950,7 @@
                 "WR": [
                   {
                     "id": "WR-UNIV-HEAVY",
-                    "details": "Repos"
+                    "details": "Reposition"
                   },
                   {
                     "id": "WR-UNIV-PIERCING",
@@ -37211,7 +36988,7 @@
                   },
                   {
                     "id": "WR-UNIV-HEAVY",
-                    "details": "Repos"
+                    "details": "Reposition"
                   }
                 ]
               },
@@ -37226,7 +37003,7 @@
                 "WR": [
                   {
                     "id": "WR-UNIV-HEAVY",
-                    "details": "Repos"
+                    "details": "Reposition"
                   },
                   {
                     "id": "WR-UNIV-PIERCING",
@@ -37258,7 +37035,7 @@
                   },
                   {
                     "id": "WR-UNIV-HEAVY",
-                    "details": "Repos"
+                    "details": "Reposition"
                   },
                   {
                     "id": "WR-UNIV-PUNISHING"
@@ -37279,7 +37056,7 @@
                   },
                   {
                     "id": "WR-UNIV-HEAVY",
-                    "details": "Repos"
+                    "details": "Reposition"
                   },
                   {
                     "id": "WR-UNIV-PUNISHING"
@@ -38049,12 +37826,6 @@
             "description": "Once per turning point, one friendly MANDRAKE operative WITHIN SHADOW can use a SHADOW PASSAGE when it performs the reposition action.\r If it does, do not move it. Instead, remove it from the killzone and set it back up WITHIN SHADOW.\r When you set it back up it cannot:\r \r - Be within control range of an enemy operative.\r - Be a valid target for an enemy operative.\r - Perform the shoot or fight action until the start of the next turning point.\r "
           },
           {
-            "abilityId": "AEL-MND-NF-A-SS",
-            "opTypeId": "AEL-MND-NF",
-            "abilityName": "*Soulstrike",
-            "description": "Successful defence dice are determined differently. Each result that is equal to or less than the target's APL stat is a success and is retained.\nEach result that is higher than the target's APL stat is a fail and is discarded.\nEach result of a 1 is always a critical success. Each other success is a normal success. Each result of 6 is always a fail."
-          },
-          {
             "abilityId": "AEL-MND-NF-A-UE",
             "opTypeId": "AEL-MND-NF",
             "abilityName": "Umbral Entities",
@@ -38155,12 +37926,6 @@
             "opTypeId": "AEL-MND-COTF",
             "abilityName": "Shadow Passage",
             "description": "Once per turning point, one friendly MANDRAKE operative WITHIN SHADOW can use a SHADOW PASSAGE when it performs the reposition action.\r If it does, do not move it. Instead, remove it from the killzone and set it back up WITHIN SHADOW.\r When you set it back up it cannot:\r \r - Be within control range of an enemy operative.\r - Be a valid target for an enemy operative.\r - Perform the shoot or fight action until the start of the next turning point.\r "
-          },
-          {
-            "abilityId": "AEL-MND-COTF-A-SS",
-            "opTypeId": "AEL-MND-COTF",
-            "abilityName": "*Soulstrike",
-            "description": "Successful defence dice are determined differently. Each result that is equal to or less than the target's APL stat is a success and is retained.\nEach result that is higher than the target's APL stat is a fail and is discarded.\nEach result of a 1 is always a critical success. Each other success is a normal success. Each result of 6 is always a fail."
           },
           {
             "abilityId": "AEL-MND-COTF-A-UE",
@@ -38276,12 +38041,6 @@
             "opTypeId": "AEL-MND-ABS",
             "abilityName": "Shadow Passage",
             "description": "Once per turning point, one friendly MANDRAKE operative WITHIN SHADOW can use a SHADOW PASSAGE when it performs the reposition action.\r If it does, do not move it. Instead, remove it from the killzone and set it back up WITHIN SHADOW.\r When you set it back up it cannot:\r \r - Be within control range of an enemy operative.\r - Be a valid target for an enemy operative.\r - Perform the shoot or fight action until the start of the next turning point.\r "
-          },
-          {
-            "abilityId": "AEL-MND-ABS-A-SS",
-            "opTypeId": "AEL-MND-ABS",
-            "abilityName": "*Soulstrike",
-            "description": "Successful defence dice are determined differently. Each result that is equal to or less than the target's APL stat is a success and is retained.\nEach result that is higher than the target's APL stat is a fail and is discarded.\nEach result of a 1 is always a critical success. Each other success is a normal success. Each result of 6 is always a fail."
           },
           {
             "abilityId": "AEL-MND-ABS-A-UE",
@@ -38423,12 +38182,6 @@
             "description": "Once per turning point, one friendly MANDRAKE operative WITHIN SHADOW can use a SHADOW PASSAGE when it performs the reposition action.\r If it does, do not move it. Instead, remove it from the killzone and set it back up WITHIN SHADOW.\r When you set it back up it cannot:\r \r - Be within control range of an enemy operative.\r - Be a valid target for an enemy operative.\r - Perform the shoot or fight action until the start of the next turning point.\r "
           },
           {
-            "abilityId": "AEL-MND-DM-A-SS",
-            "opTypeId": "AEL-MND-DM",
-            "abilityName": "*Soulstrike",
-            "description": "Successful defence dice are determined differently. Each result that is equal to or less than the target's APL stat is a success and is retained.\nEach result that is higher than the target's APL stat is a fail and is discarded.\nEach result of a 1 is always a critical success. Each other success is a normal success. Each result of 6 is always a fail."
-          },
-          {
             "abilityId": "AEL-MND-DM-A-UE",
             "opTypeId": "AEL-MND-DM",
             "abilityName": "Umbral Entities",
@@ -38529,12 +38282,6 @@
             "description": "Whenever this operative performs the Reposition action using a SHADOW PASSAGE, you can use this rule.\nIf you do so, remove your Shadow Portal markers from the killzone (if any), then place one of your Shadow Portal markers within this operative's control range before it is removed\nand one within its control range after it is set up.  \n\nEach friendly MANDRAKE operative can use a SHADOW PASSAGE each turning point (taking precedence over one operative once per turning point)\nif one of your Shadow Portal markers is within that operative's control range when it is removed, and the other when it is set up.\nNote that friendly operatives can do this even if this operative has been incapacitated, and doing so does not prevent the operative from using a SHADOW PASSAGE in the normal manner."
           },
           {
-            "abilityId": "AEL-MND-SW-A-SS",
-            "opTypeId": "AEL-MND-SW",
-            "abilityName": "*Soulstrike",
-            "description": "Successful defence dice are determined differently. Each result that is equal to or less than the target's APL stat is a success and is retained.\nEach result that is higher than the target's APL stat is a fail and is discarded.\nEach result of a 1 is always a critical success. Each other success is a normal success. Each result of 6 is always a fail."
-          },
-          {
             "abilityId": "AEL-MND-SW-A-UE",
             "opTypeId": "AEL-MND-SW",
             "abilityName": "Umbral Entities",
@@ -38627,12 +38374,6 @@
             "opTypeId": "AEL-MND-WAR",
             "abilityName": "Shadow Passage",
             "description": "Once per turning point, one friendly MANDRAKE operative WITHIN SHADOW can use a SHADOW PASSAGE when it performs the reposition action.\r If it does, do not move it. Instead, remove it from the killzone and set it back up WITHIN SHADOW.\r When you set it back up it cannot:\r \r - Be within control range of an enemy operative.\r - Be a valid target for an enemy operative.\r - Perform the shoot or fight action until the start of the next turning point.\r "
-          },
-          {
-            "abilityId": "AEL-MND-WAR-A-SS",
-            "opTypeId": "AEL-MND-WAR",
-            "abilityName": "*Soulstrike",
-            "description": "Successful defence dice are determined differently. Each result that is equal to or less than the target's APL stat is a success and is retained.\nEach result that is higher than the target's APL stat is a fail and is discarded.\nEach result of a 1 is always a critical success. Each other success is a normal success. Each result of 6 is always a fail."
           },
           {
             "abilityId": "AEL-MND-WAR-A-SW",
@@ -39128,12 +38869,6 @@
             "description": "Whenever an enemy operative is shooting a friendly NEMESIS CLAW operative, that friendly operative is obscured if both of the following are true:\r \r - It is more than 8\" from enemy operatives it is visible to.\r - It has Heavy Terrain within its control range, or any part of its base is underneath Vantage terrain.\r "
           },
           {
-            "abilityId": "CHAOS-NC-FRM-A-TC",
-            "opTypeId": "CHAOS-NC-FRM",
-            "abilityName": "*Terrochem",
-            "description": "In the Resolve Attack Dice step, if you inflict damage with any Critical successes, the operative this weapon is being used against gains one of your Terrorchem tokens (if it does not already have one)."
-          },
-          {
             "abilityId": "CHAOS-NC-FRM-A-TCP",
             "opTypeId": "CHAOS-NC-FRM",
             "abilityName": "Terrochem Poison",
@@ -39397,7 +39132,7 @@
                 "WR": [
                   {
                     "id": "WR-UNIV-HEAVY",
-                    "details": "Repos"
+                    "details": "Reposition"
                   },
                   {
                     "id": "WR-UNIV-PIERCING",
@@ -39417,7 +39152,7 @@
                 "WR": [
                   {
                     "id": "WR-UNIV-HEAVY",
-                    "details": "Repos"
+                    "details": "Reposition"
                   },
                   {
                     "id": "WR-UNIV-PIERCING",
@@ -39451,7 +39186,7 @@
                 "WR": [
                   {
                     "id": "WR-UNIV-HEAVY",
-                    "details": "Repos"
+                    "details": "Reposition"
                   },
                   {
                     "id": "WR-UNIV-BLAST",
@@ -39470,7 +39205,7 @@
                 "WR": [
                   {
                     "id": "WR-UNIV-HEAVY",
-                    "details": "Repos"
+                    "details": "Reposition"
                   },
                   {
                     "id": "WR-UNIV-PIERCING",
@@ -40777,12 +40512,6 @@
             "description": "In the Ready step of each Strategy phase, you gain a number of Faith points equal to half the number of friendly NOVITIATE operatives that have not been incapacitated (rounding up).\nWhenever a friendly NOVITIATE operative is shooting, fighting or retaliating, or an operative is shooting it, in the Roll Attack Dice (or Roll Defence Dice step if an operative is shooting it),\nyou can spend your Faith points to use one ACT OF FAITH.  \n\nYou cannot use more than one ACT OF FAITH per sequence, and their costs and effects are as follows:  \n\n\n- **GUIDANCE - 1 FAITH POINT**  \nYou can re-roll one of your dice.\n- **BLESSING - 2 FAITH POINTS**  \n You can retain one of your normal successes as a critical success instead.\n- **INTERVENTION - 3 FAITH POINTS**  \nYou can retain one of your fails as a normal success instead of discarding it.\n"
           },
           {
-            "abilityId": "IMP-NOV-CON-A-AP",
-            "opTypeId": "IMP-NOV-CON",
-            "abilityName": "*Anti-Psyker",
-            "description": "Whenever this weapon is being used against an operative that has the PSYKER keyword, add 1 to both Dmg stats of this weapon and it has the Lethal 5+ weapon rule."
-          },
-          {
             "abilityId": "IMP-NOV-CON-A-NR",
             "opTypeId": "IMP-NOV-CON",
             "abilityName": "Null Rod",
@@ -40954,12 +40683,6 @@
             "opTypeId": "IMP-NOV-DUE",
             "abilityName": "Acts Of Faith",
             "description": "In the Ready step of each Strategy phase, you gain a number of Faith points equal to half the number of friendly NOVITIATE operatives that have not been incapacitated (rounding up).\nWhenever a friendly NOVITIATE operative is shooting, fighting or retaliating, or an operative is shooting it, in the Roll Attack Dice (or Roll Defence Dice step if an operative is shooting it),\nyou can spend your Faith points to use one ACT OF FAITH.  \n\nYou cannot use more than one ACT OF FAITH per sequence, and their costs and effects are as follows:  \n\n\n- **GUIDANCE - 1 FAITH POINT**  \nYou can re-roll one of your dice.\n- **BLESSING - 2 FAITH POINTS**  \n You can retain one of your normal successes as a critical success instead.\n- **INTERVENTION - 3 FAITH POINTS**  \nYou can retain one of your fails as a normal success instead of discarding it.\n"
-          },
-          {
-            "abilityId": "IMP-NOV-DUE-A-RIP",
-            "opTypeId": "IMP-NOV-DUE",
-            "abilityName": "*Riposte",
-            "description": "Whenever you block with a critical success, you can also inflict damage equal to the weapon’s Critical Dmg stat on the enemy operative in that sequence."
           }
         ],
         "options": [],
@@ -41346,12 +41069,6 @@
             "opTypeId": "IMP-NOV-PEN",
             "abilityName": "Absolution Through Destruction",
             "description": "Whenever this operative performs the Fight action, if it isn’t incapacitated, it can immediately perform a free Fight action afterwards.\nThis takes precedence over action restrictions, and you cannot perform more than two Fight actions in succession as a result of this rule.\nIf this operative is benefitting from the effects of the Whip Into Frenzy action (see EXACTOR), this applies to each of the Fight actions from those effects."
-          },
-          {
-            "abilityId": "IMP-NOV-PEN-A-ZR",
-            "opTypeId": "IMP-NOV-PEN",
-            "abilityName": "*Zealous Rage",
-            "description": "Whenever this operative is fighting with this weapon, it has the Ceaseless weapon rule."
           }
         ],
         "options": [],
@@ -41494,12 +41211,6 @@
             "opTypeId": "IMP-NOV-PRO",
             "abilityName": "Divine Acquisition",
             "description": "Once per turning point, when this operative performs a mission action that requires it to control an objective or mission marker, you gain a number of Faith points equal to the turning point number."
-          },
-          {
-            "abilityId": "IMP-NOV-PRO-A-RS",
-            "opTypeId": "IMP-NOV-PRO",
-            "abilityName": "Relic Seeker",
-            "description": "Once during each of this operative’s activations, it can perform the Pick Up Marker, Place Marker or a mission action for 1 less AP."
           }
         ],
         "options": [],
@@ -42711,7 +42422,7 @@
                   },
                   {
                     "id": "WR-UNIV-HEAVY",
-                    "details": "Repos"
+                    "details": "Reposition"
                   },
                   {
                     "id": "WR-UNIV-PUNISHING"
@@ -42732,7 +42443,7 @@
                   },
                   {
                     "id": "WR-UNIV-HEAVY",
-                    "details": "Repos"
+                    "details": "Reposition"
                   },
                   {
                     "id": "WR-UNIV-PUNISHING"
@@ -43670,12 +43381,6 @@
             "opTypeId": "IMP-PHO-INFVET",
             "abilityName": "Astartes",
             "description": "During each friendly PHOBOS STRIKE TEAM operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt weapon must be selected for at least one of them.\nA bolt weapon is any ranged weapon that includes 'bolt' in its name, e.g. marksman bolt carbine, special issue bolt pistol, etc.  \n\nEach friendly PHOBOS STRIKE TEAM operative can counteract regardless of its order."
-          },
-          {
-            "abilityId": "IMP-PHO-INFVET-A-CST",
-            "opTypeId": "IMP-PHO-INFVET",
-            "abilityName": "*Custom",
-            "description": "At the end of the Select Operatives step, if this operative is selected for deployment, select up to two of the following weapon rules for this weapon to have for the battle:\n\n- Balanced\n- Lethal 5+\n- Piercing Crits 1\n- Rending\n- Saturate\n"
           },
           {
             "abilityId": "IMP-PHO-INFVET-A-OS",
@@ -44749,18 +44454,6 @@
             "opTypeId": "CHAOS-PM-CHAMP",
             "abilityName": "Grandfather's Blessing",
             "description": "Whenever an enemy operative that has one of your Poison tokens loses one or more wounds within 7\" of this operative, this operative regains up to an equal number of lost wounds (to a maximum of 3 lost wounds per turning point,\r and only if this operative isn’t incapacitated)."
-          },
-          {
-            "abilityId": "CHAOS-PM-CHAMP-A-PSN",
-            "opTypeId": "CHAOS-PM-CHAMP",
-            "abilityName": "*Poison",
-            "description": "In the Resolve Attack Dice step, if you inflict damage with any successes, the operative this weapon is being used against (excluding friendly PLAGUE MARINE operatives) gains one of your Poison tokens (if it does not already have one).\r Whenever an operative that has one of your Poison tokens is activated, inflict 1 damage on it."
-          },
-          {
-            "abilityId": "CHAOS-PM-CHAMP-A-TOX",
-            "opTypeId": "CHAOS-PM-CHAMP",
-            "abilityName": "*Toxic",
-            "description": "Whenever this operative is using this weapon against an enemy operative that has one of your Poison tokens, add 1 to both Dmg stats of this weapon."
           }
         ],
         "options": [],
@@ -44798,7 +44491,7 @@
                 "DMG": "3/7",
                 "WR": [
                   {
-                    "id": "WR-AEL-COR-PSYCHIC"
+                    "id": "WR-UNIV-PSYCHIC"
                   },
                   {
                     "id": "WR-UNIV-RANGE",
@@ -44835,7 +44528,7 @@
                 "DMG": "2/3",
                 "WR": [
                   {
-                    "id": "WR-AEL-COR-PSYCHIC"
+                    "id": "WR-UNIV-PSYCHIC"
                   },
                   {
                     "id": "WR-UNIV-SATURATE"
@@ -44872,7 +44565,7 @@
                 "DMG": "3/4",
                 "WR": [
                   {
-                    "id": "WR-AEL-COR-PSYCHIC"
+                    "id": "WR-UNIV-PSYCHIC"
                   },
                   {
                     "id": "WR-UNIV-SEVERE"
@@ -44903,12 +44596,6 @@
             "opTypeId": "CHAOS-PM-MAL",
             "abilityName": "Disgustingly Resilient",
             "description": "Whenever an attack dice inflicts damage of 3 or more on a friendly PLAGUE MARINE operative, roll one D6: on a 4+, subtract 1 from that inflicted damage."
-          },
-          {
-            "abilityId": "CHAOS-PM-MAL-A-PSN",
-            "opTypeId": "CHAOS-PM-MAL",
-            "abilityName": "*Poison",
-            "description": "In the Resolve Attack Dice step, if you inflict damage with any successes, the operative this weapon is being used against (excluding friendly PLAGUE MARINE operatives) gains one of your Poison tokens (if it does not already have one).\r Whenever an operative that has one of your Poison tokens is activated, inflict 1 damage on it."
           },
           {
             "abilityId": "CHAOS-PM-MAL-PM",
@@ -45074,18 +44761,6 @@
             "opTypeId": "CHAOS-PM-BOMB",
             "abilityName": "Grenadier",
             "description": "This operative can use blight and krak grenades (see faction and universal equipment).\nDoing so doesn’t count towards any limited uses you have (i.e. if you also select those grenades from equipment for other operatives).\nWhenever it’s doing so, improve the Hit stat of that weapon by 1 and blight grenades have the Toxic weapon rule."
-          },
-          {
-            "abilityId": "CHAOS-PM-BOMB-A-PSN",
-            "opTypeId": "CHAOS-PM-BOMB",
-            "abilityName": "*Poison",
-            "description": "In the Resolve Attack Dice step, if you inflict damage with any successes, the operative this weapon is being used against (excluding friendly PLAGUE MARINE operatives) gains one of your Poison tokens (if it does not already have one).\r  Whenever an operative that has one of your Poison tokens is activated, inflict 1 damage on it."
-          },
-          {
-            "abilityId": "CHAOS-PM-BOMB-A-TOX",
-            "opTypeId": "CHAOS-PM-BOMB",
-            "abilityName": "*Toxic",
-            "description": "Whenever this operative is using this weapon against an enemy operative that has one of your Poison tokens, add 1 to both Dmg stats of this weapon."
           }
         ],
         "options": [],
@@ -45151,12 +44826,6 @@
             "opTypeId": "CHAOS-PM-FTR",
             "abilityName": "Disgustingly Resilient",
             "description": "Whenever an attack dice inflicts damage of 3 or more on a friendly PLAGUE MARINE operative, roll one D6: on a 4+, subtract 1 from that inflicted damage."
-          },
-          {
-            "abilityId": "CHAOS-PM-FTR-A-PSN",
-            "opTypeId": "CHAOS-PM-FTR",
-            "abilityName": "*Poison",
-            "description": "In the Resolve Attack Dice step, if you inflict damage with any successes, the operative this weapon is being used against (excluding friendly PLAGUE MARINE operatives) gains one of your Poison tokens (if it does not already have one).\r Whenever an operative that has one of your Poison tokens is activated, inflict 1 damage on it."
           },
           {
             "abilityId": "CHAOS-PM-FTR-FL",
@@ -45254,12 +44923,6 @@
             "opTypeId": "CHAOS-PM-HGNR",
             "abilityName": "Disgustingly Resilient",
             "description": "Whenever an attack dice inflicts damage of 3 or more on a friendly PLAGUE MARINE operative, roll one D6: on a 4+, subtract 1 from that inflicted damage."
-          },
-          {
-            "abilityId": "CHAOS-PM-HGNR-A-PSN",
-            "opTypeId": "CHAOS-PM-HGNR",
-            "abilityName": "*Poison",
-            "description": "In the Resolve Attack Dice step, if you inflict damage with any successes, the operative this weapon is being used against (excluding friendly PLAGUE MARINE operatives) gains one of your Poison tokens (if it does not already have one).\r Whenever an operative that has one of your Poison tokens is activated, inflict 1 damage on it."
           }
         ],
         "options": [],
@@ -45356,12 +45019,6 @@
             "opTypeId": "CHAOS-PM-IB",
             "abilityName": "Icon Of Contagion",
             "description": "Whenever this operative is within your opponent’s territory, the Contagion strategy ploy costs you 0CP."
-          },
-          {
-            "abilityId": "CHAOS-PM-IB-A-PSN",
-            "opTypeId": "CHAOS-PM-IB",
-            "abilityName": "*Poison",
-            "description": "In the Resolve Attack Dice step, if you inflict damage with any successes, the operative this weapon is being used against (excluding friendly PLAGUE MARINE operatives) gains one of your Poison tokens (if it does not already have one).\r Whenever an operative that has one of your Poison tokens is activated, inflict 1 damage on it."
           }
         ],
         "options": [],
@@ -45447,22 +45104,10 @@
             "description": "Whenever an attack dice inflicts damage of 3 or more on a friendly PLAGUE MARINE operative, roll one D6: on a 4+, subtract 1 from that inflicted damage."
           },
           {
-            "abilityId": "CHAOS-PM-WAR-A-PSN",
-            "opTypeId": "CHAOS-PM-WAR",
-            "abilityName": "*Poison",
-            "description": "In the Resolve Attack Dice step, if you inflict damage with any successes, the operative this weapon is being used against (excluding friendly PLAGUE MARINE operatives) gains one of your Poison tokens (if it does not already have one).\r Whenever an operative that has one of your Poison tokens is activated, inflict 1 damage on it."
-          },
-          {
             "abilityId": "CHAOS-PM-WAR-A-RF",
             "opTypeId": "CHAOS-PM-WAR",
             "abilityName": "Repulsive Fortitude",
             "description": "Whenever an operative is shooting this operative, defence dice results of 5+ are critical successes."
-          },
-          {
-            "abilityId": "CHAOS-PM-WAR-A-TOX",
-            "opTypeId": "CHAOS-PM-WAR",
-            "abilityName": "*Toxic",
-            "description": "Whenever this operative is using this weapon against an enemy operative that has one of your Poison tokens, add 1 to both Dmg stats of this weapon."
           }
         ],
         "options": [],
@@ -46021,7 +45666,7 @@
                   },
                   {
                     "id": "WR-UNIV-HEAVY",
-                    "details": "Repos"
+                    "details": "Reposition"
                   },
                   {
                     "id": "WR-UNIV-PIERCING",
@@ -46304,13 +45949,6 @@
             "opTypeId": "IMP-RAT-RAID",
             "abilityName": "Scarper",
             "description": "After each enemy operative's activation, before the next operative is activated, you can perform a free Dash action with one friendly RATLING operative (excluding BULLGRYN, OGRYN, and SNEAK), \nbut it cannot finish that move within 3\" of an enemy operative unless it is not visible to every enemy operative when it finishes that move.\n  \n\nEach friendly operative can only do this once per Turning Point, and cannot do so after the final activation of the Turning Point."
-          },
-          {
-            "abilityId": "IMP-RAT-RAID-SS",
-            "opTypeId": "IMP-RAT-RAID",
-            "abilityName": "Slingshot",
-            "AP": 1,
-            "description": "Select a point on a terrain feature that is visible to and within 6\" of this operative.\nRemove this operative from the killzone and set it back up wholly within 6\" horizontally of that point, not within Control Range of an enemy operative, and with that point visible to it.\n\nThis action is treated as a Reposition action.\nThis operative cannot perform this action while within Control Range of an enemy operative, or during an activation in which it performed the Charge, Fall Back, or Shoot action (or vice-versa)."
           }
         ],
         "options": [],
@@ -47665,12 +47303,6 @@
         ],
         "abilities": [
           {
-            "abilityId": "TYR-RAV-WRK-A-CRS",
-            "opTypeId": "TYR-RAV-WRK",
-            "abilityName": "*Crush",
-            "description": "Whenever you strike, you and your opponent roll-off, adding 1 to your result if the operative this weapon is being used against has a Wounds stat of 9 or less. If you win, inflict additional damage on that operative equal to the difference between the dice results (to a maximum of 3 additional damage)."
-          },
-          {
             "abilityId": "TYR-RAV-WRK-A-PIN",
             "opTypeId": "TYR-RAV-WRK",
             "abilityName": "Predatory Instincts",
@@ -48048,12 +47680,6 @@
         ],
         "abilities": [
           {
-            "abilityId": "IMP-SANC-CFG-A-BLZ",
-            "opTypeId": "IMP-SANC-CFG",
-            "abilityName": "*Blaze",
-            "description": "If you inflict damage with any critical successes, the operative this weapon is being used against gains one of your Blaze tokens (if it doesn’t already have one).\r Whenever an operative that has one of your Blaze tokens is activated, inflict D3 damage on it. Then that operative’s controlling player selects one of the following:\r \r - Roll one D6: on a 3+, remove that token.\r - Subtract 1 from the operative’s APL stat until the end of that activation to remove that token.\r "
-          },
-          {
             "abilityId": "IMP-SANC-CFG-A-MS",
             "opTypeId": "IMP-SANC-CFG",
             "abilityName": "Ministorum Sermon",
@@ -48064,12 +47690,6 @@
             "opTypeId": "IMP-SANC-CFG",
             "abilityName": "Sanctification Rack",
             "description": "This operative can perform the Sanctification Orb action (see faction equipment). Doing so in this manner doesn’t count towards the once per turning point limit (i.e. if you also select that equipment for other operatives)."
-          },
-          {
-            "abilityId": "IMP-SANC-CFG-A-TT",
-            "opTypeId": "IMP-SANC-CFG",
-            "abilityName": "*Twin Torrent",
-            "description": "Select up to two valid targets. Shoot with this weapon against both of them in an order of your choice (roll each sequence separately). Torrent 0\" means you cannot select secondary targets, but this weapon still has the Torrent weapon rule for all other rules purposes, e.g. the Condensed Stronghold rule (see Killzone: Volkus, Kill Team Core Book)."
           }
         ],
         "options": [],
@@ -48303,12 +47923,6 @@
         ],
         "abilities": [
           {
-            "abilityId": "IMP-SANC-PER-A-BLZ",
-            "opTypeId": "IMP-SANC-PER",
-            "abilityName": "*Blaze",
-            "description": "If you inflict damage with any critical successes, the operative this weapon is being used against gains one of your Blaze tokens (if it doesn’t already have one).\r Whenever an operative that has one of your Blaze tokens is activated, inflict D3 damage on it. Then that operative’s controlling player selects one of the following:\r \r - Roll one D6: on a 3+, remove that token.\r - Subtract 1 from the operative’s APL stat until the end of that activation to remove that token.\r "
-          },
-          {
             "abilityId": "IMP-SANC-PER-A-FR",
             "opTypeId": "IMP-SANC-PER",
             "abilityName": "Fanatical Retribution",
@@ -48476,12 +48090,6 @@
         ],
         "abilities": [
           {
-            "abilityId": "IMP-SANC-MIR-A-BLZ",
-            "opTypeId": "IMP-SANC-MIR",
-            "abilityName": "*Blaze",
-            "description": "If you inflict damage with any critical successes, the operative this weapon is being used against gains one of your Blaze tokens (if it doesn’t already have one).\r Whenever an operative that has one of your Blaze tokens is activated, inflict D3 damage on it. Then that operative’s controlling player selects one of the following:\r \r - Roll one D6: on a 3+, remove that token.\r - Subtract 1 from the operative’s APL stat until the end of that activation to remove that token.\r "
-          },
-          {
             "abilityId": "IMP-SANC-MIR-A-MIR",
             "opTypeId": "IMP-SANC-MIR",
             "abilityName": "Miracle",
@@ -48492,12 +48100,6 @@
             "opTypeId": "IMP-SANC-MIR",
             "abilityName": "Ministorum Sermon",
             "description": "STRATEGIC GAMBIT. Select one friendly SANCTIFIER operative. If a friendly CONFESSOR operative hasn’t been incapacitated, you must select it.\nUntil you use this STRATEGIC GAMBIT again during the battle, that operative has the ORATOR keyword.  \n\nWhenever a friendly SANCTIFIER operative is within 3\" of a friendly ORATOR operative (or 6\" if the ORATOR is a CONFESSOR), that friendly SANCTIFIER operative is benefitting from the SERMON.  \n\nWhenever a friendly SANCTIFIER operative is activated within 3\" of a friendly ORATOR operative (or 6\" if the ORATOR is a CONFESSOR), that friendly SANCTIFIER operative is benefitting\nfrom the SERMON until the end of that activation (i.e. even if it then moves more than the distance requirement from the ORATOR operative).  \n\nWhenever a friendly SANCTIFIER operative is benefitting from the SERMON, Normal and Critical Dmg of 4 or more inflicts 1 less damage on it."
-          },
-          {
-            "abilityId": "IMP-SANC-MIR-A-WR",
-            "opTypeId": "IMP-SANC-MIR",
-            "abilityName": "*Wreathed",
-            "description": "This operative can perform the Shoot action with this weapon while within control range of an enemy operative.\nDon’t select a valid target. Instead, this operative is always the primary target, but only shoot against secondary targets and they cannot be in cover or obscured (in other words, determine Blast from this operative, but this operative isn’t affected)."
           }
         ],
         "options": [],
@@ -48737,12 +48339,6 @@
         ],
         "abilities": [
           {
-            "abilityId": "IMP-SANC-MIS-A-BLZ",
-            "opTypeId": "IMP-SANC-MIS",
-            "abilityName": "*Blaze",
-            "description": "If you inflict damage with any critical successes, the operative this weapon is being used against gains one of your Blaze tokens (if it doesn’t already have one).\r Whenever an operative that has one of your Blaze tokens is activated, inflict D3 damage on it. Then that operative’s controlling player selects one of the following:\r \r - Roll one D6: on a 3+, remove that token.\r - Subtract 1 from the operative’s APL stat until the end of that activation to remove that token.\r "
-          },
-          {
             "abilityId": "IMP-SANC-MIS-A-HR",
             "opTypeId": "IMP-SANC-MIS",
             "abilityName": "Holy Relic",
@@ -48836,12 +48432,6 @@
         ],
         "abilities": [
           {
-            "abilityId": "IMP-SANC-PRC-A-BLZ",
-            "opTypeId": "IMP-SANC-PRC",
-            "abilityName": "*Blaze",
-            "description": "If you inflict damage with any critical successes, the operative this weapon is being used against gains one of your Blaze tokens (if it doesn’t already have one).\r Whenever an operative that has one of your Blaze tokens is activated, inflict D3 damage on it. Then that operative’s controlling player selects one of the following:\r \r - Roll one D6: on a 3+, remove that token.\r - Subtract 1 from the operative’s APL stat until the end of that activation to remove that token.\r "
-          },
-          {
             "abilityId": "IMP-SANC-PRC-A-DTF",
             "opTypeId": "IMP-SANC-PRC",
             "abilityName": "Defend The Faith",
@@ -48928,12 +48518,6 @@
           }
         ],
         "abilities": [
-          {
-            "abilityId": "IMP-SANC-REL-A-BLZ",
-            "opTypeId": "IMP-SANC-REL",
-            "abilityName": "*Blaze",
-            "description": "If you inflict damage with any critical successes, the operative this weapon is being used against gains one of your Blaze tokens (if it doesn’t already have one).\r Whenever an operative that has one of your Blaze tokens is activated, inflict D3 damage on it. Then that operative’s controlling player selects one of the following:\r \r - Roll one D6: on a 3+, remove that token.\r - Subtract 1 from the operative’s APL stat until the end of that activation to remove that token.\r "
-          },
           {
             "abilityId": "IMP-SANC-REL-A-CI",
             "opTypeId": "IMP-SANC-REL",
@@ -50216,7 +49800,7 @@
                   },
                   {
                     "id": "WR-UNIV-HEAVY",
-                    "details": "Repos"
+                    "details": "Reposition"
                   },
                   {
                     "id": "WR-UNIV-LIMITED",
@@ -50313,7 +49897,7 @@
                     "id": "WR-UNIV-CEASELESS"
                   },
                   {
-                    "id": "WR-IMP-TEMPAQ-REND"
+                    "id": "WR-UNIV-RENDING"
                   }
                 ]
               },
@@ -50380,12 +49964,6 @@
             "opTypeId": "IMP-TEMPAQ-GF",
             "abilityName": "Gunfight",
             "description": "Whenever an enemy operative within 8\" of this operative shoots this operative, keep track of each Attack die that is discarded as a fail.\nAfter the action, before incapacitated operatives are removed (including this one, if relevant), this operative can perform a free Shoot action (change its order to Engage to do so), but it can only target that enemy operative with its Hot-Shot Laspistols (Focused), and you only roll a number of Attack dice equal to the opponent's discarded Attack dice plus one (to a maximum of four)."
-          },
-          {
-            "abilityId": "IMP-TEMPAQ-GF-A-SLV",
-            "opTypeId": "IMP-TEMPAQ-GF",
-            "abilityName": "*Salvo",
-            "description": "Select up to two valid targets. Shoot this weapon against both of them in an order of your choice (roll each sequence separately)."
           }
         ],
         "options": [],
@@ -51175,12 +50753,6 @@
         ],
         "abilities": [
           {
-            "abilityId": "SPEC-TITUS-TIT-A-LP",
-            "opTypeId": "SPEC-TITUS-TIT",
-            "abilityName": "Lethal Parry",
-            "description": "Whenever this operative is retaliating, before resolving attack dice in Step 4 of the fight sequence, if you have any critical successes, you can immediately resolve one of them (before the NPO resolves any)."
-          },
-          {
             "abilityId": "SPEC-TITUS-TIT-UA-RF",
             "opTypeId": "SPEC-TITUS-TIT",
             "abilityName": "Righteous Fury",
@@ -51254,12 +50826,6 @@
         ],
         "abilities": [
           {
-            "abilityId": "SPEC-TITUS-GAD-A-LP",
-            "opTypeId": "SPEC-TITUS-GAD",
-            "abilityName": "Lethal Parry",
-            "description": "Whenever this operative is retaliating, before resolving attack dice in Step 4 of the fight sequence, if you have any critical successes, you can immediately resolve one of them (before the NPO resolves any)."
-          },
-          {
             "abilityId": "SPEC-TITUS-GAD-UA-BC",
             "opTypeId": "SPEC-TITUS-GAD",
             "abilityName": "Battle Cry",
@@ -51332,12 +50898,6 @@
           }
         ],
         "abilities": [
-          {
-            "abilityId": "SPEC-TITUS-CHA-A-LP",
-            "opTypeId": "SPEC-TITUS-CHA",
-            "abilityName": "Lethal Parry",
-            "description": "Whenever this operative is retaliating, before resolving attack dice in Step 4 of the fight sequence, if you have any critical successes, you can immediately resolve one of them (before the NPO resolves any)."
-          },
           {
             "abilityId": "SPEC-TITUS-CHA-UA-AS",
             "opTypeId": "SPEC-TITUS-CHA",
@@ -51881,12 +51441,6 @@
             "opTypeId": "TAU-VESP-VLS",
             "abilityName": "Fly",
             "description": "Whenever a friendly VESPID STINGWING operative performs an action in which it moves, it can FLY.\nIf it does so, do not move it. Instead, remove it from the killzone and set it back up wholly within a distance equal to its Move stat (or 3\" if it was a Dash) of its original location, measuring horizontal distance only.\nNote that it gains no additional distance when performing the Charge action.  \n\nIt must be set up in a location it can be placed, and unless it was the Charge action, it cannot be set up within control range of an enemy operative.\nIn a killzone that uses the Close Quarters rules (e.g. killzone Gallowdark), you cannot measure the distance over or through wall terrain, and that operative cannot be set up on the other side of an access point (in other words, it cannot FLY through an open hatchway)."
-          },
-          {
-            "abilityId": "TAU-VESP-VLS-A-NF",
-            "opTypeId": "TAU-VESP-VLS",
-            "abilityName": "*Neutron Fragment",
-            "description": "If the target is not incapacitated but you resolve any Attack Dice, the target gains one of your Neutron Fragment tokens. Whenever an operative that has one of your Neutron Fragment tokens is activated, inflict D3 damage on it for each Neutron Fragment token it has (roll separately for each)."
           }
         ],
         "options": [],
@@ -52118,12 +51672,6 @@
             "description": "Whenever a friendly VESPID STINGWING operative performs an action in which it moves, it can FLY.\nIf it does so, do not move it. Instead, remove it from the killzone and set it back up wholly within a distance equal to its Move stat (or 3\" if it was a Dash) of its original location, measuring horizontal distance only.\nNote that it gains no additional distance when performing the Charge action.  \n\nIt must be set up in a location it can be placed, and unless it was the Charge action, it cannot be set up within control range of an enemy operative.\nIn a killzone that uses the Close Quarters rules (e.g. killzone Gallowdark), you cannot measure the distance over or through wall terrain, and that operative cannot be set up on the other side of an access point (in other words, it cannot FLY through an open hatchway)."
           },
           {
-            "abilityId": "TAU-VESP-VSB-A-NB",
-            "opTypeId": "TAU-VESP-VSB",
-            "abilityName": "*Neutron Bombardment",
-            "description": "Place one of your Neutron Fallout markers within the primary target's control range."
-          },
-          {
             "abilityId": "TAU-VESP-VSB-A-NF",
             "opTypeId": "TAU-VESP-VSB",
             "abilityName": "Neutron Fallout",
@@ -52239,18 +51787,6 @@
             "opTypeId": "TAU-VESP-VSG",
             "abilityName": "Fly",
             "description": "Whenever a friendly VESPID STINGWING operative performs an action in which it moves, it can FLY.\nIf it does so, do not move it. Instead, remove it from the killzone and set it back up wholly within a distance equal to its Move stat (or 3\" if it was a Dash) of its original location, measuring horizontal distance only.\nNote that it gains no additional distance when performing the Charge action.  \n\nIt must be set up in a location it can be placed, and unless it was the Charge action, it cannot be set up within control range of an enemy operative.\nIn a killzone that uses the Close Quarters rules (e.g. killzone Gallowdark), you cannot measure the distance over or through wall terrain, and that operative cannot be set up on the other side of an access point (in other words, it cannot FLY through an open hatchway)."
-          },
-          {
-            "abilityId": "TAU-VESP-VSG-A-ST",
-            "opTypeId": "TAU-VESP-VSG",
-            "abilityName": "*Skytorch",
-            "description": "An operative can only use this weapon during the Skytorch Assault action.\r If it does, do not select a valid target. Instead, shoot against each operative within its Torch Zone (excluding operatives wholly underneath Vantage terrain), they are not in Cover or Obscured.\r Roll each sequence separately in order of furthest operative to closest. The Torch Zone is the area between the operative's current and previous locations.\r A 28mm round Skytorch marker can be temporarily placed underneath this operative before it moves to help determine this."
-          },
-          {
-            "abilityId": "TAU-VESP-VSG-A-TOR0",
-            "opTypeId": "TAU-VESP-VSG",
-            "abilityName": "*Torrent 0\"",
-            "description": "Torrent 0\" means you cannot select secondary targets outside its torch zone, but this weapon still has the Torrent weapon rule for all other rules purposes, e.g. the Condensed Stronghold rules (see Killzone: Volkus)."
           },
           {
             "abilityId": "TAU-VESP-VSG-ST",
@@ -52747,7 +52283,7 @@
                   },
                   {
                     "id": "WR-UNIV-HEAVY",
-                    "details": "Repos"
+                    "details": "Reposition"
                   },
                   {
                     "id": "WR-AEL-VDT-HUMBLING"
@@ -53430,7 +52966,7 @@
                 "DMG": "4/2",
                 "WR": [
                   {
-                    "id": "WR-AEL-COR-PSYCHIC"
+                    "id": "WR-UNIV-PSYCHIC"
                   },
                   {
                     "id": "WR-UNIV-DEVASTATING",
@@ -53462,7 +52998,7 @@
                 "DMG": "4/6",
                 "WR": [
                   {
-                    "id": "WR-AEL-COR-PSYCHIC"
+                    "id": "WR-UNIV-PSYCHIC"
                   },
                   {
                     "id": "WR-UNIV-SHOCK"
@@ -53714,7 +53250,7 @@
                 "DMG": "3/4",
                 "WR": [
                   {
-                    "id": "WR-AEL-COR-PSYCHIC"
+                    "id": "WR-UNIV-PSYCHIC"
                   },
                   {
                     "id": "WR-UNIV-BLAST",
@@ -53745,7 +53281,7 @@
                 "DMG": "4/6",
                 "WR": [
                   {
-                    "id": "WR-AEL-COR-PSYCHIC"
+                    "id": "WR-UNIV-PSYCHIC"
                   },
                   {
                     "id": "WR-UNIV-SHOCK"
@@ -53997,7 +53533,7 @@
                 "DMG": "2/3",
                 "WR": [
                   {
-                    "id": "WR-AEL-COR-PSYCHIC"
+                    "id": "WR-UNIV-PSYCHIC"
                   },
                   {
                     "id": "WR-UNIV-SATURATE"
@@ -54032,7 +53568,7 @@
                 "DMG": "1/1",
                 "WR": [
                   {
-                    "id": "WR-AEL-COR-PSYCHIC"
+                    "id": "WR-UNIV-PSYCHIC"
                   },
                   {
                     "id": "WR-UNIV-LETHAL",
@@ -54070,7 +53606,7 @@
                 "DMG": "4/6",
                 "WR": [
                   {
-                    "id": "WR-AEL-COR-PSYCHIC"
+                    "id": "WR-UNIV-PSYCHIC"
                   },
                   {
                     "id": "WR-UNIV-SHOCK"
@@ -54120,12 +53656,6 @@
             "opTypeId": "CHAOS-WC-SOW",
             "abilityName": "Boons Of Tzeentch",
             "description": "Whenever you select a SORCERER operative for the battle, you must select a BOON OF TZEENTCH (below) for it to have for the battle. You cannot select each BOON OF TZEENTCH more than once per battle."
-          },
-          {
-            "abilityId": "CHAOS-WC-SOW-A-MB",
-            "opTypeId": "CHAOS-WC-SOW",
-            "abilityName": "*Mindburn",
-            "description": " In the Resolve Attack Dice step, if you inflict damage with any critical successes, the operative this weapon is being used against gains one of your Mindburn tokens (if it does not already have one)\nuntil the end of its next activation, until it’s incapacitated or until a friendly operative uses this weapon again (whichever comes first).\nWhenever an operative has one of your Mindburn tokens, worsen the Hit stat of its weapons by 1 (this is not cumulative with being injured)."
           },
           {
             "abilityId": "CHAOS-WC-SOW-AL",
@@ -54839,14 +54369,7 @@
             ]
           }
         ],
-        "abilities": [
-          {
-            "abilityId": "CHAOS-WC-TZC-A-SB",
-            "opTypeId": "CHAOS-WC-TZC",
-            "abilityName": "Savage Brutality",
-            "description": "The first time this operative performs the Fight action during each of its activations, if it isn’t incapacitated, it can immediately perform a free Fight action afterwards\n(you do not have to select the same enemy operative to fight against). This takes precedence over action restrictions."
-          }
-        ],
+        "abilities": [],
         "options": [
           {
             "optionId": "CHAOS-WC-TZC-BOT-IS",
@@ -55892,12 +55415,6 @@
             "description": "Whenever a friendly WRECKA KREW operative is shooting, fighting, or retaliating, in the Roll Attack Dice step:\n\n- For each attack die result of 6 you retain, you gain one Wrecka point\n- You can spend up to 3 of your Wrecka points (unless it's a BOMB SQUIG). For each point you spend this way, retain one of your fails as a normal success instead of discarding it\n\nYou can gain and spend Wrecka points during the same action and can do so in an order of your choice, unless you started the action with 6, in which case you can only spend them.\nIf you start an action with 6 Wrecka points, you cannot gain any more during that action."
           },
           {
-            "abilityId": "ORK-WK-BBKRU-A-SM",
-            "opTypeId": "ORK-WK-BBKRU",
-            "abilityName": "*Smash",
-            "description": "Whenever you strike, you can move the enemy operative in a straight line increment of up to 1\".\nIf you do, it must finish the move further away from this operative and in a location it can be placed.\nThen move this operative in a straight line increment of up to 1\", but it must end that move within that enemy operative's control range (if either is not possible, you cannot move them)."
-          },
-          {
             "abilityId": "ORK-WK-BBKRU-A-TU",
             "opTypeId": "ORK-WK-BBKRU",
             "abilityName": "Tanked Up",
@@ -56113,7 +55630,7 @@
                   },
                   {
                     "id": "WR-UNIV-HEAVY",
-                    "details": "Repos"
+                    "details": "Reposition"
                   },
                   {
                     "id": "WR-UNIV-LIMITED",
@@ -56148,12 +55665,6 @@
           }
         ],
         "abilities": [
-          {
-            "abilityId": "ORK-WK-TBROK-A-PUL",
-            "opTypeId": "ORK-WK-TBROK",
-            "abilityName": "*Pulsa",
-            "description": "Do not select a valid target. Instead, place your Pulsa marker Visible to this operative, or on Vantage terrain of a terrain feature Visible to this operative.\nThat marker gains 1 Pulsa point, then roll attack dice: \nIt gains 1 additional Pulsa point for each success (to a maximum of 3 additional points). Separately inflict 1D3 damage on each operative wholly within x\" of that marker, where x is that marker's Pulsa points.\nThen the action ends."
-          },
           {
             "abilityId": "ORK-WK-TBROK-A-RAMP",
             "opTypeId": "ORK-WK-TBROK",
@@ -56794,12 +56305,6 @@
             "opTypeId": "TYR-WB-KLM",
             "abilityName": "Heroic Inspiration",
             "description": "Whenever a friendly WYRMBLADE NEOPHYTE operative visible to and within 3\" of this operative is shooting, fighting or retaliating, if this operative has incapacitated an enemy operative during this turning point, that friendly operative’s weapons have the Severe weapon rule."
-          },
-          {
-            "abilityId": "TYR-WB-KLM-A-HS",
-            "opTypeId": "TYR-WB-KLM",
-            "abilityName": "*Hypersense",
-            "description": "Whenever this operative is shooting with this weapon profile, enemy operatives cannot be obscured."
           }
         ],
         "options": [],
@@ -57242,12 +56747,6 @@
             "opTypeId": "TYR-WB-HGNR",
             "abilityName": "Familiar Territory",
             "description": "When setting up a WYRMBLADE kill team before the battle, one third of your kill team can be set up in HIDING: place them to one side instead of in the killzone.\nCULT AGENT operatives cannot be set up in HIDING.  \n\nIn the Firefight phase, friendly WYRMBLADE operatives set up in HIDING are activated as normal.\nWhen you do, you can either expend that operative or have it emerge. If it emerges, set it up in the killzone in a location it can be placed as follows (it’s no longer set up in HIDING):\n\n- Wholly within 6\" of your drop zone.\n- More than 6\" from enemy operatives.\n- With an order of your choice.\n\nThe operative is treated as performing the Reposition action (spend the AP accordingly), then continue its activation as normal. If the operative is a WARRIOR, ignore its Group Activation rule.\nFriendly operatives still in HIDING at the end of the second turning point are incapacitated."
-          },
-          {
-            "abilityId": "TYR-WB-HGNR-A-HWBP",
-            "opTypeId": "TYR-WB-HGNR",
-            "abilityName": "Heavy Weapon Bipod",
-            "description": "Whenever this operative is shooting with a weapon from its datacard, if it hasn’t moved during the activation, or if it’s a counteraction, that weapon has the Ceaseless weapon rule;\nif the weapon already has that weapon rule (i.e. from the Cult Ambush faction rule), it has the Relentless weapon rule.\nNote this operative isn’t restricted from moving after shooting."
           }
         ],
         "options": [],
