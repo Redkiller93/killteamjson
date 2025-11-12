@@ -2,8 +2,8 @@
   {
     "factionId": "IMP",
     "killteamId": "IMP-AOD",
-    "version": "",
-    "file": "",
+    "version": "October '25",
+    "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_angels_of_death-izke7kijsn-r2qyap8d7a.pdf",
     "killteamName": "Angels Of Death",
     "description": "Genetically modified transhuman warriors, Space Marines are amongst Humanity\u2019s most elite fighting forces.\nAngels of Death kill teams are composed of elite specialists trained in myriad forms of combat, who are capable of overcoming almost any foe.",
     "composition": "An ANGELS OF DEATH KillTeam is composed of:\n \n- 1 ANGEL OF DEATH operative selected from the following list:\n  - ASSAULT INTERCESSOR SERGEANT with one option from each of the following:\n    - Hand flamer or heavy bolt pistol\n    - Chainsword, power fist, power weapon or thunder hammer  \n    - Or the following option:\n      - Plasma pistol; chainsword\n  - INTERCESSOR SERGEANT with one option  from each of the following:\n    - Auto bolt rifle, bolt rifle or stalker bolt rifle\n    - Chainsword, fists, power fist, power weapon or thunder hammer\n  - SPACE MARINE CAPTAIN\n- 5 ANGEL OF DEATH operatives selected from the following list:\n  - ASSAULT INTERCESSOR GRENADIER\n  - ASSAULT INTERCESSOR WARRIOR\n  - ELIMINATOR SNIPER*\n  - HEAVY INTERCESSOR GUNNER*\n  - INTERCESSOR GUNNER with auxiliary grenade launcher and one of the following options:\n    - Auto bolt rifle; fists\n    - Bolt rifle; fists\n    - Stalker bolt rifle; fists    \n  - INTERCESSOR WARRIOR with one of the following options:\n    - Auto bolt rifle; fists\n    - Bolt rifle; fists\n    - Stalker bolt rifle; fists\n\nOther than WARRIOR operatives, your kill team can only include each operative on this list once.  \n*You cannot select more than one of these operatives combined.\n\nSome ANGEL OF DEATH rules refer to a 'bolt weapon'. This is a ranged weapon that includes 'bolt' in its name, e.g. stalker bolt rifle, heavy bolt pistol, etc.\n\n---\n\n**Chapter Tactics:**  \nWhen selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.\n",
@@ -88,7 +88,7 @@
             "opTypeId": "IMP-AOD-CPT",
             "abilityName": "Heroic Leader",
             "AP": null,
-            "description": "Once per turning point, you can use a firefight ploy for 0CP if this is the specified ANGEL OF DEATH operative (excluding Command Re-roll),\nor the Adjust Doctrine firefight ploy for 0CP if this operative is in the killzone and not within control range of enemy operatives."
+            "description": "Once per turning point, you can do one of the following:\n- Use a firefight ploy for 0CP if this is the specified ANGEL OF DEATH operative (excluding Command Re-roll).\n- Use the Combat Doctrine strategy ploy when you activate a friendly ANGEL OF DEATH operative if this operative is in the killzone and isn’t within control range of enemy operatives (pay its CP cost as normal). Note that you cannot do so if you’ve already used that ploy during this turning point.\n- Use the Adjust Doctrine firefight ploy for 0CP if this operative is in the killzone and not within control range of enemy operatives."
           },
           {
             "abilityId": "IMP-AOD-CPT-A-IH",
@@ -120,7 +120,7 @@
             "opTypeId": "IMP-AOD-CPT",
             "seq": 102,
             "optionName": "[CT] Hardy",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever an operative is shooting this operative, defence dice results of 5+ are critical successes.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever an operative is shooting this operative, defence dice results of 5+ are critical successes. Whenever this operative is retaliating, the first time an attack dice inflicts Normal Dmg of 3 or more on this operative during that sequence, that dice inflicts 1 less damage on it.",
             "effects": ""
           },
           {
@@ -136,7 +136,7 @@
             "opTypeId": "IMP-AOD-CPT",
             "seq": 104,
             "optionName": "[CT] Resolute",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nYou can ignore any changes to this operative's APL stat.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nYou can ignore any changes to this operative's APL stat and it isn’t affected by enemy operatives’ Shock weapon rule.",
             "effects": ""
           },
           {
@@ -144,7 +144,7 @@
             "opTypeId": "IMP-AOD-CPT",
             "seq": 105,
             "optionName": "[CT] Sharpshooter",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever this operative is shooting during an activation in which it has not performed the Charge, Fall Back or Reposition action, its bolt weapons have the Severe weapon rule.\n\n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever this operative is shooting during an activation in which it has not performed the Charge, Fall Back or Reposition action, its bolt weapons have the Accurate 1 and Severe weapon rules.\n\n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
             "effects": ""
           },
           {
@@ -152,7 +152,7 @@
             "opTypeId": "IMP-AOD-CPT",
             "seq": 106,
             "optionName": "[CT] Siege Specialist",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nThis operative's ranged weapons have the Saturate weapon rule.\n\n**Saturate:** The defender cannot retain Cover saves.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nThis operative's ranged weapons have the Saturate weapon rule.\n\n**Saturate:** The defender cannot retain Cover saves.\n\nWhenever this operative is fighting or retaliating, enemy operatives cannot assist.",
             "effects": "weptype:R|SR:Sat"
           },
           {
@@ -378,7 +378,7 @@
             "opTypeId": "IMP-AOD-ASGT",
             "seq": 102,
             "optionName": "[CT] Hardy",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever an operative is shooting this operative, defence dice results of 5+ are critical successes.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever an operative is shooting this operative, defence dice results of 5+ are critical successes. Whenever this operative is retaliating, the first time an attack dice inflicts Normal Dmg of 3 or more on this operative during that sequence, that dice inflicts 1 less damage on it.",
             "effects": ""
           },
           {
@@ -394,7 +394,7 @@
             "opTypeId": "IMP-AOD-ASGT",
             "seq": 104,
             "optionName": "[CT] Resolute",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nYou can ignore any changes to this operative's APL stat.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nYou can ignore any changes to this operative's APL stat and it isn’t affected by enemy operatives’ Shock weapon rule.",
             "effects": ""
           },
           {
@@ -402,7 +402,7 @@
             "opTypeId": "IMP-AOD-ASGT",
             "seq": 105,
             "optionName": "[CT] Sharpshooter",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever this operative is shooting during an activation in which it has not performed the Charge, Fall Back or Reposition action, its bolt weapons have the Severe weapon rule.\n\n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever this operative is shooting during an activation in which it has not performed the Charge, Fall Back or Reposition action, its bolt weapons have the Accurate 1 and Severe weapon rules.\n\n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
             "effects": ""
           },
           {
@@ -410,7 +410,7 @@
             "opTypeId": "IMP-AOD-ASGT",
             "seq": 106,
             "optionName": "[CT] Siege Specialist",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nThis operative's ranged weapons have the Saturate weapon rule.\n\n**Saturate:** The defender cannot retain Cover saves.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nThis operative's ranged weapons have the Saturate weapon rule.\n\n**Saturate:** The defender cannot retain Cover saves.\n\nWhenever this operative is fighting or retaliating, enemy operatives cannot assist.",
             "effects": "weptype:R|SR:Sat"
           },
           {
@@ -656,7 +656,7 @@
             "opTypeId": "IMP-AOD-ISGT",
             "seq": 102,
             "optionName": "[CT] Hardy",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever an operative is shooting this operative, defence dice results of 5+ are critical successes.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever an operative is shooting this operative, defence dice results of 5+ are critical successes. Whenever this operative is retaliating, the first time an attack dice inflicts Normal Dmg of 3 or more on this operative during that sequence, that dice inflicts 1 less damage on it.",
             "effects": ""
           },
           {
@@ -672,7 +672,7 @@
             "opTypeId": "IMP-AOD-ISGT",
             "seq": 104,
             "optionName": "[CT] Resolute",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nYou can ignore any changes to this operative's APL stat.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nYou can ignore any changes to this operative's APL stat and it isn’t affected by enemy operatives’ Shock weapon rule.",
             "effects": ""
           },
           {
@@ -680,7 +680,7 @@
             "opTypeId": "IMP-AOD-ISGT",
             "seq": 105,
             "optionName": "[CT] Sharpshooter",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever this operative is shooting during an activation in which it has not performed the Charge, Fall Back or Reposition action, its bolt weapons have the Severe weapon rule.\n\n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever this operative is shooting during an activation in which it has not performed the Charge, Fall Back or Reposition action, its bolt weapons have the Accurate 1 and Severe weapon rules.\n\n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
             "effects": ""
           },
           {
@@ -688,7 +688,7 @@
             "opTypeId": "IMP-AOD-ISGT",
             "seq": 106,
             "optionName": "[CT] Siege Specialist",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nThis operative's ranged weapons have the Saturate weapon rule.\n\n**Saturate:** The defender cannot retain Cover saves.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nThis operative's ranged weapons have the Saturate weapon rule.\n\n**Saturate:** The defender cannot retain Cover saves.\n\nWhenever this operative is fighting or retaliating, enemy operatives cannot assist.",
             "effects": "weptype:R|SR:Sat"
           },
           {
@@ -851,7 +851,7 @@
             "opTypeId": "IMP-AOD-SNP",
             "seq": 102,
             "optionName": "[CT] Hardy",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever an operative is shooting this operative, defence dice results of 5+ are critical successes.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever an operative is shooting this operative, defence dice results of 5+ are critical successes. Whenever this operative is retaliating, the first time an attack dice inflicts Normal Dmg of 3 or more on this operative during that sequence, that dice inflicts 1 less damage on it.",
             "effects": ""
           },
           {
@@ -867,7 +867,7 @@
             "opTypeId": "IMP-AOD-SNP",
             "seq": 104,
             "optionName": "[CT] Resolute",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nYou can ignore any changes to this operative's APL stat.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nYou can ignore any changes to this operative's APL stat and it isn’t affected by enemy operatives’ Shock weapon rule.",
             "effects": ""
           },
           {
@@ -875,7 +875,7 @@
             "opTypeId": "IMP-AOD-SNP",
             "seq": 105,
             "optionName": "[CT] Sharpshooter",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever this operative is shooting during an activation in which it has not performed the Charge, Fall Back or Reposition action, its bolt weapons have the Severe weapon rule.\n\n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever this operative is shooting during an activation in which it has not performed the Charge, Fall Back or Reposition action, its bolt weapons have the Accurate 1 and Severe weapon rules.\n\n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
             "effects": ""
           },
           {
@@ -883,7 +883,7 @@
             "opTypeId": "IMP-AOD-SNP",
             "seq": 106,
             "optionName": "[CT] Siege Specialist",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nThis operative's ranged weapons have the Saturate weapon rule.\n\n**Saturate:** The defender cannot retain Cover saves.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nThis operative's ranged weapons have the Saturate weapon rule.\n\n**Saturate:** The defender cannot retain Cover saves.\n\nWhenever this operative is fighting or retaliating, enemy operatives cannot assist.",
             "effects": "weptype:R|SR:Sat"
           },
           {
@@ -1032,7 +1032,7 @@
             "opTypeId": "IMP-AOD-GRN",
             "seq": 102,
             "optionName": "[CT] Hardy",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever an operative is shooting this operative, defence dice results of 5+ are critical successes.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever an operative is shooting this operative, defence dice results of 5+ are critical successes. Whenever this operative is retaliating, the first time an attack dice inflicts Normal Dmg of 3 or more on this operative during that sequence, that dice inflicts 1 less damage on it.",
             "effects": ""
           },
           {
@@ -1048,7 +1048,7 @@
             "opTypeId": "IMP-AOD-GRN",
             "seq": 104,
             "optionName": "[CT] Resolute",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nYou can ignore any changes to this operative's APL stat.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nYou can ignore any changes to this operative's APL stat and it isn’t affected by enemy operatives’ Shock weapon rule.",
             "effects": ""
           },
           {
@@ -1056,7 +1056,7 @@
             "opTypeId": "IMP-AOD-GRN",
             "seq": 105,
             "optionName": "[CT] Sharpshooter",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever this operative is shooting during an activation in which it has not performed the Charge, Fall Back or Reposition action, its bolt weapons have the Severe weapon rule.\n\n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever this operative is shooting during an activation in which it has not performed the Charge, Fall Back or Reposition action, its bolt weapons have the Accurate 1 and Severe weapon rules.\n\n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
             "effects": ""
           },
           {
@@ -1064,7 +1064,7 @@
             "opTypeId": "IMP-AOD-GRN",
             "seq": 106,
             "optionName": "[CT] Siege Specialist",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nThis operative's ranged weapons have the Saturate weapon rule.\n\n**Saturate:** The defender cannot retain Cover saves.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nThis operative's ranged weapons have the Saturate weapon rule.\n\n**Saturate:** The defender cannot retain Cover saves.\n\nWhenever this operative is fighting or retaliating, enemy operatives cannot assist.",
             "effects": "weptype:R|SR:Sat"
           },
           {
@@ -1166,7 +1166,7 @@
             "opTypeId": "IMP-AOD-AWAR",
             "seq": 102,
             "optionName": "[CT] Hardy",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever an operative is shooting this operative, defence dice results of 5+ are critical successes.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever an operative is shooting this operative, defence dice results of 5+ are critical successes. Whenever this operative is retaliating, the first time an attack dice inflicts Normal Dmg of 3 or more on this operative during that sequence, that dice inflicts 1 less damage on it.",
             "effects": ""
           },
           {
@@ -1182,7 +1182,7 @@
             "opTypeId": "IMP-AOD-AWAR",
             "seq": 104,
             "optionName": "[CT] Resolute",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nYou can ignore any changes to this operative's APL stat.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nYou can ignore any changes to this operative's APL stat and it isn’t affected by enemy operatives’ Shock weapon rule.",
             "effects": ""
           },
           {
@@ -1190,7 +1190,7 @@
             "opTypeId": "IMP-AOD-AWAR",
             "seq": 105,
             "optionName": "[CT] Sharpshooter",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever this operative is shooting during an activation in which it has not performed the Charge, Fall Back or Reposition action, its bolt weapons have the Severe weapon rule.\n\n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever this operative is shooting during an activation in which it has not performed the Charge, Fall Back or Reposition action, its bolt weapons have the Accurate 1 and Severe weapon rules.\n\n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
             "effects": ""
           },
           {
@@ -1198,7 +1198,7 @@
             "opTypeId": "IMP-AOD-AWAR",
             "seq": 106,
             "optionName": "[CT] Siege Specialist",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nThis operative's ranged weapons have the Saturate weapon rule.\n\n**Saturate:** The defender cannot retain Cover saves.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nThis operative's ranged weapons have the Saturate weapon rule.\n\n**Saturate:** The defender cannot retain Cover saves.\n\nWhenever this operative is fighting or retaliating, enemy operatives cannot assist.",
             "effects": "weptype:R|SR:Sat"
           },
           {
@@ -1310,7 +1310,7 @@
             "opTypeId": "IMP-AOD-HGNR",
             "seq": 102,
             "optionName": "[CT] Hardy",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever an operative is shooting this operative, defence dice results of 5+ are critical successes.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever an operative is shooting this operative, defence dice results of 5+ are critical successes. Whenever this operative is retaliating, the first time an attack dice inflicts Normal Dmg of 3 or more on this operative during that sequence, that dice inflicts 1 less damage on it.",
             "effects": ""
           },
           {
@@ -1326,7 +1326,7 @@
             "opTypeId": "IMP-AOD-HGNR",
             "seq": 104,
             "optionName": "[CT] Resolute",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nYou can ignore any changes to this operative's APL stat.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nYou can ignore any changes to this operative's APL stat and it isn’t affected by enemy operatives’ Shock weapon rule.",
             "effects": ""
           },
           {
@@ -1334,7 +1334,7 @@
             "opTypeId": "IMP-AOD-HGNR",
             "seq": 105,
             "optionName": "[CT] Sharpshooter",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever this operative is shooting during an activation in which it has not performed the Charge, Fall Back or Reposition action, its bolt weapons have the Severe weapon rule.\n\n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever this operative is shooting during an activation in which it has not performed the Charge, Fall Back or Reposition action, its bolt weapons have the Accurate 1 and Severe weapon rules.\n\n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
             "effects": ""
           },
           {
@@ -1342,7 +1342,7 @@
             "opTypeId": "IMP-AOD-HGNR",
             "seq": 106,
             "optionName": "[CT] Siege Specialist",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nThis operative's ranged weapons have the Saturate weapon rule.\n\n**Saturate:** The defender cannot retain Cover saves.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nThis operative's ranged weapons have the Saturate weapon rule.\n\n**Saturate:** The defender cannot retain Cover saves.\n\nWhenever this operative is fighting or retaliating, enemy operatives cannot assist.",
             "effects": "weptype:R|SR:Sat"
           },
           {
@@ -1524,7 +1524,7 @@
             "opTypeId": "IMP-AOD-GNR",
             "seq": 102,
             "optionName": "[CT] Hardy",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever an operative is shooting this operative, defence dice results of 5+ are critical successes.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever an operative is shooting this operative, defence dice results of 5+ are critical successes. Whenever this operative is retaliating, the first time an attack dice inflicts Normal Dmg of 3 or more on this operative during that sequence, that dice inflicts 1 less damage on it.",
             "effects": ""
           },
           {
@@ -1540,7 +1540,7 @@
             "opTypeId": "IMP-AOD-GNR",
             "seq": 104,
             "optionName": "[CT] Resolute",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nYou can ignore any changes to this operative's APL stat.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nYou can ignore any changes to this operative's APL stat and it isn’t affected by enemy operatives’ Shock weapon rule.",
             "effects": ""
           },
           {
@@ -1548,7 +1548,7 @@
             "opTypeId": "IMP-AOD-GNR",
             "seq": 105,
             "optionName": "[CT] Sharpshooter",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever this operative is shooting during an activation in which it has not performed the Charge, Fall Back or Reposition action, its bolt weapons have the Severe weapon rule.\n\n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever this operative is shooting during an activation in which it has not performed the Charge, Fall Back or Reposition action, its bolt weapons have the Accurate 1 and Severe weapon rules.\n\n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
             "effects": ""
           },
           {
@@ -1556,7 +1556,7 @@
             "opTypeId": "IMP-AOD-GNR",
             "seq": 106,
             "optionName": "[CT] Siege Specialist",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nThis operative's ranged weapons have the Saturate weapon rule.\n\n**Saturate:** The defender cannot retain Cover saves.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nThis operative's ranged weapons have the Saturate weapon rule.\n\n**Saturate:** The defender cannot retain Cover saves.\n\nWhenever this operative is fighting or retaliating, enemy operatives cannot assist.",
             "effects": "weptype:R|SR:Sat"
           },
           {
@@ -1708,7 +1708,7 @@
             "opTypeId": "IMP-AOD-WAR",
             "seq": 102,
             "optionName": "[CT] Hardy",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever an operative is shooting this operative, defence dice results of 5+ are critical successes.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever an operative is shooting this operative, defence dice results of 5+ are critical successes. Whenever this operative is retaliating, the first time an attack dice inflicts Normal Dmg of 3 or more on this operative during that sequence, that dice inflicts 1 less damage on it.",
             "effects": ""
           },
           {
@@ -1724,7 +1724,7 @@
             "opTypeId": "IMP-AOD-WAR",
             "seq": 104,
             "optionName": "[CT] Resolute",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nYou can ignore any changes to this operative's APL stat.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nYou can ignore any changes to this operative's APL stat and it isn’t affected by enemy operatives’ Shock weapon rule.",
             "effects": ""
           },
           {
@@ -1732,7 +1732,7 @@
             "opTypeId": "IMP-AOD-WAR",
             "seq": 105,
             "optionName": "[CT] Sharpshooter",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever this operative is shooting during an activation in which it has not performed the Charge, Fall Back or Reposition action, its bolt weapons have the Severe weapon rule.\n\n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever this operative is shooting during an activation in which it has not performed the Charge, Fall Back or Reposition action, its bolt weapons have the Accurate 1 and Severe weapon rules.\n\n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
             "effects": ""
           },
           {
@@ -1740,7 +1740,7 @@
             "opTypeId": "IMP-AOD-WAR",
             "seq": 106,
             "optionName": "[CT] Siege Specialist",
-            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nThis operative's ranged weapons have the Saturate weapon rule.\n\n**Saturate:** The defender cannot retain Cover saves.",
+            "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nThis operative's ranged weapons have the Saturate weapon rule.\n\n**Saturate:** The defender cannot retain Cover saves.\n\nWhenever this operative is fighting or retaliating, enemy operatives cannot assist.",
             "effects": "weptype:R|SR:Sat"
           },
           {
@@ -34894,8 +34894,8 @@
   {
     "factionId": "CHAOS",
     "killteamId": "CHAOS-NC",
-    "version": "",
-    "file": "",
+    "version": "October '25",
+    "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_nemesis_claw-peo49ae3hw-pmnycgsgle.pdf",
     "killteamName": "Nemesis Claw",
     "description": "The Night Lords are synonymous with terror and murder, for their favoured mode of warfare is the unfettered application of brutal, overwhelming force. They show no mercy whatsoever, eschewing all subtlety and guile for wanton bloodshed and destruction.\n  \n  \n\nThe Night Lords do not worship any of the four major Chaos Gods individually, but acknowledge them equally in the form of Chaos Undivided as they ruthlessly spread terror and fear amongst the galaxy's inhabitants. The Night Lords are experts in the use of terror tactics to win battles and demoralise their foes before the main combat even begins. ",
     "composition": "A NEMESIS CLAW KillTeam is composed of:\n\n- 1 NEMESIS CLAW Visionary with one of the following options:\n  - Bolt pistol, power fist\n  - Bolt pistol, power maul\n  - Bolt pistol, power weapon\n  - Plasma Pistol, Nostraman Chainblade\n- 5 Nemesis Claw operatives selected from the following list:\n  - Fearmonger\n  - Gunner with one of the following options:\n    - Bolt Pistol, Flamer, Fists\n      - Bolt Pistol, Meltagun, Fists\n      - Bolt Pistol, Plasma Gun, Fists   \n  - Heavy Gunner with one of the following options:\n    - Bolt Pistol, Heavy Bolter, Fists\n    - Bolt Pistol, Missile Launcher, Fists    \n  - Screecher\n  - Skinthief\n  - Ventrilokar\n  - Warrior with one of the following options:\n    - Bolt pistol, Chainsword\n    - Boltgun, Fists\n  \n",
@@ -35930,7 +35930,7 @@
         "ployType": "T",
         "seq": 1,
         "ployName": "Vox Scream",
-        "description": "Use this firefight ploy when your opponent would activate an enemy operative. Your opponent cannot activate that operative this activation.\nIf there are no other enemy operatives eligible to be activated , this ploy has no effect.\nThis ploy costs you 1 additional CP for each previous time you've used it during the battle (e.g, 1 CP the first time you would use it, 2CP the second time, etc)."
+        "description": "Use this firefight ploy when your opponent would activate an enemy operative that’s visible to a friendly NEMESIS CLAW operative. Roll one D6; if the result is higher than that enemy operative’s APL stat, your opponent cannot activate it during this activation; if the result is less than or equal to that enemy operative’s APL stat, this ploy isn’t used, the CP spent on it is refunded and you cannot use this ploy again during this turning point. If there are no other enemy operatives eligible to be activated, this ploy has no effect."
       }
     ],
     "equipments": [
