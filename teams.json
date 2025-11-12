@@ -22,7 +22,7 @@
         "SAVE": "3+",
         "WOUNDS": 15,
         "keywords": "ANGEL OF DEATH, IMPERIUM, ADEPTUS ASTARTES, LEADER, SPACE MARINE CAPTAIN",
-        "basesize": 32,
+        "basesize": 40,
         "weapons": [
           {
             "wepId": "IMP-AOD-CPT-PP",
@@ -716,7 +716,7 @@
         "SAVE": "3+",
         "WOUNDS": 12,
         "keywords": "ANGEL OF DEATH, IMPERIUM, ADEPTUS ASTARTES, ELIMINATOR, SNIPER",
-        "basesize": 32,
+        "basesize": 40,
         "weapons": [
           {
             "wepId": "IMP-AOD-SNP-BP",
@@ -1226,7 +1226,7 @@
         "SAVE": "3+",
         "WOUNDS": 18,
         "keywords": "ANGEL OF DEATH, IMPERIUM, ADEPTUS ASTARTES, HEAVY INTERCESSOR, GUNNER",
-        "basesize": 32,
+        "basesize": 40,
         "weapons": [
           {
             "wepId": "IMP-AOD-HGNR-HB",
