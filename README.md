@@ -207,3 +207,28 @@ If you find any errors, inconsistencies, or missing data in the JSON files, plea
 
 Thank you for contributing to the Kill Team JSON dataset!
 
+## Translation
+
+This project supports translation into multiple languages. See [TRANSLATION_GUIDE.md](TRANSLATION_GUIDE.md) for detailed information on:
+
+- Translation approaches and recommendations
+- Which fields should be translated
+- How to maintain translations
+- Tooling for translation validation
+
+**Quick Start for Translators:**
+
+1. Copy the English JSON file (e.g., `teams.json` → `teams.fr.json`)
+2. Translate all user-facing string fields (names, descriptions, etc.)
+3. Keep all IDs and structure identical
+4. Validate using `python tools/validate_translation.py en/teams.json es/teams.json`
+5. Check completeness using `python tools/check_translation_completeness.py en/teams.json es/teams.json`
+
+**Translation Tooling:**
+All translation tools are located in the `tools/` folder:
+- `tools/validate_translation.py` - Validates structure matches English base
+- `tools/extract_translatables.py` - Extracts translatable strings for translation services
+- `tools/check_translation_completeness.py` - Reports translation progress
+
+See [TRANSLATION_GUIDE.md](TRANSLATION_GUIDE.md) for full details.
+
