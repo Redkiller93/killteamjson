@@ -10,6 +10,106 @@
     "Recon",
     "Security"
   ],
+  "ploys": [
+    {
+      "ployId": "IMP-ESS-S-LP",
+      "killteamId": "IMP-ESS",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Lethal Proximity",
+      "description": "Whenever a friendly ELUCIDIAN STARSTRIDER operative is shooting an operative within 6\" of it, that friendly operative's ranged weapons (excluding PRIVATEER SUPPORT ASSET weapons) have the Balanced weapon rule.  \n**Balanced:** Can re-roll one Attack die."
+    },
+    {
+      "ployId": "IMP-ESS-S-QM",
+      "killteamId": "IMP-ESS",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Quick March",
+      "description": "Whenever a friendly ELUCIDIAN STARSTRIDER operative performs the Reposition action during its activation, you can use this rule. If you do, add 1\" to its Move stat until the end of that activation, but it must end that move closer to your opponent's drop zone and cannot use a PRIVATEER SUPPORT ASSET during that activation."
+    },
+    {
+      "ployId": "IMP-ESS-S-SC",
+      "killteamId": "IMP-ESS",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Stake Claim",
+      "description": "Place your Claim marker in the killzone. Whenever a friendly ELUCIDIAN STARSTRIDER operative is shooting against, fighting against or retaliating against an enemy operative that's within 3\" of that marker, that friendly operative's weapons have the Accurate 1 weapon rule. In the Ready step of the next Strategy phase, remove that marker.  \n**Accurate 1:** You can retain 1 Attack Die as a normal success without rolling it."
+    },
+    {
+      "ployId": "IMP-ESS-S-UX",
+      "killteamId": "IMP-ESS",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Undaunted Explorers",
+      "description": "The first time an attack dice inflicts damage on each friendly ELUCIDIAN STARSTRIDER operative during the turning point in the Resolve Attack Dice step, you can halve that inflicted damage (rounding up, to a minimum of 2)."
+    },
+    {
+      "ployId": "IMP-ESS-T-CA",
+      "killteamId": "IMP-ESS",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Combined Arms",
+      "description": "Use this firefight ploy after rolling your attack dice for a friendly ELUCIDIAN STARSTRIDER operative, if it's shooting an enemy operative that's been shot by another friendly ELUCIDIAN STARSTRIDER operative during this turning point. You can re-roll any of your attack dice. You cannot use this ploy while shooting with a PRIVATEER SUPPORT ASSET."
+    },
+    {
+      "ployId": "IMP-ESS-T-GE",
+      "killteamId": "IMP-ESS",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Great Endurance",
+      "description": "Use this firefight ploy during a friendly ELUCIDIAN STARSTRIDER NAVIS operative's activation. Until the end of the activation, add 1 to its APL stat."
+    },
+    {
+      "ployId": "IMP-ESS-T-SURV",
+      "killteamId": "IMP-ESS",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Survivalist",
+      "description": "Use this firefight ploy when a friendly ELUCIDIAN STARSTRIDER operative is activated that's not within control range of enemy operatives. That friendly operative regains up to D3+2 lost wounds. You cannot use this ploy for each friendly operative more than once per battle."
+    },
+    {
+      "ployId": "IMP-ESS-T-WD",
+      "killteamId": "IMP-ESS",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Well-Drilled",
+      "description": "Use this firefight ploy when a friendly ELUCIDIAN STARSTRIDER NAVIS operative is activated. Select one other ready friendly ELUCIDIAN STARSTRIDER NAVIS operative visible to and within 3\" of that operative.\nWhen that first friendly operative is expended, you can activate that other friendly operative before your opponent activates.\nWhen that other operative is expended, your opponent then activates as normal."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "IMP-ESS-AUS",
+      "killteamId": "IMP-ESS",
+      "seq": 1,
+      "eqName": "Armoured Undersuit",
+      "description": "Whenever an operative is shooting a friendly ELUCIDIAN STARSTRIDER operative that has a 5+ Save stat (excluding CANID), you can retain one of your defence dice results of 4 as a normal success.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-ESS-HSCP",
+      "killteamId": "IMP-ESS",
+      "seq": 2,
+      "eqName": "Hot Shot Capacitor Pack",
+      "description": "Up to twice per turning point, whenever a friendly ELUCIDIAN STARSTRIDER operative is performing the Shoot action and you select a laspistol or lasgun, you can use this rule.\nIf you do, until the end of the turning point, add 1 to both Dmg stats of that weapon and it has the Hot and Piercing Crits 1 weapon rules. Note that relic laspistols are excluded from this rule.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-ESS-ICUL",
+      "killteamId": "IMP-ESS",
+      "seq": 3,
+      "eqName": "Improved Coordinates Uplink",
+      "description": "Whenever a friendly ELUCIDIAN STARSTRIDER operative is using a PRIVATEER SUPPORT ASSET, if the target is within 6\" of a friendly ELUCIDIAN STARSTRIDER NAVIS operative, the target cannot be obscured and that weapon has the Saturate weapon rule.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-ESS-RG",
+      "killteamId": "IMP-ESS",
+      "seq": 4,
+      "eqName": "Rapid Gunnery",
+      "description": "Once per battle, when selecting a PRIVATEER SUPPORT ASSET, you can select one that has already been used during the battle. This takes precedence over the normal PRIVATEER SUPPORT ASSET rules.",
+      "effects": ""
+    }
+  ],
   "opTypes": [
     {
       "opTypeId": "IMP-ESS-EV",
@@ -118,8 +218,7 @@
           "abilityName": "Warrant Of  Trade",
           "description": "Up to three times per battle, you can use a WARRANT OF TRADE rule (below). Each one specifies when it can be used, and you cannot use the same WARRANT OF TRADE rule more than once per battle.  \n  \n\n**Consideration**\n- When: In the Select Operatives step, after revealing your equipment options.\n- Effect: Select one additional equipment option. It cannot be an option you have previously selected.\n  \n\n**Coordinate**  \n\n- When: At the end of the Select Operatives step.\nEffect: You gain 1 additional CP.\n  \n\n**Coerce**\n- When: At the start of the Set Up Operatives step.\n- Effect: Select one of the following options:\n\n- Your opponent must set up all of their equipment before you set up any.\n- You can set up all of your equipment before your opponent sets up any.\n- Your opponent must set up all of their operatives before you set up any.\n\n  \n\n\n**Explore**  \n\n- When: STRATEGIC GAMBIT in the first turning point.\n- Effect: Perform a free Reposition action with one friendly ELUCIDIAN STARSTRIDER operative that's wholly within your drop zone. It must end that move wholly within 3\" of your drop zone.\n  \n\n\n**Bribe**  \n\n- When: It's your turn to activate an operative.\n- Effect: You can skip that activation.\n  \n\n\n**Seize**  \n\n- When: In the Strategy phase, after rolling off to decide initiative.\n- Effect: You can re-roll your dice.\n  \n\n\n**Adaptable Terms (Approved Ops only)**  \n\n- When: At the end of the second turning point.\n- Effect: Select a new tac op or a new primary op. If you select a new tac op, any points scored from the previous tac op are discarded."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-ESS-CAN",
@@ -183,8 +282,7 @@
           "AP": 1,
           "description": "Perform a free Dash or Reposition action with this operative. During that move, you can perform a free Pick Up Marker or Place Marker action with this operative\n(you can determine control during that action to do so), and any remaining move distance it had from the Dash or Reposition action can be used after it does so."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-ESS-DCE",
@@ -283,8 +381,7 @@
           "AP": 1,
           "description": "Change this operative's order.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-ESS-LM",
@@ -370,8 +467,7 @@
           "AP": 0,
           "description": "Select one of the following effects to last until the start of this operative's next activation, until it's incapacitated or until it performs this action again (whichever comes first):\n\n- Charge: This operative's voltaic pistol has the Lethal 4+ weapon rule.\n- Field: Whenever an enemy operative ends the Charge, Dash, Fall Back or Reposition action visible to and within 4\" of this operative, inflict D6 damage on that enemy operative.\n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-ESS-REJAD",
@@ -453,8 +549,7 @@
           "AP": 1,
           "description": "Select one friendly ELUCIDIAN STARSTRIDER operative within this operative's control range to regain up to D3+3 lost wounds. It cannot be an operative that the Medic! rule was used on during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-ESS-VMST",
@@ -576,8 +671,7 @@
           "AP": 1,
           "description": "Perform two free Shoot actions with this operative (this takes precedence over action restrictions). You must select its relic laspistol for one action and its artificer shotgun (close range) for the other (in any order).  \n\r This operative cannot perform this action while it has a Conceal order, or during an activation in which it performed the Shoot action (or vice versa)."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-ESS-VM",
@@ -692,108 +786,7 @@
           "abilityName": "Privateer Support Assets",
           "description": "Once per firefight phase, when a friendly ELUCIDIAN STARSTRIDER NAVIS or ELUCIDIAN STARSTRIDER ELUCIA VHANE operative performs the Shoot action, you can select one of the following PRIVATEER SUPPORT ASSET ranged weapons for it to use. You cannot use each PRIVATEER SUPPORT ASSET more than once per battle.  \n \nWhenever a friendly ELUCIDIAN STARSTRIDER operative is using a PRIVATEER SUPPORT ASSET, determine cover saves differently. Instead, the target has a cover save if any part of its base is underneath Vantage terrain. Note that while this can affect the target's cover save, you must still select a valid target as normal. In other words, the shot is guided by an operative in the killzone, but it comes from above.\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|---|:---:|:---:|:---:|\n|Archeotech Beam|4|3+|6/7|\n|Heavy (Repos), Piercing 2, Silent||||\n|Plasma Battery|5|4+|5/6|\n|Heavy (Repos), Lethal 5+, Piercing 1, Silent||||\n|Macrocannon|5|4|4/5|\n|Heavy (Repos), Piercing Crit 1, Saturate, Silent, Torrent 2\"||||\n|Guided Shell|5|4+|3/4|\n|Heavy (Repos), Blast 2\", Silent||||\n|Cluster Bomb|5|4+|2/3|\n|Heavy (Repos), Blast 3\", Silent||||"
         }
-      ],
-      "options": []
-    }
-  ],
-  "ploys": [
-    {
-      "ployId": "IMP-ESS-S-LP",
-      "killteamId": "IMP-ESS",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Lethal Proximity",
-      "description": "Whenever a friendly ELUCIDIAN STARSTRIDER operative is shooting an operative within 6\" of it, that friendly operative's ranged weapons (excluding PRIVATEER SUPPORT ASSET weapons) have the Balanced weapon rule.  \n**Balanced:** Can re-roll one Attack die."
-    },
-    {
-      "ployId": "IMP-ESS-S-QM",
-      "killteamId": "IMP-ESS",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Quick March",
-      "description": "Whenever a friendly ELUCIDIAN STARSTRIDER operative performs the Reposition action during its activation, you can use this rule. If you do, add 1\" to its Move stat until the end of that activation, but it must end that move closer to your opponent's drop zone and cannot use a PRIVATEER SUPPORT ASSET during that activation."
-    },
-    {
-      "ployId": "IMP-ESS-S-SC",
-      "killteamId": "IMP-ESS",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Stake Claim",
-      "description": "Place your Claim marker in the killzone. Whenever a friendly ELUCIDIAN STARSTRIDER operative is shooting against, fighting against or retaliating against an enemy operative that's within 3\" of that marker, that friendly operative's weapons have the Accurate 1 weapon rule. In the Ready step of the next Strategy phase, remove that marker.  \n**Accurate 1:** You can retain 1 Attack Die as a normal success without rolling it."
-    },
-    {
-      "ployId": "IMP-ESS-S-UX",
-      "killteamId": "IMP-ESS",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Undaunted Explorers",
-      "description": "The first time an attack dice inflicts damage on each friendly ELUCIDIAN STARSTRIDER operative during the turning point in the Resolve Attack Dice step, you can halve that inflicted damage (rounding up, to a minimum of 2)."
-    },
-    {
-      "ployId": "IMP-ESS-T-CA",
-      "killteamId": "IMP-ESS",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Combined Arms",
-      "description": "Use this firefight ploy after rolling your attack dice for a friendly ELUCIDIAN STARSTRIDER operative, if it's shooting an enemy operative that's been shot by another friendly ELUCIDIAN STARSTRIDER operative during this turning point. You can re-roll any of your attack dice. You cannot use this ploy while shooting with a PRIVATEER SUPPORT ASSET."
-    },
-    {
-      "ployId": "IMP-ESS-T-GE",
-      "killteamId": "IMP-ESS",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Great Endurance",
-      "description": "Use this firefight ploy during a friendly ELUCIDIAN STARSTRIDER NAVIS operative's activation. Until the end of the activation, add 1 to its APL stat."
-    },
-    {
-      "ployId": "IMP-ESS-T-SURV",
-      "killteamId": "IMP-ESS",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Survivalist",
-      "description": "Use this firefight ploy when a friendly ELUCIDIAN STARSTRIDER operative is activated that's not within control range of enemy operatives. That friendly operative regains up to D3+2 lost wounds. You cannot use this ploy for each friendly operative more than once per battle."
-    },
-    {
-      "ployId": "IMP-ESS-T-WD",
-      "killteamId": "IMP-ESS",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Well-Drilled",
-      "description": "Use this firefight ploy when a friendly ELUCIDIAN STARSTRIDER NAVIS operative is activated. Select one other ready friendly ELUCIDIAN STARSTRIDER NAVIS operative visible to and within 3\" of that operative.\nWhen that first friendly operative is expended, you can activate that other friendly operative before your opponent activates.\nWhen that other operative is expended, your opponent then activates as normal."
-    }
-  ],
-  "equipments": [
-    {
-      "eqId": "IMP-ESS-AUS",
-      "killteamId": "IMP-ESS",
-      "seq": 1,
-      "eqName": "Armoured Undersuit",
-      "description": "Whenever an operative is shooting a friendly ELUCIDIAN STARSTRIDER operative that has a 5+ Save stat (excluding CANID), you can retain one of your defence dice results of 4 as a normal success.",
-      "effects": ""
-    },
-    {
-      "eqId": "IMP-ESS-HSCP",
-      "killteamId": "IMP-ESS",
-      "seq": 2,
-      "eqName": "Hot Shot Capacitor Pack",
-      "description": "Up to twice per turning point, whenever a friendly ELUCIDIAN STARSTRIDER operative is performing the Shoot action and you select a laspistol or lasgun, you can use this rule.\nIf you do, until the end of the turning point, add 1 to both Dmg stats of that weapon and it has the Hot and Piercing Crits 1 weapon rules. Note that relic laspistols are excluded from this rule.",
-      "effects": ""
-    },
-    {
-      "eqId": "IMP-ESS-ICUL",
-      "killteamId": "IMP-ESS",
-      "seq": 3,
-      "eqName": "Improved Coordinates Uplink",
-      "description": "Whenever a friendly ELUCIDIAN STARSTRIDER operative is using a PRIVATEER SUPPORT ASSET, if the target is within 6\" of a friendly ELUCIDIAN STARSTRIDER NAVIS operative, the target cannot be obscured and that weapon has the Saturate weapon rule.",
-      "effects": ""
-    },
-    {
-      "eqId": "IMP-ESS-RG",
-      "killteamId": "IMP-ESS",
-      "seq": 4,
-      "eqName": "Rapid Gunnery",
-      "description": "Once per battle, when selecting a PRIVATEER SUPPORT ASSET, you can select one that has already been used during the battle. This takes precedence over the normal PRIVATEER SUPPORT ASSET rules.",
-      "effects": ""
+      ]
     }
   ]
 }

@@ -10,6 +10,113 @@
     "Recon",
     "Security"
   ],
+  "ploys": [
+    {
+      "ployId": "VOT-HKS-S-NK",
+      "killteamId": "VOT-HKS",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Need Keeps",
+      "description": "Select one objective marker or one of your mission markers.\n\n- Whenever determining control of that marker, treat the total APL stat of friendly HEARTHKYN SALVAGER operatives that contest it as 1 higher if at least one friendly HEARTHKYN SALVAGER operative contests that marker.\nNote this isn't a change to the APL stat, so any changes are cumulative with this.\n- Whenever a friendly HEARTHKYN SALVAGER operative is within 3\" of that marker, add 1 to the Atk stat of its melee weapons (to a maximum of 4).\n"
+    },
+    {
+      "ployId": "VOT-HKS-S-PFP",
+      "killteamId": "VOT-HKS",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Proximate Firepower",
+      "description": "Whenever a friendly HEARTHKYN SALVAGER operative is shooting an enemy operative within 6\" of it, improve the Hit stat of that friendly operative's ranged weapons by 1 (to a maximum of 3+)."
+    },
+    {
+      "ployId": "VOT-HKS-S-TE",
+      "killteamId": "VOT-HKS",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Toil Earns",
+      "description": "Select one objective marker or one of your mission markers.\nWhenever an enemy operative is within 3\" of that marker, treat it as having one additional Grudge token."
+    },
+    {
+      "ployId": "VOT-HKS-S-WD",
+      "killteamId": "VOT-HKS",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Wrought Defence",
+      "description": "Whenever an operative is shooting a friendly HEARTHKYN SALVAGER operative, if you rolled one or less successes (including any re-rolls), you can retain one of your fails as a normal success instead of discarding it."
+    },
+    {
+      "ployId": "VOT-HKS-T-TAAW",
+      "killteamId": "VOT-HKS",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "The Ancestors Are Watching",
+      "description": "Use this firefight ploy during a friendly HEARTHKYN SALVAGER operative's activation. Until the end of that activation, that operative can perform either a free Shoot or a free Fight action."
+    },
+    {
+      "ployId": "VOT-HKS-T-ST",
+      "killteamId": "VOT-HKS",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Sturdy",
+      "description": "Use this firefight ploy when an operative is shooting a friendly HEARTHKYN SALVAGER operative, when you collect your defence dice. Change the attacker's retained critical successes to normal successes\n(any weapon rules they've already resolved aren't affected, e.g. Piercing Crits)."
+    },
+    {
+      "ployId": "VOT-HKS-T-ETA",
+      "killteamId": "VOT-HKS",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Engage To Acquire",
+      "description": "Use this firefight ploy after rolling your attack dice for a friendly HEARTHKYN SALVAGER operative, if it's shooting against or fighting against an enemy operative that controls\nan objective marker or one of your mission markers. You can re-roll any of your attack dice."
+    },
+    {
+      "ployId": "VOT-HKS-T-WI",
+      "killteamId": "VOT-HKS",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Worth It",
+      "description": "Use this firefight ploy when a friendly HEARTHKYN SALVAGER operative is incapacitated. It can perform a free mission action before it's removed from the killzone."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "VOT-HKS-PK",
+      "killteamId": "VOT-HKS",
+      "seq": 1,
+      "eqName": "Plasma Knives",
+      "description": "Friendly HEARTHKYN SALVAGER operatives have the following melee weapon. Note that the FIELD MEDIC operative already has this weapon but with better stats; in that instance, use the better version.\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Plasma Knife|3|4+|3/5|\n|**Weapon Rules**|\n|Lethal 5+|",
+      "effects": "ADDWEP:Plasma Knife|M|3|4+|3/5|Lethal 5+"
+    },
+    {
+      "eqId": "VOT-HKS-CR",
+      "killteamId": "VOT-HKS",
+      "seq": 2,
+      "eqName": "Climbing Rigs",
+      "description": "Whenever a friendly HEARTHKYN SALVAGER operative is climbing, treat the vertical distance as 1\" less (to a minimum of 2\").\nNote this has no effect when using ladder equipment terrain, which treats the vertical distance as 1\" (but would have an effect if the operative then continued climbing another terrain feature).",
+      "effects": ""
+    },
+    {
+      "eqId": "VOT-HKS-ET",
+      "killteamId": "VOT-HKS",
+      "seq": 3,
+      "eqName": "Excavation Tools",
+      "description": "Friendly HEARTHKYN SALVAGER operatives can perform the Pick Up Marker action for 1 less AP, and don't have to control the marker to do so (taking precedence over that action's conditions - they only need to contest the marker).",
+      "effects": ""
+    },
+    {
+      "eqId": "VOT-HKS-WOC",
+      "killteamId": "VOT-HKS",
+      "seq": 4,
+      "eqName": "Writ Of Claim",
+      "description": "Once per battle, if friendly HEARTHKYN SALVAGER operatives contest two or more objective markers, after rolling off to decide initiative, you can re-roll your dice.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "VOT-HKS-TA-GR",
+      "abilityName": "Grudge",
+      "description": "Whenever an enemy operative incapacitates a friendly HEARTHKYN SALVAGER operative, that enemy operative gains one of your Grudge tokens for the battle.\nWhenever a friendly HEARTHKYN SALVAGER operative is shooting against, fighting against or retaliating against an enemy operative,\nfor each of your Grudge tokens that enemy operative has, you can retain one of your normal successes as a critical success instead (including any normal successes already retained as a result of the Accurate weapon rule).  \n\nNote that Grudge tokens are not removed when you do this."
+    }
+  ],
   "opTypes": [
     {
       "opTypeId": "VOT-HKS-TH",
@@ -245,8 +352,7 @@
           "abilityName": "Weavefield Crest",
           "description": "Once per battle, when an attack dice inflicts Normal Dmg on this operative, you can ignore that inflicted damage"
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "VOT-HKS-DO",
@@ -333,8 +439,7 @@
           "AP": 1,
           "description": "Select one enemy operative within this operative's control range.\nYou can move that enemy operative up to 3\" to a location it can be placed.\nThen inflict D3+1 damage on it (even if you don't move it); if the D3 result is a 3, also subtract 1 from that enemy operative's APL stat until the end of its next activation.\nThis operative can then immediately perform a free Charge action (even if it's already performed the Charge action during that activation), but cannot move more than 3\" during that action.  \n\nThis operative cannot perform this action unless an enemy operative is within its control range."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "VOT-HKS-MDC",
@@ -411,8 +516,7 @@
           "AP": 1,
           "description": "Select one friendly HEARTHKYN SALVAGER operative within this operative's control range to regain up to 2D3 lost wounds.\nIt cannot be an operative that the Medic! rule was used on during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "VOT-HKS-GRN",
@@ -600,8 +704,7 @@
           "AP": 1,
           "description": "Place one of your Utility Grenade markers within 6\" of this operative.\nIt must be visible to this operative, or on Vantage terrain of a terrain feature that's visible to this operative.\nWhenever an operative is within 3\" of that Utility Grenade marker, its controlling player must spend 1 additional AP for that operative to perform the Pick Up Marker and mission actions.  \n\nIn the Ready step of the next Strategy phase, roll one D3. Remove that Utility Grenade marker after a number of activations equal to the result have been completed, or at the end of the turning point (whichever comes first).\n\n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "VOT-HKS-GNR",
@@ -814,8 +917,7 @@
           ]
         }
       ],
-      "abilities": [],
-      "options": []
+      "abilities": []
     },
     {
       "opTypeId": "VOT-HKS-JMP",
@@ -892,8 +994,7 @@
           "abilityName": "Jump Pack",
           "description": "Whenever this operative performs an action in which it moves, it can FLY. If it does, don't move it.\nInstead, remove it from the killzone and set it back up wholly within a distance equal to its Move stat (or 3\" if it was a Dash) of its original location,\nmeasuring the horizontal distance only (in a killzone that uses the close quarters rules, e.g. Killzone: Gallowdark, this distance cannot be measured over or through Wall terrain,\nand that operative cannot be set up on the other side of an access point - in other words it cannot FLY through an open hatchway).\nNote that it gains no additional distance when performing the Charge action.\nIt must be set up in a location it can be placed, and unless it's the Charge action, it cannot be set up within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "VOT-HKS-KL",
@@ -991,8 +1092,7 @@
           "AP": 1,
           "description": "**SUPPORT**\nSelect one other friendly HEARTHKYN SALVAGER operative in the killzone. Until the end of that operative's next activation, add 1 to its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "VOT-HKS-KOG",
@@ -1089,8 +1189,7 @@
           "AP": 1,
           "description": "If your Attack or Defence marker is in the killzone, remove it.  \n\nPlace your Attack or Defence marker in the killzone.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "VOT-HKS-LOK",
@@ -1188,8 +1287,7 @@
           "AP": 1,
           "description": "**SUPPORT**\nSelect one enemy operative visible to this operative. Until the end of the turning point, whenever a friendly HEARTHKYN SALVAGER operative within 3\" of this operative is shooting that enemy operative you can use this effect.\nIf you do:\n\n- That friendly operative's ranged weapons have the Seek Light weapon rule.\n- That enemy operative cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "VOT-HKS-LUG",
@@ -1285,8 +1383,7 @@
           "abilityName": "Well Supplied",
           "description": "You can select one additional equipment option."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "VOT-HKS-WAR",
@@ -1376,115 +1473,7 @@
           "abilityName": "Secure Salvage",
           "description": "Whenever an enemy operative is shooting against, fighting against or retaliating against this operative, if this operative contests an objective marker or one of your mission markers, in the Resolve Attack Dice\nstep, you can subtract 1 from the damage inflicted on it from one success."
         }
-      ],
-      "options": []
-    }
-  ],
-  "ploys": [
-    {
-      "ployId": "VOT-HKS-S-NK",
-      "killteamId": "VOT-HKS",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Need Keeps",
-      "description": "Select one objective marker or one of your mission markers.\n\n- Whenever determining control of that marker, treat the total APL stat of friendly HEARTHKYN SALVAGER operatives that contest it as 1 higher if at least one friendly HEARTHKYN SALVAGER operative contests that marker.\nNote this isn't a change to the APL stat, so any changes are cumulative with this.\n- Whenever a friendly HEARTHKYN SALVAGER operative is within 3\" of that marker, add 1 to the Atk stat of its melee weapons (to a maximum of 4).\n"
-    },
-    {
-      "ployId": "VOT-HKS-S-PFP",
-      "killteamId": "VOT-HKS",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Proximate Firepower",
-      "description": "Whenever a friendly HEARTHKYN SALVAGER operative is shooting an enemy operative within 6\" of it, improve the Hit stat of that friendly operative's ranged weapons by 1 (to a maximum of 3+)."
-    },
-    {
-      "ployId": "VOT-HKS-S-TE",
-      "killteamId": "VOT-HKS",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Toil Earns",
-      "description": "Select one objective marker or one of your mission markers.\nWhenever an enemy operative is within 3\" of that marker, treat it as having one additional Grudge token."
-    },
-    {
-      "ployId": "VOT-HKS-S-WD",
-      "killteamId": "VOT-HKS",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Wrought Defence",
-      "description": "Whenever an operative is shooting a friendly HEARTHKYN SALVAGER operative, if you rolled one or less successes (including any re-rolls), you can retain one of your fails as a normal success instead of discarding it."
-    },
-    {
-      "ployId": "VOT-HKS-T-TAAW",
-      "killteamId": "VOT-HKS",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "The Ancestors Are Watching",
-      "description": "Use this firefight ploy during a friendly HEARTHKYN SALVAGER operative's activation. Until the end of that activation, that operative can perform either a free Shoot or a free Fight action."
-    },
-    {
-      "ployId": "VOT-HKS-T-ST",
-      "killteamId": "VOT-HKS",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Sturdy",
-      "description": "Use this firefight ploy when an operative is shooting a friendly HEARTHKYN SALVAGER operative, when you collect your defence dice. Change the attacker's retained critical successes to normal successes\n(any weapon rules they've already resolved aren't affected, e.g. Piercing Crits)."
-    },
-    {
-      "ployId": "VOT-HKS-T-ETA",
-      "killteamId": "VOT-HKS",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Engage To Acquire",
-      "description": "Use this firefight ploy after rolling your attack dice for a friendly HEARTHKYN SALVAGER operative, if it's shooting against or fighting against an enemy operative that controls\nan objective marker or one of your mission markers. You can re-roll any of your attack dice."
-    },
-    {
-      "ployId": "VOT-HKS-T-WI",
-      "killteamId": "VOT-HKS",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Worth It",
-      "description": "Use this firefight ploy when a friendly HEARTHKYN SALVAGER operative is incapacitated. It can perform a free mission action before it's removed from the killzone."
-    }
-  ],
-  "equipments": [
-    {
-      "eqId": "VOT-HKS-PK",
-      "killteamId": "VOT-HKS",
-      "seq": 1,
-      "eqName": "Plasma Knives",
-      "description": "Friendly HEARTHKYN SALVAGER operatives have the following melee weapon. Note that the FIELD MEDIC operative already has this weapon but with better stats; in that instance, use the better version.\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Plasma Knife|3|4+|3/5|\n|**Weapon Rules**|\n|Lethal 5+|",
-      "effects": "ADDWEP:Plasma Knife|M|3|4+|3/5|Lethal 5+"
-    },
-    {
-      "eqId": "VOT-HKS-CR",
-      "killteamId": "VOT-HKS",
-      "seq": 2,
-      "eqName": "Climbing Rigs",
-      "description": "Whenever a friendly HEARTHKYN SALVAGER operative is climbing, treat the vertical distance as 1\" less (to a minimum of 2\").\nNote this has no effect when using ladder equipment terrain, which treats the vertical distance as 1\" (but would have an effect if the operative then continued climbing another terrain feature).",
-      "effects": ""
-    },
-    {
-      "eqId": "VOT-HKS-ET",
-      "killteamId": "VOT-HKS",
-      "seq": 3,
-      "eqName": "Excavation Tools",
-      "description": "Friendly HEARTHKYN SALVAGER operatives can perform the Pick Up Marker action for 1 less AP, and don't have to control the marker to do so (taking precedence over that action's conditions - they only need to contest the marker).",
-      "effects": ""
-    },
-    {
-      "eqId": "VOT-HKS-WOC",
-      "killteamId": "VOT-HKS",
-      "seq": 4,
-      "eqName": "Writ Of Claim",
-      "description": "Once per battle, if friendly HEARTHKYN SALVAGER operatives contest two or more objective markers, after rolling off to decide initiative, you can re-roll your dice.",
-      "effects": ""
-    }
-  ],
-  "teamAbilities": [
-    {
-      "abilityId": "VOT-HKS-TA-GR",
-      "abilityName": "Grudge",
-      "description": "Whenever an enemy operative incapacitates a friendly HEARTHKYN SALVAGER operative, that enemy operative gains one of your Grudge tokens for the battle.\nWhenever a friendly HEARTHKYN SALVAGER operative is shooting against, fighting against or retaliating against an enemy operative,\nfor each of your Grudge tokens that enemy operative has, you can retain one of your normal successes as a critical success instead (including any normal successes already retained as a result of the Accurate weapon rule).  \n\nNote that Grudge tokens are not removed when you do this."
+      ]
     }
   ]
 }

@@ -10,6 +10,118 @@
     "Infiltration",
     "Recon"
   ],
+  "ploys": [
+    {
+      "ployId": "AEL-VDT-S-CJ",
+      "killteamId": "AEL-VDT",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Cegorach's Jest",
+      "description": "Whenever a friendly VOID-DANCER TROUPE operative is fighting or retaliating and your opponent strikes with a normal success, you can roll one D6:  \n\nif the result is less than the Hit stat of your opponent's selected weapon, that strike is a block instead (ignore the Brutal weapon rule, if relevant) and you cannot use this rule for the rest of the sequence."
+    },
+    {
+      "ployId": "AEL-VDT-S-DS",
+      "killteamId": "AEL-VDT",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Darting Salvo",
+      "description": "Whenever a friendly VOID-DANCER TROUPE operative performs the Reposition action during its activation, it can perform the Shoot action during that action\n(it must do so in a location it can be placed, and any remaining move distance it had from that Reposition action can be used after it does so)."
+    },
+    {
+      "ployId": "AEL-VDT-S-PB",
+      "killteamId": "AEL-VDT",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Prismatic Blur",
+      "description": "Whenever an operative is shooting a friendly VOID-DANCER TROUPE operative that performed an action in which it moved during this turning point, you can re-roll one of your defence dice."
+    },
+    {
+      "ployId": "AEL-VDT-S-RC",
+      "killteamId": "AEL-VDT",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Rising Crescendo",
+      "description": "Friendly VOID-DANCER TROUPE operatives can perform the Dash action during the same activation in which they performed the Charge action, but not vice versa (i.e. not Dash then Charge)."
+    },
+    {
+      "ployId": "AEL-VDT-T-DF",
+      "killteamId": "AEL-VDT",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Domino Field",
+      "description": "Use this firefight ploy when an operative is shooting a friendly VOID-DANCER TROUPE operative, during the Resolve Defence Dice step.\nYou can allocate one of your rolled successful dice to block all of your opponent's attack dice with matching results (e.g. one of your successful defence dice results of 5 can be used to block all successful attack dice results of 5)."
+    },
+    {
+      "ployId": "AEL-VDT-T-ET",
+      "killteamId": "AEL-VDT",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Elusive Target",
+      "description": "Use this firefight ploy during a friendly VOID-DANCER TROUPE operative's activation. Until the start of its next activation, while that operative has a Conceal order and is in cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g. Seek, Vantage terrain) except being within 2\"."
+    },
+    {
+      "ployId": "AEL-VDT-T-ME",
+      "killteamId": "AEL-VDT",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Murderous Entrance",
+      "description": "Use this firefight ploy when a friendly VOID-DANCER TROUPE operative is fighting during an activation in which it performed the Charge action, after you strike.\nYou can immediately resolve another of your normal successes as a strike (before your opponent), or a critical success if there are none."
+    },
+    {
+      "ployId": "AEL-VDT-T-TCF",
+      "killteamId": "AEL-VDT",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "The Curtain Falls",
+      "description": "Use this firefight ploy when a friendly VOID-DANCER TROUPE operative is fighting, after you strike with a critical success, if the enemyu operative isn't incapacitated.\nEnd that sequence (any remaining attack dice are discarded) and immediately perform a free Fall Back action up to 3\" with that operative (then the Fight action ends).\nThat operative can do so even if it's performed an action that prevents it from performing the Fall Back action."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "AEL-VDT-WBT",
+      "killteamId": "AEL-VDT",
+      "seq": 1,
+      "eqName": "Wraithbone Talisman",
+      "description": "Once per turning point, when a friendly VOID-DANCER TROUPE operative is shooting, fighting or retaliating, if you roll two or more fails, you can discard one of them to retain another as a normal success instead.",
+      "effects": ""
+    },
+    {
+      "eqId": "AEL-VDT-STR",
+      "killteamId": "AEL-VDT",
+      "seq": 2,
+      "eqName": "Shrieker Toxic Rounds",
+      "description": "Once per turning point, when a friendly VOID-DANCER TROUPE operative is performing the Shoot action and you select a shuriken pistol or shrieker cannon (focused), you can use this rule.\nIf you do, until the end of that action, that weapon has the Devastating 1 weapon rule.",
+      "effects": ""
+    },
+    {
+      "eqId": "AEL-VDT-DM",
+      "killteamId": "AEL-VDT",
+      "seq": 3,
+      "eqName": "Death Mask",
+      "description": "Keep a Tragedy tally. Whenever a friendly VOID-DANCER TROUPE operative that has an ACCOLADE rule is incapacitated, add 1 to your Tragedy tally. When your Tragedy tally reaches 3, you gain 1CP and stop that tally.",
+      "effects": ""
+    },
+    {
+      "eqId": "AEL-VDT-UM",
+      "killteamId": "AEL-VDT",
+      "seq": 4,
+      "eqName": "Understudy's Mask",
+      "description": "Once per battle, when you activate a friendly VOID-DANCER TROUPE operative, if the friendly operative that has the PIVOTAL ROLE has been incapacitated, you can use this rule.\nIf you do, that activated operative has the PIVOTAL ROLE for the battle.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "AEL-VDT-TA-HAPA",
+      "abilityName": "Harlequin's Panoply",
+      "description": "Whenever an operative is shooting a friendly VOID-DANCER TROUPE operative, and no attack dice are retained as critical successes, worsen the x of the Piercing weapon rule by 1 (if any). Note that Piercing 1 would therefore be ignored.  \n\r Whenever a friendly VOID-DANCER TROUPE operative is climbing up, you can treat the vertical distance as 2\" (regardless of how far the operative actually moves vertically).  \n\r Friendly VOID-DANCER TROUPE operatives can move within control range of enemy operatives (they must still start and end the move following all requirements for that move)."
+    },
+    {
+      "abilityId": "AEL-VDT-TA-SA",
+      "abilityName": "Saedath",
+      "description": "As a STRATEGIC GAMBIT in the first turning point, you must select an ALLEGORY (Epic or Melodrama below) for your kill team for the battle, and one friendly VOID-DANCER TROUPE operative to have the PIVOTAL ROLE for the battle.\nWhenever a friendly operative has the PIVOTAL ROLE, it has the ACCOLADE rule of your ALLEGORY for the battle.  \n\nAs a STRATEGIC GAMBIT in each subsequent turning point, you can select one friendly VOID-DANCER TROUPE operative to gain the ACCOLADE rule of your ALLEGORY for the battle.  \n\nOnce per turning point, when a friendly operative that has the PIVOTAL ROLE completes the performance of your ALLEGORY, you can select a friendly VOID-DANCER TROUPE operative to gain the ACCOLADE rule of your ALLEGORY for the battle.  \n\n**Epic**  \n\n- Performance:  \nThe operative incapacitates an enemy operative while fighting.\n- Accolade:  \nWhenever this operative is fighting, its melee weapons have the Balanced weapon rule.\n\n**Melodrama**  \n\n- Performance:  \nThe operative incapacitates an enemy operative while shooting.\n- Accolade:  \nThe operative's ranged weapons have the Balanced weapon rule.\n"
+    }
+  ],
   "opTypes": [
     {
       "opTypeId": "AEL-VDT-LPL",
@@ -229,8 +341,7 @@
           "abilityName": "Lead The Performance",
           "description": "Once per battle STRATEGIC GAMBIT. If this operative is in the killzone, change the ALLEGORY you selected for your kill team. Note that the ACCOLADE rule friendly operatives have will also change."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "AEL-VDT-DJS",
@@ -323,8 +434,7 @@
           ]
         }
       ],
-      "abilities": [],
-      "options": []
+      "abilities": []
     },
     {
       "opTypeId": "AEL-VDT-PLAY",
@@ -520,8 +630,7 @@
           "abilityName": "Luck Of The Laughing God",
           "description": "Once per turning point, you can use this rule. If you do, you can use a firefight ploy for 0CP if this is the specified VOID-DANCER TROUPE operative\n(including Command Re-roll if the attack or defence dice was rolled for this operative). You cannot select the same firefight ploy for this rule more than once per battle."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "AEL-VDT-SDS",
@@ -674,120 +783,7 @@
           "AP": 1,
           "description": "**PSYCHIC** Select one enemy operative that's a valid target for and within 8\" of this operative.\r Both players roll five D6. Pair your dice with your opponent's dice based on matching results.\r For each matching pair, inflict D3 damage on that enemy operative (to a maximum of 8). For example, if you rolled 6, 5, 5, 4, 2, 1 and your opponent rolled 6, 5, 4, 4, 3, 1, you would inflict 4D3 damage on that enemy operative.  \n\r This operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
-    }
-  ],
-  "ploys": [
-    {
-      "ployId": "AEL-VDT-S-CJ",
-      "killteamId": "AEL-VDT",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Cegorach's Jest",
-      "description": "Whenever a friendly VOID-DANCER TROUPE operative is fighting or retaliating and your opponent strikes with a normal success, you can roll one D6:  \n\nif the result is less than the Hit stat of your opponent's selected weapon, that strike is a block instead (ignore the Brutal weapon rule, if relevant) and you cannot use this rule for the rest of the sequence."
-    },
-    {
-      "ployId": "AEL-VDT-S-DS",
-      "killteamId": "AEL-VDT",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Darting Salvo",
-      "description": "Whenever a friendly VOID-DANCER TROUPE operative performs the Reposition action during its activation, it can perform the Shoot action during that action\n(it must do so in a location it can be placed, and any remaining move distance it had from that Reposition action can be used after it does so)."
-    },
-    {
-      "ployId": "AEL-VDT-S-PB",
-      "killteamId": "AEL-VDT",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Prismatic Blur",
-      "description": "Whenever an operative is shooting a friendly VOID-DANCER TROUPE operative that performed an action in which it moved during this turning point, you can re-roll one of your defence dice."
-    },
-    {
-      "ployId": "AEL-VDT-S-RC",
-      "killteamId": "AEL-VDT",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Rising Crescendo",
-      "description": "Friendly VOID-DANCER TROUPE operatives can perform the Dash action during the same activation in which they performed the Charge action, but not vice versa (i.e. not Dash then Charge)."
-    },
-    {
-      "ployId": "AEL-VDT-T-DF",
-      "killteamId": "AEL-VDT",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Domino Field",
-      "description": "Use this firefight ploy when an operative is shooting a friendly VOID-DANCER TROUPE operative, during the Resolve Defence Dice step.\nYou can allocate one of your rolled successful dice to block all of your opponent's attack dice with matching results (e.g. one of your successful defence dice results of 5 can be used to block all successful attack dice results of 5)."
-    },
-    {
-      "ployId": "AEL-VDT-T-ET",
-      "killteamId": "AEL-VDT",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Elusive Target",
-      "description": "Use this firefight ploy during a friendly VOID-DANCER TROUPE operative's activation. Until the start of its next activation, while that operative has a Conceal order and is in cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g. Seek, Vantage terrain) except being within 2\"."
-    },
-    {
-      "ployId": "AEL-VDT-T-ME",
-      "killteamId": "AEL-VDT",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Murderous Entrance",
-      "description": "Use this firefight ploy when a friendly VOID-DANCER TROUPE operative is fighting during an activation in which it performed the Charge action, after you strike.\nYou can immediately resolve another of your normal successes as a strike (before your opponent), or a critical success if there are none."
-    },
-    {
-      "ployId": "AEL-VDT-T-TCF",
-      "killteamId": "AEL-VDT",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "The Curtain Falls",
-      "description": "Use this firefight ploy when a friendly VOID-DANCER TROUPE operative is fighting, after you strike with a critical success, if the enemyu operative isn't incapacitated.\nEnd that sequence (any remaining attack dice are discarded) and immediately perform a free Fall Back action up to 3\" with that operative (then the Fight action ends).\nThat operative can do so even if it's performed an action that prevents it from performing the Fall Back action."
-    }
-  ],
-  "equipments": [
-    {
-      "eqId": "AEL-VDT-WBT",
-      "killteamId": "AEL-VDT",
-      "seq": 1,
-      "eqName": "Wraithbone Talisman",
-      "description": "Once per turning point, when a friendly VOID-DANCER TROUPE operative is shooting, fighting or retaliating, if you roll two or more fails, you can discard one of them to retain another as a normal success instead.",
-      "effects": ""
-    },
-    {
-      "eqId": "AEL-VDT-STR",
-      "killteamId": "AEL-VDT",
-      "seq": 2,
-      "eqName": "Shrieker Toxic Rounds",
-      "description": "Once per turning point, when a friendly VOID-DANCER TROUPE operative is performing the Shoot action and you select a shuriken pistol or shrieker cannon (focused), you can use this rule.\nIf you do, until the end of that action, that weapon has the Devastating 1 weapon rule.",
-      "effects": ""
-    },
-    {
-      "eqId": "AEL-VDT-DM",
-      "killteamId": "AEL-VDT",
-      "seq": 3,
-      "eqName": "Death Mask",
-      "description": "Keep a Tragedy tally. Whenever a friendly VOID-DANCER TROUPE operative that has an ACCOLADE rule is incapacitated, add 1 to your Tragedy tally. When your Tragedy tally reaches 3, you gain 1CP and stop that tally.",
-      "effects": ""
-    },
-    {
-      "eqId": "AEL-VDT-UM",
-      "killteamId": "AEL-VDT",
-      "seq": 4,
-      "eqName": "Understudy's Mask",
-      "description": "Once per battle, when you activate a friendly VOID-DANCER TROUPE operative, if the friendly operative that has the PIVOTAL ROLE has been incapacitated, you can use this rule.\nIf you do, that activated operative has the PIVOTAL ROLE for the battle.",
-      "effects": ""
-    }
-  ],
-  "teamAbilities": [
-    {
-      "abilityId": "AEL-VDT-TA-HAPA",
-      "abilityName": "Harlequin's Panoply",
-      "description": "Whenever an operative is shooting a friendly VOID-DANCER TROUPE operative, and no attack dice are retained as critical successes, worsen the x of the Piercing weapon rule by 1 (if any). Note that Piercing 1 would therefore be ignored.  \n\r Whenever a friendly VOID-DANCER TROUPE operative is climbing up, you can treat the vertical distance as 2\" (regardless of how far the operative actually moves vertically).  \n\r Friendly VOID-DANCER TROUPE operatives can move within control range of enemy operatives (they must still start and end the move following all requirements for that move)."
-    },
-    {
-      "abilityId": "AEL-VDT-TA-SA",
-      "abilityName": "Saedath",
-      "description": "As a STRATEGIC GAMBIT in the first turning point, you must select an ALLEGORY (Epic or Melodrama below) for your kill team for the battle, and one friendly VOID-DANCER TROUPE operative to have the PIVOTAL ROLE for the battle.\nWhenever a friendly operative has the PIVOTAL ROLE, it has the ACCOLADE rule of your ALLEGORY for the battle.  \n\nAs a STRATEGIC GAMBIT in each subsequent turning point, you can select one friendly VOID-DANCER TROUPE operative to gain the ACCOLADE rule of your ALLEGORY for the battle.  \n\nOnce per turning point, when a friendly operative that has the PIVOTAL ROLE completes the performance of your ALLEGORY, you can select a friendly VOID-DANCER TROUPE operative to gain the ACCOLADE rule of your ALLEGORY for the battle.  \n\n**Epic**  \n\n- Performance:  \nThe operative incapacitates an enemy operative while fighting.\n- Accolade:  \nWhenever this operative is fighting, its melee weapons have the Balanced weapon rule.\n\n**Melodrama**  \n\n- Performance:  \nThe operative incapacitates an enemy operative while shooting.\n- Accolade:  \nThe operative's ranged weapons have the Balanced weapon rule.\n"
+      ]
     }
   ]
 }

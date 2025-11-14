@@ -10,6 +10,113 @@
     "Recon",
     "Security"
   ],
+  "ploys": [
+    {
+      "ployId": "IMP-NOV-S-AV",
+      "killteamId": "IMP-NOV",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Ardent Vengeance",
+      "description": "Whenever a friendly NOVITIATE operative is shooting against, fighting against or retaliating against an expended enemy operative, that friendly operative's weapons have the Punishing weapon rule.  \n**Punishing:** If you retain any critical successes, you can retain one of your fails as a normal success instead of discarding it."
+    },
+    {
+      "ployId": "IMP-NOV-S-BR",
+      "killteamId": "IMP-NOV",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Blessed Rejuvenation",
+      "description": "Whenever you spend Faith points, at the end of that action, the friendly operative you spent them oncan regain up to D3 lost Wounds.\r Note this ploy has no effect if the ACT OF FAITH doesn't cost any Faith points, e.g. Auto-chastisers equipment."
+    },
+    {
+      "ployId": "IMP-NOV-S-DOTF",
+      "killteamId": "IMP-NOV",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Defenders Of The Faith",
+      "description": "Whenever an operative is shooting against, fighting against or retaliating against a friendly NOVITIATE operative that contests an objective marker,\r in the Resolve Attack Dice step of that sequence, you can halve the damage inflicted (rounding up and to a minimum of 2) on that friendly operative from one normal success."
+    },
+    {
+      "ployId": "IMP-NOV-S-RA",
+      "killteamId": "IMP-NOV",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Righteous Advance",
+      "description": "Up to one third of the friendly NOVITIATE operatives in the killzone (rounding down, to a minimum of 1) can immediately perform a free Dash action in an order of your choice,\nbut each that does so must end that move closer to its closest enemy operative, its closest objective marker or your opponent's drop zone (you can choose separately for each).  \n\nYou cannot use this ploy during the first turning point."
+    },
+    {
+      "ployId": "IMP-NOV-T-BA",
+      "killteamId": "IMP-NOV",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Blinding Aura",
+      "description": "Use this firefight ploy when an enemy operative is performing the Shoot action and selects a friendly NOVITIATE operative as the valid target.\nUntil the end of that activation/counteraction, while that friendly operative is more than 2\" from that enemy operative, your opponent cannot select it as a valid target.\nIf there are no other valid targets that your opponent can select, that action ends (it's not cancelled, so that operative has still performed it).\nNote this ploy has no effect if it's not the selected operative, e.g. if it's a secondary target from the Blast weapon rule."
+    },
+    {
+      "ployId": "IMP-NOV-T-BI",
+      "killteamId": "IMP-NOV",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Blazing Inferno",
+      "description": "Use this firefight ploy when a friendly NOVITIATE operative is shooting with a Ministorum flamer and you inflict damage with any critical successes.\r The target gains one of your Blaze tokens (if it doesn't already have one). Whenever an operative that has one of your Blaze tokens is activated:\r \r - Inflict D3 damage on it.\r - Its controlling player can subtract 1 from that operative's APL stat until the end of that activation to remove that token. Note that this must be done before that operative performs any actions during that activation.\r "
+    },
+    {
+      "ployId": "IMP-NOV-T-GBF",
+      "killteamId": "IMP-NOV",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Guided By Faith",
+      "description": "Use this firefight ploy when a friendly NOVITIATE operative is performing the Shoot action and you're selecting a ranged weapon.\nUntil the end of that action, whenever that operative is shooting an operative within 6\" of it, that weapon has the Seek Light weapon rule.  \n\n**Seek Light:** When selecting a valid target, operatives cannot use light terrain for cover. While this can allow such operatives to be targeted (assuming they are Visible), it does not remove their Cover save (if any)."
+    },
+    {
+      "ployId": "IMP-NOV-T-GM",
+      "killteamId": "IMP-NOV",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Glorious Martyrdom",
+      "description": "Use this firefight ploy when a friendly NOVITIATE operative is incapacitated, before it is removed from the killzone. For each enemy operative visible to and within 2\" of it, you gain 1 Faith point and inflict D3 damage on that enemy operative (roll separately for each)."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "IMP-NOV-IOF",
+      "killteamId": "IMP-NOV",
+      "seq": 1,
+      "eqName": "Icon Of Faith",
+      "description": "Once per turning point, you can use up to two ACTS OF FAITH during a sequence, but each one must be different. This takes precedence over the normal ACTS OF FAITH rules.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-NOV-SR",
+      "killteamId": "IMP-NOV",
+      "seq": 2,
+      "eqName": "Sanctified Rounds",
+      "description": "Whenever a friendly NOVITIATE operative is shooting with an autogun, autopistol, relic bolt pistol or relic boltgun, if you spend a Faith point, that weapon has the Piercing Crits 1 weapon rule until the end of that sequence.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-NOV-AC",
+      "killteamId": "IMP-NOV",
+      "seq": 3,
+      "eqName": "Auto-Chastisers",
+      "description": "Once per turning point, when a friendly NOVITIATE operative is shooting, fighting or retaliating, in the Roll Attack Dice step,\nyou can inflict 1-3 damage on that friendly operative (but not enough to incapacitate it).\nIf you do, you can use one ACT OF FAITH for free during that sequence with a Faith points cost no more than the damage you inflicted from this rule.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-NOV-HE",
+      "killteamId": "IMP-NOV",
+      "seq": 4,
+      "eqName": "Holy Embrocations",
+      "description": "You can ignore any changes to the Move stat of friendly NOVITIATE operatives from being injured.",
+      "effects": "NOINJMOV"
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "IMP-NOV-TA-ACOFFA",
+      "abilityName": "Acts Of Faith",
+      "description": "In the Ready step of each Strategy phase, you gain a number of Faith points equal to half the number of friendly NOVITIATE operatives that have not been incapacitated (rounding up).\nWhenever a friendly NOVITIATE operative is shooting, fighting or retaliating, or an operative is shooting it, in the Roll Attack Dice (or Roll Defence Dice step if an operative is shooting it),\nyou can spend your Faith points to use one ACT OF FAITH.  \n\nYou cannot use more than one ACT OF FAITH per sequence, and their costs and effects are as follows:  \n\n\n- **GUIDANCE - 1 FAITH POINT**  \nYou can re-roll one of your dice.\n- **BLESSING - 2 FAITH POINTS**  \n You can retain one of your normal successes as a critical success instead.\n- **INTERVENTION - 3 FAITH POINTS**  \nYou can retain one of your fails as a normal success instead of discarding it.\n"
+    }
+  ],
   "opTypes": [
     {
       "opTypeId": "IMP-NOV-SUP",
@@ -180,8 +287,7 @@
           "abilityName": "Inspirational Example",
           "description": "Whenever this operative incapacitates an enemy operative, you gain 1 Faith point, or 2 Faith points if that enemy operative had a Wounds stat of 12 or more.\nThis rule has no effect when using the Glorious Martyrdom firefight ploy."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-NOV-CON",
@@ -264,8 +370,7 @@
           "abilityName": "Null Rod",
           "description": "PSYCHIC ranged weapons cannot inflict damage on this operative.\nFor the effects of PSYCHIC actions, this operative cannot be selected and is never treated as being within those actions' required distances.\nWhenever an operative is within 6\" of this operative:\n\n- That operative cannot perform PSYCHIC actions or use PSYCHIC additional rules.\n- That operative cannot use PSYCHIC ranged weapons.\n- PSYCHIC melee weapons have no weapon rules and cannot have Dmg stats higher than 3/4.\n"
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-NOV-DIA",
@@ -342,8 +447,7 @@
           "AP": 1,
           "description": "**SUPPORT**\nSelect one other friendly NOVITIATE operative visible to and within 6\" of this operative, or within 6\" of your Auto-broadcaster marker.\nUntil the end of that operative's next activation, add 1 to its APL stat (to a maximum of 3 after all APL stat changes have been totalled).  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-NOV-DUE",
@@ -408,8 +512,7 @@
           ]
         }
       ],
-      "abilities": [],
-      "options": []
+      "abilities": []
     },
     {
       "opTypeId": "IMP-NOV-EXA",
@@ -490,8 +593,7 @@
           "AP": 1,
           "description": "Select one other friendly NOVITIATE operative (excluding SUPERIOR) visible to and within 3\" of this operative that isn't currently benefitting from the effects of this action.\nUntil the end of that operative's next activation, add 1\" to its Move stat, it can perform two Fight actions during its next activation, and one of them can be free.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-NOV-HOS",
@@ -571,8 +673,7 @@
           "AP": 1,
           "description": "Select one friendly NOVITIATE operative within this operative's control range to regain up to 2D3 lost wounds. It cannot be an operative that the Medic! rule was used on during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-NOV-MIL",
@@ -675,8 +776,7 @@
           "abilityName": "Militant Faith",
           "description": "Whenever this operative is shooting, fighting or retaliating, if you use an ACT OF FAITH during that sequence and an enemy operative is incapacitated,\nthe Faith points spent on that ACT OF FAITH are refunded. If you use the Icon of Faith equipment, Faith points are only refunded for one of those ACTS OF FAITH (your choice)."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-NOV-PEN",
@@ -748,8 +848,7 @@
           "abilityName": "Absolution Through Destruction",
           "description": "Whenever this operative performs the Fight action, if it isn't incapacitated, it can immediately perform a free Fight action afterwards.\nThis takes precedence over action restrictions, and you cannot perform more than two Fight actions in succession as a result of this rule.\nIf this operative is benefitting from the effects of the Whip Into Frenzy action (see EXACTOR), this applies to each of the Fight actions from those effects."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-NOV-PRE",
@@ -803,8 +902,7 @@
           "abilityName": "Unflinching Example",
           "description": "Whenever this operative incapacitates a ready enemy operative within its control range, you gain 1 Faith point, or 2 Faith points if that enemy operative had a Wounds stat of 12 or more."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-NOV-PRO",
@@ -869,8 +967,7 @@
           "abilityName": "Divine Acquisition",
           "description": "Once per turning point, when this operative performs a mission action that requires it to control an objective or mission marker, you gain a number of Faith points equal to the turning point number."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-NOV-PUR",
@@ -942,8 +1039,7 @@
           "abilityName": "Purge With Flame",
           "description": "Once per turning point, you can use the Inferno firefight ploy for 0CP if this is the specified friendly NOVITIATE operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-NOV-REL",
@@ -1015,115 +1111,7 @@
           "AP": 1,
           "description": "You gain 1 Faith point. If this operative controls an objective marker, you also gain a number of Faith points equal to the turning point number.  \n\nThis operative can only perform this action once per turning point, and cannot perform it while within control range of an enemy operative."
         }
-      ],
-      "options": []
-    }
-  ],
-  "ploys": [
-    {
-      "ployId": "IMP-NOV-S-AV",
-      "killteamId": "IMP-NOV",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Ardent Vengeance",
-      "description": "Whenever a friendly NOVITIATE operative is shooting against, fighting against or retaliating against an expended enemy operative, that friendly operative's weapons have the Punishing weapon rule.  \n**Punishing:** If you retain any critical successes, you can retain one of your fails as a normal success instead of discarding it."
-    },
-    {
-      "ployId": "IMP-NOV-S-BR",
-      "killteamId": "IMP-NOV",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Blessed Rejuvenation",
-      "description": "Whenever you spend Faith points, at the end of that action, the friendly operative you spent them oncan regain up to D3 lost Wounds.\r Note this ploy has no effect if the ACT OF FAITH doesn't cost any Faith points, e.g. Auto-chastisers equipment."
-    },
-    {
-      "ployId": "IMP-NOV-S-DOTF",
-      "killteamId": "IMP-NOV",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Defenders Of The Faith",
-      "description": "Whenever an operative is shooting against, fighting against or retaliating against a friendly NOVITIATE operative that contests an objective marker,\r in the Resolve Attack Dice step of that sequence, you can halve the damage inflicted (rounding up and to a minimum of 2) on that friendly operative from one normal success."
-    },
-    {
-      "ployId": "IMP-NOV-S-RA",
-      "killteamId": "IMP-NOV",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Righteous Advance",
-      "description": "Up to one third of the friendly NOVITIATE operatives in the killzone (rounding down, to a minimum of 1) can immediately perform a free Dash action in an order of your choice,\nbut each that does so must end that move closer to its closest enemy operative, its closest objective marker or your opponent's drop zone (you can choose separately for each).  \n\nYou cannot use this ploy during the first turning point."
-    },
-    {
-      "ployId": "IMP-NOV-T-BA",
-      "killteamId": "IMP-NOV",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Blinding Aura",
-      "description": "Use this firefight ploy when an enemy operative is performing the Shoot action and selects a friendly NOVITIATE operative as the valid target.\nUntil the end of that activation/counteraction, while that friendly operative is more than 2\" from that enemy operative, your opponent cannot select it as a valid target.\nIf there are no other valid targets that your opponent can select, that action ends (it's not cancelled, so that operative has still performed it).\nNote this ploy has no effect if it's not the selected operative, e.g. if it's a secondary target from the Blast weapon rule."
-    },
-    {
-      "ployId": "IMP-NOV-T-BI",
-      "killteamId": "IMP-NOV",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Blazing Inferno",
-      "description": "Use this firefight ploy when a friendly NOVITIATE operative is shooting with a Ministorum flamer and you inflict damage with any critical successes.\r The target gains one of your Blaze tokens (if it doesn't already have one). Whenever an operative that has one of your Blaze tokens is activated:\r \r - Inflict D3 damage on it.\r - Its controlling player can subtract 1 from that operative's APL stat until the end of that activation to remove that token. Note that this must be done before that operative performs any actions during that activation.\r "
-    },
-    {
-      "ployId": "IMP-NOV-T-GBF",
-      "killteamId": "IMP-NOV",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Guided By Faith",
-      "description": "Use this firefight ploy when a friendly NOVITIATE operative is performing the Shoot action and you're selecting a ranged weapon.\nUntil the end of that action, whenever that operative is shooting an operative within 6\" of it, that weapon has the Seek Light weapon rule.  \n\n**Seek Light:** When selecting a valid target, operatives cannot use light terrain for cover. While this can allow such operatives to be targeted (assuming they are Visible), it does not remove their Cover save (if any)."
-    },
-    {
-      "ployId": "IMP-NOV-T-GM",
-      "killteamId": "IMP-NOV",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Glorious Martyrdom",
-      "description": "Use this firefight ploy when a friendly NOVITIATE operative is incapacitated, before it is removed from the killzone. For each enemy operative visible to and within 2\" of it, you gain 1 Faith point and inflict D3 damage on that enemy operative (roll separately for each)."
-    }
-  ],
-  "equipments": [
-    {
-      "eqId": "IMP-NOV-IOF",
-      "killteamId": "IMP-NOV",
-      "seq": 1,
-      "eqName": "Icon Of Faith",
-      "description": "Once per turning point, you can use up to two ACTS OF FAITH during a sequence, but each one must be different. This takes precedence over the normal ACTS OF FAITH rules.",
-      "effects": ""
-    },
-    {
-      "eqId": "IMP-NOV-SR",
-      "killteamId": "IMP-NOV",
-      "seq": 2,
-      "eqName": "Sanctified Rounds",
-      "description": "Whenever a friendly NOVITIATE operative is shooting with an autogun, autopistol, relic bolt pistol or relic boltgun, if you spend a Faith point, that weapon has the Piercing Crits 1 weapon rule until the end of that sequence.",
-      "effects": ""
-    },
-    {
-      "eqId": "IMP-NOV-AC",
-      "killteamId": "IMP-NOV",
-      "seq": 3,
-      "eqName": "Auto-Chastisers",
-      "description": "Once per turning point, when a friendly NOVITIATE operative is shooting, fighting or retaliating, in the Roll Attack Dice step,\nyou can inflict 1-3 damage on that friendly operative (but not enough to incapacitate it).\nIf you do, you can use one ACT OF FAITH for free during that sequence with a Faith points cost no more than the damage you inflicted from this rule.",
-      "effects": ""
-    },
-    {
-      "eqId": "IMP-NOV-HE",
-      "killteamId": "IMP-NOV",
-      "seq": 4,
-      "eqName": "Holy Embrocations",
-      "description": "You can ignore any changes to the Move stat of friendly NOVITIATE operatives from being injured.",
-      "effects": "NOINJMOV"
-    }
-  ],
-  "teamAbilities": [
-    {
-      "abilityId": "IMP-NOV-TA-ACOFFA",
-      "abilityName": "Acts Of Faith",
-      "description": "In the Ready step of each Strategy phase, you gain a number of Faith points equal to half the number of friendly NOVITIATE operatives that have not been incapacitated (rounding up).\nWhenever a friendly NOVITIATE operative is shooting, fighting or retaliating, or an operative is shooting it, in the Roll Attack Dice (or Roll Defence Dice step if an operative is shooting it),\nyou can spend your Faith points to use one ACT OF FAITH.  \n\nYou cannot use more than one ACT OF FAITH per sequence, and their costs and effects are as follows:  \n\n\n- **GUIDANCE - 1 FAITH POINT**  \nYou can re-roll one of your dice.\n- **BLESSING - 2 FAITH POINTS**  \n You can retain one of your normal successes as a critical success instead.\n- **INTERVENTION - 3 FAITH POINTS**  \nYou can retain one of your fails as a normal success instead of discarding it.\n"
+      ]
     }
   ]
 }

@@ -10,6 +10,143 @@
     "Security",
     "Seek & Destroy"
   ],
+  "ploys": [
+    {
+      "ployId": "CHAOS-LEG-S-BFTBG",
+      "killteamId": "CHAOS-LEG",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Blood For The Blood God",
+      "description": "Whenever a friendly LEGIONARY operative (excluding KHORNE) is fighting, the first time you strike during that sequence, inflict 1 additional damage (to a maximum of 7).  \r \r Add 1 to both Dmg stats of friendly LEGIONARY KHORNE operatives' melee weapons (to a maximum of 7)."
+    },
+    {
+      "ployId": "CHAOS-LEG-S-FF",
+      "killteamId": "CHAOS-LEG",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Fickle Fates",
+      "description": "Whenever a friendly LEGIONARY operative is shooting a ready enemy operative, that friendly operative's ranged weapons have the Balanced weapon rule.   \nWhenever an operative is shooting a ready friendly LEGIONARY TZEENTCH operative, in the Roll Defence Dice step, if you retain any critical successes, you can retain one of your fails as a normal success instead of discarding it.   \n \n**Balanced:** Can re-roll one Attack die."
+    },
+    {
+      "ployId": "CHAOS-LEG-S-IMP",
+      "killteamId": "CHAOS-LEG",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Implacable",
+      "description": "Whenever an operative is shooting a friendly LEGIONARY operative, weapons with the Piercing 1 weapon rule have the Piercing Crits 1 weapon rule instead.\n\nYou can ignore any changes to the stats of friendly LEGIONARY NURGLE operatives from being injured (including their weapons' stats)."
+    },
+    {
+      "ployId": "CHAOS-LEG-S-QSS",
+      "killteamId": "CHAOS-LEG",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Quicksilver Speed",
+      "description": "Whenever a friendly LEGIONARY operative that performed an action in which it moved during this turning point is fighting, worsen the Hit stat of the enemy operative's melee weapons by 1.  \n\r Whenever an operative is shooting a friendly LEGIONARY SLAANESH operative more than 6\" from it that performed an action in which it moved during this turning point, worsen the Hit stat of the enemy operative's weapons by 1.  \n\r In all cases for this ploy, this is not cumulative with being injured."
+    },
+    {
+      "ployId": "CHAOS-LEG-T-MA",
+      "killteamId": "CHAOS-LEG",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Malignant Aura",
+      "description": "Use this firefight ploy when a friendly LEGIONARY NURGLE operative is performing the Shoot action, when you select a valid target.\nUntil the end of that action, whenever that friendly operative is shooting an enemy operative within 3\" of it (i.e. including secondary targets, if any),\nthat friendly operative's ranged weapons have the Piercing 1 weapon rule.  \n\n**Piercing 1:** The defender collects 1 less Defence die."
+    },
+    {
+      "ployId": "CHAOS-LEG-T-MAC",
+      "killteamId": "CHAOS-LEG",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Mutability And Change",
+      "description": "Use this firefight ploy when a friendly LEGIONARY TZEENTCH operative is activated. Until the end of that operative's activation, add 1 to its APL stat, but it cannot perform the same action more than once during that activation.\nIf it's a WARRIOR operative, that operative's Marks of Chaos keyword cannot be changed during this turning point (see Infernal Pact additional rule)."
+    },
+    {
+      "ployId": "CHAOS-LEG-T-SC",
+      "killteamId": "CHAOS-LEG",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Sickening Captivation",
+      "description": "Use this firefight ploy during a friendly LEGIONARY SLAANESH operative's activation, before or after it performs an action.\nSelect one enemy operative visible to and within 4\" of that friendly operative. Until the end of that enemy operative's next activation, subtract 1 from its APL stat."
+    },
+    {
+      "ployId": "CHAOS-LEG-T-UEBS",
+      "killteamId": "CHAOS-LEG",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Unending Bloodshed",
+      "description": "Use this firefight ploy when a friendly LEGIONARY KHORNE operative is incapacitated while fighting or retaliating.  \n\nYou can strike the enemy operative in that sequence with one of your unresolved successes before it's removed from the killzone."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "CHAOS-LEG-WA",
+      "killteamId": "CHAOS-LEG",
+      "seq": 51,
+      "eqName": "Warded Armour",
+      "description": "**STRATEGIC GAMBIT** Select one friendly LEGIONARY operative. Until the Ready step of the next Strategy phase, change that operative's Save stat to 2+.",
+      "effects": ""
+    },
+    {
+      "eqId": "CHAOS-LEG-MB",
+      "killteamId": "CHAOS-LEG",
+      "seq": 52,
+      "eqName": "Malefic Blades",
+      "description": "Friendly LEGIONARY operatives have the following melee weapon for the battle:\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Malefic Blade|5|3+|3/4|\n",
+      "effects": "ADDWEP:Malefic Blade|M|5|3+|3/4|"
+    },
+    {
+      "eqId": "CHAOS-LEG-TR",
+      "killteamId": "CHAOS-LEG",
+      "seq": 53,
+      "eqName": "Tainted Rounds",
+      "description": "Once per turning point, when a friendly LEGIONARY operative is performing the Shoot action and you select a bolt pistol or boltgun, you can use this rule.\nIf you do, until the end of that action, that weapon has the Rending weapon rule.",
+      "effects": ""
+    },
+    {
+      "eqId": "CHAOS-LEG-CT",
+      "killteamId": "CHAOS-LEG",
+      "seq": 54,
+      "eqName": "Chaos Talismans",
+      "description": "**STRATEGIC GAMBIT**\nSelect one Marks of Chaos keyword.\nOnce during each of their activations, when a friendly LEGIONARY operative that has that keyword is shooting, fighting or retaliating, if you roll two or more fails,\nyou can inflict D3 damage on that friendly operative to discard one of them and retain the other as a normal success instead.\nNote that if it is the Shoot action and that damage incapacitates that friendly operative, the action does not end (continue the sequence with your successful attack dice).",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "CHAOS-LEG-TA-AS",
+      "abilityName": "Astartes",
+      "description": "During each friendly LEGIONARY operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt pistol, boltgun or tainted bolt pistol must be selected for at least one of them.  \n\nEach friendly LEGIONARY operative can counteract regardless of its order."
+    },
+    {
+      "abilityId": "CHAOS-LEG-TA-MAOFCH",
+      "abilityName": "Mark Of Chaos",
+      "description": "Whenever you select a LEGIONARY operative for the battle, you must select one of the following keywords for it to have for that battle: KHORNE, NURGLE, SLAANESH, TZEENTCH, UNDIVIDED.\nEach operative's keyword can be different, but a BALEFIRE ACOLYTE operative cannot have the KHORNE keyword.  \n\nFriendly LEGIONARY operatives have an additional rule determined by this keyword. In addition, LEGIONARY ploys have additional benefits for operatives with the relevant keyword."
+    },
+    {
+      "abilityId": "CHAOS-LEG-TA-KHWRON",
+      "abilityName": "Khorne - Wrathful Onslaught",
+      "description": "This operative's melee weapons have the Severe weapon rule.  \n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do."
+    },
+    {
+      "abilityId": "CHAOS-LEG-TA-NUDIVI",
+      "abilityName": "Nurgle - Disgusting Vigour",
+      "description": "Whenever Normal Dmg of 3 or more is inflicted on this operative, roll one D6: on a 5+, subtract 1 from that inflicted damage."
+    },
+    {
+      "abilityId": "CHAOS-LEG-TA-SLUNAG",
+      "abilityName": "Slaanesh - Unnatural Agility",
+      "description": "Add 1\" to this operative's Move stat."
+    },
+    {
+      "abilityId": "CHAOS-LEG-TA-TZEMGU",
+      "abilityName": "Tzeentch - Empyreal Guidance",
+      "description": "This operative's ranged weapons have the Severe weapon rule.  \n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do."
+    },
+    {
+      "abilityId": "CHAOS-LEG-TA-UNVIRE",
+      "abilityName": "Undivided - Vicious Reavers",
+      "description": "Whenever this operative is shooting against, fighting against or retaliating against an enemy operative within 6\" of it, this operative's weapons have the Ceaseless weapon rule."
+    }
+  ],
   "opTypes": [
     {
       "opTypeId": "CHAOS-LEG-AC",
@@ -205,48 +342,6 @@
           "abilityName": "In The Eyes Of The Gods",
           "description": "Once during each of this operative's activations, if it incapacitates an enemy operative, add 1 to its APL stat until the end of that activation."
         }
-      ],
-      "options": [
-        {
-          "optionId": "CHAOS-LEG-AC-MOC-K",
-          "opTypeId": "CHAOS-LEG-AC",
-          "seq": 1,
-          "optionName": "Khorne - Wrathful Onslaught",
-          "description": "This operative's melee weapons have the Severe weapon rule.  \n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
-          "effects": "weptype:M|SR:Severe"
-        },
-        {
-          "optionId": "CHAOS-LEG-AC-MOC-N",
-          "opTypeId": "CHAOS-LEG-AC",
-          "seq": 2,
-          "optionName": "Nurgle - Disgusting Vigour",
-          "description": "Whenever Normal Dmg of 3 or more is inflicted on this operative, roll one D6: on a 5+, subtract 1 from that inflicted damage.",
-          "effects": ""
-        },
-        {
-          "optionId": "CHAOS-LEG-AC-MOC-S",
-          "opTypeId": "CHAOS-LEG-AC",
-          "seq": 3,
-          "optionName": "Slaanesh - Unnatural Agility",
-          "description": "Add 1\" to this operative's Move stat.",
-          "effects": "M|+1"
-        },
-        {
-          "optionId": "CHAOS-LEG-AC-MOC-T",
-          "opTypeId": "CHAOS-LEG-AC",
-          "seq": 4,
-          "optionName": "Tzeentch - Empyreal Guidance",
-          "description": "This operative's ranged weapons have the Severe weapon rule.  \n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
-          "effects": "weptype:R|SR:Severe"
-        },
-        {
-          "optionId": "CHAOS-LEG-AC-MOC-U",
-          "opTypeId": "CHAOS-LEG-AC",
-          "seq": 5,
-          "optionName": "Undivided - Vicious Reavers",
-          "description": "Whenever this operative is shooting against, fighting against or retaliating against an enemy operative within 6\" of it, this operative's weapons have the Ceaseless weapon rule.",
-          "effects": ""
-        }
       ]
     },
     {
@@ -380,48 +475,6 @@
           "abilityName": "Soul Gorge",
           "description": "After this operative fights or retaliates, if it is not incapacitated, but it incapacitated an enemy operative during that sequence, it regains D3+1 lost wounds."
         }
-      ],
-      "options": [
-        {
-          "optionId": "CHAOS-LEG-CHO-MOC-K",
-          "opTypeId": "CHAOS-LEG-CHO",
-          "seq": 1,
-          "optionName": "Khorne - Wrathful Onslaught",
-          "description": "This operative's melee weapons have the Severe weapon rule.  \n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
-          "effects": "weptype:M|SR:Severe"
-        },
-        {
-          "optionId": "CHAOS-LEG-CHO-MOC-N",
-          "opTypeId": "CHAOS-LEG-CHO",
-          "seq": 2,
-          "optionName": "Nurgle - Disgusting Vigour",
-          "description": "Whenever Normal Dmg of 3 or more is inflicted on this operative, roll one D6: on a 5+, subtract 1 from that inflicted damage.",
-          "effects": ""
-        },
-        {
-          "optionId": "CHAOS-LEG-CHO-MOC-S",
-          "opTypeId": "CHAOS-LEG-CHO",
-          "seq": 3,
-          "optionName": "Slaanesh - Unnatural Agility",
-          "description": "Add 1\" to this operative's Move stat.",
-          "effects": "M|+1"
-        },
-        {
-          "optionId": "CHAOS-LEG-CHO-MOC-T",
-          "opTypeId": "CHAOS-LEG-CHO",
-          "seq": 4,
-          "optionName": "Tzeentch - Empyreal Guidance",
-          "description": "This operative's ranged weapons have the Severe weapon rule.  \n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
-          "effects": "weptype:R|SR:Severe"
-        },
-        {
-          "optionId": "CHAOS-LEG-CHO-MOC-U",
-          "opTypeId": "CHAOS-LEG-CHO",
-          "seq": 5,
-          "optionName": "Undivided - Vicious Reavers",
-          "description": "Whenever this operative is shooting against, fighting against or retaliating against an enemy operative within 6\" of it, this operative's weapons have the Ceaseless weapon rule.",
-          "effects": ""
-        }
       ]
     },
     {
@@ -490,48 +543,6 @@
           "opTypeId": "CHAOS-LEG-ANO",
           "abilityName": "Unleash Daemon",
           "description": "Once per battle, when this operative is activated, you can use this rule. If you do, until the end of the battle:\r \r - This operative cannot perform the Pick Up Marker or mission actions (excluding Operate Hatch). If it's carrying a marker, it must immediately perform the Place Marker action for 0AP (this takes precedence over all other rules).\r - Normal and Critical Dmg of 4 or more inflicts 1 less damage on this operative.  \nIf this operative has the NURGLE keyword, you cannot reduce the damage of an attack dice by more than 1. In other words, you cannot use both rules to reduce Normal Dmg of 4 or more by 2.\r - Its daemonic claw has the Ceaseless and Lethal 5+ weapon rules.\r "
-        }
-      ],
-      "options": [
-        {
-          "optionId": "CHAOS-LEG-ANO-MOC-K",
-          "opTypeId": "CHAOS-LEG-ANO",
-          "seq": 1,
-          "optionName": "Khorne - Wrathful Onslaught",
-          "description": "This operative's melee weapons have the Severe weapon rule.  \n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
-          "effects": "weptype:M|SR:Severe"
-        },
-        {
-          "optionId": "CHAOS-LEG-ANO-MOC-N",
-          "opTypeId": "CHAOS-LEG-ANO",
-          "seq": 2,
-          "optionName": "Nurgle - Disgusting Vigour",
-          "description": "Whenever Normal Dmg of 3 or more is inflicted on this operative, roll one D6: on a 5+, subtract 1 from that inflicted damage.",
-          "effects": ""
-        },
-        {
-          "optionId": "CHAOS-LEG-ANO-MOC-S",
-          "opTypeId": "CHAOS-LEG-ANO",
-          "seq": 3,
-          "optionName": "Slaanesh - Unnatural Agility",
-          "description": "Add 1\" to this operative's Move stat.",
-          "effects": "M|+1"
-        },
-        {
-          "optionId": "CHAOS-LEG-ANO-MOC-T",
-          "opTypeId": "CHAOS-LEG-ANO",
-          "seq": 4,
-          "optionName": "Tzeentch - Empyreal Guidance",
-          "description": "This operative's ranged weapons have the Severe weapon rule.  \n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
-          "effects": "weptype:R|SR:Severe"
-        },
-        {
-          "optionId": "CHAOS-LEG-ANO-MOC-U",
-          "opTypeId": "CHAOS-LEG-ANO",
-          "seq": 5,
-          "optionName": "Undivided - Vicious Reavers",
-          "description": "Whenever this operative is shooting against, fighting against or retaliating against an enemy operative within 6\" of it, this operative's weapons have the Ceaseless weapon rule.",
-          "effects": ""
         }
       ]
     },
@@ -665,49 +676,7 @@
           ]
         }
       ],
-      "abilities": [],
-      "options": [
-        {
-          "optionId": "CHAOS-LEG-BA-MOC-K",
-          "opTypeId": "CHAOS-LEG-BA",
-          "seq": 1,
-          "optionName": "Khorne - Wrathful Onslaught",
-          "description": "This operative's melee weapons have the Severe weapon rule.  \n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
-          "effects": "weptype:M|SR:Severe"
-        },
-        {
-          "optionId": "CHAOS-LEG-BA-MOC-N",
-          "opTypeId": "CHAOS-LEG-BA",
-          "seq": 2,
-          "optionName": "Nurgle - Disgusting Vigour",
-          "description": "Whenever Normal Dmg of 3 or more is inflicted on this operative, roll one D6: on a 5+, subtract 1 from that inflicted damage.",
-          "effects": ""
-        },
-        {
-          "optionId": "CHAOS-LEG-BA-MOC-S",
-          "opTypeId": "CHAOS-LEG-BA",
-          "seq": 3,
-          "optionName": "Slaanesh - Unnatural Agility",
-          "description": "Add 1\" to this operative's Move stat.",
-          "effects": "M|+1"
-        },
-        {
-          "optionId": "CHAOS-LEG-BA-MOC-T",
-          "opTypeId": "CHAOS-LEG-BA",
-          "seq": 4,
-          "optionName": "Tzeentch - Empyreal Guidance",
-          "description": "This operative's ranged weapons have the Severe weapon rule.  \n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
-          "effects": "weptype:R|SR:Severe"
-        },
-        {
-          "optionId": "CHAOS-LEG-BA-MOC-U",
-          "opTypeId": "CHAOS-LEG-BA",
-          "seq": 5,
-          "optionName": "Undivided - Vicious Reavers",
-          "description": "Whenever this operative is shooting against, fighting against or retaliating against an enemy operative within 6\" of it, this operative's weapons have the Ceaseless weapon rule.",
-          "effects": ""
-        }
-      ]
+      "abilities": []
     },
     {
       "opTypeId": "CHAOS-LEG-BUT",
@@ -769,49 +738,7 @@
           ]
         }
       ],
-      "abilities": [],
-      "options": [
-        {
-          "optionId": "CHAOS-LEG-BUT-MOC-K",
-          "opTypeId": "CHAOS-LEG-BUT",
-          "seq": 1,
-          "optionName": "Khorne - Wrathful Onslaught",
-          "description": "This operative's melee weapons have the Severe weapon rule.  \n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
-          "effects": "weptype:M|SR:Severe"
-        },
-        {
-          "optionId": "CHAOS-LEG-BUT-MOC-N",
-          "opTypeId": "CHAOS-LEG-BUT",
-          "seq": 2,
-          "optionName": "Nurgle - Disgusting Vigour",
-          "description": "Whenever Normal Dmg of 3 or more is inflicted on this operative, roll one D6: on a 5+, subtract 1 from that inflicted damage.",
-          "effects": ""
-        },
-        {
-          "optionId": "CHAOS-LEG-BUT-MOC-S",
-          "opTypeId": "CHAOS-LEG-BUT",
-          "seq": 3,
-          "optionName": "Slaanesh - Unnatural Agility",
-          "description": "Add 1\" to this operative's Move stat.",
-          "effects": "M|+1"
-        },
-        {
-          "optionId": "CHAOS-LEG-BUT-MOC-T",
-          "opTypeId": "CHAOS-LEG-BUT",
-          "seq": 4,
-          "optionName": "Tzeentch - Empyreal Guidance",
-          "description": "This operative's ranged weapons have the Severe weapon rule.  \n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
-          "effects": "weptype:R|SR:Severe"
-        },
-        {
-          "optionId": "CHAOS-LEG-BUT-MOC-U",
-          "opTypeId": "CHAOS-LEG-BUT",
-          "seq": 5,
-          "optionName": "Undivided - Vicious Reavers",
-          "description": "Whenever this operative is shooting against, fighting against or retaliating against an enemy operative within 6\" of it, this operative's weapons have the Ceaseless weapon rule.",
-          "effects": ""
-        }
-      ]
+      "abilities": []
     },
     {
       "opTypeId": "CHAOS-LEG-GNR",
@@ -978,49 +905,7 @@
           ]
         }
       ],
-      "abilities": [],
-      "options": [
-        {
-          "optionId": "CHAOS-LEG-GNR-MOC-K",
-          "opTypeId": "CHAOS-LEG-GNR",
-          "seq": 1,
-          "optionName": "Khorne - Wrathful Onslaught",
-          "description": "This operative's melee weapons have the Severe weapon rule.  \n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
-          "effects": "weptype:M|SR:Severe"
-        },
-        {
-          "optionId": "CHAOS-LEG-GNR-MOC-N",
-          "opTypeId": "CHAOS-LEG-GNR",
-          "seq": 2,
-          "optionName": "Nurgle - Disgusting Vigour",
-          "description": "Whenever Normal Dmg of 3 or more is inflicted on this operative, roll one D6: on a 5+, subtract 1 from that inflicted damage.",
-          "effects": ""
-        },
-        {
-          "optionId": "CHAOS-LEG-GNR-MOC-S",
-          "opTypeId": "CHAOS-LEG-GNR",
-          "seq": 3,
-          "optionName": "Slaanesh - Unnatural Agility",
-          "description": "Add 1\" to this operative's Move stat.",
-          "effects": "M|+1"
-        },
-        {
-          "optionId": "CHAOS-LEG-GNR-MOC-T",
-          "opTypeId": "CHAOS-LEG-GNR",
-          "seq": 4,
-          "optionName": "Tzeentch - Empyreal Guidance",
-          "description": "This operative's ranged weapons have the Severe weapon rule.  \n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
-          "effects": "weptype:R|SR:Severe"
-        },
-        {
-          "optionId": "CHAOS-LEG-GNR-MOC-U",
-          "opTypeId": "CHAOS-LEG-GNR",
-          "seq": 5,
-          "optionName": "Undivided - Vicious Reavers",
-          "description": "Whenever this operative is shooting against, fighting against or retaliating against an enemy operative within 6\" of it, this operative's weapons have the Ceaseless weapon rule.",
-          "effects": ""
-        }
-      ]
+      "abilities": []
     },
     {
       "opTypeId": "CHAOS-LEG-HGNR",
@@ -1233,49 +1118,7 @@
           ]
         }
       ],
-      "abilities": [],
-      "options": [
-        {
-          "optionId": "CHAOS-LEG-HGNR-MOC-K",
-          "opTypeId": "CHAOS-LEG-HGNR",
-          "seq": 1,
-          "optionName": "Khorne - Wrathful Onslaught",
-          "description": "This operative's melee weapons have the Severe weapon rule.  \n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
-          "effects": "weptype:M|SR:Severe"
-        },
-        {
-          "optionId": "CHAOS-LEG-HGNR-MOC-N",
-          "opTypeId": "CHAOS-LEG-HGNR",
-          "seq": 2,
-          "optionName": "Nurgle - Disgusting Vigour",
-          "description": "Whenever Normal Dmg of 3 or more is inflicted on this operative, roll one D6: on a 5+, subtract 1 from that inflicted damage.",
-          "effects": ""
-        },
-        {
-          "optionId": "CHAOS-LEG-HGNR-MOC-S",
-          "opTypeId": "CHAOS-LEG-HGNR",
-          "seq": 3,
-          "optionName": "Slaanesh - Unnatural Agility",
-          "description": "Add 1\" to this operative's Move stat.",
-          "effects": "M|+1"
-        },
-        {
-          "optionId": "CHAOS-LEG-HGNR-MOC-T",
-          "opTypeId": "CHAOS-LEG-HGNR",
-          "seq": 4,
-          "optionName": "Tzeentch - Empyreal Guidance",
-          "description": "This operative's ranged weapons have the Severe weapon rule.  \n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
-          "effects": "weptype:R|SR:Severe"
-        },
-        {
-          "optionId": "CHAOS-LEG-HGNR-MOC-U",
-          "opTypeId": "CHAOS-LEG-HGNR",
-          "seq": 5,
-          "optionName": "Undivided - Vicious Reavers",
-          "description": "Whenever this operative is shooting against, fighting against or retaliating against an enemy operative within 6\" of it, this operative's weapons have the Ceaseless weapon rule.",
-          "effects": ""
-        }
-      ]
+      "abilities": []
     },
     {
       "opTypeId": "CHAOS-LEG-IB",
@@ -1384,48 +1227,6 @@
           "abilityName": "Icon Bearer",
           "description": "Whenever determining control of a marker, treat this operative's APL stat as 1 higher. Note this is not a change to its APL stat, so any changes are cumulative with this."
         }
-      ],
-      "options": [
-        {
-          "optionId": "CHAOS-LEG-IB-MOC-K",
-          "opTypeId": "CHAOS-LEG-IB",
-          "seq": 1,
-          "optionName": "Khorne - Wrathful Onslaught",
-          "description": "This operative's melee weapons have the Severe weapon rule.  \n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
-          "effects": "weptype:M|SR:Severe"
-        },
-        {
-          "optionId": "CHAOS-LEG-IB-MOC-N",
-          "opTypeId": "CHAOS-LEG-IB",
-          "seq": 2,
-          "optionName": "Nurgle - Disgusting Vigour",
-          "description": "Whenever Normal Dmg of 3 or more is inflicted on this operative, roll one D6: on a 5+, subtract 1 from that inflicted damage.",
-          "effects": ""
-        },
-        {
-          "optionId": "CHAOS-LEG-IB-MOC-S",
-          "opTypeId": "CHAOS-LEG-IB",
-          "seq": 3,
-          "optionName": "Slaanesh - Unnatural Agility",
-          "description": "Add 1\" to this operative's Move stat.",
-          "effects": "M|+1"
-        },
-        {
-          "optionId": "CHAOS-LEG-IB-MOC-T",
-          "opTypeId": "CHAOS-LEG-IB",
-          "seq": 4,
-          "optionName": "Tzeentch - Empyreal Guidance",
-          "description": "This operative's ranged weapons have the Severe weapon rule.  \n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
-          "effects": "weptype:R|SR:Severe"
-        },
-        {
-          "optionId": "CHAOS-LEG-IB-MOC-U",
-          "opTypeId": "CHAOS-LEG-IB",
-          "seq": 5,
-          "optionName": "Undivided - Vicious Reavers",
-          "description": "Whenever this operative is shooting against, fighting against or retaliating against an enemy operative within 6\" of it, this operative's weapons have the Ceaseless weapon rule.",
-          "effects": ""
-        }
       ]
     },
     {
@@ -1508,48 +1309,6 @@
           "abilityName": "Grisly Mark",
           "AP": 2,
           "description": "Place your Grisly marker within this operative's control range.\n\n- Whenever an enemy operative is within 3\" of your Grisly marker, your opponent must spend 1 additional AP for that enemy operative to perform the Pick Up Marker and mission actions.\n- Whenever determining control of a marker, treat the total APL stat of enemy operatives that contest it as 1 lower if at least one of those enemy operatives is within 3\" of your Grisly marker.\nNote this is not a change to the APL stat, so any changes are cumulative with this.\n\nThis operative cannot perform this action while within control range of an enemy operative."
-        }
-      ],
-      "options": [
-        {
-          "optionId": "CHAOS-LEG-STL-MOC-K",
-          "opTypeId": "CHAOS-LEG-STL",
-          "seq": 1,
-          "optionName": "Khorne - Wrathful Onslaught",
-          "description": "This operative's melee weapons have the Severe weapon rule.  \n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
-          "effects": "weptype:M|SR:Severe"
-        },
-        {
-          "optionId": "CHAOS-LEG-STL-MOC-N",
-          "opTypeId": "CHAOS-LEG-STL",
-          "seq": 2,
-          "optionName": "Nurgle - Disgusting Vigour",
-          "description": "Whenever Normal Dmg of 3 or more is inflicted on this operative, roll one D6: on a 5+, subtract 1 from that inflicted damage.",
-          "effects": ""
-        },
-        {
-          "optionId": "CHAOS-LEG-STL-MOC-S",
-          "opTypeId": "CHAOS-LEG-STL",
-          "seq": 3,
-          "optionName": "Slaanesh - Unnatural Agility",
-          "description": "Add 1\" to this operative's Move stat.",
-          "effects": "M|+1"
-        },
-        {
-          "optionId": "CHAOS-LEG-STL-MOC-T",
-          "opTypeId": "CHAOS-LEG-STL",
-          "seq": 4,
-          "optionName": "Tzeentch - Empyreal Guidance",
-          "description": "This operative's ranged weapons have the Severe weapon rule.  \n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
-          "effects": "weptype:R|SR:Severe"
-        },
-        {
-          "optionId": "CHAOS-LEG-STL-MOC-U",
-          "opTypeId": "CHAOS-LEG-STL",
-          "seq": 5,
-          "optionName": "Undivided - Vicious Reavers",
-          "description": "Whenever this operative is shooting against, fighting against or retaliating against an enemy operative within 6\" of it, this operative's weapons have the Ceaseless weapon rule.",
-          "effects": ""
         }
       ]
     },
@@ -1654,161 +1413,7 @@
           "abilityName": "Infernal Pact",
           "description": "Once per battle, when a friendly LEGIONARY WARRIOR operative is activated, you can use this rule. If you do, change that operative's Marks of Chaos keyword."
         }
-      ],
-      "options": [
-        {
-          "optionId": "CHAOS-LEG-WAR-MOC-K",
-          "opTypeId": "CHAOS-LEG-WAR",
-          "seq": 1,
-          "optionName": "Khorne - Wrathful Onslaught",
-          "description": "This operative's melee weapons have the Severe weapon rule.  \n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
-          "effects": "weptype:M|SR:Severe"
-        },
-        {
-          "optionId": "CHAOS-LEG-WAR-MOC-N",
-          "opTypeId": "CHAOS-LEG-WAR",
-          "seq": 2,
-          "optionName": "Nurgle - Disgusting Vigour",
-          "description": "Whenever Normal Dmg of 3 or more is inflicted on this operative, roll one D6: on a 5+, subtract 1 from that inflicted damage.",
-          "effects": ""
-        },
-        {
-          "optionId": "CHAOS-LEG-WAR-MOC-S",
-          "opTypeId": "CHAOS-LEG-WAR",
-          "seq": 3,
-          "optionName": "Slaanesh - Unnatural Agility",
-          "description": "Add 1\" to this operative's Move stat.",
-          "effects": "M|+1"
-        },
-        {
-          "optionId": "CHAOS-LEG-WAR-MOC-T",
-          "opTypeId": "CHAOS-LEG-WAR",
-          "seq": 4,
-          "optionName": "Tzeentch - Empyreal Guidance",
-          "description": "This operative's ranged weapons have the Severe weapon rule.  \n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.",
-          "effects": "weptype:R|SR:Severe"
-        },
-        {
-          "optionId": "CHAOS-LEG-WAR-MOC-U",
-          "opTypeId": "CHAOS-LEG-WAR",
-          "seq": 5,
-          "optionName": "Undivided - Vicious Reavers",
-          "description": "Whenever this operative is shooting against, fighting against or retaliating against an enemy operative within 6\" of it, this operative's weapons have the Ceaseless weapon rule.",
-          "effects": ""
-        }
       ]
-    }
-  ],
-  "ploys": [
-    {
-      "ployId": "CHAOS-LEG-S-BFTBG",
-      "killteamId": "CHAOS-LEG",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Blood For The Blood God",
-      "description": "Whenever a friendly LEGIONARY operative (excluding KHORNE) is fighting, the first time you strike during that sequence, inflict 1 additional damage (to a maximum of 7).  \r \r Add 1 to both Dmg stats of friendly LEGIONARY KHORNE operatives' melee weapons (to a maximum of 7)."
-    },
-    {
-      "ployId": "CHAOS-LEG-S-FF",
-      "killteamId": "CHAOS-LEG",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Fickle Fates",
-      "description": "Whenever a friendly LEGIONARY operative is shooting a ready enemy operative, that friendly operative's ranged weapons have the Balanced weapon rule.   \nWhenever an operative is shooting a ready friendly LEGIONARY TZEENTCH operative, in the Roll Defence Dice step, if you retain any critical successes, you can retain one of your fails as a normal success instead of discarding it.   \n \n**Balanced:** Can re-roll one Attack die."
-    },
-    {
-      "ployId": "CHAOS-LEG-S-IMP",
-      "killteamId": "CHAOS-LEG",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Implacable",
-      "description": "Whenever an operative is shooting a friendly LEGIONARY operative, weapons with the Piercing 1 weapon rule have the Piercing Crits 1 weapon rule instead.\n\nYou can ignore any changes to the stats of friendly LEGIONARY NURGLE operatives from being injured (including their weapons' stats)."
-    },
-    {
-      "ployId": "CHAOS-LEG-S-QSS",
-      "killteamId": "CHAOS-LEG",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Quicksilver Speed",
-      "description": "Whenever a friendly LEGIONARY operative that performed an action in which it moved during this turning point is fighting, worsen the Hit stat of the enemy operative's melee weapons by 1.  \n\r Whenever an operative is shooting a friendly LEGIONARY SLAANESH operative more than 6\" from it that performed an action in which it moved during this turning point, worsen the Hit stat of the enemy operative's weapons by 1.  \n\r In all cases for this ploy, this is not cumulative with being injured."
-    },
-    {
-      "ployId": "CHAOS-LEG-T-MA",
-      "killteamId": "CHAOS-LEG",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Malignant Aura",
-      "description": "Use this firefight ploy when a friendly LEGIONARY NURGLE operative is performing the Shoot action, when you select a valid target.\nUntil the end of that action, whenever that friendly operative is shooting an enemy operative within 3\" of it (i.e. including secondary targets, if any),\nthat friendly operative's ranged weapons have the Piercing 1 weapon rule.  \n\n**Piercing 1:** The defender collects 1 less Defence die."
-    },
-    {
-      "ployId": "CHAOS-LEG-T-MAC",
-      "killteamId": "CHAOS-LEG",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Mutability And Change",
-      "description": "Use this firefight ploy when a friendly LEGIONARY TZEENTCH operative is activated. Until the end of that operative's activation, add 1 to its APL stat, but it cannot perform the same action more than once during that activation.\nIf it's a WARRIOR operative, that operative's Marks of Chaos keyword cannot be changed during this turning point (see Infernal Pact additional rule)."
-    },
-    {
-      "ployId": "CHAOS-LEG-T-SC",
-      "killteamId": "CHAOS-LEG",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Sickening Captivation",
-      "description": "Use this firefight ploy during a friendly LEGIONARY SLAANESH operative's activation, before or after it performs an action.\nSelect one enemy operative visible to and within 4\" of that friendly operative. Until the end of that enemy operative's next activation, subtract 1 from its APL stat."
-    },
-    {
-      "ployId": "CHAOS-LEG-T-UEBS",
-      "killteamId": "CHAOS-LEG",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Unending Bloodshed",
-      "description": "Use this firefight ploy when a friendly LEGIONARY KHORNE operative is incapacitated while fighting or retaliating.  \n\nYou can strike the enemy operative in that sequence with one of your unresolved successes before it's removed from the killzone."
-    }
-  ],
-  "equipments": [
-    {
-      "eqId": "CHAOS-LEG-WA",
-      "killteamId": "CHAOS-LEG",
-      "seq": 51,
-      "eqName": "Warded Armour",
-      "description": "**STRATEGIC GAMBIT** Select one friendly LEGIONARY operative. Until the Ready step of the next Strategy phase, change that operative's Save stat to 2+.",
-      "effects": ""
-    },
-    {
-      "eqId": "CHAOS-LEG-MB",
-      "killteamId": "CHAOS-LEG",
-      "seq": 52,
-      "eqName": "Malefic Blades",
-      "description": "Friendly LEGIONARY operatives have the following melee weapon for the battle:\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Malefic Blade|5|3+|3/4|\n",
-      "effects": "ADDWEP:Malefic Blade|M|5|3+|3/4|"
-    },
-    {
-      "eqId": "CHAOS-LEG-TR",
-      "killteamId": "CHAOS-LEG",
-      "seq": 53,
-      "eqName": "Tainted Rounds",
-      "description": "Once per turning point, when a friendly LEGIONARY operative is performing the Shoot action and you select a bolt pistol or boltgun, you can use this rule.\nIf you do, until the end of that action, that weapon has the Rending weapon rule.",
-      "effects": ""
-    },
-    {
-      "eqId": "CHAOS-LEG-CT",
-      "killteamId": "CHAOS-LEG",
-      "seq": 54,
-      "eqName": "Chaos Talismans",
-      "description": "**STRATEGIC GAMBIT**\nSelect one Marks of Chaos keyword.\nOnce during each of their activations, when a friendly LEGIONARY operative that has that keyword is shooting, fighting or retaliating, if you roll two or more fails,\nyou can inflict D3 damage on that friendly operative to discard one of them and retain the other as a normal success instead.\nNote that if it is the Shoot action and that damage incapacitates that friendly operative, the action does not end (continue the sequence with your successful attack dice).",
-      "effects": ""
-    }
-  ],
-  "teamAbilities": [
-    {
-      "abilityId": "CHAOS-LEG-TA-AS",
-      "abilityName": "Astartes",
-      "description": "During each friendly LEGIONARY operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt pistol, boltgun or tainted bolt pistol must be selected for at least one of them.  \n\nEach friendly LEGIONARY operative can counteract regardless of its order."
-    },
-    {
-      "abilityId": "CHAOS-LEG-TA-MAOFCH",
-      "abilityName": "Mark Of Chaos",
-      "description": "Whenever you select a LEGIONARY operative for the battle, you must select one of the following keywords for it to have for that battle: KHORNE, NURGLE, SLAANESH, TZEENTCH, UNDIVIDED.\nEach operative's keyword can be different, but a BALEFIRE ACOLYTE operative cannot have the KHORNE keyword.  \n\nFriendly LEGIONARY operatives have an additional rule determined by this keyword. In addition, LEGIONARY ploys have additional benefits for operatives with the relevant keyword."
     }
   ]
 }

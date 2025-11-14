@@ -10,6 +10,113 @@
     "Infiltration",
     "Seek & Destroy"
   ],
+  "ploys": [
+    {
+      "ployId": "CHAOS-BLD-S-BD",
+      "killteamId": "CHAOS-BLD",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Bitter Demise",
+      "description": "Whenever a friendly BLOODED operative is incapacitated, before it is removed from the killzone, roll 1D3;\r on a 3 (or 2+ if that friendly operative has one of your Blooded tokens), inflict damage equal to the result on one enemy operative visible to and within 2\" of that friendly operative."
+    },
+    {
+      "ployId": "CHAOS-BLD-S-GK",
+      "killteamId": "CHAOS-BLD",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Glory Kill",
+      "description": "Select one enemey operative visible to a friendly BLOODED operative. Until the end of the turning point, whenever a friendly BLOODED operative is shooting against, fighting against, or retaliating against that enemy operative, its weapons have the Ceaseless weapon rule, or Relentless if that shooting, fighting, or retaliating operative has one of your Blooded tokens.  \n**Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)  \n**Relentless:** Can re-roll any or all Attack dice."
+    },
+    {
+      "ployId": "CHAOS-BLD-S-MG",
+      "killteamId": "CHAOS-BLD",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Malevolent Grit",
+      "description": "Whenever an operative is shooting a friendly BLOODED operative that has one of your Blooded tokens or is wholly within your opponent's territory, you can re-roll one of your defence dice."
+    },
+    {
+      "ployId": "CHAOS-BLD-S-RA",
+      "killteamId": "CHAOS-BLD",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Reckless Aspirant",
+      "description": "Whenever a friendly BLOODED operative that is wholly within your opponent's territory and does not have one of your Blooded tokens is shooting or fighting, its weapons have the Accurate 1 weapon rule.  \n\nWhenever a friendly BLOODED operative that has one of your blooded tokens is wholly within your opponent's territory, its weapons have the Punishing weapon rule.  \n**Punishing:** If you retain any critical successes, you can retain one of your fails as a normal success instead of discarding it.  \n**Accurate 1:** You can retain 1 Attack Die as a normal success without rolling it."
+    },
+    {
+      "ployId": "CHAOS-BLD-T-CD",
+      "killteamId": "CHAOS-BLD",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Callous Disregard",
+      "description": "Use this firefight ploy when a friendly BLOODED operative performs the Shoot action and you are selecting a valid target.\nHaving other friendly BLOODED operatives within an enemy operative's control range does not prevent that enemy operative from being selected.\nUntil the end of that action, whenever you discard an attack die as a fail, inflict damage equal to the die result on one friendly operative of your choice within control range of the target."
+    },
+    {
+      "ployId": "CHAOS-BLD-T-DF",
+      "killteamId": "CHAOS-BLD",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Dark Favour",
+      "description": "Use this firefight ploy when a friendly BLOODED operative that has one of your Blooded tokens is selected as the valid target of a shoot action or to fight against during the Fight action.\r Select one other friendly BLOODED operative visible to and within 3\" of that first friendly operative to become the valid target or to be fought against (as appropriate) instead, even if it normally would not be valid for this.\r If it is the Fight action, treat that other operative as being within the fighting operative's control range for the duration of that action. If it is the Shoot action, that other operative is only in cover or obscured if the original target was.  \n\r This ploy has no effect if it is the shoot action and the ranged weapon has the Blast or Torrent special rule."
+    },
+    {
+      "ployId": "CHAOS-BLD-T-MOR",
+      "killteamId": "CHAOS-BLD",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Moment Of Repute",
+      "description": "Use this firefight ploy during the activation fo a friendly BLOODED operative that is under the GAZE OF THE GODS before or after it performs an action.  \n\nUntil the end of that operative's activation, add 1 to its APL stat."
+    },
+    {
+      "ployId": "CHAOS-BLD-T-RE",
+      "killteamId": "CHAOS-BLD",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Reward Earned",
+      "description": "Use this firefight ploy when an enemy operative is incapacitated by a friendly BLOODED operative within 2\" of it that has one of your Blooded tokens.  \n\nYou gain one Blooded token."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "CHAOS-BLD-CS",
+      "killteamId": "CHAOS-BLD",
+      "seq": 1,
+      "eqName": "Chaos Sigil",
+      "description": "The Reward Earned firefight ploy costs you 0 CP.",
+      "effects": ""
+    },
+    {
+      "eqId": "CHAOS-BLD-ST",
+      "killteamId": "CHAOS-BLD",
+      "seq": 2,
+      "eqName": "Sinister Trophies",
+      "description": "Whenever an enemy operative is shooting against, fighting against, or retaliating against a friendly BLOODED operative that has one of your Blooded tokens and is within 2\" of it,\nyour opponent cannot re-roll their attack dice results of 1.",
+      "effects": ""
+    },
+    {
+      "eqId": "CHAOS-BLD-SOBW",
+      "killteamId": "CHAOS-BLD",
+      "seq": 3,
+      "eqName": "Symbols of Bloody Worship",
+      "description": "Whenever a friendly BLOODED operative ends an action, if it was not incapacitated but inflicted damage on any enemy operatives during that action, it regains 1 lost wound.",
+      "effects": ""
+    },
+    {
+      "eqId": "CHAOS-BLD-WB",
+      "killteamId": "CHAOS-BLD",
+      "seq": 4,
+      "eqName": "Wicked Blades",
+      "description": "Add 1 to both Dmg stats of each friendly BLOODED operative's bayonet, bayonet and shield, and improvised blade for the battle.",
+      "effects": "wepid:BAY,BAS,IB|DMG:1/1"
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "CHAOS-BLD-TA-BL",
+      "abilityName": "Blooded",
+      "description": "You gain one Blooded token:\n\n- In the ready step of each strategy phase.\n- The first time an enemy operative is incapacitated during each turning point.\n- The first time a friendly operative is incapacitated within 6\" of an enemy operative during each turning point.\n\nAs a strategic gambit, you can assign any of your unassigned blooded tokens to friendly\nblooded operatives. Each operative cannot have more than one of your blooded tokens.  \n\nThen, if four or more friendly operatives in the killzone have one of your Blooded tokens,\nyou can select one of them to be under the GAZE OF THE GODS until the end of the\nturning point.  \n\nWhenever a friendly BLOODED operative has one of your Blooded tokens, its weapons\nhave the accurate 1 weapon rule. If that friendly BLOODED operative is under the GAZE\nOF THE GODS, you can retain one of your normal successes as a result of the Accurate\n1 weapon rule as a critical success instead."
+    }
+  ],
   "opTypes": [
     {
       "opTypeId": "CHAOS-BLD-CHF",
@@ -263,8 +370,7 @@
           "abilityName": "Lead With Strength",
           "description": "Whenever this operative has one of your\nBlooded tokens or is wholly within your opponent's territory\ntreat it as if it is under the GAZE OF THE GODS."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "CHAOS-BLD-GRN",
@@ -439,8 +545,7 @@
           "abilityName": "Grenadier",
           "description": "This operative can use frag and krak grenades (See\nuniversal equipment). Doing so does not count towards any limited\nuses you have (i.e, if you also select those grenades from equipment\nfor other operatives. Whenever it is doing so, improve the Hit stat of\nthat weapon by 1."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "CHAOS-BLD-BUT",
@@ -492,8 +597,7 @@
           "abilityName": "Unholy Sustenance",
           "description": "Whenever this operative is fighting or retaliating,\nif it incapacitates the enemy operative in that sequence, it regains d3\nlost wounds. This is cumulative with the Symbols of Bloody Worship\nEquipment."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "CHAOS-BLD-COM",
@@ -561,8 +665,7 @@
           "AP": 1,
           "description": "**SUPPORT:** Select one other friendly BLOODED operative (excluding OGRYN) visible to and within 6\" of this operative. Until the end of that operative's next activation add 1 to its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative"
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "CHAOS-BLD-CRPS",
@@ -653,8 +756,7 @@
           "AP": 1,
           "description": "Select one friendly BLOODED operative within this operative' control range, then select the Rejuvenated STIMM RULE or one other STIMM RULE for that operative to have for that battle.\nYou cannot select each STIMM rule for each operative more than once per battle.  \n\nThis operative cannot perform this action while within control range of an enemy operative"
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "CHAOS-BLD-ENF",
@@ -730,8 +832,7 @@
           "AP": 1,
           "description": "Select one other friendly BLOODED operative visible to and within 3\" of this operative.\nThat operative can immediately perform a 1AP action for free, but it cannot move more than 2\" during that action.\nIf the selected operative is a COMMSMAN, it cannot perform the SACRILIGEOUS ACTUATION or SIGNAL action.  \n\nThis operative cannot perform this action while within control range of an enemy operative"
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "CHAOS-BLD-FLN",
@@ -779,8 +880,7 @@
           "abilityName": "Wretched",
           "description": "This operative can perform the charge action while it has a Conceal order. If this operative is incapacitated during the Fight action, you can strike with one of your unresolved successes before it is removed from the killzone."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "CHAOS-BLD-GNR",
@@ -962,8 +1062,7 @@
           ]
         }
       ],
-      "abilities": [],
-      "options": []
+      "abilities": []
     },
     {
       "opTypeId": "CHAOS-BLD-OGR",
@@ -1023,8 +1122,7 @@
           "abilityName": "Chem Enhanced",
           "description": "You can ignore any changes to this operatives APL stat and it is not affected by enemy operatives' Shock and Stun rules."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "CHAOS-BLD-SS",
@@ -1112,8 +1210,7 @@
           "abilityName": "Camo Cloak",
           "description": "Whenever an operative is shooting this operative, if you can retain any cover saves, you can retain one additional cover save. This is not cumulative with improved cover saves from vantage terrain."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "CHAOS-BLD-THUG",
@@ -1158,8 +1255,7 @@
           "abilityName": "Tough",
           "description": "Whenever this operative is fighting or retaliating, or an operative is shooting it, normal damage of 3 or more inflicts 1 less damage on it."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "CHAOS-BLD-TRS",
@@ -1228,8 +1324,7 @@
           "abilityName": "Shielding",
           "description": "Whenever this operative is activated, you can use this rule.\nIf you do, until the start of this operative's next activation:\n\n- Subtract 2\" from its Move stat\n- Whenever an operative is shooting this operative, you can re-roll any of your defence dice\n"
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "CHAOS-BLD-TRP",
@@ -1289,115 +1384,7 @@
           "abilityName": "Group Activation",
           "description": "Whenever this operative is expended, you must then activate any other ready friendly BLOODED TROOPPER operative (if able) before your opponent activates.\nWhen that other operative is expended, your opponent then activates as normal (in other words, you cannot activate more than two operatives as specified with this rule)."
         }
-      ],
-      "options": []
-    }
-  ],
-  "ploys": [
-    {
-      "ployId": "CHAOS-BLD-S-BD",
-      "killteamId": "CHAOS-BLD",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Bitter Demise",
-      "description": "Whenever a friendly BLOODED operative is incapacitated, before it is removed from the killzone, roll 1D3;\r on a 3 (or 2+ if that friendly operative has one of your Blooded tokens), inflict damage equal to the result on one enemy operative visible to and within 2\" of that friendly operative."
-    },
-    {
-      "ployId": "CHAOS-BLD-S-GK",
-      "killteamId": "CHAOS-BLD",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Glory Kill",
-      "description": "Select one enemey operative visible to a friendly BLOODED operative. Until the end of the turning point, whenever a friendly BLOODED operative is shooting against, fighting against, or retaliating against that enemy operative, its weapons have the Ceaseless weapon rule, or Relentless if that shooting, fighting, or retaliating operative has one of your Blooded tokens.  \n**Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)  \n**Relentless:** Can re-roll any or all Attack dice."
-    },
-    {
-      "ployId": "CHAOS-BLD-S-MG",
-      "killteamId": "CHAOS-BLD",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Malevolent Grit",
-      "description": "Whenever an operative is shooting a friendly BLOODED operative that has one of your Blooded tokens or is wholly within your opponent's territory, you can re-roll one of your defence dice."
-    },
-    {
-      "ployId": "CHAOS-BLD-S-RA",
-      "killteamId": "CHAOS-BLD",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Reckless Aspirant",
-      "description": "Whenever a friendly BLOODED operative that is wholly within your opponent's territory and does not have one of your Blooded tokens is shooting or fighting, its weapons have the Accurate 1 weapon rule.  \n\nWhenever a friendly BLOODED operative that has one of your blooded tokens is wholly within your opponent's territory, its weapons have the Punishing weapon rule.  \n**Punishing:** If you retain any critical successes, you can retain one of your fails as a normal success instead of discarding it.  \n**Accurate 1:** You can retain 1 Attack Die as a normal success without rolling it."
-    },
-    {
-      "ployId": "CHAOS-BLD-T-CD",
-      "killteamId": "CHAOS-BLD",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Callous Disregard",
-      "description": "Use this firefight ploy when a friendly BLOODED operative performs the Shoot action and you are selecting a valid target.\nHaving other friendly BLOODED operatives within an enemy operative's control range does not prevent that enemy operative from being selected.\nUntil the end of that action, whenever you discard an attack die as a fail, inflict damage equal to the die result on one friendly operative of your choice within control range of the target."
-    },
-    {
-      "ployId": "CHAOS-BLD-T-DF",
-      "killteamId": "CHAOS-BLD",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Dark Favour",
-      "description": "Use this firefight ploy when a friendly BLOODED operative that has one of your Blooded tokens is selected as the valid target of a shoot action or to fight against during the Fight action.\r Select one other friendly BLOODED operative visible to and within 3\" of that first friendly operative to become the valid target or to be fought against (as appropriate) instead, even if it normally would not be valid for this.\r If it is the Fight action, treat that other operative as being within the fighting operative's control range for the duration of that action. If it is the Shoot action, that other operative is only in cover or obscured if the original target was.  \n\r This ploy has no effect if it is the shoot action and the ranged weapon has the Blast or Torrent special rule."
-    },
-    {
-      "ployId": "CHAOS-BLD-T-MOR",
-      "killteamId": "CHAOS-BLD",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Moment Of Repute",
-      "description": "Use this firefight ploy during the activation fo a friendly BLOODED operative that is under the GAZE OF THE GODS before or after it performs an action.  \n\nUntil the end of that operative's activation, add 1 to its APL stat."
-    },
-    {
-      "ployId": "CHAOS-BLD-T-RE",
-      "killteamId": "CHAOS-BLD",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Reward Earned",
-      "description": "Use this firefight ploy when an enemy operative is incapacitated by a friendly BLOODED operative within 2\" of it that has one of your Blooded tokens.  \n\nYou gain one Blooded token."
-    }
-  ],
-  "equipments": [
-    {
-      "eqId": "CHAOS-BLD-CS",
-      "killteamId": "CHAOS-BLD",
-      "seq": 1,
-      "eqName": "Chaos Sigil",
-      "description": "The Reward Earned firefight ploy costs you 0 CP.",
-      "effects": ""
-    },
-    {
-      "eqId": "CHAOS-BLD-ST",
-      "killteamId": "CHAOS-BLD",
-      "seq": 2,
-      "eqName": "Sinister Trophies",
-      "description": "Whenever an enemy operative is shooting against, fighting against, or retaliating against a friendly BLOODED operative that has one of your Blooded tokens and is within 2\" of it,\nyour opponent cannot re-roll their attack dice results of 1.",
-      "effects": ""
-    },
-    {
-      "eqId": "CHAOS-BLD-SOBW",
-      "killteamId": "CHAOS-BLD",
-      "seq": 3,
-      "eqName": "Symbols of Bloody Worship",
-      "description": "Whenever a friendly BLOODED operative ends an action, if it was not incapacitated but inflicted damage on any enemy operatives during that action, it regains 1 lost wound.",
-      "effects": ""
-    },
-    {
-      "eqId": "CHAOS-BLD-WB",
-      "killteamId": "CHAOS-BLD",
-      "seq": 4,
-      "eqName": "Wicked Blades",
-      "description": "Add 1 to both Dmg stats of each friendly BLOODED operative's bayonet, bayonet and shield, and improvised blade for the battle.",
-      "effects": "wepid:BAY,BAS,IB|DMG:1/1"
-    }
-  ],
-  "teamAbilities": [
-    {
-      "abilityId": "CHAOS-BLD-TA-BL",
-      "abilityName": "Blooded",
-      "description": "You gain one Blooded token:\n\n- In the ready step of each strategy phase.\n- The first time an enemy operative is incapacitated during each turning point.\n- The first time a friendly operative is incapacitated within 6\" of an enemy operative during each turning point.\n\nAs a strategic gambit, you can assign any of your unassigned blooded tokens to friendly\nblooded operatives. Each operative cannot have more than one of your blooded tokens.  \n\nThen, if four or more friendly operatives in the killzone have one of your Blooded tokens,\nyou can select one of them to be under the GAZE OF THE GODS until the end of the\nturning point.  \n\nWhenever a friendly BLOODED operative has one of your Blooded tokens, its weapons\nhave the accurate 1 weapon rule. If that friendly BLOODED operative is under the GAZE\nOF THE GODS, you can retain one of your normal successes as a result of the Accurate\n1 weapon rule as a critical success instead."
+      ]
     }
   ]
 }

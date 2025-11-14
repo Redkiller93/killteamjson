@@ -10,6 +10,113 @@
     "Infiltration",
     "Recon"
   ],
+  "ploys": [
+    {
+      "ployId": "AEL-COR-S-ME",
+      "killteamId": "AEL-COR",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Mobile Engagement",
+      "description": "Whenever an operative is shooting a friendly CORSAIR VOIDSCARRED operative that performed an action in which it moved during this turning point, you can re-roll one of your dice."
+    },
+    {
+      "ployId": "AEL-COR-S-OC",
+      "killteamId": "AEL-COR",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Outcasts",
+      "description": "Whenever a friendly CORSAIR VOIDSCARRED operative is more than 5\" from other friendly operative, its weapons have the Punishing weapon rule.  \n**Punishing:** If you retain any critical successes, you can retain one of your fails as a normal success instead of discarding it."
+    },
+    {
+      "ployId": "AEL-COR-S-PL",
+      "killteamId": "AEL-COR",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Plunderers",
+      "description": "Up to 1D3 friendly CORSAIR VOIDSCARRED operatives can immediately perform a free Dash action in an order of your choice.\nThis turning point, each that does so cannot perform the Dash action during their activation. You cannot use this ploy during the first Turning point."
+    },
+    {
+      "ployId": "AEL-COR-S-PP",
+      "killteamId": "AEL-COR",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Piratical Profiteers",
+      "description": "Whenever a friendly CORSAIR VOIDSCARRED operative is shooting, fighting or retaliating, if it or the enemy operative in that sequence contests an objective marker or one of your mission markers, that operative's weapons have the Balanced special rule.  \n**Balanced:** Can re-roll one Attack die."
+    },
+    {
+      "ployId": "AEL-COR-T-CA",
+      "killteamId": "AEL-COR",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Contemptuous Adventurer",
+      "description": "Use this firefight ploy when you activate your first friendly CORSAIR VOIDSCARRED operative during the turning point, if it is more than 5\" from other friendly operatives.\nThe first time that operative performs either the Shoot or Fight action during that activation, its weapons have the relentless rule.\nNote this ploy cannot come into effect more than once per activation (You cannot use it during both the Shoot and Fight action in the same activation).  \n**Relentless:** Can re-roll any or all Attack dice."
+    },
+    {
+      "ployId": "AEL-COR-T-CF",
+      "killteamId": "AEL-COR",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Capricious Flight",
+      "description": "Use this firefight ploy during a friendly CORSAIR VOIDSCARRED operative's activation, before or after it performs an action. During that activation, that operative can perform the Fall Back action for 1 less AP."
+    },
+    {
+      "ployId": "AEL-COR-T-LF",
+      "killteamId": "AEL-COR",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Light Fingers",
+      "description": "Use this firefight ploy during a friendly CORSAIR VOIDSCARRED operative's activation.\nUntil the end of that activation, having an enemy operative within its control range does not prevent that friendly operative from performing the Pick Up marker or mission actions."
+    },
+    {
+      "ployId": "AEL-COR-T-OF",
+      "killteamId": "AEL-COR",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Opportunistic Fighters",
+      "description": "Use this Firefight ploy when an enemy operative performs the Fall Back action. Before it moves, inflict 2D3 damage on that operative for each friendly CORSAIR VOIDSCARRED operative within its control range."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "AEL-COR-DM",
+      "killteamId": "AEL-COR",
+      "seq": 1,
+      "eqName": "Diuturnal Mantles",
+      "description": "Whenever an operative is shooting a friendly CORSAIR VOIDSCARRED operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule, you can re-roll one of your defence dice.\nIn addition, friendly CORSAIR VOIDSCARRED operatives are not affected by the X\" Devastating X weapon rule (i.e, Devastating with a distance) unless they are the target during that sequence.",
+      "effects": ""
+    },
+    {
+      "eqId": "AEL-COR-MF",
+      "killteamId": "AEL-COR",
+      "seq": 2,
+      "eqName": "Mistfield",
+      "description": "Once per Turning point, when an operative is shooting a friendly CORSAIR VOIDSCARRED operative more than 3\" from it, at the start of the Roll Defence Dice step, you can use this rule.\nIf you do, worsen the X of the piercing weapon rule by 1 (If any) until the end of that sequence. Note that Piercing 1 would therefore be ignored.",
+      "effects": ""
+    },
+    {
+      "eqId": "AEL-COR-ROG",
+      "killteamId": "AEL-COR",
+      "seq": 3,
+      "eqName": "Runes Of Guidance",
+      "description": "Once per turning point, whenever a friendly CORSAIR VOIDSCARRED WAY SEEKER or CORSAIR VOIDSCARRED SOUL WEAVER operative is performing a PSYCHIC unique action (excluding Warp Fold),\nyou can use this rule. If you do, until the end of that action, add 3\" to its distance requirement. Note this has no effect on PSYCHIC weapons (e.g, the Devastating distance requirement of Lightning Strike).",
+      "effects": ""
+    },
+    {
+      "eqId": "AEL-COR-SC",
+      "killteamId": "AEL-COR",
+      "seq": 4,
+      "eqName": "Star Charts",
+      "description": "**STRATEGIC GAMBIT**  \n\nRoll 1D3, if the result is higher than the number of current turning point, you gain 1CP and cannot use this STRATEGIC GAMBIT for the rest of the battle.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "AEL-COR-TA-AERA",
+      "abilityName": "Aeldari Raiders",
+      "description": "Each friendly CORSAIR VOIDSCARRED operative can perform a free Dash action during their activation."
+    }
+  ],
   "opTypes": [
     {
       "opTypeId": "AEL-COR-FEL",
@@ -148,8 +255,7 @@
           "abilityName": "Veteran Raider",
           "description": "This operative can perform a 1AP action for free during their activation as a result of the Aeldari Raiders rule (instead of the Dash action)."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "AEL-COR-GNR",
@@ -261,8 +367,7 @@
           ]
         }
       ],
-      "abilities": [],
-      "options": []
+      "abilities": []
     },
     {
       "opTypeId": "AEL-COR-HGNR",
@@ -404,8 +509,7 @@
           ]
         }
       ],
-      "abilities": [],
-      "options": []
+      "abilities": []
     },
     {
       "opTypeId": "AEL-COR-FD",
@@ -519,8 +623,7 @@
           "abilityName": "Rifles",
           "description": "Whenever a friendly CORSAIR VOIDSCARRED operative is shooting with a shuriken rifle or ranger long rifle during an activation in which it has not performed the Charge, Fall Back or Reposition action,\nthat operative has the Accurate 1 weapon rule. Note that operative is not restricted from performing those actions after shooting."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "AEL-COR-KUR",
@@ -602,8 +705,7 @@
           "abilityName": "Bladed Stance",
           "description": "Whenever this operative is fighting or retaliating, you can resolve one of your successes before the normal order. If you do, that success must be used to block."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "AEL-COR-HNT",
@@ -715,8 +817,7 @@
           "abilityName": "Faolchu's Bond",
           "description": "The first time during each turning point that this operative is retaliating, if it is ready,\r in the Resolve Attack Dice step of that sequence, you resolve the first attack dice (i.e, defender instead of attacker)."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "AEL-COR-SW",
@@ -797,8 +898,7 @@
           "AP": 1,
           "description": "*PSYCHIC*  \n\nSelect one friendly CORSAIR VOIDSCARRED operative visible to and within 6\" of this operative. That operative regains 2D3 lost wounds.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "AEL-COR-SR",
@@ -907,8 +1007,7 @@
           "abilityName": "Slicing Attack",
           "description": "Whenever this operative performs the Reposition action with a Warp Jump (See Blink Pack), you can use this rule.\r If you do, after it moves, draw an imaginary line 1mm in diameter and up to 7\" long between it and its previous location.\r Note this does not have to be a straight line. Inflict 1D3+2 damage on one enemy operative that line crosses. You cannot inflict damage on an enemy operative that was not visible to this operative at the start of that action. A 28mm round marker can be temporarily placed underneath this operative before it moves to help determine this."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "AEL-COR-SD",
@@ -1015,8 +1114,7 @@
           "AP": 1,
           "description": "Perform 2 free shoot actions with this operative (this takes precedence over action restrictions). You must select its fusion pistol for one action and its shuriken pistol for the other (in any order).  \n\r This operative cannot perform this action while it has a Conceal order, or during an activation in which it performed the Shoot action (or vice versa)."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "AEL-COR-WS",
@@ -1159,8 +1257,7 @@
           "AP": 1,
           "description": "*PSYCHIC*  \n\r  Select one Friendly CORSAIR VOIDSCARRED operative visible to and within 6\" of this operative.\r  Until the start of this operative's next activation, until it is incapacitated, or until it performs this action again (Whichever comes first), the first time an attack dice inflicts normal damage on that friendly operative, ignore that inflicted damage.  \n\r This operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "AEL-COR-WAR",
@@ -1281,115 +1378,7 @@
           "abilityName": "Rifles",
           "description": "Whenever a friendly CORSAIR VOIDSCARRED operative is shooting with a shuriken rifle or ranger long rifle during an activation in which it has not performed the Charge, Fall Back or Reposition action,\nthat operative has the Accurate 1 weapon rule. Note that operative is not restricted from performing those actions after shooting."
         }
-      ],
-      "options": []
-    }
-  ],
-  "ploys": [
-    {
-      "ployId": "AEL-COR-S-ME",
-      "killteamId": "AEL-COR",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Mobile Engagement",
-      "description": "Whenever an operative is shooting a friendly CORSAIR VOIDSCARRED operative that performed an action in which it moved during this turning point, you can re-roll one of your dice."
-    },
-    {
-      "ployId": "AEL-COR-S-OC",
-      "killteamId": "AEL-COR",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Outcasts",
-      "description": "Whenever a friendly CORSAIR VOIDSCARRED operative is more than 5\" from other friendly operative, its weapons have the Punishing weapon rule.  \n**Punishing:** If you retain any critical successes, you can retain one of your fails as a normal success instead of discarding it."
-    },
-    {
-      "ployId": "AEL-COR-S-PL",
-      "killteamId": "AEL-COR",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Plunderers",
-      "description": "Up to 1D3 friendly CORSAIR VOIDSCARRED operatives can immediately perform a free Dash action in an order of your choice.\nThis turning point, each that does so cannot perform the Dash action during their activation. You cannot use this ploy during the first Turning point."
-    },
-    {
-      "ployId": "AEL-COR-S-PP",
-      "killteamId": "AEL-COR",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Piratical Profiteers",
-      "description": "Whenever a friendly CORSAIR VOIDSCARRED operative is shooting, fighting or retaliating, if it or the enemy operative in that sequence contests an objective marker or one of your mission markers, that operative's weapons have the Balanced special rule.  \n**Balanced:** Can re-roll one Attack die."
-    },
-    {
-      "ployId": "AEL-COR-T-CA",
-      "killteamId": "AEL-COR",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Contemptuous Adventurer",
-      "description": "Use this firefight ploy when you activate your first friendly CORSAIR VOIDSCARRED operative during the turning point, if it is more than 5\" from other friendly operatives.\nThe first time that operative performs either the Shoot or Fight action during that activation, its weapons have the relentless rule.\nNote this ploy cannot come into effect more than once per activation (You cannot use it during both the Shoot and Fight action in the same activation).  \n**Relentless:** Can re-roll any or all Attack dice."
-    },
-    {
-      "ployId": "AEL-COR-T-CF",
-      "killteamId": "AEL-COR",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Capricious Flight",
-      "description": "Use this firefight ploy during a friendly CORSAIR VOIDSCARRED operative's activation, before or after it performs an action. During that activation, that operative can perform the Fall Back action for 1 less AP."
-    },
-    {
-      "ployId": "AEL-COR-T-LF",
-      "killteamId": "AEL-COR",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Light Fingers",
-      "description": "Use this firefight ploy during a friendly CORSAIR VOIDSCARRED operative's activation.\nUntil the end of that activation, having an enemy operative within its control range does not prevent that friendly operative from performing the Pick Up marker or mission actions."
-    },
-    {
-      "ployId": "AEL-COR-T-OF",
-      "killteamId": "AEL-COR",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Opportunistic Fighters",
-      "description": "Use this Firefight ploy when an enemy operative performs the Fall Back action. Before it moves, inflict 2D3 damage on that operative for each friendly CORSAIR VOIDSCARRED operative within its control range."
-    }
-  ],
-  "equipments": [
-    {
-      "eqId": "AEL-COR-DM",
-      "killteamId": "AEL-COR",
-      "seq": 1,
-      "eqName": "Diuturnal Mantles",
-      "description": "Whenever an operative is shooting a friendly CORSAIR VOIDSCARRED operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule, you can re-roll one of your defence dice.\nIn addition, friendly CORSAIR VOIDSCARRED operatives are not affected by the X\" Devastating X weapon rule (i.e, Devastating with a distance) unless they are the target during that sequence.",
-      "effects": ""
-    },
-    {
-      "eqId": "AEL-COR-MF",
-      "killteamId": "AEL-COR",
-      "seq": 2,
-      "eqName": "Mistfield",
-      "description": "Once per Turning point, when an operative is shooting a friendly CORSAIR VOIDSCARRED operative more than 3\" from it, at the start of the Roll Defence Dice step, you can use this rule.\nIf you do, worsen the X of the piercing weapon rule by 1 (If any) until the end of that sequence. Note that Piercing 1 would therefore be ignored.",
-      "effects": ""
-    },
-    {
-      "eqId": "AEL-COR-ROG",
-      "killteamId": "AEL-COR",
-      "seq": 3,
-      "eqName": "Runes Of Guidance",
-      "description": "Once per turning point, whenever a friendly CORSAIR VOIDSCARRED WAY SEEKER or CORSAIR VOIDSCARRED SOUL WEAVER operative is performing a PSYCHIC unique action (excluding Warp Fold),\nyou can use this rule. If you do, until the end of that action, add 3\" to its distance requirement. Note this has no effect on PSYCHIC weapons (e.g, the Devastating distance requirement of Lightning Strike).",
-      "effects": ""
-    },
-    {
-      "eqId": "AEL-COR-SC",
-      "killteamId": "AEL-COR",
-      "seq": 4,
-      "eqName": "Star Charts",
-      "description": "**STRATEGIC GAMBIT**  \n\nRoll 1D3, if the result is higher than the number of current turning point, you gain 1CP and cannot use this STRATEGIC GAMBIT for the rest of the battle.",
-      "effects": ""
-    }
-  ],
-  "teamAbilities": [
-    {
-      "abilityId": "AEL-COR-TA-AERA",
-      "abilityName": "Aeldari Raiders",
-      "description": "Each friendly CORSAIR VOIDSCARRED operative can perform a free Dash action during their activation."
+      ]
     }
   ]
 }

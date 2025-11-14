@@ -10,6 +10,114 @@
     "Infiltration",
     "Recon"
   ],
+  "ploys": [
+    {
+      "ployId": "TAU-PF-S-BND",
+      "killteamId": "TAU-PF",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Bonded",
+      "description": "Whenever a friendly PATHFINDER operative (excluding DRONE) is shooting or retaliating with a ranged weapon (see Point-Blank Fusillade firefight ploy), if it's within 3\" of another friendly PATHFINDER operative (excluding DRONE),\nthat first friendly operative's ranged weapons have the Accurate 1 weapon rule.  \n**Accurate 1:** You can retain 1 Attack Die as a normal success without rolling it."
+    },
+    {
+      "ployId": "TAU-PF-S-RS",
+      "killteamId": "TAU-PF",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Recon Sweep",
+      "description": "Select one killzone edge (excluding your own). Each friendly PATHFINDER operative that's wholly within 6\" of that edge can immediately perform a free Dash action in an order of your choice, but each that does so must end that move wholly within 6\" of a killzone edge (excluding your own). You cannot use this ploy during the first turning point."
+    },
+    {
+      "ployId": "TAU-PF-S-SF",
+      "killteamId": "TAU-PF",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Suppressing Fire",
+      "description": "Whenever an enemy operative is performing the Shoot action, if the target (the primary target if the weapon has the Blast or Torrent weapon rules) isn't the closest valid target,\nyour opponent cannot re-roll their attack dice. Ignore friendly PATHFINDER operatives that have a Conceal order or are obscured when determining this."
+    },
+    {
+      "ployId": "TAU-PF-S-TC",
+      "killteamId": "TAU-PF",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Take Cover",
+      "description": "Whenever an operative is shooting a friendly PATHFINDER operative, if you can retain any cover saves, improve that friendly operative's Save stat by 1."
+    },
+    {
+      "ployId": "TAU-PF-T-AWC",
+      "killteamId": "TAU-PF",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "A Worthy Cause",
+      "description": "Use this firefight ploy at the start of the Firefight phase. One friendly PATHFINDER operative (excluding DRONE) can immediately perform a free mission action."
+    },
+    {
+      "ployId": "TAU-PF-T-PBF",
+      "killteamId": "TAU-PF",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Point-Blank Fusillade",
+      "description": "Use this firefight ploy when a friendly PATHFINDER operative (excluding DRONE) is retaliating, if it wasn't within control range of enemy operatives at the start of that activation/counteraction.\r You can use one of its ranged weapons as a melee weapon (excluding a weapon that has the word 'grenade' in its name) during that sequence.\r If you do, you cannot block during that sequence, and the following weapon rules have no effect on its weapons until the end of that sequence: Devastating, Piercing, Torrent.  \nIf that friendly operative is ready, has an Engage order and is retaliating with a pulse weapon, you resolve the first attack dice (i.e. defender instead of attacker)."
+    },
+    {
+      "ployId": "TAU-PF-T-SF2",
+      "killteamId": "TAU-PF",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Supporting Fire",
+      "description": "Use this firefight ploy when a friendly PATHFINDER operative is performing the Shoot action and you're selecting a valid target within 6\" of it. Having other friendly PATHFINDER\noperatives within an enemy operative's control range doesn't prevent that enemy operative from being selected."
+    },
+    {
+      "ployId": "TAU-PF-T-SP",
+      "killteamId": "TAU-PF",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Saviour Protocols",
+      "description": "Use this firefight ploy when a friendly PATHFINDER operative (excluding DRONE) is selected as the valid target of a Shoot action.\r Select one friendly PATHFINDER DRONE operative visible to and within 3\" of that first friendly operative to become the valid target instead (even if it wouldn't normally be valid for this).\r That friendly DRONE operative is only in cover if the originatl target was. This ploy has no effect if the ranged weapon has the Blast or Torrent weapon rule."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "TAU-PF-TAO",
+      "killteamId": "TAU-PF",
+      "seq": 1,
+      "eqName": "Target Analysis Optic",
+      "description": "Once per turning point, when a friendly PATHFINDER operative (excluding DRONE) is performing the Shoot action and you're selecting a valid target, you can use this rule.\nIf you do, until the end of that action, if the target has at least one of your Markerlight tokens, it is treated as having one more. If the ranged weapon has the Blast or Torrent weapon rule, only the primary target is affected.",
+      "effects": ""
+    },
+    {
+      "eqId": "TAU-PF-OSUL",
+      "killteamId": "TAU-PF",
+      "seq": 2,
+      "eqName": "Orbital Survey Uplink",
+      "description": "Once per turning point, when a friendly PATHFINDER operative performs the Markerlight action, you can use this rule.\nIf you do, you can select one enemy operative in the killzone to gain one of your Markerlight tokens instead (it doesn't need to be visible).\nThis is not cumulative with the high-intensity Markerlight or Analyse rules.",
+      "effects": ""
+    },
+    {
+      "eqId": "TAU-PF-HIML",
+      "killteamId": "TAU-PF",
+      "seq": 3,
+      "eqName": "High-Intensity Markerlight",
+      "description": "Once per turning point, when a friendly PATHFINDER operative (excluding MV7 MARKER DRONE) performs the Markerlight action, you can use this rule.\nIf you do, the enemy operative you select gains two of your Markerlight tokens (instead of one).",
+      "effects": ""
+    },
+    {
+      "eqId": "TAU-PF-PG",
+      "killteamId": "TAU-PF",
+      "seq": 4,
+      "eqName": "Photon Grenade",
+      "description": "Once per turning point, a friendly PATHFINDER operative that has the Markerlight action on their datacard (excluding DRONE) can perform the following unique action:  \n\n**PHOTON GRENADE (1 AP):**  \n\nSelect a valid target for this operative and roll one D6:  \n\nOn a 3+, until the end of that operative's next activation, subtract 2\" from its Move stat and it cannot perform the Dash action.</br>\nAn operative cannot perform this action while within control range of an enemy operative.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "TAU-PF-TA-MA",
+      "abilityName": "Markerlight",
+      "AP": 1,
+      "description": "Select one enemy operative visible to this operative. That enemy operative gains one of your Markerlight tokens (to a maximum of four).  \n\nAn operative cannot perform this action while within control range of an enemy operative.\nIf an operative (excluding MB3 RECON) would perform the Shoot action (excluding Guard) and this action during the same activation, only the target of that Shoot action can be selected for this action (and vice versa).\n\nOnce during each of their activations, whenever an enemy operative that has any of your Markerlight tokens performs the Dash, Charge, Fall Back or Reposition action, remove one of its Markerlight tokens.  \n\nWhile only some PATHFINDER operatives can perform the Markerlight action, all PATHFINDER operatives can benefit from its effects.\nWhenever a friendly PATHFINDER operative is shooting with a weapon from its datacard (excluding ASSAULT GRENADIER'S fusion grenade), it has additional rules determined by the number of your Markerlight tokens the target has.\nThese are cumulative, so if an enemy operative has two of your Markerlight tokens, the friendly operative shooting it has the rules for 1 and 2 tokens during that sequence.\n\n|**Tokens**|**Additional Rules**|\n|:---:|-----|\n|**1**|Saturate and Balanced weapon rules.|\n|**2**|Improve the Hit stat of that friendly operative's ranged weapons by 1 (to a maximum of 3+).|\n|**3**|The target cannot be obscured.|\n|**4**|Seek Light weapon rule.|\n\n\n**Saturate:** The defender cannot retain Cover saves.  \n\n**Balanced:** Can re-roll one Attack die  \n\n**Seek Light:** When selecting a valid target, operatives cannot use light terrain for cover. While this can allow such operatives to be targeted (assuming they are Visible), it does not remove their Cover save (if any)."
+    }
+  ],
   "opTypes": [
     {
       "opTypeId": "TAU-PF-SU",
@@ -69,8 +177,7 @@
           "abilityName": "Art Of War",
           "description": "Once per battle STRATEGIC GAMBIT. Select one of the following and apply its rules until the end of the turning point:\n\n- Mont'ka: Add 1\" to the Move stat of friendly PATHFINDER operatives.\n- Kauyon: Friendly PATHFINDER operatives can perform a free Markerlight action during their activation if they have a Conceal order\n"
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "TAU-PF-AG",
@@ -169,8 +276,7 @@
           "abilityName": "Grenadier Specialist",
           "description": "This operative can use frag and krak grenades (see universal equipment).\nDoing so does not count towards any limited uses you have (i.e. if you also select those grenades from equipment for other operatives).\nWhenever it is doing so, improve the Hit stat of that weapon by 1."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "TAU-PF-BL",
@@ -234,8 +340,7 @@
           "abilityName": "Veteran",
           "description": "During a turning point in which you have used a friendly SHAS'UI operative's Art of War STRATEGIC GAMBIT and you selected Mont'ka, this operative can use Kauyon instead during its activation (and vice versa)."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "TAU-PF-COMMS",
@@ -296,8 +401,7 @@
           "AP": 1,
           "description": "**SUPPORT**\nSelect one other friendly PATHFINDER operative visible to and within 6\" of this operative.\nUntil the end of that operative's next activation, add 1 to its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "TAU-PF-DC",
@@ -364,8 +468,7 @@
           "AP": 1,
           "description": "One friendly PATHFINDER DRONE operative can immediately perform one free action, but it cannot move more than 2\" during that action.\nThat action can be one that's normally restricted by its drone rule (this takes precedence over that rule).  \n\nThis operative cannot perform this action while within control range of an enemy operative.\nThis operative can perform this action more than once during its activation, but if it does, the same DRONE operative cannot perform the same free action more than once per activation."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "TAU-PF-MARKS",
@@ -456,8 +559,7 @@
           "abilityName": "Inertial Dampener",
           "description": "You can ignore any changes to the Hit stat of this operative's marksman rail rifle."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "TAU-PF-MDC",
@@ -524,8 +626,7 @@
           "AP": 1,
           "description": "Select one friendly PATHFINDER operative (excluding DRONE) within this operative's control range to regain up to 2D3 lost wounds.\nIt cannot be an operative that the Medic! rule was used on during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "TAU-PF-SL",
@@ -591,8 +692,7 @@
           "abilityName": "Group Activation",
           "description": "Whenever this operative is expended, you must then activate one other ready friendly PATHFINDER SHAS'LA operative (if able) before your opponent activates.\nWhen that other operative is expended, your opponent then activates as normal (in other words, you cannot activate more than two operatives in succession with this rule)."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "TAU-PF-TSI",
@@ -660,8 +760,7 @@
           "AP": 1,
           "description": "Select one enemy operative visible to this operative. Until the end of that operative's next activation, subtract 1 from its APL stat.  \n\nThis operative cannot perform this action while it has a Conceal order, or while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "TAU-PF-WE",
@@ -774,8 +873,7 @@
           ]
         }
       ],
-      "abilities": [],
-      "options": []
+      "abilities": []
     },
     {
       "opTypeId": "TAU-PF-MB3",
@@ -877,8 +975,7 @@
           "abilityName": "Drone",
           "description": "\n- This operative cannot perform any actions other than Charge, Dash, Fall Back, Fight, Markerlight, Reposition and Shoot. It cannot use any weapons that aren't on its datacard.\n- Whenever determining control of an objective marker, treat this operative's APL stat as 1 lower.\n- Whenever determining what's visible to this operative, the round disc at the top of the miniature is its head.\n"
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "TAU-PF-MV1",
@@ -942,8 +1039,7 @@
           "abilityName": "Drone",
           "description": "\n- This operative cannot perform any actions other than Charge, Dash, Fall Back, Fight, Markerlight, Reposition and Shoot. It cannot use any weapons that aren't on its datacard.\n- Whenever determining control of an objective marker, treat this operative's APL stat as 1 lower.\n- Whenever determining what's visible to this operative, the round disc at the top of the miniature is its head.\n"
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "TAU-PF-MV4",
@@ -990,8 +1086,7 @@
           "abilityName": "Shield Generator",
           "description": "\n- This operative ignores the Piercing weapon rule.\n- Once per turning point, when an attack dice inflicts Normal Dmg on this operative, you can ignore that inflicted damage.\n- You can use the Saviour Protocols firefight ploy for 0CP if this is the specified DRONE operative.\n"
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "TAU-PF-MV7",
@@ -1038,8 +1133,7 @@
           "abilityName": "High-Intensity Markerlight",
           "description": "Whenever this operative performs the Markerlight action, the selected enemy operative gains two of your Markerlight tokens (instead of one)."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "TAU-PF-MV31",
@@ -1087,8 +1181,7 @@
           "AP": 1,
           "description": "Until the start of this operative's next activation or until it is incapacitated (whichever comes first),\nwhenever another friendly PATHFINDER operative is shooting with a pulse weapon within 3\" of this operative, that weapon has the Lethal 5+ and Severe weapon rules."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "TAU-PF-MV33",
@@ -1135,116 +1228,7 @@
           "abilityName": "Grav-Inhibitor",
           "description": "\r - Whenever an enemy operative performs an action in which it moves (excluding Dash), if it would move visible to and within 6\" of this operative, treat the distance as an additional 2\" and ignore the additional distances from the Obstructing and Accessible terrain rules. Note this isn't a change to the Move stat.\r - Whenever an enemy operative is fighting or retaliating while visible to and within 6\" of this operative, worsen the Hit stat of that enemy operative's melee weapons by 1. This is cumulative with being injured.\r "
         }
-      ],
-      "options": []
-    }
-  ],
-  "ploys": [
-    {
-      "ployId": "TAU-PF-S-BND",
-      "killteamId": "TAU-PF",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Bonded",
-      "description": "Whenever a friendly PATHFINDER operative (excluding DRONE) is shooting or retaliating with a ranged weapon (see Point-Blank Fusillade firefight ploy), if it's within 3\" of another friendly PATHFINDER operative (excluding DRONE),\nthat first friendly operative's ranged weapons have the Accurate 1 weapon rule.  \n**Accurate 1:** You can retain 1 Attack Die as a normal success without rolling it."
-    },
-    {
-      "ployId": "TAU-PF-S-RS",
-      "killteamId": "TAU-PF",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Recon Sweep",
-      "description": "Select one killzone edge (excluding your own). Each friendly PATHFINDER operative that's wholly within 6\" of that edge can immediately perform a free Dash action in an order of your choice, but each that does so must end that move wholly within 6\" of a killzone edge (excluding your own). You cannot use this ploy during the first turning point."
-    },
-    {
-      "ployId": "TAU-PF-S-SF",
-      "killteamId": "TAU-PF",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Suppressing Fire",
-      "description": "Whenever an enemy operative is performing the Shoot action, if the target (the primary target if the weapon has the Blast or Torrent weapon rules) isn't the closest valid target,\nyour opponent cannot re-roll their attack dice. Ignore friendly PATHFINDER operatives that have a Conceal order or are obscured when determining this."
-    },
-    {
-      "ployId": "TAU-PF-S-TC",
-      "killteamId": "TAU-PF",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Take Cover",
-      "description": "Whenever an operative is shooting a friendly PATHFINDER operative, if you can retain any cover saves, improve that friendly operative's Save stat by 1."
-    },
-    {
-      "ployId": "TAU-PF-T-AWC",
-      "killteamId": "TAU-PF",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "A Worthy Cause",
-      "description": "Use this firefight ploy at the start of the Firefight phase. One friendly PATHFINDER operative (excluding DRONE) can immediately perform a free mission action."
-    },
-    {
-      "ployId": "TAU-PF-T-PBF",
-      "killteamId": "TAU-PF",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Point-Blank Fusillade",
-      "description": "Use this firefight ploy when a friendly PATHFINDER operative (excluding DRONE) is retaliating, if it wasn't within control range of enemy operatives at the start of that activation/counteraction.\r You can use one of its ranged weapons as a melee weapon (excluding a weapon that has the word 'grenade' in its name) during that sequence.\r If you do, you cannot block during that sequence, and the following weapon rules have no effect on its weapons until the end of that sequence: Devastating, Piercing, Torrent.  \nIf that friendly operative is ready, has an Engage order and is retaliating with a pulse weapon, you resolve the first attack dice (i.e. defender instead of attacker)."
-    },
-    {
-      "ployId": "TAU-PF-T-SF2",
-      "killteamId": "TAU-PF",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Supporting Fire",
-      "description": "Use this firefight ploy when a friendly PATHFINDER operative is performing the Shoot action and you're selecting a valid target within 6\" of it. Having other friendly PATHFINDER\noperatives within an enemy operative's control range doesn't prevent that enemy operative from being selected."
-    },
-    {
-      "ployId": "TAU-PF-T-SP",
-      "killteamId": "TAU-PF",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Saviour Protocols",
-      "description": "Use this firefight ploy when a friendly PATHFINDER operative (excluding DRONE) is selected as the valid target of a Shoot action.\r Select one friendly PATHFINDER DRONE operative visible to and within 3\" of that first friendly operative to become the valid target instead (even if it wouldn't normally be valid for this).\r That friendly DRONE operative is only in cover if the originatl target was. This ploy has no effect if the ranged weapon has the Blast or Torrent weapon rule."
-    }
-  ],
-  "equipments": [
-    {
-      "eqId": "TAU-PF-TAO",
-      "killteamId": "TAU-PF",
-      "seq": 1,
-      "eqName": "Target Analysis Optic",
-      "description": "Once per turning point, when a friendly PATHFINDER operative (excluding DRONE) is performing the Shoot action and you're selecting a valid target, you can use this rule.\nIf you do, until the end of that action, if the target has at least one of your Markerlight tokens, it is treated as having one more. If the ranged weapon has the Blast or Torrent weapon rule, only the primary target is affected.",
-      "effects": ""
-    },
-    {
-      "eqId": "TAU-PF-OSUL",
-      "killteamId": "TAU-PF",
-      "seq": 2,
-      "eqName": "Orbital Survey Uplink",
-      "description": "Once per turning point, when a friendly PATHFINDER operative performs the Markerlight action, you can use this rule.\nIf you do, you can select one enemy operative in the killzone to gain one of your Markerlight tokens instead (it doesn't need to be visible).\nThis is not cumulative with the high-intensity Markerlight or Analyse rules.",
-      "effects": ""
-    },
-    {
-      "eqId": "TAU-PF-HIML",
-      "killteamId": "TAU-PF",
-      "seq": 3,
-      "eqName": "High-Intensity Markerlight",
-      "description": "Once per turning point, when a friendly PATHFINDER operative (excluding MV7 MARKER DRONE) performs the Markerlight action, you can use this rule.\nIf you do, the enemy operative you select gains two of your Markerlight tokens (instead of one).",
-      "effects": ""
-    },
-    {
-      "eqId": "TAU-PF-PG",
-      "killteamId": "TAU-PF",
-      "seq": 4,
-      "eqName": "Photon Grenade",
-      "description": "Once per turning point, a friendly PATHFINDER operative that has the Markerlight action on their datacard (excluding DRONE) can perform the following unique action:  \n\n**PHOTON GRENADE (1 AP):**  \n\nSelect a valid target for this operative and roll one D6:  \n\nOn a 3+, until the end of that operative's next activation, subtract 2\" from its Move stat and it cannot perform the Dash action.</br>\nAn operative cannot perform this action while within control range of an enemy operative.",
-      "effects": ""
-    }
-  ],
-  "teamAbilities": [
-    {
-      "abilityId": "TAU-PF-TA-MA",
-      "abilityName": "Markerlight",
-      "AP": 1,
-      "description": "Select one enemy operative visible to this operative. That enemy operative gains one of your Markerlight tokens (to a maximum of four).  \n\nAn operative cannot perform this action while within control range of an enemy operative.\nIf an operative (excluding MB3 RECON) would perform the Shoot action (excluding Guard) and this action during the same activation, only the target of that Shoot action can be selected for this action (and vice versa).\n\nOnce during each of their activations, whenever an enemy operative that has any of your Markerlight tokens performs the Dash, Charge, Fall Back or Reposition action, remove one of its Markerlight tokens.  \n\nWhile only some PATHFINDER operatives can perform the Markerlight action, all PATHFINDER operatives can benefit from its effects.\nWhenever a friendly PATHFINDER operative is shooting with a weapon from its datacard (excluding ASSAULT GRENADIER'S fusion grenade), it has additional rules determined by the number of your Markerlight tokens the target has.\nThese are cumulative, so if an enemy operative has two of your Markerlight tokens, the friendly operative shooting it has the rules for 1 and 2 tokens during that sequence.\n\n|**Tokens**|**Additional Rules**|\n|:---:|-----|\n|**1**|Saturate and Balanced weapon rules.|\n|**2**|Improve the Hit stat of that friendly operative's ranged weapons by 1 (to a maximum of 3+).|\n|**3**|The target cannot be obscured.|\n|**4**|Seek Light weapon rule.|\n\n\n**Saturate:** The defender cannot retain Cover saves.  \n\n**Balanced:** Can re-roll one Attack die  \n\n**Seek Light:** When selecting a valid target, operatives cannot use light terrain for cover. While this can allow such operatives to be targeted (assuming they are Visible), it does not remove their Cover save (if any)."
+      ]
     }
   ]
 }

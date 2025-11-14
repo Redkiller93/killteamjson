@@ -7,6 +7,8 @@
   "description": "Non-player operatives for joint operations in KT2024.",
   "composition": "",
   "archetypes": [],
+  "ploys": [],
+  "equipments": [],
   "opTypes": [
     {
       "opTypeId": "SPEC-NPO-BR-TRP",
@@ -51,8 +53,7 @@
           "abilityName": "Behaviour",
           "description": "When activated, if this NPO can perform either of its first two actions during that activation, give it an Engage order. If it cannot, give it a Conceal order.\n\n- Fight\n- Charge the closest enemy operative via the shortest possible route\n- Reposition toward the closest enemy operative, to cover if possible (a subsequent Dash action can fulfil this, if able)\n- Dash towards the closest enemy operative, to cover if possible\n"
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "SPEC-NPO-BR-TGH",
@@ -97,8 +98,7 @@
           "abilityName": "Behaviour",
           "description": "When activated, if this NPO can perform either of its first two actions during that activation, give it an Engage order. If it cannot, give it a Conceal order.\n\n- Fight\n- Charge the closest enemy operative via the shortest possible route\n- Reposition toward the closest enemy operative, to cover if possible (a subsequent Dash action can fulfil this, if able)\n- Dash towards the closest enemy operative, to cover if possible\n"
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "SPEC-NPO-BR-HVY",
@@ -149,8 +149,7 @@
           "abilityName": "Behaviour",
           "description": "When activated, if this NPO can perform either of its first two actions during that activation, give it an Engage order. If it cannot, give it a Conceal order.\n\n- Fight\n- Charge the closest enemy operative via the shortest possible route\n- Reposition toward the closest enemy operative, to cover if possible (a subsequent Dash action can fulfil this, if able)\n- Dash towards the closest enemy operative, to cover if possible\n"
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "SPEC-NPO-MM-TRP",
@@ -240,8 +239,7 @@
           "abilityName": "Special Weapon",
           "description": "Only 1 in 3 Marksman Trooper operatives can have this weapon."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "SPEC-NPO-MM-WAR",
@@ -301,8 +299,7 @@
           "abilityName": "Behaviour",
           "description": "When activated, if this NPO can perform the Shoot action during that activation, give it an Engage order. If it cannot, give it a Conceal order.\n\n- Fall Back to cover. If possible, to a location where there is a valid target that is not obscured. If not, where there is an objective marker visible to this NPO\n- Shoot\n- Reposition to cover. If possible, to a location where there is a valid target that is not obscured. If not, where there is an objective marker visible to this NPO (a subsequent Dash action can fulfil these, if able)\n- Dash to cover. If possible, to a location where there is a valid target that is not obscured. If not, where there is an objective marker visible to this NPO\n"
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "SPEC-NPO-MM-HVY",
@@ -368,8 +365,7 @@
           "abilityName": "Behaviour",
           "description": "When activated, if this NPO can perform the Shoot action during that activation, give it an Engage order. If it cannot, give it a Conceal order.\n\n- Fall Back to cover. If possible, to a location where there is a valid target that is not obscured. If not, where there is an objective marker visible to this NPO\n- Shoot\n- Reposition to cover. If possible, to a location where there is a valid target that is not obscured. If not, where there is an objective marker visible to this NPO (a subsequent Dash action can fulfil these, if able)\n- Dash to cover. If possible, to a location where there is a valid target that is not obscured. If not, where there is an objective marker visible to this NPO\n"
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "SPEC-NPO-SNP",
@@ -452,10 +448,7 @@
           "abilityName": "Sniper's Nest",
           "description": "Whenever this operative is shooting, operatives cannot be obscured. Whenever determining visibility from this operative (but not to it), the line can also be drawn from any part of the Vantage terrain it's on, or the rampart touching that Vantage terrain."
         }
-      ],
-      "options": []
+      ]
     }
-  ],
-  "ploys": [],
-  "equipments": []
+  ]
 }

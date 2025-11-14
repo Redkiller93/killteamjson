@@ -10,6 +10,113 @@
     "Recon",
     "Seek & Destroy"
   ],
+  "ploys": [
+    {
+      "ployId": "CHAOS-FELL-S-AMB",
+      "killteamId": "CHAOS-FELL",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Ambush",
+      "description": "Whenever a friendly FELLGOR RAVAGER operative is activated, if its order is changed from Conceal to Engage, it's ambushing for that activation. Whenever a friendly FELLGOR RAVAGER operative that's ambushing is fighting,\r you can retain one of your normal successes as a critical success instead. Note that an operative that has one of your Frenzy tokens cannot ambush."
+    },
+    {
+      "ployId": "CHAOS-FELL-S-PFP",
+      "killteamId": "CHAOS-FELL",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Pelting Firepower",
+      "description": "Whenever a friendly FELLGOR RAVAGER operative is shooting an enemy operative that's been shot by another friendly FELLGOR RAVAGER operative during this turning point, that first friendly operative's ranged weapons have the\nCeaseless weapon rule; if the enemy operative has been shot by more than one other friendly FELLGOR RAVAGER operative during this turning point, that first friendly operative's ranged weapons have the Relentless weapon rule instead.  \n**Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)  \n**Relentless:** Can re-roll any or all Attack dice."
+    },
+    {
+      "ployId": "CHAOS-FELL-S-RD",
+      "killteamId": "CHAOS-FELL",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Reckless Determination",
+      "description": "Whenever an enemy operative is shooting an expended friendly FELLGOR RAVAGER operative, if you cannot retain any cover saves, you can retain one of your defence dice as a normal success without rolling it."
+    },
+    {
+      "ployId": "CHAOS-FELL-S-VT",
+      "killteamId": "CHAOS-FELL",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Violent Temperament",
+      "description": "Whenever a friendly FELLGOR RAVAGER operative is fighting or retaliating, after rolling your attack dice, you can use this rule. If you do, you must re-roll all of your attack dice (you cannot only re-roll some)."
+    },
+    {
+      "ployId": "CHAOS-FELL-T-AF",
+      "killteamId": "CHAOS-FELL",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Animalistic Fury",
+      "description": "Use this firefight ploy when a friendly FELLGOR RAVAGER operative is fighting or retaliating and you strike with a critical success. Inflict 1 additional damage with that strike."
+    },
+    {
+      "ployId": "CHAOS-FELL-T-BS",
+      "killteamId": "CHAOS-FELL",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Bloodsense",
+      "description": "Use this firefight ploy during a friendly FELLGOR RAVAGER operative's activation, when it incapacitates an enemy operative within its control range. Select one other ready\nfriendly FELLGOR RAVAGER operative that's visible to and within 3\" of the incapacitated enemy operative. When that first friendly operative is expended, you can activate that\nother friendly operative before your opponent activates. When that other operative is expended, your opponent then activates as normal."
+    },
+    {
+      "ployId": "CHAOS-FELL-T-RR",
+      "killteamId": "CHAOS-FELL",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Ruthless Rampage",
+      "description": "Use this firefight ploy after a friendly FELLGOR RAVAGER operative performs the Fight action, if it's no longer within control range of enemy operatives. That friendly operative can\nimmediately perform a free Charge action (even if it's already performed the Charge action during that activation), but cannot move more than 3\" during that action."
+    },
+    {
+      "ployId": "CHAOS-FELL-T-WR",
+      "killteamId": "CHAOS-FELL",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Wild Rage",
+      "description": "Use this firefight ploy when a friendly FELLGOR RAVAGER operative is activated. Until the end of that operative's activation, add 1\" to its Move stat."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "CHAOS-FELL-BA",
+      "killteamId": "CHAOS-FELL",
+      "seq": 1,
+      "eqName": "Brass Adornments",
+      "description": "Once per battle, you can use the Animalistic Fury and Wild Rage firefight ploys for 0CP each.",
+      "effects": ""
+    },
+    {
+      "eqId": "CHAOS-FELL-GM",
+      "killteamId": "CHAOS-FELL",
+      "seq": 2,
+      "eqName": "Gore Marks",
+      "description": "Once per turning point, when a friendly FELLGOR RAVAGER operative is fighting or retaliating, you can use this rule.\nIf you do, inflict 1 damage on that friendly operative and re-roll one of your attack dice. If the result is a fail, inflict 1 additional damage on that friendly operative.",
+      "effects": ""
+    },
+    {
+      "eqId": "CHAOS-FELL-CS",
+      "killteamId": "CHAOS-FELL",
+      "seq": 3,
+      "eqName": "Chaos Sigil",
+      "description": "Once per turning point, when an operative is shooting a friendly FELLGOR RAVAGER operative, at the start of the Roll Defence Dice step, you can use this rule.\nIf you do, worsen the x of the Piercing weapon rule by 1 (if any) until the end of that sequence. Note that Piercing 1 would therefore be ignored.",
+      "effects": ""
+    },
+    {
+      "eqId": "CHAOS-FELL-WP",
+      "killteamId": "CHAOS-FELL",
+      "seq": 4,
+      "eqName": "War Paint",
+      "description": "You can ignore any changes to the Move stat of friendly FELLGOR RAVAGER operatives from being injured.",
+      "effects": "NOINJMOV"
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "CHAOS-FELL-TA-FR",
+      "abilityName": "Frenzy",
+      "description": "Whenever a friendly FELLGOR RAVAGER operative that does not have one of your Frenzy tokens would be incapacitated during the battle, it is not incapacitated and it gains one of your Frenzy tokens.\nAll remaining attack dice are discarded (including yours if this operative is fighting or retaliating).\nIf it has a Conceal order, change it to Engage.  \n\nWhenever a friendly FELLGOR RAVAGER operative has one of your Frenzy tokens:\n\n- It's only incapacitated as detailed below.\n- It cannot have a Conceal order.\n- It's injured.\n- It cannot perform the Pick Up Marker, unique (excluding Sweeping Blow, see VANDAL) or mission actions (excluding Operate Hatch).\n- For the purpose of determining control of markers, treat its APL stat as 1. This takes precedence over any stat changes.\n\n\nA friendly FELLGOR RAVAGER operative that has one of your Frenzy tokens is incapacitated when one of the following is met:\n\n- Its activation or counteraction ends.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes with a critical success.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes it for a second time with a normal success. Note this can be strikes from two different Fight actions.\n- An enemy operative is shooting it and Critical Dmg is inflicted on it.\n- The battle ends (resolve this before any victory conditions that resolve at the end of the battle).\n\n\nYour opponent treats a FELLGOR RAVAGER operative as being incapacitated (instead of when it would be incapacitated normally) when it gains one of your Frenzy\ntokens for the purposes of scoring VPs (e.g. kill op) and faction rules that require it to be incapacitated (e.g. HAND OF THE ARCHON Power From Pain, CHAOS CULT Mutation, etc.)."
+    }
+  ],
   "opTypes": [
     {
       "opTypeId": "CHAOS-FELL-IH",
@@ -158,8 +265,7 @@
           "abilityName": "Call The Attack",
           "description": "**STRATEGIC GAMBIT** if this operative doesn't have one of your Frenzy tokens. Select one friendly FELLGOR RAVAGER operative visible to and within 6\" of this operative.\nThat selected operative, and each other friendly FELLGOR RAVAGER operative visible to and within 2\" of it, can immediately perform a free Dash action in an order of your choice."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "CHAOS-FELL-DK",
@@ -241,8 +347,7 @@
           "AP": 1,
           "description": "Until the start of this operative's next activation or until this operative is incapacitated (whichever comes first), whenever an operative is shooting\nthis operative, improve this operative's Save stat by 1 and ignore the Piercing weapon rule."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "CHAOS-FELL-FB",
@@ -294,8 +399,7 @@
           "AP": 2,
           "description": "Perform a free Reposition action with this operative. During that action, it can move an additional 2\", and can move within control range of enemy operatives (it cannot begin or end the move there).\nInflict D3+1 damage on each enemy operative it moved within control range of (roll separately for each after it's moved, in the order it moved within control range of them).\n\n\nThis operative cannot perform this action while it has a Conceal order."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "CHAOS-FELL-GS",
@@ -371,8 +475,7 @@
           "AP": 1,
           "description": "Perform a free Fight action with this operative, then perform a free Shoot action with this operative (or vice versa).\nThis operative can perform that Shoot action while within control range of an enemy operative, but if it does, it can and must target an enemy operative within its control range\n(even if other friendly operatives are within that enemy operative's control range). You can only select an autopistol for that Shoot action."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "CHAOS-FELL-GH",
@@ -445,8 +548,7 @@
           "abilityName": "Champion",
           "description": "This operative can perform two Fight actions during its activation."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "CHAOS-FELL-HG",
@@ -557,8 +659,7 @@
           "AP": 1,
           "description": "**SUPPORT**\nSelect one other friendly FELLGOR RAVAGER operative (excluding SHAMAN and IRONHORN) visible to and within 3\" of this operative.\nUntil the end of that operative's next activation, add 1 to its APL stat.\n\n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "CHAOS-FELL-MNG",
@@ -612,8 +713,7 @@
           "abilityName": "Savage",
           "description": "The first time this operative performs the Fight action during each of its activations, if it isn't incapacitated, it can immediately perform a free Fight action afterwards\n(you don't have to select the same enemy operative to fight against).\nThis takes precedence over action restrictions, and you cannot use the Ruthless Rampage firefight ploy between those two Fight actions."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "CHAOS-FELL-SHA",
@@ -723,8 +823,7 @@
           "AP": 1,
           "description": "**PSYCHIC**\r Until the start of this operative's next activation or until it's incapacitated (whichever comes first), whenever a friendly FELLGOR RAVAGER operative is within 3\" of this operative,\r has a Conceal order and is in cover, that friendly operative cannot be selected as a valid target, taking precedence over all other rules (e.g. Seek, Vantage terrain) except being within 2\".  \n\r This operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "CHAOS-FELL-TOX",
@@ -795,8 +894,7 @@
           "abilityName": "Toxic Blessings",
           "description": "You can ignore any changes to this operative's APL stat and it's not affected by enemy operatives' Shock weapon rule. Whenever an attack dice inflicts Normal Dmg of 3 or more on this operative, roll one D6:\non a 5+, subtract 1 from that inflicted damage."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "CHAOS-FELL-VND",
@@ -845,8 +943,7 @@
           "AP": 1,
           "description": "Inflict D3+1 damage on each other operative visible to and within 2\" of this operative.  \n\nThis operative cannot perform this action while it has a Conceal order."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "CHAOS-FELL-WAR",
@@ -934,115 +1031,7 @@
           "abilityName": "Warrior Frenzy",
           "description": "Whenever this operative has one of your Frenzy tokens, it cannot be injured. This takes precedence over the normal Frenzy rules."
         }
-      ],
-      "options": []
-    }
-  ],
-  "ploys": [
-    {
-      "ployId": "CHAOS-FELL-S-AMB",
-      "killteamId": "CHAOS-FELL",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Ambush",
-      "description": "Whenever a friendly FELLGOR RAVAGER operative is activated, if its order is changed from Conceal to Engage, it's ambushing for that activation. Whenever a friendly FELLGOR RAVAGER operative that's ambushing is fighting,\r you can retain one of your normal successes as a critical success instead. Note that an operative that has one of your Frenzy tokens cannot ambush."
-    },
-    {
-      "ployId": "CHAOS-FELL-S-PFP",
-      "killteamId": "CHAOS-FELL",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Pelting Firepower",
-      "description": "Whenever a friendly FELLGOR RAVAGER operative is shooting an enemy operative that's been shot by another friendly FELLGOR RAVAGER operative during this turning point, that first friendly operative's ranged weapons have the\nCeaseless weapon rule; if the enemy operative has been shot by more than one other friendly FELLGOR RAVAGER operative during this turning point, that first friendly operative's ranged weapons have the Relentless weapon rule instead.  \n**Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)  \n**Relentless:** Can re-roll any or all Attack dice."
-    },
-    {
-      "ployId": "CHAOS-FELL-S-RD",
-      "killteamId": "CHAOS-FELL",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Reckless Determination",
-      "description": "Whenever an enemy operative is shooting an expended friendly FELLGOR RAVAGER operative, if you cannot retain any cover saves, you can retain one of your defence dice as a normal success without rolling it."
-    },
-    {
-      "ployId": "CHAOS-FELL-S-VT",
-      "killteamId": "CHAOS-FELL",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Violent Temperament",
-      "description": "Whenever a friendly FELLGOR RAVAGER operative is fighting or retaliating, after rolling your attack dice, you can use this rule. If you do, you must re-roll all of your attack dice (you cannot only re-roll some)."
-    },
-    {
-      "ployId": "CHAOS-FELL-T-AF",
-      "killteamId": "CHAOS-FELL",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Animalistic Fury",
-      "description": "Use this firefight ploy when a friendly FELLGOR RAVAGER operative is fighting or retaliating and you strike with a critical success. Inflict 1 additional damage with that strike."
-    },
-    {
-      "ployId": "CHAOS-FELL-T-BS",
-      "killteamId": "CHAOS-FELL",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Bloodsense",
-      "description": "Use this firefight ploy during a friendly FELLGOR RAVAGER operative's activation, when it incapacitates an enemy operative within its control range. Select one other ready\nfriendly FELLGOR RAVAGER operative that's visible to and within 3\" of the incapacitated enemy operative. When that first friendly operative is expended, you can activate that\nother friendly operative before your opponent activates. When that other operative is expended, your opponent then activates as normal."
-    },
-    {
-      "ployId": "CHAOS-FELL-T-RR",
-      "killteamId": "CHAOS-FELL",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Ruthless Rampage",
-      "description": "Use this firefight ploy after a friendly FELLGOR RAVAGER operative performs the Fight action, if it's no longer within control range of enemy operatives. That friendly operative can\nimmediately perform a free Charge action (even if it's already performed the Charge action during that activation), but cannot move more than 3\" during that action."
-    },
-    {
-      "ployId": "CHAOS-FELL-T-WR",
-      "killteamId": "CHAOS-FELL",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Wild Rage",
-      "description": "Use this firefight ploy when a friendly FELLGOR RAVAGER operative is activated. Until the end of that operative's activation, add 1\" to its Move stat."
-    }
-  ],
-  "equipments": [
-    {
-      "eqId": "CHAOS-FELL-BA",
-      "killteamId": "CHAOS-FELL",
-      "seq": 1,
-      "eqName": "Brass Adornments",
-      "description": "Once per battle, you can use the Animalistic Fury and Wild Rage firefight ploys for 0CP each.",
-      "effects": ""
-    },
-    {
-      "eqId": "CHAOS-FELL-GM",
-      "killteamId": "CHAOS-FELL",
-      "seq": 2,
-      "eqName": "Gore Marks",
-      "description": "Once per turning point, when a friendly FELLGOR RAVAGER operative is fighting or retaliating, you can use this rule.\nIf you do, inflict 1 damage on that friendly operative and re-roll one of your attack dice. If the result is a fail, inflict 1 additional damage on that friendly operative.",
-      "effects": ""
-    },
-    {
-      "eqId": "CHAOS-FELL-CS",
-      "killteamId": "CHAOS-FELL",
-      "seq": 3,
-      "eqName": "Chaos Sigil",
-      "description": "Once per turning point, when an operative is shooting a friendly FELLGOR RAVAGER operative, at the start of the Roll Defence Dice step, you can use this rule.\nIf you do, worsen the x of the Piercing weapon rule by 1 (if any) until the end of that sequence. Note that Piercing 1 would therefore be ignored.",
-      "effects": ""
-    },
-    {
-      "eqId": "CHAOS-FELL-WP",
-      "killteamId": "CHAOS-FELL",
-      "seq": 4,
-      "eqName": "War Paint",
-      "description": "You can ignore any changes to the Move stat of friendly FELLGOR RAVAGER operatives from being injured.",
-      "effects": "NOINJMOV"
-    }
-  ],
-  "teamAbilities": [
-    {
-      "abilityId": "CHAOS-FELL-TA-FR",
-      "abilityName": "Frenzy",
-      "description": "Whenever a friendly FELLGOR RAVAGER operative that does not have one of your Frenzy tokens would be incapacitated during the battle, it is not incapacitated and it gains one of your Frenzy tokens.\nAll remaining attack dice are discarded (including yours if this operative is fighting or retaliating).\nIf it has a Conceal order, change it to Engage.  \n\nWhenever a friendly FELLGOR RAVAGER operative has one of your Frenzy tokens:\n\n- It's only incapacitated as detailed below.\n- It cannot have a Conceal order.\n- It's injured.\n- It cannot perform the Pick Up Marker, unique (excluding Sweeping Blow, see VANDAL) or mission actions (excluding Operate Hatch).\n- For the purpose of determining control of markers, treat its APL stat as 1. This takes precedence over any stat changes.\n\n\nA friendly FELLGOR RAVAGER operative that has one of your Frenzy tokens is incapacitated when one of the following is met:\n\n- Its activation or counteraction ends.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes with a critical success.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes it for a second time with a normal success. Note this can be strikes from two different Fight actions.\n- An enemy operative is shooting it and Critical Dmg is inflicted on it.\n- The battle ends (resolve this before any victory conditions that resolve at the end of the battle).\n\n\nYour opponent treats a FELLGOR RAVAGER operative as being incapacitated (instead of when it would be incapacitated normally) when it gains one of your Frenzy\ntokens for the purposes of scoring VPs (e.g. kill op) and faction rules that require it to be incapacitated (e.g. HAND OF THE ARCHON Power From Pain, CHAOS CULT Mutation, etc.)."
+      ]
     }
   ]
 }

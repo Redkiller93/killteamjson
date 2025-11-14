@@ -10,6 +10,118 @@
     "Recon",
     "Seek & Destroy"
   ],
+  "ploys": [
+    {
+      "ployId": "IMP-TEMPAQ-S-DAS",
+      "killteamId": "IMP-TEMPAQ",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Drop And Secure",
+      "description": "Select one marker.\r \r - Until the Ready step of the next Turning Point, when determining control of that marker, treat the total APL stat of friendly TEMPESTUS AQUILON operatives that contest it as 1 higher, as long as at least one friendly TEMPESTUS AQUILON operative actually contests it.\r - Whenever a friendly TEMPESTUS AQUILON operative is within 3\" of that marker, add 1 to the Atk stat of its Melee weapons (to a maximum of 4).\r "
+    },
+    {
+      "ployId": "IMP-TEMPAQ-S-EA",
+      "killteamId": "IMP-TEMPAQ",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Eye Above",
+      "description": "Select one enemy operative. That operative and all other enemy operatives within 3\" of it gain one of your Detected tokens until the end of the Turning Point.\nWhenever an enemy operative with a Detected token:\n\n- Is shooting a friendly TEMPESTUS AQUILON operative, you can re-roll one of your Defence Dice.\n- Is fighting or retaliating against a friendly TEMPESTUS AQUILON operative, one of your blocks can be allocated to block two unresolved successes (instead of one).\n"
+    },
+    {
+      "ployId": "IMP-TEMPAQ-S-MM",
+      "killteamId": "IMP-TEMPAQ",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Maintain Momentum",
+      "description": "Whenever a friendly TEMPESTUS AQUILON operative is shooting against or fighting against a ready enemy operative, its weapons have the Severe weapon rule.  \n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do."
+    },
+    {
+      "ployId": "IMP-TEMPAQ-S-SO",
+      "killteamId": "IMP-TEMPAQ",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Sudden Offensive",
+      "description": "Count the number of friendly TEMPESTUS AQUILON operatives that are not incapacitated, then halve the result (rounding up) to give you x.\nUntil the end of their activation, friendly TEMPESTUS AQUILON operatives' weapons have the Balanced weapon rule if they are the first friendly operatives activated this Turning Point equal to x.\nFor example if you have five operatives, the first three activated will benefit.  \n**Balanced:** Can re-roll one Attack die."
+    },
+    {
+      "ployId": "IMP-TEMPAQ-T-AC",
+      "killteamId": "IMP-TEMPAQ",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Adjust Coordinates",
+      "description": "Use this Firefight Ploy when a friendly TEMPESTUS AQUILON operative lands. You can set it up within 5\" of one of your Drop markers (measuring horizontal distance only), taking precedence over the normal distance requirement.\nIt cannot perform the Dash, Fight, or Shoot actions during this Turning Point."
+    },
+    {
+      "ployId": "IMP-TEMPAQ-T-HD",
+      "killteamId": "IMP-TEMPAQ",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Hot Drop",
+      "description": "Use this Firefight Ploy after rolling Attack Dice for a friendly TEMPESTUS AQUILON operative that is wholly within your opponent's territory, or either landed or dropped from Vantage terrain at least 2\" higher than the killzone floor during this activation. If the target is within 6\" of it, you can re-roll any of your Attack Dice."
+    },
+    {
+      "ployId": "IMP-TEMPAQ-T-PRO",
+      "killteamId": "IMP-TEMPAQ",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Progena",
+      "description": "Use this Firefight Ploy when a friendly TEMPESTUS AQUILON operative (excluding SERVO-SENTRY) is activated.\nIt regains 2D3 lost Wounds, and during that activation you can ignore any changes to its APL stat."
+    },
+    {
+      "ployId": "IMP-TEMPAQ-T-TE",
+      "killteamId": "IMP-TEMPAQ",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Tempestus Exemplars",
+      "description": "Use this Firefight Ploy during a friendly TEMPESTUS AQUILON operative's activation (excluding SERVO-SENTRY and any operative with an APL stat greater than 2).\nDuring that activation, it can perform the Pick Up Marker, Place Marker, or a mission action for 1 less AP."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "IMP-TEMPAQ-TD",
+      "killteamId": "IMP-TEMPAQ",
+      "seq": 1,
+      "eqName": "Tempestus Dagger",
+      "description": "Friendly Tempestus Aquilon operatives (excluding SERVO-SENTRY) have the following Melee weapon:\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Tempestus Dagger|3|4+|3/4|\n",
+      "effects": "ADDWEP:Tempestus Dagger|M|3|4+|3/4|"
+    },
+    {
+      "eqId": "IMP-TEMPAQ-CS",
+      "killteamId": "IMP-TEMPAQ",
+      "seq": 2,
+      "eqName": "Combat Stimms",
+      "description": "You can ignore any changes to the Move stat of friendly TEMPESTUS AQUILON operatives from being injured.",
+      "effects": "NOINJMOV"
+    },
+    {
+      "eqId": "IMP-TEMPAQ-DA",
+      "killteamId": "IMP-TEMPAQ",
+      "seq": 3,
+      "eqName": "Drop Augury",
+      "description": "Once during the battle, when a friendly TEMPESTUS AQUILON operative that is set up above is activated, before expending or landing that operative, you can move one of your Drop markers again.\r However, it cannot be moved closer to your opponent's drop zone.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-TEMPAQ-ROS",
+      "killteamId": "IMP-TEMPAQ",
+      "seq": 4,
+      "eqName": "Remote Overseer",
+      "description": "Once during the battle, when rolling off to decide initiative, you can re-roll your D6.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "IMP-TEMPAQ-TA-DRIN",
+      "abilityName": "Drop Insertion",
+      "description": "When setting up a TEMPESTUS AQUILON kill team before the battle, the first third of your kill team must be set up as normal.\nEach third thereafter can be set up above: place them to one side instead of in the killzone.\nFor each third that is set up above, you must set up the whole third in this way (not some of them), then place your Drop markers wholly within your drop zone.\n  \n\nAs a STRATEGIC GAMBIT in the first and second Turning Point, you can move your Drop markers up to 4\", measuring the horizontal distance only. In close quarters, this can be measured and moved through walls.\n  \n\nDuring the Firefight Phase, friendly TEMPESTUS AQUILON operatives set up above are activated as normal.\nWhen you do, you can either expend or land that operative. If it lands, set it up in the killzone in a location it can be placed as follows (it is no longer set up above):\n\n- Within 3\" of one of your Drop markers, measuring the horizontal distance only, or wholly within your drop zone.\n- Not within Control range of an enemy operative (unless you're setting up a PRECURSOR operative, which can be set up within Control range of an enemy operative)\n- With no part of its base underneath Vantage terrain\n- With an order of your choice\n\nThe operative is treated as performing the Reposition action (spent the AP accordingly), then continue its activation as normal. It is Obscured until the end of the next Activation or the end of the Turning Point (whichever comes first).  \n\nLess than half of your operatives can be set up above by the end of the first Turning Point. In other words, by the end of the first Turning Point, more than half of your operatives must have been set up in the killzone during the battle.  \n\nWhen readying your operatives during the second and third Turning Points, remove one of your Drop markers. This means operatives still set up above are incapacitated at the end of the second Turning Point."
+    },
+    {
+      "abilityId": "IMP-TEMPAQ-TA-GRCH",
+      "abilityName": "Grav Chute",
+      "description": "Whenever a friendly TEMPESTUS AQUILON operative is dropping, ignore the vertical distance."
+    }
+  ],
   "opTypes": [
     {
       "opTypeId": "IMP-TEMPAQ-TEMP",
@@ -171,8 +283,7 @@
           "AP": 1,
           "description": "**Support:** Select one friendly TEMPESTUS AQUILON operative (excluding SERVO-SENTRY) Visible To and within 6\" of this operative. Until the end of that operative's next activation, add 1 to its APL stat.  \n\nThis operative cannot perform this action while within Control Range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-TEMPAQ-GRN",
@@ -277,8 +388,7 @@
           "abilityName": "Grenadier",
           "description": "This operative can use Frag, Krak, Smoke, and Stun Grenades (see universal equipment). Doing so does not count towards any limited uses you have (i.e. if you also select those grenades from equipment for other operatives).\r Whenever this operative is using a Frag or Krak Grenade, improve the HIT stat of that weapon by 1."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-TEMPAQ-GF",
@@ -371,8 +481,7 @@
           "abilityName": "Gunfight",
           "description": "Whenever an enemy operative within 8\" of this operative shoots this operative, keep track of each Attack die that is discarded as a fail.\nAfter the action, before incapacitated operatives are removed (including this one, if relevant), this operative can perform a free Shoot action (change its order to Engage to do so), but it can only target that enemy operative with its Hot-Shot Laspistols (Focused), and you only roll a number of Attack dice equal to the opponent's discarded Attack dice plus one (to a maximum of four)."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-TEMPAQ-GNR",
@@ -484,8 +593,7 @@
           ]
         }
       ],
-      "abilities": [],
-      "options": []
+      "abilities": []
     },
     {
       "opTypeId": "IMP-TEMPAQ-MRK",
@@ -587,8 +695,7 @@
           "abilityName": "Sniper's Vantage",
           "description": "Whenever this operative is on Vantage terrain and is shooting an operative that has an Engage order and is at least 2\" lower than it, all profiles of its Hot-Shot Long-Las have the Severe weapon rule."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-TEMPAQ-PRE",
@@ -667,8 +774,7 @@
           "abilityName": "Vicious Knife Fighter",
           "description": "Whenever this operative is fighting, after resolving your first Attack die, you can immediately resolve another (before your opponent)."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-TEMPAQ-SS",
@@ -811,8 +917,7 @@
           "abilityName": "Turret",
           "description": "This operative can perform two Shoot actions during its activation."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-TEMPAQ-TRP",
@@ -878,120 +983,7 @@
           "abilityName": "Swift Landing",
           "description": "When this operative lands, you can set it up within 4\" of one of your Drop markers (measuring horizontal distance only), taking precedence over the normal distance requirement."
         }
-      ],
-      "options": []
-    }
-  ],
-  "ploys": [
-    {
-      "ployId": "IMP-TEMPAQ-S-DAS",
-      "killteamId": "IMP-TEMPAQ",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Drop And Secure",
-      "description": "Select one marker.\r \r - Until the Ready step of the next Turning Point, when determining control of that marker, treat the total APL stat of friendly TEMPESTUS AQUILON operatives that contest it as 1 higher, as long as at least one friendly TEMPESTUS AQUILON operative actually contests it.\r - Whenever a friendly TEMPESTUS AQUILON operative is within 3\" of that marker, add 1 to the Atk stat of its Melee weapons (to a maximum of 4).\r "
-    },
-    {
-      "ployId": "IMP-TEMPAQ-S-EA",
-      "killteamId": "IMP-TEMPAQ",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Eye Above",
-      "description": "Select one enemy operative. That operative and all other enemy operatives within 3\" of it gain one of your Detected tokens until the end of the Turning Point.\nWhenever an enemy operative with a Detected token:\n\n- Is shooting a friendly TEMPESTUS AQUILON operative, you can re-roll one of your Defence Dice.\n- Is fighting or retaliating against a friendly TEMPESTUS AQUILON operative, one of your blocks can be allocated to block two unresolved successes (instead of one).\n"
-    },
-    {
-      "ployId": "IMP-TEMPAQ-S-MM",
-      "killteamId": "IMP-TEMPAQ",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Maintain Momentum",
-      "description": "Whenever a friendly TEMPESTUS AQUILON operative is shooting against or fighting against a ready enemy operative, its weapons have the Severe weapon rule.  \n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do."
-    },
-    {
-      "ployId": "IMP-TEMPAQ-S-SO",
-      "killteamId": "IMP-TEMPAQ",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Sudden Offensive",
-      "description": "Count the number of friendly TEMPESTUS AQUILON operatives that are not incapacitated, then halve the result (rounding up) to give you x.\nUntil the end of their activation, friendly TEMPESTUS AQUILON operatives' weapons have the Balanced weapon rule if they are the first friendly operatives activated this Turning Point equal to x.\nFor example if you have five operatives, the first three activated will benefit.  \n**Balanced:** Can re-roll one Attack die."
-    },
-    {
-      "ployId": "IMP-TEMPAQ-T-AC",
-      "killteamId": "IMP-TEMPAQ",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Adjust Coordinates",
-      "description": "Use this Firefight Ploy when a friendly TEMPESTUS AQUILON operative lands. You can set it up within 5\" of one of your Drop markers (measuring horizontal distance only), taking precedence over the normal distance requirement.\nIt cannot perform the Dash, Fight, or Shoot actions during this Turning Point."
-    },
-    {
-      "ployId": "IMP-TEMPAQ-T-HD",
-      "killteamId": "IMP-TEMPAQ",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Hot Drop",
-      "description": "Use this Firefight Ploy after rolling Attack Dice for a friendly TEMPESTUS AQUILON operative that is wholly within your opponent's territory, or either landed or dropped from Vantage terrain at least 2\" higher than the killzone floor during this activation. If the target is within 6\" of it, you can re-roll any of your Attack Dice."
-    },
-    {
-      "ployId": "IMP-TEMPAQ-T-PRO",
-      "killteamId": "IMP-TEMPAQ",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Progena",
-      "description": "Use this Firefight Ploy when a friendly TEMPESTUS AQUILON operative (excluding SERVO-SENTRY) is activated.\nIt regains 2D3 lost Wounds, and during that activation you can ignore any changes to its APL stat."
-    },
-    {
-      "ployId": "IMP-TEMPAQ-T-TE",
-      "killteamId": "IMP-TEMPAQ",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Tempestus Exemplars",
-      "description": "Use this Firefight Ploy during a friendly TEMPESTUS AQUILON operative's activation (excluding SERVO-SENTRY and any operative with an APL stat greater than 2).\nDuring that activation, it can perform the Pick Up Marker, Place Marker, or a mission action for 1 less AP."
-    }
-  ],
-  "equipments": [
-    {
-      "eqId": "IMP-TEMPAQ-TD",
-      "killteamId": "IMP-TEMPAQ",
-      "seq": 1,
-      "eqName": "Tempestus Dagger",
-      "description": "Friendly Tempestus Aquilon operatives (excluding SERVO-SENTRY) have the following Melee weapon:\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Tempestus Dagger|3|4+|3/4|\n",
-      "effects": "ADDWEP:Tempestus Dagger|M|3|4+|3/4|"
-    },
-    {
-      "eqId": "IMP-TEMPAQ-CS",
-      "killteamId": "IMP-TEMPAQ",
-      "seq": 2,
-      "eqName": "Combat Stimms",
-      "description": "You can ignore any changes to the Move stat of friendly TEMPESTUS AQUILON operatives from being injured.",
-      "effects": "NOINJMOV"
-    },
-    {
-      "eqId": "IMP-TEMPAQ-DA",
-      "killteamId": "IMP-TEMPAQ",
-      "seq": 3,
-      "eqName": "Drop Augury",
-      "description": "Once during the battle, when a friendly TEMPESTUS AQUILON operative that is set up above is activated, before expending or landing that operative, you can move one of your Drop markers again.\r However, it cannot be moved closer to your opponent's drop zone.",
-      "effects": ""
-    },
-    {
-      "eqId": "IMP-TEMPAQ-ROS",
-      "killteamId": "IMP-TEMPAQ",
-      "seq": 4,
-      "eqName": "Remote Overseer",
-      "description": "Once during the battle, when rolling off to decide initiative, you can re-roll your D6.",
-      "effects": ""
-    }
-  ],
-  "teamAbilities": [
-    {
-      "abilityId": "IMP-TEMPAQ-TA-DRIN",
-      "abilityName": "Drop Insertion",
-      "description": "When setting up a TEMPESTUS AQUILON kill team before the battle, the first third of your kill team must be set up as normal.\nEach third thereafter can be set up above: place them to one side instead of in the killzone.\nFor each third that is set up above, you must set up the whole third in this way (not some of them), then place your Drop markers wholly within your drop zone.\n  \n\nAs a STRATEGIC GAMBIT in the first and second Turning Point, you can move your Drop markers up to 4\", measuring the horizontal distance only. In close quarters, this can be measured and moved through walls.\n  \n\nDuring the Firefight Phase, friendly TEMPESTUS AQUILON operatives set up above are activated as normal.\nWhen you do, you can either expend or land that operative. If it lands, set it up in the killzone in a location it can be placed as follows (it is no longer set up above):\n\n- Within 3\" of one of your Drop markers, measuring the horizontal distance only, or wholly within your drop zone.\n- Not within Control range of an enemy operative (unless you're setting up a PRECURSOR operative, which can be set up within Control range of an enemy operative)\n- With no part of its base underneath Vantage terrain\n- With an order of your choice\n\nThe operative is treated as performing the Reposition action (spent the AP accordingly), then continue its activation as normal. It is Obscured until the end of the next Activation or the end of the Turning Point (whichever comes first).  \n\nLess than half of your operatives can be set up above by the end of the first Turning Point. In other words, by the end of the first Turning Point, more than half of your operatives must have been set up in the killzone during the battle.  \n\nWhen readying your operatives during the second and third Turning Points, remove one of your Drop markers. This means operatives still set up above are incapacitated at the end of the second Turning Point."
-    },
-    {
-      "abilityId": "IMP-TEMPAQ-TA-GRCH",
-      "abilityName": "Grav Chute",
-      "description": "Whenever a friendly TEMPESTUS AQUILON operative is dropping, ignore the vertical distance."
+      ]
     }
   ]
 }

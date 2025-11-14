@@ -10,6 +10,106 @@
     "Infiltration",
     "Recon"
   ],
+  "ploys": [
+    {
+      "ployId": "IMP-SCT-S-AM",
+      "killteamId": "IMP-SCT",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Ambush",
+      "description": "Whenever a friendly SCOUT SQUAD operative is shooting or fighting during its activation, if its order was changed from Conceal to Engage at the start of that activation, or it was not visible to enemy operatives at the start of that activation:\n\n- Its weapons have the Balanced weapon rule.\n- If the target is expended, its  weapons have the Ceaseless weapon rule instead.\n  \n**Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)  \n**Balanced:** Can re-roll one Attack die."
+    },
+    {
+      "ployId": "IMP-SCT-S-AD",
+      "killteamId": "IMP-SCT",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Adaptable Training",
+      "description": "You can change the order of up to D3 friendly SCOUT SQUAD operatives that are more than 6\" from enemy operatives to Engage."
+    },
+    {
+      "ployId": "IMP-SCT-S-GE",
+      "killteamId": "IMP-SCT",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Guerilla Engagement",
+      "description": "Whenever an enemy operative is shooting a friendly SCOUT SQUAD operative, if that friendly operative is in cover and more than 6\" from enemy operatives it is visible to, you can re- roll one of your defence dice."
+    },
+    {
+      "ployId": "IMP-SCT-S-SR",
+      "killteamId": "IMP-SCT",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Stealth Relocation",
+      "description": "Up to D3 friendly SCOUT SQUAD operatives that have a Conceal order and are more than 6\" from enemy operatives can immediately perform a free Dash action. You cannot use this ploy during the first turning point."
+    },
+    {
+      "ployId": "IMP-SCT-T-AT",
+      "killteamId": "IMP-SCT",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Astartes Training",
+      "description": "Use this firefight ploy during a friendly SCOUT SQUAD operative's activation.\nUntil the end of that activation, that operative can either perform 2 Fight actions, or 2 Shoot actions if an Astartes Shotgun, Bolt Pistol, or Boltgun is selected for at least one of them."
+    },
+    {
+      "ployId": "IMP-SCT-T-CP",
+      "killteamId": "IMP-SCT",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Covert Position",
+      "description": "Use this firefight ploy during a friendly SCOUT SQUAD operative's activation.\r Until the start of its next activation, while that operative has a Conceal order and is in cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g. Seek, Vantage terrain) except being within 2\"."
+    },
+    {
+      "ployId": "IMP-SCT-T-EA",
+      "killteamId": "IMP-SCT",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Emboldened Aspirant",
+      "description": "Use this firefight ploy when a friendly SCOUT SQUAD operative performs the Fight or Shoot action.\r If it is the first friendly operative to perform either of those actions during this turning point, or if the enemy operative in that action (Primary target, if relevant) has a higher Wounds stat than that friendly Scout Squad operative, you can retain one of your normal successes as a critical success instead."
+    },
+    {
+      "ployId": "IMP-SCT-T-RP",
+      "killteamId": "IMP-SCT",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Raw Physiology",
+      "description": "Use this firefight ploy during a friendly SCOUT SQUAD operative's activation.\nUntil the start of its next activation, you can ignore any changes to that operative's stats from being injured (including its weapons' stats)."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "IMP-SCT-CC",
+      "killteamId": "IMP-SCT",
+      "seq": 1,
+      "eqName": "Camo Cloak",
+      "description": "Whenever an operative is shooting a friendly SCOUT SQUAD operative (excluding SNIPER), if you can retain any cover saves, you can retain one additional cover save.  \n\r This is not cumulative with improved cover saves from vantage terrain.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-SCT-CBAK",
+      "killteamId": "IMP-SCT",
+      "seq": 2,
+      "eqName": "Combat Blades",
+      "description": "Friendly SCOUT SQUAD operatives have the following melee weapon. Note that some operatives already have this weapon but with better stats; in that instance, use the better version.\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|Combat Blade|3|3+|4/5|",
+      "effects": "ADDWEP:Combat Blade|M|3|3+|4/5|"
+    },
+    {
+      "eqId": "IMP-SCT-HWBP",
+      "killteamId": "IMP-SCT",
+      "seq": 3,
+      "eqName": "Heavy Weapon Bipod",
+      "description": "Whenever a friendly SCOUT SQUAD HEAVY GUNNER operative is shooting with a heavy bolter or missile launcher, if it has not moved during the activation, or if it is a counteraction, that weapon has the Ceaseless rule; if the weapon already has that weapon rule it has the Relentless weapon rule. Note that operative is not restricted from moving after shooting.<hr/>\n**Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)  \n\n**Relentless:** Can re-roll any or all Attack dice",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-SCT-TO",
+      "killteamId": "IMP-SCT",
+      "seq": 4,
+      "eqName": "Targeting Oculars",
+      "description": "Up to twice per turning point, when a friendly SCOUT SQUAD operative is performing the Shoot action and you are selecting a valid target, you can use this rule. If you do, until the end of that action, its ranged weapons have the Lethal 5+ and Saturate weapon rules.<hr/>\r **Saturate:** The defender cannot retain Cover saves.",
+      "effects": ""
+    }
+  ],
   "opTypes": [
     {
       "opTypeId": "IMP-SCT-SGT",
@@ -148,8 +248,7 @@
           "abilityName": "Guidance And Experience",
           "description": "Once during each of this operative's activations, you can select one other friendly SCOUT SQUAD operative visible to it.\nUntil the end of that operative's next activation, add 1 to its APL stat."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-SCT-HGNR",
@@ -307,8 +406,7 @@
           ]
         }
       ],
-      "abilities": [],
-      "options": []
+      "abilities": []
     },
     {
       "opTypeId": "IMP-SCT-HNT",
@@ -379,8 +477,7 @@
           "abilityName": "Grapnel Launcher",
           "description": "Whenever this operative is climbing up, you can treat the vertical distance as 2\" (regardless of how far the operative moves vertically)."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-SCT-SNP",
@@ -493,8 +590,7 @@
           "AP": 1,
           "description": "Until the start of this operative's next activation, whenever it is shooting, enemy operatives cannot be obscured.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-SCT-TRK",
@@ -562,8 +658,7 @@
           "AP": 1,
           "description": "Select one expended enemy operative within 8\" of this operative. Until the end of the turning point, whenever a friendly SCOUT SQUAD operative is shooting that enemy operative, its ranged weapons have the Seek Light rule.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-SCT-WAR",
@@ -690,108 +785,7 @@
           "abilityName": "Adaptive Equipment",
           "description": "You can do one of each of the following once per turning point.\n\n- One friendly SCOUT SQUAD WARRIOR can perform the Smoke Grenade action.\n- One friendly SCOUT SQUAD WARRIOR can perform the Stun Grenade action.\n\nThe rules for these actions are found in universal equipment. Performing these actions using this rule does not count towards their action limits (i.e, if you select those grenades from equipment)."
         }
-      ],
-      "options": []
-    }
-  ],
-  "ploys": [
-    {
-      "ployId": "IMP-SCT-S-AM",
-      "killteamId": "IMP-SCT",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Ambush",
-      "description": "Whenever a friendly SCOUT SQUAD operative is shooting or fighting during its activation, if its order was changed from Conceal to Engage at the start of that activation, or it was not visible to enemy operatives at the start of that activation:\n\n- Its weapons have the Balanced weapon rule.\n- If the target is expended, its  weapons have the Ceaseless weapon rule instead.\n  \n**Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)  \n**Balanced:** Can re-roll one Attack die."
-    },
-    {
-      "ployId": "IMP-SCT-S-AD",
-      "killteamId": "IMP-SCT",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Adaptable Training",
-      "description": "You can change the order of up to D3 friendly SCOUT SQUAD operatives that are more than 6\" from enemy operatives to Engage."
-    },
-    {
-      "ployId": "IMP-SCT-S-GE",
-      "killteamId": "IMP-SCT",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Guerilla Engagement",
-      "description": "Whenever an enemy operative is shooting a friendly SCOUT SQUAD operative, if that friendly operative is in cover and more than 6\" from enemy operatives it is visible to, you can re- roll one of your defence dice."
-    },
-    {
-      "ployId": "IMP-SCT-S-SR",
-      "killteamId": "IMP-SCT",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Stealth Relocation",
-      "description": "Up to D3 friendly SCOUT SQUAD operatives that have a Conceal order and are more than 6\" from enemy operatives can immediately perform a free Dash action. You cannot use this ploy during the first turning point."
-    },
-    {
-      "ployId": "IMP-SCT-T-AT",
-      "killteamId": "IMP-SCT",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Astartes Training",
-      "description": "Use this firefight ploy during a friendly SCOUT SQUAD operative's activation.\nUntil the end of that activation, that operative can either perform 2 Fight actions, or 2 Shoot actions if an Astartes Shotgun, Bolt Pistol, or Boltgun is selected for at least one of them."
-    },
-    {
-      "ployId": "IMP-SCT-T-CP",
-      "killteamId": "IMP-SCT",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Covert Position",
-      "description": "Use this firefight ploy during a friendly SCOUT SQUAD operative's activation.\r Until the start of its next activation, while that operative has a Conceal order and is in cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g. Seek, Vantage terrain) except being within 2\"."
-    },
-    {
-      "ployId": "IMP-SCT-T-EA",
-      "killteamId": "IMP-SCT",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Emboldened Aspirant",
-      "description": "Use this firefight ploy when a friendly SCOUT SQUAD operative performs the Fight or Shoot action.\r If it is the first friendly operative to perform either of those actions during this turning point, or if the enemy operative in that action (Primary target, if relevant) has a higher Wounds stat than that friendly Scout Squad operative, you can retain one of your normal successes as a critical success instead."
-    },
-    {
-      "ployId": "IMP-SCT-T-RP",
-      "killteamId": "IMP-SCT",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Raw Physiology",
-      "description": "Use this firefight ploy during a friendly SCOUT SQUAD operative's activation.\nUntil the start of its next activation, you can ignore any changes to that operative's stats from being injured (including its weapons' stats)."
-    }
-  ],
-  "equipments": [
-    {
-      "eqId": "IMP-SCT-CC",
-      "killteamId": "IMP-SCT",
-      "seq": 1,
-      "eqName": "Camo Cloak",
-      "description": "Whenever an operative is shooting a friendly SCOUT SQUAD operative (excluding SNIPER), if you can retain any cover saves, you can retain one additional cover save.  \n\r This is not cumulative with improved cover saves from vantage terrain.",
-      "effects": ""
-    },
-    {
-      "eqId": "IMP-SCT-CBAK",
-      "killteamId": "IMP-SCT",
-      "seq": 2,
-      "eqName": "Combat Blades",
-      "description": "Friendly SCOUT SQUAD operatives have the following melee weapon. Note that some operatives already have this weapon but with better stats; in that instance, use the better version.\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|Combat Blade|3|3+|4/5|",
-      "effects": "ADDWEP:Combat Blade|M|3|3+|4/5|"
-    },
-    {
-      "eqId": "IMP-SCT-HWBP",
-      "killteamId": "IMP-SCT",
-      "seq": 3,
-      "eqName": "Heavy Weapon Bipod",
-      "description": "Whenever a friendly SCOUT SQUAD HEAVY GUNNER operative is shooting with a heavy bolter or missile launcher, if it has not moved during the activation, or if it is a counteraction, that weapon has the Ceaseless rule; if the weapon already has that weapon rule it has the Relentless weapon rule. Note that operative is not restricted from moving after shooting.<hr/>\n**Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)  \n\n**Relentless:** Can re-roll any or all Attack dice",
-      "effects": ""
-    },
-    {
-      "eqId": "IMP-SCT-TO",
-      "killteamId": "IMP-SCT",
-      "seq": 4,
-      "eqName": "Targeting Oculars",
-      "description": "Up to twice per turning point, when a friendly SCOUT SQUAD operative is performing the Shoot action and you are selecting a valid target, you can use this rule. If you do, until the end of that action, its ranged weapons have the Lethal 5+ and Saturate weapon rules.<hr/>\r **Saturate:** The defender cannot retain Cover saves.",
-      "effects": ""
+      ]
     }
   ]
 }

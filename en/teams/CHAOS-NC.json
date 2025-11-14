@@ -10,6 +10,118 @@
     "Infiltration",
     "Seek & Destroy"
   ],
+  "ploys": [
+    {
+      "ployId": "CHAOS-NC-S-PS",
+      "killteamId": "CHAOS-NC",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Preysight",
+      "description": "Whenever you are selecting a valid target for a friendly NEMESIS CLAW operative, enemy operatives within 6\" cannot use Light terrain for cover.\nWhile this can allow such operatives to be targeted (assuming they are visible), it does not remove their cover save (if any)."
+    },
+    {
+      "ployId": "CHAOS-NC-S-RTD",
+      "killteamId": "CHAOS-NC",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Return To Darkness",
+      "description": "One friendly NEMESIS CLAW operative can immediately perform a free Fall Back or Reposition action, but it must end that move with Heavy terrain within its Control range, or any part of its base underneath Vantage terrain.\r In addition, it cannot move more than 4\" during that action and it cannot end that move closer to enemy operatives (in a killzone that uses the close quarters rules, e.g. Killzone: Gallowdark, ignore Wall terrain when determining this)."
+    },
+    {
+      "ployId": "CHAOS-NC-S-TBH",
+      "killteamId": "CHAOS-NC",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "The Black Hunt",
+      "description": "Whenever a friendly NEMESIS CLAW operative is shooting against, fighting against or retaliating against a wounded enemy operative, you can re-roll one of your attack dice."
+    },
+    {
+      "ployId": "CHAOS-NC-S-WHCFY",
+      "killteamId": "CHAOS-NC",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "We Have Come For You",
+      "description": "Whenever a friendly NEMESIS CLAW operative is activated, if the first action it performs during that activation is the Charge action, when it ends its move during that action, you can inflict D3 damage on one enemy operative within its control range."
+    },
+    {
+      "ployId": "CHAOS-NC-T-DF",
+      "killteamId": "CHAOS-NC",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Dirty Fighter",
+      "description": "Use this firefight ploy when a friendly NEMESIS CLAW operative is retaliating, at the start of the Resolve Attack Dice step.\nYou can resolve one of your successes before the normal order. If you do you cannot resolve any other successes during that sequence."
+    },
+    {
+      "ployId": "CHAOS-NC-T-DTTFE",
+      "killteamId": "CHAOS-NC",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Death To The False Emperor",
+      "description": "Use this firefight ploy after rolling your attack dice for a friendly NEMESIS CLAW operative, if it's shooting against, fighting against or retaliating against an enemy operative that has the IMPERIUM keyword. That friendly operative's weapons have the Ceaseless weapon rule until the end of the sequence; if that enemy operative also has the Adeptus Astartes keyword, that friendly operative's weapons have the Relentless weapon rule until the end of that sequence instead.  \n**Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)  \n**Relentless:** Can re-roll any or all Attack dice."
+    },
+    {
+      "ployId": "CHAOS-NC-T-PFM",
+      "killteamId": "CHAOS-NC",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Proclivity For Murder",
+      "description": "Use this firefight ploy after a friendly NEMESIS CLAW operative incapacitates an enemy operative whin its control range.\nThat friendly operative can immediately perform a free Charge or Dash action (for the former, it cannot move more than 3\") even if it has performed an action that prevents it from performing the Charge or Dash action."
+    },
+    {
+      "ployId": "CHAOS-NC-T-VS",
+      "killteamId": "CHAOS-NC",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Vox Scream",
+      "description": "Use this firefight ploy when your opponent would activate an enemy operative that's visible to a friendly NEMESIS CLAW operative. Roll one D6; if the result is higher than that enemy operative's APL stat, your opponent cannot activate it during this activation; if the result is less than or equal to that enemy operative's APL stat, this ploy isn't used, the CP spent on it is refunded and you cannot use this ploy again during this turning point. If there are no other enemy operatives eligible to be activated, this ploy has no effect."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "CHAOS-NC-CS",
+      "killteamId": "CHAOS-NC",
+      "seq": 1,
+      "eqName": "Chain Snare",
+      "description": "Whenever an enemy operative would perform the Fall Back action while within control range of a friendly NEMESIS CLAW operative, if no other enemy operatives are within that friendly operative's control range, you can use this rule.\nIf you do, roll 2D6, or 1D6 if that enemy operative has a higher Wounds stat than that friendly operative.\nIf any result is a 4+, that enemy operative cannot perform that action during that activation or counteraction (No AP are spent on it).",
+      "effects": ""
+    },
+    {
+      "eqId": "CHAOS-NC-CJ",
+      "killteamId": "CHAOS-NC",
+      "seq": 2,
+      "eqName": "Comms Jammer",
+      "description": "Whenever an enemy operative is within 3\" of a friendly NEMESIS CLAW operative, that enemy operative's APL stat cannot be added to. Note that this does not affect APL stats that have already been changed.",
+      "effects": ""
+    },
+    {
+      "eqId": "CHAOS-NC-FS",
+      "killteamId": "CHAOS-NC",
+      "seq": 3,
+      "eqName": "Flayed Skin",
+      "description": "Whenever an enemy operative is shooting against, fighting against or retaliating against a friendly NEMESIS CLAW operative within 2\" of it, your opponent cannot re-roll their attack dice results of 1.",
+      "effects": ""
+    },
+    {
+      "eqId": "CHAOS-NC-GT",
+      "killteamId": "CHAOS-NC",
+      "seq": 4,
+      "eqName": "Grisly Trophy",
+      "description": "Once per Battle, when a friendly NEMESIS CLAW operative incapacitates an enemy operative within 2\" of it, you can use this rule.\nIf you do, that friendly operative gains one of your Grisly Trophy tokens (if it does not already have one).\nWhenever a friendly NEMESIS CLAW operative that has one of your Grisly Trophy tokens is visible to and within 2\" of an enemy operative, subtract 1 from the ATK stat of that enemy operative's weapons.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "CHAOS-NC-TA-AS",
+      "abilityName": "Astartes",
+      "description": "During each friendly NEMESIS CLAW operative's activation, it can perform either 2 Shoot actions or 2 Fight actions.\nIf it is 2 shoot actions, a bolt pistol, boltgun or scoped bolt pistol must be selected for at least one of them.\nEach friendly NEMESIS CLAW operative can counteract regardless of its order."
+    },
+    {
+      "abilityId": "CHAOS-NC-TA-INMICL",
+      "abilityName": "In Midnight Clad",
+      "description": "Whenever an enemy operative is shooting a friendly NEMESIS CLAW operative, that friendly operative is obscured if both of the following are true:\r \r - It is more than 8\" from enemy operatives it is visible to.\r - It has Heavy Terrain within its control range, or any part of its base is underneath Vantage terrain.\r "
+    }
+  ],
   "opTypes": [
     {
       "opTypeId": "CHAOS-NC-VIS",
@@ -209,8 +321,7 @@
           "AP": 1,
           "description": "*PSYCHIC* Spend 1 of your Prescience points to gain 1CP.  \n\nThis operative cannot perform this action while within control range of an enemy operative, or during an activation in which it performed the Charge or Fall Back action (or vice-versa)."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "CHAOS-NC-FRM",
@@ -342,8 +453,7 @@
           "AP": 1,
           "description": "Select one objective marker this operative controls to gain one of your Terrorchem tokens.\nIt cannot be an objective marker within control range of an enemy operative, or one that already has one of your Terrorchem tokens.\nThe first time that objective marker is within control range of an enemy operative that does not have one of your Terrorchem tokens, that operative gains that Terrorchem token, then inflicts 2D3 damage on it\n(if it is during an action, at the end of that action)."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "CHAOS-NC-GNR",
@@ -510,8 +620,7 @@
           ]
         }
       ],
-      "abilities": [],
-      "options": []
+      "abilities": []
     },
     {
       "opTypeId": "CHAOS-NC-HGNR",
@@ -669,8 +778,7 @@
           ]
         }
       ],
-      "abilities": [],
-      "options": []
+      "abilities": []
     },
     {
       "opTypeId": "CHAOS-NC-SCR",
@@ -725,8 +833,7 @@
           "abilityName": "Screecher",
           "description": "Whenever an enemy operative within 3\" of this operative is shooting, fighting or retaliating, your opponent cannot re-roll their attack dice."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "CHAOS-NC-SKT",
@@ -801,8 +908,7 @@
           "abilityName": "Tyrant Of The Skinning Pits",
           "description": "Whenever this operative is fighting or retaliating, Normal and Critical damage of 3 or more inflicts 1 less damage on it."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "CHAOS-NC-VEN",
@@ -874,8 +980,7 @@
           "AP": 1,
           "description": "*PSYCHIC*  \n\nSelect one enemy operative within 6\" of this operative, then select one of the following for that enemy operative (you can only select each option once per battle):\n\n- Until the end of the next activation, subtract 1 from its APL stat\n- Change its order\n- Perform a free dash with it (specify the location for your opponent to move it to)\n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "CHAOS-NC-WAR",
@@ -978,120 +1083,7 @@
           "abilityName": "Cruel Tormentor",
           "description": "Whenever this operative is shooting against, fighting against, or retaliating against an injured enemy operative, or an enemy operative that has a wounds stat of 7 or less, its weapons have the Lethal 5+ rule."
         }
-      ],
-      "options": []
-    }
-  ],
-  "ploys": [
-    {
-      "ployId": "CHAOS-NC-S-PS",
-      "killteamId": "CHAOS-NC",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Preysight",
-      "description": "Whenever you are selecting a valid target for a friendly NEMESIS CLAW operative, enemy operatives within 6\" cannot use Light terrain for cover.\nWhile this can allow such operatives to be targeted (assuming they are visible), it does not remove their cover save (if any)."
-    },
-    {
-      "ployId": "CHAOS-NC-S-RTD",
-      "killteamId": "CHAOS-NC",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Return To Darkness",
-      "description": "One friendly NEMESIS CLAW operative can immediately perform a free Fall Back or Reposition action, but it must end that move with Heavy terrain within its Control range, or any part of its base underneath Vantage terrain.\r In addition, it cannot move more than 4\" during that action and it cannot end that move closer to enemy operatives (in a killzone that uses the close quarters rules, e.g. Killzone: Gallowdark, ignore Wall terrain when determining this)."
-    },
-    {
-      "ployId": "CHAOS-NC-S-TBH",
-      "killteamId": "CHAOS-NC",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "The Black Hunt",
-      "description": "Whenever a friendly NEMESIS CLAW operative is shooting against, fighting against or retaliating against a wounded enemy operative, you can re-roll one of your attack dice."
-    },
-    {
-      "ployId": "CHAOS-NC-S-WHCFY",
-      "killteamId": "CHAOS-NC",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "We Have Come For You",
-      "description": "Whenever a friendly NEMESIS CLAW operative is activated, if the first action it performs during that activation is the Charge action, when it ends its move during that action, you can inflict D3 damage on one enemy operative within its control range."
-    },
-    {
-      "ployId": "CHAOS-NC-T-DF",
-      "killteamId": "CHAOS-NC",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Dirty Fighter",
-      "description": "Use this firefight ploy when a friendly NEMESIS CLAW operative is retaliating, at the start of the Resolve Attack Dice step.\nYou can resolve one of your successes before the normal order. If you do you cannot resolve any other successes during that sequence."
-    },
-    {
-      "ployId": "CHAOS-NC-T-DTTFE",
-      "killteamId": "CHAOS-NC",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Death To The False Emperor",
-      "description": "Use this firefight ploy after rolling your attack dice for a friendly NEMESIS CLAW operative, if it's shooting against, fighting against or retaliating against an enemy operative that has the IMPERIUM keyword. That friendly operative's weapons have the Ceaseless weapon rule until the end of the sequence; if that enemy operative also has the Adeptus Astartes keyword, that friendly operative's weapons have the Relentless weapon rule until the end of that sequence instead.  \n**Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)  \n**Relentless:** Can re-roll any or all Attack dice."
-    },
-    {
-      "ployId": "CHAOS-NC-T-PFM",
-      "killteamId": "CHAOS-NC",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Proclivity For Murder",
-      "description": "Use this firefight ploy after a friendly NEMESIS CLAW operative incapacitates an enemy operative whin its control range.\nThat friendly operative can immediately perform a free Charge or Dash action (for the former, it cannot move more than 3\") even if it has performed an action that prevents it from performing the Charge or Dash action."
-    },
-    {
-      "ployId": "CHAOS-NC-T-VS",
-      "killteamId": "CHAOS-NC",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Vox Scream",
-      "description": "Use this firefight ploy when your opponent would activate an enemy operative that's visible to a friendly NEMESIS CLAW operative. Roll one D6; if the result is higher than that enemy operative's APL stat, your opponent cannot activate it during this activation; if the result is less than or equal to that enemy operative's APL stat, this ploy isn't used, the CP spent on it is refunded and you cannot use this ploy again during this turning point. If there are no other enemy operatives eligible to be activated, this ploy has no effect."
-    }
-  ],
-  "equipments": [
-    {
-      "eqId": "CHAOS-NC-CS",
-      "killteamId": "CHAOS-NC",
-      "seq": 1,
-      "eqName": "Chain Snare",
-      "description": "Whenever an enemy operative would perform the Fall Back action while within control range of a friendly NEMESIS CLAW operative, if no other enemy operatives are within that friendly operative's control range, you can use this rule.\nIf you do, roll 2D6, or 1D6 if that enemy operative has a higher Wounds stat than that friendly operative.\nIf any result is a 4+, that enemy operative cannot perform that action during that activation or counteraction (No AP are spent on it).",
-      "effects": ""
-    },
-    {
-      "eqId": "CHAOS-NC-CJ",
-      "killteamId": "CHAOS-NC",
-      "seq": 2,
-      "eqName": "Comms Jammer",
-      "description": "Whenever an enemy operative is within 3\" of a friendly NEMESIS CLAW operative, that enemy operative's APL stat cannot be added to. Note that this does not affect APL stats that have already been changed.",
-      "effects": ""
-    },
-    {
-      "eqId": "CHAOS-NC-FS",
-      "killteamId": "CHAOS-NC",
-      "seq": 3,
-      "eqName": "Flayed Skin",
-      "description": "Whenever an enemy operative is shooting against, fighting against or retaliating against a friendly NEMESIS CLAW operative within 2\" of it, your opponent cannot re-roll their attack dice results of 1.",
-      "effects": ""
-    },
-    {
-      "eqId": "CHAOS-NC-GT",
-      "killteamId": "CHAOS-NC",
-      "seq": 4,
-      "eqName": "Grisly Trophy",
-      "description": "Once per Battle, when a friendly NEMESIS CLAW operative incapacitates an enemy operative within 2\" of it, you can use this rule.\nIf you do, that friendly operative gains one of your Grisly Trophy tokens (if it does not already have one).\nWhenever a friendly NEMESIS CLAW operative that has one of your Grisly Trophy tokens is visible to and within 2\" of an enemy operative, subtract 1 from the ATK stat of that enemy operative's weapons.",
-      "effects": ""
-    }
-  ],
-  "teamAbilities": [
-    {
-      "abilityId": "CHAOS-NC-TA-AS",
-      "abilityName": "Astartes",
-      "description": "During each friendly NEMESIS CLAW operative's activation, it can perform either 2 Shoot actions or 2 Fight actions.\nIf it is 2 shoot actions, a bolt pistol, boltgun or scoped bolt pistol must be selected for at least one of them.\nEach friendly NEMESIS CLAW operative can counteract regardless of its order."
-    },
-    {
-      "abilityId": "CHAOS-NC-TA-INMICL",
-      "abilityName": "In Midnight Clad",
-      "description": "Whenever an enemy operative is shooting a friendly NEMESIS CLAW operative, that friendly operative is obscured if both of the following are true:\r \r - It is more than 8\" from enemy operatives it is visible to.\r - It has Heavy Terrain within its control range, or any part of its base is underneath Vantage terrain.\r "
+      ]
     }
   ]
 }

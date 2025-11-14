@@ -10,6 +10,113 @@
     "Recon",
     "Seek & Destroy"
   ],
+  "ploys": [
+    {
+      "ployId": "IMP-HC-S-AA",
+      "killteamId": "IMP-HC",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Accelerant Agents",
+      "description": "During each friendly HUNTER CLADE RUSTSTALKER operative's activation, it can perform two Fight actions, and one of them can be free."
+    },
+    {
+      "ployId": "IMP-HC-S-DI",
+      "killteamId": "IMP-HC",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Debilitating Irradiation",
+      "description": "Whenever an enemy operative is shooting against, fighting against or retaliating against a friendly HUNTER CLADE VANGUARD operative, if that enemy operative is under the effects of the Rad-Saturation rule\n(see VANGUARD operatives), subtract 1 from the Normal Dmg stat of its weapons (to a minimum of 3)."
+    },
+    {
+      "ployId": "IMP-HC-S-NSI",
+      "killteamId": "IMP-HC",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Neurostatic Interference",
+      "description": "Whenever an enemy operative within 6\" of a friendly HUNTER CLADE INFILTRATOR operative is shooting, fighting or retaliating, your opponent cannot re-roll their attack dice."
+    },
+    {
+      "ployId": "IMP-HC-S-SP",
+      "killteamId": "IMP-HC",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Scouting Protocol",
+      "description": "Each friendly HUNTER CLADE RANGER operative that has a Conceal order and is more than 6\" from enemy operatives can immediately perform a free Dash action in an order of your choice. You cannot use this ploy during the first turning point."
+    },
+    {
+      "ployId": "IMP-HC-T-CE",
+      "killteamId": "IMP-HC",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Control Edict",
+      "description": "Use this firefight ploy when it's your turn to activate a friendly operative. Select one friendly HUNTER CLADE LEADER operative and one other ready friendly HUNTER CLADE operative visible to and within 3\" of that LEADER operative;\nactivate one of them as normal. When that first friendly operative you activate is expended, you can activate the other friendly operative before your opponent activates.\nWhen that other operative is expended, your opponent then activates as normal. Whenever you use this ploy, you cannot select more than one HUNTER CLADE SICARIAN operative."
+    },
+    {
+      "ployId": "IMP-HC-T-COR",
+      "killteamId": "IMP-HC",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Command Override",
+      "description": "Use this firefight ploy when you activate a friendly HUNTER CLADE operative. Select a DOCTRINA IMPERATIVE for that operative to have instead of its current one (if any) until the Ready step of the next Strategy phase."
+    },
+    {
+      "ployId": "IMP-HC-T-OI",
+      "killteamId": "IMP-HC",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Omnissiah's Imperative",
+      "description": "Use this firefight ploy during a friendly HUNTER CLADE operative's activation. Alternatively, use it when an enemy operative is shooting a friendly HUNTER CLADE operative, at the end of the Roll Attack Dice step. Until the Ready step of the next Strategy phase, that friendly operative has an additional rule determined by its current DOCTRINA IMPERATIVE as follows:\r <uL>\r - **Protector:** This operative's ranged weapons have the Severe weapon rule.\r - **Conqueror:** Whenever this operative is fighting, after resolving your first attack dice during that sequence, you can immediately resolve another (before your opponent).\r - **Bulwark: Improve this operative's Save stat by 1. In addition, whenever an operative is shooting this operative, you can collect and roll an additional defence dice. If you use this ploy during a Shoot action, this operative's Save stat is changed immediately (this takes precedence over the core rules).\r - **Aggressor: You can ignore the first vertical distance of 2\" this operative moves during one climb up.\r - **Neutral: None.\r \r Note that you can use this ploy after rolling attack or defence dice for this operative, or before or after retaining or re-rolling those dice."
+    },
+    {
+      "ployId": "IMP-HC-T-SCO",
+      "killteamId": "IMP-HC",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Scrap Code Overload",
+      "description": "Use this firefight ploy when a friendly HUNTER CLADE INFILTRATOR operative is activated. Alternatively, use this firefight ploy when a friendly HUNTER CLADE INFILTRATOR operative, or an enemy operative within 3\" of that friendly\noperative, would perform the Pick Up Marker or a mission action (excluding Operate Hatch). Until the start of that friendly operative's next activation, whenever determining control of a marker, treat the total APL stat of enemy\noperatives that contest it as 1 lower if at least one of those enemy operatives is within 3\" of that friendly operative. Note this isn't a change to the APL stat, so any changes are cumulative with this, and this can change control of a marker before performing the action."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "IMP-HC-RB",
+      "killteamId": "IMP-HC",
+      "seq": 1,
+      "eqName": "Rad Bombardment",
+      "description": "Once per battle STRATEGIC GAMBIT in any turning point after the first. Select one objective marker or your opponent's drop zone.\nRoll one D6 separately for each enemy operative within control range of that selected objective marker or within that drop zone, and subtract 1 if any part of that enemy operative's base is underneath Vantage terrain:  \n\non a 4+, subtract 1 from that operative's APL stat until the end of its next activation;  \n\non a 6, also inflict D3 damage on it (roll separately for each).",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-HC-RS",
+      "killteamId": "IMP-HC",
+      "seq": 2,
+      "eqName": "Redundancy Systems",
+      "description": "Once per turning point, when a friendly HUNTER CLADE operative is activated, if it's not within control range of enemy operatives, you can use this rule.\nIf you do, that friendly operative regains up to D3+2 lost wounds.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-HC-RF",
+      "killteamId": "IMP-HC",
+      "seq": 3,
+      "eqName": "Refractor Field",
+      "description": "Once per turning point, when an operative is shooting a friendly HUNTER CLADE operative, at the start of the Roll Defence Dice step, you can use this rule.\nIf you do, worsen the x of the Piercing weapon rule by 1 (if any) until the end of that sequence. Note that Piercing 1 would therefore be ignored.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-HC-EML",
+      "killteamId": "IMP-HC",
+      "seq": 4,
+      "eqName": "Extremis Mind-Link",
+      "description": "Once per battle, you can use the Control Edict firefight ploy for 0CP, but instead of activating the selected friendly operatives in succession, activate them at the same time.\nComplete their activations action by action in any order.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "IMP-HC-TA-DOIM",
+      "abilityName": "Doctrina Imperatives",
+      "description": "*At the end of the Select Operatives step, select one DOCTRINA IMPERATIVE to be a Primary Mode for your kill team until the end of the battle (note that selecting a Primary Mode doesn't automatically give you the effects of that DOCTRINA IMPERATIVE for the battle; you must still select it as a STRATEGIC GAMBIT, as below).*  \n**STRATEGIC GAMBIT**  \n\nSelect a DOCTRINA IMPERATIVE for friendly HUNTER CLADE operatives to have until the Ready step of the next Strategy phase.\nEach DOCTRINA IMPERATIVE has both an Optimisation and a Deprecation rule. Both are in effect while your kill team has that DOCTRINA IMPERATIVE.  \n  \n\n**Protector Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' ranged weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' melee weapons by 1. This isn't cumulative with being injured.\n\n**Conqueror Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' melee weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' ranged weapons by 1. This isn't cumulative with being injured.\n\n**Bulwark Imperative**\n- Optimisation: Normal Dmg of 3 or more inflicts 1 less damage on HUNTER CLADE friendly operatives.\n- Deprecation: Subtract 1\" from the Move stat of friendly HUNTER CLADE operatives.\n\n**Aggressor Imperative**\n- Optimisation: Add 1\" to the Move stat of friendly HUNTER CLADE operatives.\n- Deprecation: Worsen the Save stat of friendly HUNTER CLADE operatives by 1.\n\n**Neutral Imperative**\n- Optimisation: None.\n- Deprecation: None.\n"
+    }
+  ],
   "opTypes": [
     {
       "opTypeId": "IMP-HC-SRSP",
@@ -69,8 +176,7 @@
           "abilityName": "Wasteland Stalker",
           "description": "Whenever an operative is shooting this operative, if you\ncan retain any cover saves, you can retain one additional cover save, or you\ncan retain one cover save as a critical success instead. This isn't cumulative\nwith improved cover saves from Vantage terrain."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-HC-SIP",
@@ -202,8 +308,7 @@
           "abilityName": "Control Protocol",
           "description": "You can use the Command Override firefight ploy for 0CP if the specified friendly HUNTER CLADE operative is visible to this operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-HC-SRGA",
@@ -451,8 +556,7 @@
           "abilityName": "Targeting Protocol",
           "description": "Whenever this operative is shooting, if it hasn't moved during the activation, or if it's a counteraction, ranged weapons on its datacard have the Lethal 5+ weapon rule. Note this operative isn't restricted from moving after shooting."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-HC-SVA",
@@ -694,8 +798,7 @@
           "abilityName": "Rad-Saturation",
           "description": "Whenever an enemy operative is within 2\" of friendly HUNTER CLADE VANGUARD operatives, worsen the Hit stat of that enemy operative's weapons by 1. This isn't cumulative with being injured."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-HC-SIW",
@@ -814,8 +917,7 @@
           ]
         }
       ],
-      "abilities": [],
-      "options": []
+      "abilities": []
     },
     {
       "opTypeId": "IMP-HC-SRSW",
@@ -883,8 +985,7 @@
           "abilityName": "Wasteland Stalker",
           "description": "Whenever an operative is shooting this operative, if you\ncan retain any cover saves, you can retain one additional cover save, or you\ncan retain one cover save as a critical success instead. This isn't cumulative\nwith improved cover saves from Vantage terrain."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-HC-SRGD",
@@ -961,8 +1062,7 @@
           "AP": 1,
           "description": "**SUPPORT** Select one other friendly HUNTER CLADE operative visible to and within 6\" of this operative. Until the end of that operative's next activation, add 1 to its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-HC-SRGG",
@@ -1133,8 +1233,7 @@
           "abilityName": "Targeting Protocol",
           "description": "Whenever this operative is shooting, if it hasn't moved during the activation, or if it's a counteraction, ranged weapons on its datacard have the Lethal 5+ weapon rule. Note this operative isn't restricted from moving after shooting."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-HC-SRGS",
@@ -1211,8 +1310,7 @@
           "AP": 1,
           "description": "**SUPPORT**\nSelect one enemy operative visible to this operative. Until the end of the turning point, whenever a friendly HUNTER CLADE operative within 3\" of this operative is shooting that enemy operative, you can use this effect. If you do:\n\n- That friendly operative's ranged weapons have the Seek Light weapon rule.\n- That enemy operative cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-HC-SRGW",
@@ -1282,8 +1380,7 @@
           "abilityName": "Targeting Protocol",
           "description": "Whenever this operative is shooting, if it hasn't moved during the activation, or if it's a counteraction, ranged weapons on its datacard have the Lethal 5+ weapon rule. Note this operative isn't restricted from moving after shooting."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-HC-SVD",
@@ -1354,8 +1451,7 @@
           "AP": 1,
           "description": "**SUPPORT**\nSelect one other friendly HUNTER CLADE operative visible to and within 6\" of this operative. Until the end of that operative's next activation, add 1 to its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-HC-SVG",
@@ -1526,8 +1622,7 @@
           "abilityName": "Rad-Saturation",
           "description": "Whenever an enemy operative is within 2\" of friendly HUNTER CLADE VANGUARD operatives, worsen the Hit stat of that enemy operative's weapons by 1. This isn't cumulative with being injured."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-HC-SVS",
@@ -1598,8 +1693,7 @@
           "AP": 1,
           "description": "**SUPPORT**\nSelect one enemy operative visible to this operative. Until the end of the turning point, whenever a friendly HUNTER CLADE operative within 3\" of this operative is shooting that enemy operative, you can use this effect. If you do:\n\n- That friendly operative's ranged weapons have the Seek Light weapon rule.\n- That enemy operative cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-HC-SVW",
@@ -1663,115 +1757,7 @@
           "abilityName": "Rad-Saturation",
           "description": "Whenever an enemy operative is within 2\" of friendly HUNTER CLADE VANGUARD operatives, worsen the Hit stat of that enemy operative's weapons by 1. This isn't cumulative with being injured."
         }
-      ],
-      "options": []
-    }
-  ],
-  "ploys": [
-    {
-      "ployId": "IMP-HC-S-AA",
-      "killteamId": "IMP-HC",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Accelerant Agents",
-      "description": "During each friendly HUNTER CLADE RUSTSTALKER operative's activation, it can perform two Fight actions, and one of them can be free."
-    },
-    {
-      "ployId": "IMP-HC-S-DI",
-      "killteamId": "IMP-HC",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Debilitating Irradiation",
-      "description": "Whenever an enemy operative is shooting against, fighting against or retaliating against a friendly HUNTER CLADE VANGUARD operative, if that enemy operative is under the effects of the Rad-Saturation rule\n(see VANGUARD operatives), subtract 1 from the Normal Dmg stat of its weapons (to a minimum of 3)."
-    },
-    {
-      "ployId": "IMP-HC-S-NSI",
-      "killteamId": "IMP-HC",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Neurostatic Interference",
-      "description": "Whenever an enemy operative within 6\" of a friendly HUNTER CLADE INFILTRATOR operative is shooting, fighting or retaliating, your opponent cannot re-roll their attack dice."
-    },
-    {
-      "ployId": "IMP-HC-S-SP",
-      "killteamId": "IMP-HC",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Scouting Protocol",
-      "description": "Each friendly HUNTER CLADE RANGER operative that has a Conceal order and is more than 6\" from enemy operatives can immediately perform a free Dash action in an order of your choice. You cannot use this ploy during the first turning point."
-    },
-    {
-      "ployId": "IMP-HC-T-CE",
-      "killteamId": "IMP-HC",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Control Edict",
-      "description": "Use this firefight ploy when it's your turn to activate a friendly operative. Select one friendly HUNTER CLADE LEADER operative and one other ready friendly HUNTER CLADE operative visible to and within 3\" of that LEADER operative;\nactivate one of them as normal. When that first friendly operative you activate is expended, you can activate the other friendly operative before your opponent activates.\nWhen that other operative is expended, your opponent then activates as normal. Whenever you use this ploy, you cannot select more than one HUNTER CLADE SICARIAN operative."
-    },
-    {
-      "ployId": "IMP-HC-T-COR",
-      "killteamId": "IMP-HC",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Command Override",
-      "description": "Use this firefight ploy when you activate a friendly HUNTER CLADE operative. Select a DOCTRINA IMPERATIVE for that operative to have instead of its current one (if any) until the Ready step of the next Strategy phase."
-    },
-    {
-      "ployId": "IMP-HC-T-OI",
-      "killteamId": "IMP-HC",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Omnissiah's Imperative",
-      "description": "Use this firefight ploy during a friendly HUNTER CLADE operative's activation. Alternatively, use it when an enemy operative is shooting a friendly HUNTER CLADE operative, at the end of the Roll Attack Dice step. Until the Ready step of the next Strategy phase, that friendly operative has an additional rule determined by its current DOCTRINA IMPERATIVE as follows:\r <uL>\r - **Protector:** This operative's ranged weapons have the Severe weapon rule.\r - **Conqueror:** Whenever this operative is fighting, after resolving your first attack dice during that sequence, you can immediately resolve another (before your opponent).\r - **Bulwark: Improve this operative's Save stat by 1. In addition, whenever an operative is shooting this operative, you can collect and roll an additional defence dice. If you use this ploy during a Shoot action, this operative's Save stat is changed immediately (this takes precedence over the core rules).\r - **Aggressor: You can ignore the first vertical distance of 2\" this operative moves during one climb up.\r - **Neutral: None.\r \r Note that you can use this ploy after rolling attack or defence dice for this operative, or before or after retaining or re-rolling those dice."
-    },
-    {
-      "ployId": "IMP-HC-T-SCO",
-      "killteamId": "IMP-HC",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Scrap Code Overload",
-      "description": "Use this firefight ploy when a friendly HUNTER CLADE INFILTRATOR operative is activated. Alternatively, use this firefight ploy when a friendly HUNTER CLADE INFILTRATOR operative, or an enemy operative within 3\" of that friendly\noperative, would perform the Pick Up Marker or a mission action (excluding Operate Hatch). Until the start of that friendly operative's next activation, whenever determining control of a marker, treat the total APL stat of enemy\noperatives that contest it as 1 lower if at least one of those enemy operatives is within 3\" of that friendly operative. Note this isn't a change to the APL stat, so any changes are cumulative with this, and this can change control of a marker before performing the action."
-    }
-  ],
-  "equipments": [
-    {
-      "eqId": "IMP-HC-RB",
-      "killteamId": "IMP-HC",
-      "seq": 1,
-      "eqName": "Rad Bombardment",
-      "description": "Once per battle STRATEGIC GAMBIT in any turning point after the first. Select one objective marker or your opponent's drop zone.\nRoll one D6 separately for each enemy operative within control range of that selected objective marker or within that drop zone, and subtract 1 if any part of that enemy operative's base is underneath Vantage terrain:  \n\non a 4+, subtract 1 from that operative's APL stat until the end of its next activation;  \n\non a 6, also inflict D3 damage on it (roll separately for each).",
-      "effects": ""
-    },
-    {
-      "eqId": "IMP-HC-RS",
-      "killteamId": "IMP-HC",
-      "seq": 2,
-      "eqName": "Redundancy Systems",
-      "description": "Once per turning point, when a friendly HUNTER CLADE operative is activated, if it's not within control range of enemy operatives, you can use this rule.\nIf you do, that friendly operative regains up to D3+2 lost wounds.",
-      "effects": ""
-    },
-    {
-      "eqId": "IMP-HC-RF",
-      "killteamId": "IMP-HC",
-      "seq": 3,
-      "eqName": "Refractor Field",
-      "description": "Once per turning point, when an operative is shooting a friendly HUNTER CLADE operative, at the start of the Roll Defence Dice step, you can use this rule.\nIf you do, worsen the x of the Piercing weapon rule by 1 (if any) until the end of that sequence. Note that Piercing 1 would therefore be ignored.",
-      "effects": ""
-    },
-    {
-      "eqId": "IMP-HC-EML",
-      "killteamId": "IMP-HC",
-      "seq": 4,
-      "eqName": "Extremis Mind-Link",
-      "description": "Once per battle, you can use the Control Edict firefight ploy for 0CP, but instead of activating the selected friendly operatives in succession, activate them at the same time.\nComplete their activations action by action in any order.",
-      "effects": ""
-    }
-  ],
-  "teamAbilities": [
-    {
-      "abilityId": "IMP-HC-TA-DOIM",
-      "abilityName": "Doctrina Imperatives",
-      "description": "*At the end of the Select Operatives step, select one DOCTRINA IMPERATIVE to be a Primary Mode for your kill team until the end of the battle (note that selecting a Primary Mode doesn't automatically give you the effects of that DOCTRINA IMPERATIVE for the battle; you must still select it as a STRATEGIC GAMBIT, as below).*  \n**STRATEGIC GAMBIT**  \n\nSelect a DOCTRINA IMPERATIVE for friendly HUNTER CLADE operatives to have until the Ready step of the next Strategy phase.\nEach DOCTRINA IMPERATIVE has both an Optimisation and a Deprecation rule. Both are in effect while your kill team has that DOCTRINA IMPERATIVE.  \n  \n\n**Protector Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' ranged weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' melee weapons by 1. This isn't cumulative with being injured.\n\n**Conqueror Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' melee weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' ranged weapons by 1. This isn't cumulative with being injured.\n\n**Bulwark Imperative**\n- Optimisation: Normal Dmg of 3 or more inflicts 1 less damage on HUNTER CLADE friendly operatives.\n- Deprecation: Subtract 1\" from the Move stat of friendly HUNTER CLADE operatives.\n\n**Aggressor Imperative**\n- Optimisation: Add 1\" to the Move stat of friendly HUNTER CLADE operatives.\n- Deprecation: Worsen the Save stat of friendly HUNTER CLADE operatives by 1.\n\n**Neutral Imperative**\n- Optimisation: None.\n- Deprecation: None.\n"
+      ]
     }
   ]
 }

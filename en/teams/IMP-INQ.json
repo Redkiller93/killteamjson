@@ -12,6 +12,106 @@
     "Seek & Destroy",
     "Infiltration"
   ],
+  "ploys": [
+    {
+      "ployId": "IMP-INQ-S-DEN",
+      "killteamId": "IMP-INQ",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Denounce",
+      "description": "Select one enemy operative and roll one D3. In the Firefight phase of this turning point, that enemy operative cannot be activated or perform actions until it is the last enemy operative to be activated,\nor your opponent has activated a number of enemy operatives equal to the result of the D3 (whichever comes first).\nThis ploy costs you 1 additional CP for each previous time you've used it during the battle (e.g. 1CP the first time you would use it, 2CP the second time, etc.)."
+    },
+    {
+      "ployId": "IMP-INQ-S-IJ",
+      "killteamId": "IMP-INQ",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Irrefutable Jurisdiction",
+      "description": "Whenever an operative is shooting a friendly INQUISITORIAL AGENT operative that's within 3\" of an objective marker, you can re-roll one of your defence dice.\nIf that friendly operative contests that marker, you can re-roll any of your defence dice results of one result instead (e.g. results of 2)."
+    },
+    {
+      "ployId": "IMP-INQ-S-IS",
+      "killteamId": "IMP-INQ",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Intense Scrutiny",
+      "description": "Whenever you're selecting a valid target for a friendly INQUISITORIAL AGENT operative, enemy operatives within 4\" of it cannot be in cover (instead of 2\").\nWhile this can allow such operatives to be targeted (assuming they're visible), it doesn't remove their cover save (if any), unless the friendly INQUISITORIAL AGENT operative is within 2\" as normal."
+    },
+    {
+      "ployId": "IMP-INQ-S-QUA",
+      "killteamId": "IMP-INQ",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Quarry",
+      "description": "Select one enemy operative to be your quarry for the turning point. Whenever a friendly INQUISITORIAL AGENT operative is shooting against, fighting against or retaliating against your quarry,\nthat friendly operative's weapons have the Ceaseless weapon rule. Whenever your quarry is incapacitated, you can select a new enemy operative to be your quarry (and can continue to do so during this turning point).  \n**Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)"
+    },
+    {
+      "ployId": "IMP-INQ-T-AA",
+      "killteamId": "IMP-INQ",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Absolute Authority",
+      "description": "Use this firefight ploy during the battle, when an opponent uses a strategy or firefight ploy (excluding Command Re-roll or one that costs 0CP).\nTheir ploy isn't used, the CP spent on it is refunded and they cannot use that ploy again during this turning point. This ploy cannot be used to stop the same ploy more than once per battle."
+    },
+    {
+      "ployId": "IMP-INQ-T-IP",
+      "killteamId": "IMP-INQ",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Intimidating Presence",
+      "description": "Use this firefight ploy when an enemy operative visible to and within 3\" of a friendly INQUISITORIAL AGENT operative, or visible to and within 6\" of a friendly MYSTIC operative, performs the Pick Up Marker or a mission action (excluding Operate Hatch).\nYour opponent must spend 1 additional AP for that enemy operative to perform that action (if they cannot or choose not to, the AP spent on it is refunded)."
+    },
+    {
+      "ployId": "IMP-INQ-T-RPI",
+      "killteamId": "IMP-INQ",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Relentless In Pursuit",
+      "description": "Use this firefight ploy when an enemy operative within 2\" of a ready friendly INQUISITORIAL AGENT operative performs an action in which it moves.\nAfter it moves, that friendly INQUISITORIAL AGENT operative can either perform a free Reposition action, but must end that move within 2\" of that enemy operative, or a free Charge action, but must end that move within control range of that enemy operative.\nIf neither is possible, that friendly operative cannot perform those actions, this ploy isn't used and the CP spent on it is refunded."
+    },
+    {
+      "ployId": "IMP-INQ-T-TEW",
+      "killteamId": "IMP-INQ",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "The Emperor's Will",
+      "description": "Use this firefight ploy when a friendly INQUISITORIAL AGENT operative is activated. Until the end of that operative's activation, you can ignore any changes to its stats (including its weapons' stats)."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "IMP-INQ-IR",
+      "killteamId": "IMP-INQ",
+      "seq": 1,
+      "eqName": "Inquisitorial Rosette",
+      "description": "Once per battle, when a friendly INQUISITORIAL AGENT operative is activated, if you've used the Quarry strategy ploy during this turning point, you can use this rule.\nIf you do, you can select a new enemy operative to be your quarry until the end of the turning point.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-INQ-AB",
+      "killteamId": "IMP-INQ",
+      "seq": 2,
+      "eqName": "Armoured Bodysuits",
+      "description": "Whenever an operative is shooting a friendly INQUISITORIAL AGENT operative (excluding TOME-SKULL) that has a 5+ Save stat, you can retain one of your defence dice results of 4 as a normal success.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-INQ-CD",
+      "killteamId": "IMP-INQ",
+      "seq": 3,
+      "eqName": "Combat Daggers",
+      "description": "Friendly INQUISITORIAL AGENT operatives have the following melee weapon. Whenever a friendly SISTER OF SILENCE operative is using it, add 1 to its Atk stat. \n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Combat Dagger|3|4+|3/4|",
+      "effects": "ADDWEP:Combat Dagger|M|3|4+|3/4|"
+    },
+    {
+      "eqId": "IMP-INQ-SS",
+      "killteamId": "IMP-INQ",
+      "seq": 4,
+      "eqName": "Servo-Skull",
+      "description": "Once per battle, one friendly INQUISITORIAL AGENT operative can perform a mission action for 1 less AP.",
+      "effects": ""
+    }
+  ],
   "opTypes": [
     {
       "opTypeId": "IMP-INQ-INQ24-INT",
@@ -80,8 +180,7 @@
           "abilityName": "Inquisitorial Tomes",
           "description": "STRATEGIC GAMBIT and/or when this operative is activated. Select one of the following INQUISITORIAL TOME rules for this operative to have,\r and one for a friendly INQUISITORIAL AGENT TOME-SKULL operative to have (they can be the same, and ignore the rule you didn't select for each operative):\r \r - **Denunciation:** Whenever a friendly INQUISITORIAL AGENT operative is shooting against, fighting against or retaliating against an enemy operative within 2\" of operatives with this rule, add 1 to the Atk stat of that friendly operative's weapons.\r - **Sanctification:** Whenever an enemy operative is shooting against, fighting against or retaliating against a friendly INQUISITORIAL AGENT operative within 2\" of friendly operatives with this rule, subtract 1 from the Atk stat of that enemy operative's weapons.\r "
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-INQ24-TS",
@@ -120,8 +219,7 @@
           "abilityName": "Machine",
           "description": "\r - This operative cannot perform any actions other than Charge, Dash, Fall Back and Reposition.\r - It cannot retaliate or assist in a fight.\r - Whenever determining control of a marker, treat this operative's APL stat as 1 lower. Note this isn't a change to its APL stat, so any changes are cumulative with this.\r - Whenever this operative has a Conceal order and is in cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g. Seek, Vantage terrain) except being within 2\".\r "
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-INQ24-AS",
@@ -174,8 +272,7 @@
           "abilityName": "Scrivener",
           "description": "Each subsequent time your opponent uses each ploy during the battle (excluding Command Re-roll), you gain 1CP (to a maximum of 2CP per turning point)."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-INQ24-QK",
@@ -250,8 +347,7 @@
           "abilityName": "Zealot",
           "description": "Whenever an attack dice inflicts damage of 3 or more on this operative, roll one D6: on a 5+, subtract 1 from that inflicted damage."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-INQ24-VET",
@@ -346,8 +442,7 @@
           "abilityName": "Weathered",
           "description": "Once per turning point, when this operative is fighting or retaliating, in the Resolve Attack Dice step, you can ignore the damage inflicted on it from one normal success."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-INQ24-ENL",
@@ -425,8 +520,7 @@
           "abilityName": "No Escape",
           "description": "Whenever an enemy operative would perform the Fall Back action while within control range of this operative, you can use this rule.\nIf you do, roll one D6, subtracting 1 from the result if that enemy operative has a higher Wounds stat than this operative, and adding 1 if that enemy operative is wounded:\non a 4+, that enemy operative cannot perform that action during that activation/counteraction (the AP spent on it isn't refunded)."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-INQ24-GUNS",
@@ -614,8 +708,7 @@
           "abilityName": "Lobotomised",
           "description": "Whenever this operative is activated, if it's visible to and within 3\" of another friendly INQUISITORIAL AGENT operative (excluding GUN SERVITOR) or vice versa, add 1 to this operative's APL stat until the end of that activation."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-INQ24-HEX",
@@ -687,8 +780,7 @@
           "AP": 1,
           "description": "Select one enemy operative that is a valid target for this operative and within 6\" of it, then select one additional rule (including a unique action) that enemy operative has on its datacard (excluding a weapon rule).\nUntil the end of that enemy operative's next activation, it's treated as not having that additional rule.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-INQ24-MYS",
@@ -769,8 +861,7 @@
           "AP": 1,
           "description": "**PSYCHIC**\r Select one friendly INQUISITORIAL AGENT operative within 6\" of this operative, then select one of the following effects to last until the start of this operative's next activation, until it's incapacitated or until it performs this action again (whichever comes first):\r \r - **Guidance:** PSYCHIC. Whenever the selected operative is shooting, fighting or retaliating, in the Roll Attack Dice step, you can retain one of your fails as a normal success instead of discarding it, or retain one of your normal successes as a critical success instead.\r - **Protection:** PSYCHIC. Whenever an operative is shooting the selected operative, in the Roll Defence Dice step, you can retain one of your fails as a normal success instead of discarding it, or retain one of your normal successes as a critical success instead.\r \r This operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-INQ24-PEN",
@@ -848,8 +939,7 @@
           "abilityName": "Cruel",
           "description": "Whenever this operative is shooting against, fighting against or retaliating against a wounded enemy operative, this operative's weapons have the Relentless weapon rule."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-INQ24-PST",
@@ -978,8 +1068,7 @@
           "AP": 1,
           "description": "Perform two free Shoot actions with this operative (this takes precedence over action restrictions). You must select a profile of its scoped plasma pistol for one action and its suppressed autopistol for the other (in any order).  \n\r This operative cannot perform this action while it has a Conceal order, or during an activation in which it performed the Shoot action (or vice versa)."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-SOS24-SOSPRO",
@@ -1039,8 +1128,7 @@
           "abilityName": "Psychic Null",
           "description": "PSYCHIC ranged weapons cannot inflict damage on this operative. For the effects of PSYCHIC actions, this operative cannot be selected and is never treated as being within those actions' required distances.\nWhenever an operative is within 6\" of this operative:\n\n- That operative cannot perform PSYCHIC actions or use PSYCHIC additional rules.\n- That operative cannot use PSYCHIC ranged weapons.\n- PSYCHIC melee weapons have no weapon rules and cannot have Dmg stats higher than 3/4.\n"
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-SOS24-SOSVIG",
@@ -1086,8 +1174,7 @@
           "abilityName": "Psychic Null",
           "description": "PSYCHIC ranged weapons cannot inflict damage on this operative. For the effects of PSYCHIC actions, this operative cannot be selected and is never treated as being within those actions' required distances.\nWhenever an operative is within 6\" of this operative:\n\n- That operative cannot perform PSYCHIC actions or use PSYCHIC additional rules.\n- That operative cannot use PSYCHIC ranged weapons.\n- PSYCHIC melee weapons have no weapon rules and cannot have Dmg stats higher than 3/4.\n"
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-SOS24-SOSWSK",
@@ -1159,8 +1246,7 @@
           "abilityName": "Psychic Null",
           "description": "PSYCHIC ranged weapons cannot inflict damage on this operative. For the effects of PSYCHIC actions, this operative cannot be selected and is never treated as being within those actions' required distances.\nWhenever an operative is within 6\" of this operative:\n\n- That operative cannot perform PSYCHIC actions or use PSYCHIC additional rules.\n- That operative cannot use PSYCHIC ranged weapons.\n- PSYCHIC melee weapons have no weapon rules and cannot have Dmg stats higher than 3/4.\n"
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-DKK24-BRU",
@@ -1224,8 +1310,7 @@
           "abilityName": "Bruiser",
           "description": "Once per turning point, when this operative is fighting or retaliating, in the Resolve Attack Dice step, you can ignore the damage inflicted on it from one normal success."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-DKK24-CON",
@@ -1375,8 +1460,7 @@
           "abilityName": "Directive",
           "description": "Whenever this operative is activated, if you have not used the Second in Command rule during the battle, you can select one other ready friendly DEATH KORPS operative visible to and within 6\" of it.\nWhen this operative is expended, activate that other friendly operative before your opponent activates (if that operative is a TROOPER, ignore its Group Activation rule)."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-DKK24-GNR",
@@ -1558,8 +1642,7 @@
           ]
         }
       ],
-      "abilities": [],
-      "options": []
+      "abilities": []
     },
     {
       "opTypeId": "IMP-INQ-DKK24-MDC",
@@ -1626,8 +1709,7 @@
           "AP": 1,
           "description": "Select one friendly DEATH KORPS operative within this operative's control range to regain up to 2D3 lost wounds.\nIt cannot be an operative that the Medic! rule was used on during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-DKK24-SAP",
@@ -1731,8 +1813,7 @@
           "abilityName": "Mine Layer",
           "description": "This operative is carrying your Mine marker. It can perform the Pick Up Marker action on that marker, and whenever it performs the Place Marker action on that marker, it can immediately perform a free Dash action."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-DKK24-SNP",
@@ -1827,8 +1908,7 @@
           ]
         }
       ],
-      "abilities": [],
-      "options": []
+      "abilities": []
     },
     {
       "opTypeId": "IMP-INQ-DKK24-TRP",
@@ -1888,8 +1968,7 @@
           "abilityName": "Group Activation",
           "description": "Whenever this operative is expended, you must then activate one other ready friendly DEATH KORPS TROOPER operative (if able) before your opponent activates.\nWhen that other operative is expended, your opponent then activates as normal (in other words, you cannot activate more than two operatives in succession with this rule)."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-DKK24-VET",
@@ -1955,8 +2034,7 @@
           "abilityName": "Veteran Guardsman",
           "description": "Whenever this operative is activated, it can receive one GUARDSMAN ORDER."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-DKK24-VOX",
@@ -2023,8 +2101,7 @@
           "AP": 1,
           "description": "**SUPPORT**\nSelect one other friendly DEATH KORPS operative visible to and within 6\" of this operative. Until the end of that operative's next activation, add 1 to its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-DKK24-ZLT",
@@ -2090,8 +2167,7 @@
           "abilityName": "Uplifting Primer",
           "description": "**SUPPORT**\nWhenever a friendly DEATH KORPS operative is within 3\" of this operative, that friendly operative's weapons have the Severe weapon rule."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-TS24-TSVOX",
@@ -2152,8 +2228,7 @@
           "AP": 1,
           "description": "SUPPORT. Select one other friendly INQUISITORIAL AGENT operative in the killzone. Until the end of that operative's next activation, add 1 to its APL stat.  \n\nThis operative can perform this action twice during its activation, but cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-TS24-TSGUN",
@@ -2380,8 +2455,7 @@
           ]
         }
       ],
-      "abilities": [],
-      "options": []
+      "abilities": []
     },
     {
       "opTypeId": "IMP-INQ-TS24-TSMED",
@@ -2448,8 +2522,7 @@
           "AP": 1,
           "description": "Select one friendly INQUISITORIAL AGENT operative within this operative's control range to regain up to 2D3 lost wounds. It cannot be an operative that the Medic! rule was used on during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-TS24-TSTRP",
@@ -2509,8 +2582,7 @@
           "abilityName": "Adaptive Equipment",
           "description": "You can do each of the following once per turning point:\n\n- One friendly INQUISITORIAL AGENT TEMPESTUS SCION TROOPER operative can perform the Smoke Grenade action.\n- One friendly INQUISITORIAL AGENT TEMPESTUS SCION TROOPER operative can perform the Stun Grenade action.\n\nThe rules for these actions are found in universal equipment. Performing these actions using this rule doesn't count towards their action limits (i.e. if you also select those grenades from equipment)."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-AES24-CAST",
@@ -2610,8 +2682,7 @@
           "abilityName": "Zealous Dedication",
           "description": "Whenever an attack dice inflicts damage of 3 or more on this operative, roll one D6: on a 5+, subtract 1 from that inflicted damage."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-AES24-CHI",
@@ -2699,8 +2770,7 @@
           "AP": 1,
           "description": "Select one friendly EXACTION SQUAD operative within this operative's control range to regain up to 2D3 lost wounds.\nIt cannot be an operative that the Medic! rule was used on during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-AES24-GNR",
@@ -2838,8 +2908,7 @@
           "abilityName": "Ruthless Efficiency",
           "description": "Whenever a friendly EXACTION SQUAD operative is shooting (excluding with frag or krak grenades) and you're selecting a valid target, you can use this rule.\nIf you do, having other friendly EXACTION SQUAD operatives within an enemy operative's control range doesn't prevent that enemy operative from being selected."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-AES24-LSH",
@@ -2933,8 +3002,7 @@
           "AP": 0,
           "description": "Select one friendly EXACTION SQUAD R-VR CYBER-MASTIFF operative and change its attack pattern."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-AES24-RVR",
@@ -2993,8 +3061,7 @@
           "AP": 0,
           "description": "Select one enemy operative within this operative's control range.\nUntil that enemy operative is no longer within this operative's control range, or until this operative performs this action again (whichever comes first),\nworsen the Hit stat of that enemy operative's weapons by 1 (this isn't cumulative with being injured);\nin addition, that enemy operative cannot perform the Fall Back action.  \n\nThis operative cannot perform this action unless an enemy operative is within its control range."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-AES24-MAL",
@@ -3082,8 +3149,7 @@
           "AP": 1,
           "description": "Select one enemy operative visible to this operative. Until the start of this operative's next activation, until it's incapacitated or until it performs this action again (whichever comes first),\nwhenever a friendly EXACTION SQUAD operative is shooting against, fighting against or retaliating against that enemy operative, that friendly operative's weapons have the Severe weapon rule;\nif the weapon already has that weapon rule, it has the Lethal 5+ weapon rule.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-AES24-MRK",
@@ -3192,8 +3258,7 @@
           "AP": 1,
           "description": "Until the start of this operative's next activation:\n\n- The concealed and stationary profiles of its executioner shotgun have the Lethal 5+ weapon rule.\n- Whenever it's shooting with its executioner shotgun, enemy operatives cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-AES24-REV",
@@ -3285,8 +3350,7 @@
           "AP": 1,
           "description": "**SUPPORT**\nSelect one enemy operative visible to this operative. Until the end of the turning point, whenever a friendly EXACTION SQUAD operative within 3\" of this operative is shooting that enemy operative,\nyou can use this effect. If you do:\n\n- That friendly operative's ranged weapons have the Seek Light weapon rule.\n- That enemy operative cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-AES24-SUB",
@@ -3370,8 +3434,7 @@
           "abilityName": "Stubborn Subjugator",
           "description": "You can ignore any changes to the Hit stat of this operative's melee weapons."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-AES24-VIG",
@@ -3452,8 +3515,7 @@
           "abilityName": "Close Quarters Vigilance",
           "description": "This operative can perform the Shoot action (excluding Guard) while within control range of an enemy operative, but only if it hasn't performed the Charge action during the activation,\nor if it's a counteraction. Note this operative isn't restricted from performing the Charge action after performing the Shoot action."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-AES24-VOX",
@@ -3535,8 +3597,7 @@
           "AP": 1,
           "description": "**SUPPORT**\nSelect one other friendly EXACTION SQUAD operative visible to this operative. Until the end of that operative's next activation, add 1 to its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-INB24-ARM",
@@ -3617,8 +3678,7 @@
           "abilityName": "Void Armour",
           "description": "Whenever an operative is shooting a friendly IMPERIAL NAVY BREACHER operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule (excluding weapons that have a sweeping profile),\nyou can re-roll one of your defence dice, or up to two of your defence dice if that friendly operative is a GRENADIER.  \n\nFriendly IMPERIAL NAVY BREACHER operatives aren't affected by the x\" Devastating x weapon rule (i.e. Devastating with a distance) unless they are the target during that sequence."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-INB24-AXE",
@@ -3694,8 +3754,7 @@
           "abilityName": "Void Armour",
           "description": "Whenever an operative is shooting a friendly IMPERIAL NAVY BREACHER operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule (excluding weapons that have a sweeping profile),\nyou can re-roll one of your defence dice, or up to two of your defence dice if that friendly operative is a GRENADIER.  \n\nFriendly IMPERIAL NAVY BREACHER operatives aren't affected by the x\" Devastating x weapon rule (i.e. Devastating with a distance) unless they are the target during that sequence."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-INB24-CAT",
@@ -3735,8 +3794,7 @@
           "AP": 1,
           "description": "Select one enemy operative visible to this operative. Until the end of the turning point, until that enemy operative is no longer visible to this operative or until this operative performs this action again (whichever comes first),\nwhenever a friendly IMPERIAL NAVY BREACHER operative is shooting that enemy operative, you can use this effect.\nIf you do:\n\n- That friendly operative's ranged weapons have the Seek Light weapon rule.\n- That enemy operative cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-INB24-END",
@@ -3843,8 +3901,7 @@
           "abilityName": "Void Armour",
           "description": "Whenever an operative is shooting a friendly IMPERIAL NAVY BREACHER operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule (excluding weapons that have a sweeping profile),\nyou can re-roll one of your defence dice, or up to two of your defence dice if that friendly operative is a GRENADIER.  \n\nFriendly IMPERIAL NAVY BREACHER operatives aren't affected by the x\" Devastating x weapon rule (i.e. Devastating with a distance) unless they are the target during that sequence."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-INB24-GS",
@@ -3884,8 +3941,7 @@
           "AP": 1,
           "description": "Until the end of the activation, add 6\" to this operative's Move stat.  \n\nThis operative can only perform this action once per battle, and cannot perform it during the first turning point."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-INB24-GRN",
@@ -4071,8 +4127,7 @@
           "abilityName": "Void Armour",
           "description": "Whenever an operative is shooting a friendly IMPERIAL NAVY BREACHER operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule (excluding weapons that have a sweeping profile),\nyou can re-roll one of your defence dice, or up to two of your defence dice if that friendly operative is a GRENADIER.  \n\nFriendly IMPERIAL NAVY BREACHER operatives aren't affected by the x\" Devastating x weapon rule (i.e. Devastating with a distance) unless they are the target during that sequence."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-INB24-GNR",
@@ -4240,8 +4295,7 @@
           "abilityName": "Void Armour",
           "description": "Whenever an operative is shooting a friendly IMPERIAL NAVY BREACHER operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule (excluding weapons that have a sweeping profile),\nyou can re-roll one of your defence dice, or up to two of your defence dice if that friendly operative is a GRENADIER.  \n\nFriendly IMPERIAL NAVY BREACHER operatives aren't affected by the x\" Devastating x weapon rule (i.e. Devastating with a distance) unless they are the target during that sequence."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-INB24-HC",
@@ -4327,8 +4381,7 @@
           "AP": 1,
           "description": "Select a closed hatchway (e.g. Killzone: Gallowdark) within this operative's control range. 1 additional AP must be spent for other operatives to perform the Operate Hatch action to open that hatchway.\nThis effect ends when that hatchway is opened. Note this operative isn't affected by this effect.  \n\nThis operative cannot perform this action while within control range of an enemy operative, or if it isn't within 1\" of a closed hatchway."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-INB24-SRV",
@@ -4417,8 +4470,7 @@
           "AP": 1,
           "description": "**SUPPORT**\nSelect one other friendly IMPERIAL NAVY BREACHER operative (excluding C.A.T. UNIT or GHEISTSKULL) visible to and within 6\" of this operative, or visible to and within 6\" of a friendly IMPERIAL NAVY BREACHER C.A.T. UNIT operative.\nUntil the end of that operative's next activation, add 1 to its APL stat. For the purposes of the Comms Device universal equipment, the operative the distance is being determined from must control that marker.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-INB24-VJ",
@@ -4547,8 +4599,7 @@
           "AP": 1,
           "description": "Select one enemy operative visible to and within 8\" of a friendly GHEISTSKULL operative. Roll one D6, adding 1 to the result if that enemy operative is a valid target for that friendly GHEISTSKULL operative:\non a 3+, subtract 1 from that enemy operative's APL stat until the end of its next activation.  \n\nThis operative cannot perform this action while within control range of an enemy operative, or if a friendly GHEISTSKULL operative isn't in the killzone."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-KAS24-MDC",
@@ -4615,8 +4666,7 @@
           "AP": 0,
           "description": "Select one friendly KASRKIN operative within this operative's control range to regain up to 2D3 lost wounds.\nIt cannot be an operative that the Medic! rule was used on during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-KAS24-DT",
@@ -4687,8 +4737,7 @@
           "abilityName": "Proximity Mine",
           "description": "The first time your Melta Mine marker is within another operative's control range, remove that marker and inflict 2D6+3 damage on that operative;\nif it is not incapacitated, end its action (if any), even if that action's effects are not fulfilled.\nIf it cannot be placed, move it the minimum amount to do so.\nNote that this operative is ignored for these effects (i.e. it cannot set it off or take damage from that marker)."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-KAS24-GNR",
@@ -4915,8 +4964,7 @@
           ]
         }
       ],
-      "abilities": [],
-      "options": []
+      "abilities": []
     },
     {
       "opTypeId": "IMP-INQ-KAS24-RT",
@@ -4977,8 +5025,7 @@
           "AP": 1,
           "description": "Until the start of this operative's next activation or until it is incapacitated (whichever comes first),\nwhenever a friendly KASRKIN operative is shooting an enemy operative within 8\" of this operative, that enemy operative cannot be obscured.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-KAS24-SS",
@@ -5080,8 +5127,7 @@
           "abilityName": "Camo Cloak",
           "description": "Whenever an operative is shooting this operative:\n\n- Ignore the Saturate weapon rule.\n- If you can retain any cover saves, you can retain one additional cover save, or you can retain one cover save as a critical success instead.]\nThis is not cumulative with improved cover saves from Vantage terrain.\n"
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-KAS24-TRP",
@@ -5141,8 +5187,7 @@
           "abilityName": "Adaptive Equipment",
           "description": "You can do each of the following once per turning point:\n\n- One friendly KASRKIN TROOPER operative can perform the Smoke Grenade action.\n- One friendly KASRKIN TROOPER operative can perform the Stun Grenade action.\n\nThe rules for these actions are found in universal equipment. Performing these actions using this rule does not count towards their action limits (i.e. if you also select those grenades from equipment)."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INQ-KAS24-VOX",
@@ -5203,108 +5248,7 @@
           "AP": 1,
           "description": "Select one other friendly KASRKIN operative. Until the end of that operative's next activation, add 1 to its APL stat (to a maximum of 3 after all APL stat changes have been totalled).\n\n\nThis operative can perform this action twice during its activation, but cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
-    }
-  ],
-  "ploys": [
-    {
-      "ployId": "IMP-INQ-S-DEN",
-      "killteamId": "IMP-INQ",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Denounce",
-      "description": "Select one enemy operative and roll one D3. In the Firefight phase of this turning point, that enemy operative cannot be activated or perform actions until it is the last enemy operative to be activated,\nor your opponent has activated a number of enemy operatives equal to the result of the D3 (whichever comes first).\nThis ploy costs you 1 additional CP for each previous time you've used it during the battle (e.g. 1CP the first time you would use it, 2CP the second time, etc.)."
-    },
-    {
-      "ployId": "IMP-INQ-S-IJ",
-      "killteamId": "IMP-INQ",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Irrefutable Jurisdiction",
-      "description": "Whenever an operative is shooting a friendly INQUISITORIAL AGENT operative that's within 3\" of an objective marker, you can re-roll one of your defence dice.\nIf that friendly operative contests that marker, you can re-roll any of your defence dice results of one result instead (e.g. results of 2)."
-    },
-    {
-      "ployId": "IMP-INQ-S-IS",
-      "killteamId": "IMP-INQ",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Intense Scrutiny",
-      "description": "Whenever you're selecting a valid target for a friendly INQUISITORIAL AGENT operative, enemy operatives within 4\" of it cannot be in cover (instead of 2\").\nWhile this can allow such operatives to be targeted (assuming they're visible), it doesn't remove their cover save (if any), unless the friendly INQUISITORIAL AGENT operative is within 2\" as normal."
-    },
-    {
-      "ployId": "IMP-INQ-S-QUA",
-      "killteamId": "IMP-INQ",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Quarry",
-      "description": "Select one enemy operative to be your quarry for the turning point. Whenever a friendly INQUISITORIAL AGENT operative is shooting against, fighting against or retaliating against your quarry,\nthat friendly operative's weapons have the Ceaseless weapon rule. Whenever your quarry is incapacitated, you can select a new enemy operative to be your quarry (and can continue to do so during this turning point).  \n**Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)"
-    },
-    {
-      "ployId": "IMP-INQ-T-AA",
-      "killteamId": "IMP-INQ",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Absolute Authority",
-      "description": "Use this firefight ploy during the battle, when an opponent uses a strategy or firefight ploy (excluding Command Re-roll or one that costs 0CP).\nTheir ploy isn't used, the CP spent on it is refunded and they cannot use that ploy again during this turning point. This ploy cannot be used to stop the same ploy more than once per battle."
-    },
-    {
-      "ployId": "IMP-INQ-T-IP",
-      "killteamId": "IMP-INQ",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Intimidating Presence",
-      "description": "Use this firefight ploy when an enemy operative visible to and within 3\" of a friendly INQUISITORIAL AGENT operative, or visible to and within 6\" of a friendly MYSTIC operative, performs the Pick Up Marker or a mission action (excluding Operate Hatch).\nYour opponent must spend 1 additional AP for that enemy operative to perform that action (if they cannot or choose not to, the AP spent on it is refunded)."
-    },
-    {
-      "ployId": "IMP-INQ-T-RPI",
-      "killteamId": "IMP-INQ",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Relentless In Pursuit",
-      "description": "Use this firefight ploy when an enemy operative within 2\" of a ready friendly INQUISITORIAL AGENT operative performs an action in which it moves.\nAfter it moves, that friendly INQUISITORIAL AGENT operative can either perform a free Reposition action, but must end that move within 2\" of that enemy operative, or a free Charge action, but must end that move within control range of that enemy operative.\nIf neither is possible, that friendly operative cannot perform those actions, this ploy isn't used and the CP spent on it is refunded."
-    },
-    {
-      "ployId": "IMP-INQ-T-TEW",
-      "killteamId": "IMP-INQ",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "The Emperor's Will",
-      "description": "Use this firefight ploy when a friendly INQUISITORIAL AGENT operative is activated. Until the end of that operative's activation, you can ignore any changes to its stats (including its weapons' stats)."
-    }
-  ],
-  "equipments": [
-    {
-      "eqId": "IMP-INQ-IR",
-      "killteamId": "IMP-INQ",
-      "seq": 1,
-      "eqName": "Inquisitorial Rosette",
-      "description": "Once per battle, when a friendly INQUISITORIAL AGENT operative is activated, if you've used the Quarry strategy ploy during this turning point, you can use this rule.\nIf you do, you can select a new enemy operative to be your quarry until the end of the turning point.",
-      "effects": ""
-    },
-    {
-      "eqId": "IMP-INQ-AB",
-      "killteamId": "IMP-INQ",
-      "seq": 2,
-      "eqName": "Armoured Bodysuits",
-      "description": "Whenever an operative is shooting a friendly INQUISITORIAL AGENT operative (excluding TOME-SKULL) that has a 5+ Save stat, you can retain one of your defence dice results of 4 as a normal success.",
-      "effects": ""
-    },
-    {
-      "eqId": "IMP-INQ-CD",
-      "killteamId": "IMP-INQ",
-      "seq": 3,
-      "eqName": "Combat Daggers",
-      "description": "Friendly INQUISITORIAL AGENT operatives have the following melee weapon. Whenever a friendly SISTER OF SILENCE operative is using it, add 1 to its Atk stat. \n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Combat Dagger|3|4+|3/4|",
-      "effects": "ADDWEP:Combat Dagger|M|3|4+|3/4|"
-    },
-    {
-      "eqId": "IMP-INQ-SS",
-      "killteamId": "IMP-INQ",
-      "seq": 4,
-      "eqName": "Servo-Skull",
-      "description": "Once per battle, one friendly INQUISITORIAL AGENT operative can perform a mission action for 1 less AP.",
-      "effects": ""
+      ]
     }
   ]
 }

@@ -10,6 +10,113 @@
     "Recon",
     "Seek and Destroy"
   ],
+  "ploys": [
+    {
+      "ployId": "AEL-HOTA-S-BA",
+      "killteamId": "AEL-HOTA",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Blade Artists",
+      "description": "Friendly HAND OF THE ARCHON operatives' melee weapons have the Rending weapon rule.  \n**Rending:** If you retain any critical hits, retain 1 normal hit as a critical hit instead."
+    },
+    {
+      "ployId": "AEL-HOTA-S-DON",
+      "killteamId": "AEL-HOTA",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Denizens Of Night",
+      "description": "Whenever an enemy operative is shooting a friendly HAND OF THE ARCHON operative that's more than 2\" from enemy operatives, if Heavy or Light terrain is intervening,\nor any part of that friendly operative's base is underneath Vantage terrain, you can re-roll one of your defence dice."
+    },
+    {
+      "ployId": "AEL-HOTA-S-FDD",
+      "killteamId": "AEL-HOTA",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "From Darkness, Death",
+      "description": "Whenever a friendly HAND OF THE ARCHON operative is activated, before you determine its order, you can select one enemy operative that friendly operative isn't a valid target for.\nUntil the end of that activation, the first time that friendly operative is shooting against or fighting against that enemy operative, you can retain one of your normal successes as a critical success instead."
+    },
+    {
+      "ployId": "AEL-HOTA-S-MS",
+      "killteamId": "AEL-HOTA",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Merciless Sadists",
+      "description": "Whenever a friendly HAND OF THE ARCHON operative is shooting against or fighting against a wounded enemy operative, that friendly operative's weapons have the Balanced weapon rule.  \n**Balanced:** Can re-roll one Attack die."
+    },
+    {
+      "ployId": "AEL-HOTA-T-CD",
+      "killteamId": "AEL-HOTA",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Cruel Deception",
+      "description": "Use this firefight ploy during a friendly HAND OF THE ARCHON operative's activation, before or after it performs an action. During that activation, that operative can perform the Fall Back action for 1 less AP."
+    },
+    {
+      "ployId": "AEL-HOTA-T-CS",
+      "killteamId": "AEL-HOTA",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Devious Scheme",
+      "description": "Use this firefight ploy after an opponent uses a firefight ploy (excluding one that costs 0CP).\nThe next time they would use that ploy, they must spend 1 additional CP to do so (at which point this effect ends).\nYou cannot use this ploy again during the battle until its effect has ended."
+    },
+    {
+      "ployId": "AEL-HOTA-T-HA",
+      "killteamId": "AEL-HOTA",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Heinous Arrogance",
+      "description": "Use this firefight ploy when it's your turn to activate a friendly operative. You can skip that activation."
+    },
+    {
+      "ployId": "AEL-HOTA-T-POTW",
+      "killteamId": "AEL-HOTA",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Prey On The Wounded",
+      "description": "Use this firefight ploy after rolling your attack dice for a friendly HAND OF THE ARCHON operative, if it's shooting against or fighting against a wounded enemy operative. You can re-roll any of your attack dice."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "AEL-HOTA-CS",
+      "killteamId": "AEL-HOTA",
+      "seq": 1,
+      "eqName": "Chain Snare",
+      "description": "Whenever an enemy operative would perform the Fall Back action while within control range of a friendly HAND OF THE ARCHON operative, if no other enemy operatives are within that friendly operative's control range,\nyou can use this rule.\nIf you do, roll two D6, or one D6 if that enemy operative has a higher Wounds stat than that friendly operative.\nIf any result is a 4+, that enemy operative cannot perform that action during that activation or counteraction (no AP are spent on it).",
+      "effects": ""
+    },
+    {
+      "eqId": "AEL-HOTA-WB",
+      "killteamId": "AEL-HOTA",
+      "seq": 2,
+      "eqName": "Wicked Blades",
+      "description": "Add 1 to the Atk stat of friendly HAND OF THE ARCHON operatives' array of blades.",
+      "effects": "wepid:AOB|ATK:+1"
+    },
+    {
+      "eqId": "AEL-HOTA-TC",
+      "killteamId": "AEL-HOTA",
+      "seq": 3,
+      "eqName": "Toxic Coating",
+      "description": "Up to twice per turning point, whenever a friendly HAND OF THE ARCHON operative is fighting or retaliating and you're selecting a melee weapon, you can use this rule.\nIf you do, until the end of that sequence, that operative's melee weapon has the Lethal 5+ weapon rule.",
+      "effects": ""
+    },
+    {
+      "eqId": "AEL-HOTA-RP",
+      "killteamId": "AEL-HOTA",
+      "seq": 4,
+      "eqName": "Refined Poison",
+      "description": "Up to twice per turning point, whenever a friendly HAND OF THE ARCHON operative is performing the Shoot action and you select a shardcarbine, splinter cannon, splinter pistol, splinter rifle or stinger pistol,\nyou can use this rule. If you do, until the end of that action, add 1 to the Normal Dmg stat of that weapon.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "AEL-HOTA-TA-POFRPA",
+      "abilityName": "Power From Pain",
+      "description": "After a friendly HAND OF THE ARCHON operative performs an action, it gains one of your Pain tokens if:\n\n- An enemy operative was injured during that action, but was not incapacitated.\n- An enemy operative was incapacitated during that action. If that enemy operative had a Wounds stat of 12 or more, that friendly operative gains two of your Pain tokens instead.\n\nYou can spend friendly operatives' Pain tokens on the invigorations below when the \"when\" condition is met.\nYou cannot use more than one invigoration per activation or counteraction, except Stimulated Senses, which can be used in addition to other invigorations.  \n  \n\n**Dark Animus**\n\n- When: During the operative's activation, before or after it performs an action.\n- Effect: Until the start of the operative's next activation, add 1 to its APL stat.\n\n**Accelerated Rejuvenation**\n\n- When: During the operative's activation or counteraction, before or after it performs an action.\n- Effect: The operative regains D3+1 lost wounds.\n\n**Vitalised Surge**\n\n- When: After the operative incapacitates an enemy operative and that enemy operative is removed from the killzone.\n- Effect: The operative can immediately perform a free Dash action, even if it's performed an action that prevents it from performing the Dash action.\n\n**Stimulated Senses**\n\n- When: After rolling your attack or defence dice for the operative.\n- Effect: any of your dice results of one result (e.g. results of 2).\n"
+    }
+  ],
   "opTypes": [
     {
       "opTypeId": "AEL-HOTA-KAS",
@@ -214,8 +321,7 @@
           "abilityName": "Rifles",
           "description": "Whenever a friendly HAND OF THE ARCHON operative is shooting with a splinter rifle during an activation in which it has not performed the Charge, Fall Back or Reposition action,\nthat weapon has the Accurate 1 weapon rule. Note that operative isn't restricted from performing those actions after shooting."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "AEL-HOTA-KAG",
@@ -286,8 +392,7 @@
           "abilityName": "Sadistic Competition",
           "description": "Once per turning point, when a friendly HAND OF THE ARCHON operative gains one of your Pain tokens, one friendly HAND OF THE ARCHON AGENT operative that doesn't have one of your Pain tokens can also gain one."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "AEL-HOTA-KCD",
@@ -363,8 +468,7 @@
           "abilityName": "Crimson Duellist",
           "description": "This operative can perform two Fight actions during its activation."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "AEL-HOTA-KDOY",
@@ -437,8 +541,7 @@
           "AP": 1,
           "description": "Select one enemy operative visible to and within 6\" of this operative. That operative and each other operative within 1\" of it takes a poison test.  \n\nFor an operative to take a poison test, roll one D6, adding 1 to the result if that operative has a Save stat of 4+ or worse:\non a 3+, inflict D3 damage on that operative and it gains one of your Poison tokens (if it does not already have one). Whenever an operative that has one of your Poison tokens is activated, inflict D3 damage on it.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "AEL-HOTA-KELX",
@@ -547,8 +650,7 @@
           "AP": 1,
           "description": "Select one friendly HAND OF THE ARCHON operative visible to and within 3\" of this operative, then select one of the following for that friendly operative:\n\n- It regains 2D3 lost wounds.\n- Select a different COMBAT DRUG rule for it to have for the battle (this replaces its previous one).\n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "AEL-HOTA-KFLAY",
@@ -596,8 +698,7 @@
           "abilityName": "Insensible To Pain",
           "description": "Normal and Critical Dmg of 3 or more inflicts 1 less damage on this operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "AEL-HOTA-KGNR",
@@ -682,8 +783,7 @@
           ]
         }
       ],
-      "abilities": [],
-      "options": []
+      "abilities": []
     },
     {
       "opTypeId": "AEL-HOTA-KHGNR",
@@ -796,8 +896,7 @@
           ]
         }
       ],
-      "abilities": [],
-      "options": []
+      "abilities": []
     },
     {
       "opTypeId": "AEL-HOTA-KSA",
@@ -908,115 +1007,7 @@
           "AP": 1,
           "description": "Select one enemy operative visible to this operative. Until the end of the turning point, whenever this operative is shooting that enemy operative you can use this effect. If you do:\n\n- This operative's ranged weapons have the Seek Light weapon rule.\n- That enemy operative cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
-    }
-  ],
-  "ploys": [
-    {
-      "ployId": "AEL-HOTA-S-BA",
-      "killteamId": "AEL-HOTA",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Blade Artists",
-      "description": "Friendly HAND OF THE ARCHON operatives' melee weapons have the Rending weapon rule.  \n**Rending:** If you retain any critical hits, retain 1 normal hit as a critical hit instead."
-    },
-    {
-      "ployId": "AEL-HOTA-S-DON",
-      "killteamId": "AEL-HOTA",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Denizens Of Night",
-      "description": "Whenever an enemy operative is shooting a friendly HAND OF THE ARCHON operative that's more than 2\" from enemy operatives, if Heavy or Light terrain is intervening,\nor any part of that friendly operative's base is underneath Vantage terrain, you can re-roll one of your defence dice."
-    },
-    {
-      "ployId": "AEL-HOTA-S-FDD",
-      "killteamId": "AEL-HOTA",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "From Darkness, Death",
-      "description": "Whenever a friendly HAND OF THE ARCHON operative is activated, before you determine its order, you can select one enemy operative that friendly operative isn't a valid target for.\nUntil the end of that activation, the first time that friendly operative is shooting against or fighting against that enemy operative, you can retain one of your normal successes as a critical success instead."
-    },
-    {
-      "ployId": "AEL-HOTA-S-MS",
-      "killteamId": "AEL-HOTA",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Merciless Sadists",
-      "description": "Whenever a friendly HAND OF THE ARCHON operative is shooting against or fighting against a wounded enemy operative, that friendly operative's weapons have the Balanced weapon rule.  \n**Balanced:** Can re-roll one Attack die."
-    },
-    {
-      "ployId": "AEL-HOTA-T-CD",
-      "killteamId": "AEL-HOTA",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Cruel Deception",
-      "description": "Use this firefight ploy during a friendly HAND OF THE ARCHON operative's activation, before or after it performs an action. During that activation, that operative can perform the Fall Back action for 1 less AP."
-    },
-    {
-      "ployId": "AEL-HOTA-T-CS",
-      "killteamId": "AEL-HOTA",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Devious Scheme",
-      "description": "Use this firefight ploy after an opponent uses a firefight ploy (excluding one that costs 0CP).\nThe next time they would use that ploy, they must spend 1 additional CP to do so (at which point this effect ends).\nYou cannot use this ploy again during the battle until its effect has ended."
-    },
-    {
-      "ployId": "AEL-HOTA-T-HA",
-      "killteamId": "AEL-HOTA",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Heinous Arrogance",
-      "description": "Use this firefight ploy when it's your turn to activate a friendly operative. You can skip that activation."
-    },
-    {
-      "ployId": "AEL-HOTA-T-POTW",
-      "killteamId": "AEL-HOTA",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Prey On The Wounded",
-      "description": "Use this firefight ploy after rolling your attack dice for a friendly HAND OF THE ARCHON operative, if it's shooting against or fighting against a wounded enemy operative. You can re-roll any of your attack dice."
-    }
-  ],
-  "equipments": [
-    {
-      "eqId": "AEL-HOTA-CS",
-      "killteamId": "AEL-HOTA",
-      "seq": 1,
-      "eqName": "Chain Snare",
-      "description": "Whenever an enemy operative would perform the Fall Back action while within control range of a friendly HAND OF THE ARCHON operative, if no other enemy operatives are within that friendly operative's control range,\nyou can use this rule.\nIf you do, roll two D6, or one D6 if that enemy operative has a higher Wounds stat than that friendly operative.\nIf any result is a 4+, that enemy operative cannot perform that action during that activation or counteraction (no AP are spent on it).",
-      "effects": ""
-    },
-    {
-      "eqId": "AEL-HOTA-WB",
-      "killteamId": "AEL-HOTA",
-      "seq": 2,
-      "eqName": "Wicked Blades",
-      "description": "Add 1 to the Atk stat of friendly HAND OF THE ARCHON operatives' array of blades.",
-      "effects": "wepid:AOB|ATK:+1"
-    },
-    {
-      "eqId": "AEL-HOTA-TC",
-      "killteamId": "AEL-HOTA",
-      "seq": 3,
-      "eqName": "Toxic Coating",
-      "description": "Up to twice per turning point, whenever a friendly HAND OF THE ARCHON operative is fighting or retaliating and you're selecting a melee weapon, you can use this rule.\nIf you do, until the end of that sequence, that operative's melee weapon has the Lethal 5+ weapon rule.",
-      "effects": ""
-    },
-    {
-      "eqId": "AEL-HOTA-RP",
-      "killteamId": "AEL-HOTA",
-      "seq": 4,
-      "eqName": "Refined Poison",
-      "description": "Up to twice per turning point, whenever a friendly HAND OF THE ARCHON operative is performing the Shoot action and you select a shardcarbine, splinter cannon, splinter pistol, splinter rifle or stinger pistol,\nyou can use this rule. If you do, until the end of that action, add 1 to the Normal Dmg stat of that weapon.",
-      "effects": ""
-    }
-  ],
-  "teamAbilities": [
-    {
-      "abilityId": "AEL-HOTA-TA-POFRPA",
-      "abilityName": "Power From Pain",
-      "description": "After a friendly HAND OF THE ARCHON operative performs an action, it gains one of your Pain tokens if:\n\n- An enemy operative was injured during that action, but was not incapacitated.\n- An enemy operative was incapacitated during that action. If that enemy operative had a Wounds stat of 12 or more, that friendly operative gains two of your Pain tokens instead.\n\nYou can spend friendly operatives' Pain tokens on the invigorations below when the \"when\" condition is met.\nYou cannot use more than one invigoration per activation or counteraction, except Stimulated Senses, which can be used in addition to other invigorations.  \n  \n\n**Dark Animus**\n\n- When: During the operative's activation, before or after it performs an action.\n- Effect: Until the start of the operative's next activation, add 1 to its APL stat.\n\n**Accelerated Rejuvenation**\n\n- When: During the operative's activation or counteraction, before or after it performs an action.\n- Effect: The operative regains D3+1 lost wounds.\n\n**Vitalised Surge**\n\n- When: After the operative incapacitates an enemy operative and that enemy operative is removed from the killzone.\n- Effect: The operative can immediately perform a free Dash action, even if it's performed an action that prevents it from performing the Dash action.\n\n**Stimulated Senses**\n\n- When: After rolling your attack or defence dice for the operative.\n- Effect: any of your dice results of one result (e.g. results of 2).\n"
+      ]
     }
   ]
 }

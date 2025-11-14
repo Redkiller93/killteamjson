@@ -10,6 +10,106 @@
     "Security",
     "Seek & Destroy"
   ],
+  "ploys": [
+    {
+      "ployId": "IMP-DKK-S-CTL",
+      "killteamId": "IMP-DKK",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Clear The Line",
+      "description": "Friendly DEATH KORPS operatives' melee weapons have the Accurate 1 weapon rule. Whenever a friendly DEATH KORPS operative is fighting wholly within your territory, or whenever it's retaliating, its melee weapons also have the Severe weapon rule.  \n **Accurate 1:** You can retain 1 Attack Die as a normal success without rolling it.  \n **Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. The Devastating and Piercing Crits weapon rules still take effect, but Punishing and Rending don't."
+    },
+    {
+      "ployId": "IMP-DKK-S-RG",
+      "killteamId": "IMP-DKK",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Regroup",
+      "description": "**SUPPORT**\nSelect one friendly DEATH KORPS operative that is more than 3\" from enemy operatives.\nEach other friendly DEATH KORPS operative within 5\" of that operative and not within control range of enemy operatives can immediately perform a free Dash action in an order of your choice,\nbut each that does so must end that move closer to that operative.\nNote that a Comms Device from universal equipment only affects the second distance of this rule.  \n\nYou cannot use this ploy and the Chronometer faction equipment STRATEGIC GAMBIT in the same turning point."
+    },
+    {
+      "ployId": "IMP-DKK-S-SWF",
+      "killteamId": "IMP-DKK",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Siege Warfare",
+      "description": "Friendly DEATH KORPS operatives' ranged weapons have the Saturate and Accurate 1 weapon rules.  \n**Saturate:** The defender cannot retain Cover saves.  \n**Accurate x:** You can retain up to x Attack Dice as normal successes without rolling them."
+    },
+    {
+      "ployId": "IMP-DKK-S-TC",
+      "killteamId": "IMP-DKK",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Take Cover",
+      "description": "Whenever an operative is shooting a friendly DEATH KORPS operative, if you can retain any cover saves, improve that friendly operative's Save stat by 1."
+    },
+    {
+      "ployId": "IMP-DKK-T-CA",
+      "killteamId": "IMP-DKK",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Combined Arms",
+      "description": "Use this firefight ploy after rolling your attack dice for a friendly DEATH KORPS operative, if it is shooting an enemy operative that has been shot by another friendly DEATH KORPS operative during this turning point.\r You can re-roll any of your attack dice."
+    },
+    {
+      "ployId": "IMP-DKK-T-IDA",
+      "killteamId": "IMP-DKK",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "In Death, Atonement",
+      "description": "Use this firefight ploy when a ready friendly DEATH KORPS operative is incapacitated, if it is not within control range of enemy operatives.\r Before it is removed from the killzone, it can immediately perform one free action.\r Unless otherwise specified, the operative would be injured for this. Note that that friendly operative is injured for the duration of that action."
+    },
+    {
+      "ployId": "IMP-DKK-T-IL",
+      "killteamId": "IMP-DKK",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Inspirational Leadership",
+      "description": "**SUPPORT**\nUse this firefight ploy during a friendly DEATH KORPS WATCHMASTER or DEATH KORPS CONFIDANT operative's activation, before or after it performs an action.\nIt issues a GUARDSMAN ORDER."
+    },
+    {
+      "ployId": "IMP-DKK-T-ILS",
+      "killteamId": "IMP-DKK",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "In Life, Shame",
+      "description": "Use this firefight ploy when a friendly DEATH KORPS operative is activated and given an Engage order.\nIt receives every GUARDSMAN ORDER. This takes precedence over the normal rule that operatives cannot benefit from more than one GUARDSMAN ORDER at once."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "IMP-DKK-CM",
+      "killteamId": "IMP-DKK",
+      "seq": 1,
+      "eqName": "Chronometer",
+      "description": "Once per battle STRATEGIC GAMBIT in the first or second turning point.\nEach friendly DEATH KORPS operative wholly within your territory can immediately perform a free Dash action in an order of your choice, but each that does so must end that move closer to an opponent's drop zone or killzone edge.  \n\nYou cannot use this STRATEGIC GAMBIT and the Regroup strategy ploy during the same turning point.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-DKK-CB",
+      "killteamId": "IMP-DKK",
+      "seq": 2,
+      "eqName": "Comm-Beads",
+      "description": "Whenever a friendly DEATH KORPS WATCHMASTER or friendly DEATH KORPS CONFIDANT operative issues a GUARDSMAN ORDER, you can use this rule.\nIf you do, instead of each friendly DEATH KORPS operative within 6\" of it receiving that order, you can select one friendly DEATH KORPS operative to receive that order.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-DKK-HA",
+      "killteamId": "IMP-DKK",
+      "seq": 3,
+      "eqName": "Hand Axes",
+      "description": "Friendly DEATH KORPS operatives have the following melee weapon:\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Hand Axe|3|4+|3/4|\n",
+      "effects": "ADDWEP:Hand Axe|M|3|4+|3/4|"
+    },
+    {
+      "eqId": "IMP-DKK-GB",
+      "killteamId": "IMP-DKK",
+      "seq": 4,
+      "eqName": "Gas Bombardment",
+      "description": "Once per battle STRATEGIC GAMBIT. Place your Gas marker in the killzone; it cannot be placed underneath Vantage terrain.\nWhenever an operative is within 3\" of that marker, subtract 1 from its APL stat. In the Ready step of the next Strategy phase, remove that marker.\nNote that an operative's APL stat is only changed while it is within 3\" of that marker. If it moves more than 3\" from that marker, its APL stat is no longer changed by this rule.",
+      "effects": ""
+    }
+  ],
   "opTypes": [
     {
       "opTypeId": "IMP-DKK-WM",
@@ -224,8 +324,7 @@
           "abilityName": "Guardsmen Orders",
           "description": "**STRATEGIC GAMBIT** and **SUPPORT**\n A friendly DEATH KORPS WATCHMASTER operative can issue a GUARDSMAN ORDER.\n Whenever it does, select one GUARDSMAN ORDER for all friendly DEATH KORPS operatives within 6\" of it to receive.\n Whenever a friendly operative receives a GUARDSMAN ORDER, apply its rules until the end of the turning point.\n Operatives cannot benefit from more than one GUARDSMAN ORDER at once; they only benefit from the most recent order they received during the turning point.\n \n - **Take Aim!**  \n\n Ranged weapons of operatives that received this order (excluding mortar barrage and remote detonator) have the Ceaseless weapon rule.\n - **Fix Bayonets!**  \n\n Melee weapons of operatives that received this order have the Ceaseless weapon rule.\n - **Dig In!**  \n\n Whenever an operative is shooting a friendly operative that has received this order, if you can retain any cover saves, you can re-roll any of your defence dice results of one result (e.g. results of 2).\n - **Move! Move! Move!**  \n\n Whenever an operative that's received this order is performing the Reposition action, add 1\" to its Move stat.\n "
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-DKK-BRU",
@@ -289,8 +388,7 @@
           "abilityName": "Bruiser",
           "description": "Once per turning point, when this operative is fighting or retaliating, in the Resolve Attack Dice step, you can ignore the damage inflicted on it from one normal success."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-DKK-CON",
@@ -452,8 +550,7 @@
           "abilityName": "Second In Command",
           "description": "If a friendly WATCHMASTER operative is incapacitated and removed from the killzone, you can use this rule.\nIf you do, until the end of the battle, this operative can issue a GUARDSMAN ORDER as a STRATEGIC GAMBIT (even though it is not a WATCHMASTER operative)."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-DKK-GNR",
@@ -635,8 +732,7 @@
           ]
         }
       ],
-      "abilities": [],
-      "options": []
+      "abilities": []
     },
     {
       "opTypeId": "IMP-DKK-MDC",
@@ -703,8 +799,7 @@
           "AP": 1,
           "description": "Select one friendly DEATH KORPS operative within this operative's control range to regain up to 2D3 lost wounds.\nIt cannot be an operative that the Medic! rule was used on during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-DKK-SAP",
@@ -802,8 +897,7 @@
           "abilityName": "Mine Layer",
           "description": "This operative is carrying your Mine marker. It can perform the Pick Up Marker action on that marker, and whenever it performs the Place Marker action on that marker, it can immediately perform a free Dash action."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-DKK-SNP",
@@ -898,8 +992,7 @@
           ]
         }
       ],
-      "abilities": [],
-      "options": []
+      "abilities": []
     },
     {
       "opTypeId": "IMP-DKK-SPT",
@@ -991,8 +1084,7 @@
           "AP": 1,
           "description": "**SUPPORT**\nSelect one enemy operative visible to this operative. Until the end of the turning point, whenever a friendly HUNTER CLADE operative within 3\" of this operative is shooting that enemy operative, you can use this effect. If you do:\n\n- That friendly operative's ranged weapons have the Seek Light weapon rule.\n- That enemy operative cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-DKK-TRP",
@@ -1052,8 +1144,7 @@
           "abilityName": "Group Activation",
           "description": "Whenever this operative is expended, you must then activate one other ready friendly DEATH KORPS TROOPER operative (if able) before your opponent activates.\nWhen that other operative is expended, your opponent then activates as normal (in other words, you cannot activate more than two operatives in succession with this rule)."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-DKK-VET",
@@ -1119,8 +1210,7 @@
           "abilityName": "Veteran Guardsman",
           "description": "Whenever this operative is activated, it can receive one GUARDSMAN ORDER."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-DKK-VOX",
@@ -1187,8 +1277,7 @@
           "AP": 1,
           "description": "**SUPPORT**\nSelect one other friendly DEATH KORPS operative visible to and within 6\" of this operative. Until the end of that operative's next activation, add 1 to its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-DKK-ZLT",
@@ -1254,108 +1343,7 @@
           "abilityName": "Uplifting Primer",
           "description": "**SUPPORT**\nWhenever a friendly DEATH KORPS operative is within 3\" of this operative, that friendly operative's weapons have the Severe weapon rule.\n\n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do."
         }
-      ],
-      "options": []
-    }
-  ],
-  "ploys": [
-    {
-      "ployId": "IMP-DKK-S-CTL",
-      "killteamId": "IMP-DKK",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Clear The Line",
-      "description": "Friendly DEATH KORPS operatives' melee weapons have the Accurate 1 weapon rule. Whenever a friendly DEATH KORPS operative is fighting wholly within your territory, or whenever it's retaliating, its melee weapons also have the Severe weapon rule.  \n **Accurate 1:** You can retain 1 Attack Die as a normal success without rolling it.  \n **Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. The Devastating and Piercing Crits weapon rules still take effect, but Punishing and Rending don't."
-    },
-    {
-      "ployId": "IMP-DKK-S-RG",
-      "killteamId": "IMP-DKK",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Regroup",
-      "description": "**SUPPORT**\nSelect one friendly DEATH KORPS operative that is more than 3\" from enemy operatives.\nEach other friendly DEATH KORPS operative within 5\" of that operative and not within control range of enemy operatives can immediately perform a free Dash action in an order of your choice,\nbut each that does so must end that move closer to that operative.\nNote that a Comms Device from universal equipment only affects the second distance of this rule.  \n\nYou cannot use this ploy and the Chronometer faction equipment STRATEGIC GAMBIT in the same turning point."
-    },
-    {
-      "ployId": "IMP-DKK-S-SWF",
-      "killteamId": "IMP-DKK",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Siege Warfare",
-      "description": "Friendly DEATH KORPS operatives' ranged weapons have the Saturate and Accurate 1 weapon rules.  \n**Saturate:** The defender cannot retain Cover saves.  \n**Accurate x:** You can retain up to x Attack Dice as normal successes without rolling them."
-    },
-    {
-      "ployId": "IMP-DKK-S-TC",
-      "killteamId": "IMP-DKK",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Take Cover",
-      "description": "Whenever an operative is shooting a friendly DEATH KORPS operative, if you can retain any cover saves, improve that friendly operative's Save stat by 1."
-    },
-    {
-      "ployId": "IMP-DKK-T-CA",
-      "killteamId": "IMP-DKK",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Combined Arms",
-      "description": "Use this firefight ploy after rolling your attack dice for a friendly DEATH KORPS operative, if it is shooting an enemy operative that has been shot by another friendly DEATH KORPS operative during this turning point.\r You can re-roll any of your attack dice."
-    },
-    {
-      "ployId": "IMP-DKK-T-IDA",
-      "killteamId": "IMP-DKK",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "In Death, Atonement",
-      "description": "Use this firefight ploy when a ready friendly DEATH KORPS operative is incapacitated, if it is not within control range of enemy operatives.\r Before it is removed from the killzone, it can immediately perform one free action.\r Unless otherwise specified, the operative would be injured for this. Note that that friendly operative is injured for the duration of that action."
-    },
-    {
-      "ployId": "IMP-DKK-T-IL",
-      "killteamId": "IMP-DKK",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Inspirational Leadership",
-      "description": "**SUPPORT**\nUse this firefight ploy during a friendly DEATH KORPS WATCHMASTER or DEATH KORPS CONFIDANT operative's activation, before or after it performs an action.\nIt issues a GUARDSMAN ORDER."
-    },
-    {
-      "ployId": "IMP-DKK-T-ILS",
-      "killteamId": "IMP-DKK",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "In Life, Shame",
-      "description": "Use this firefight ploy when a friendly DEATH KORPS operative is activated and given an Engage order.\nIt receives every GUARDSMAN ORDER. This takes precedence over the normal rule that operatives cannot benefit from more than one GUARDSMAN ORDER at once."
-    }
-  ],
-  "equipments": [
-    {
-      "eqId": "IMP-DKK-CM",
-      "killteamId": "IMP-DKK",
-      "seq": 1,
-      "eqName": "Chronometer",
-      "description": "Once per battle STRATEGIC GAMBIT in the first or second turning point.\nEach friendly DEATH KORPS operative wholly within your territory can immediately perform a free Dash action in an order of your choice, but each that does so must end that move closer to an opponent's drop zone or killzone edge.  \n\nYou cannot use this STRATEGIC GAMBIT and the Regroup strategy ploy during the same turning point.",
-      "effects": ""
-    },
-    {
-      "eqId": "IMP-DKK-CB",
-      "killteamId": "IMP-DKK",
-      "seq": 2,
-      "eqName": "Comm-Beads",
-      "description": "Whenever a friendly DEATH KORPS WATCHMASTER or friendly DEATH KORPS CONFIDANT operative issues a GUARDSMAN ORDER, you can use this rule.\nIf you do, instead of each friendly DEATH KORPS operative within 6\" of it receiving that order, you can select one friendly DEATH KORPS operative to receive that order.",
-      "effects": ""
-    },
-    {
-      "eqId": "IMP-DKK-HA",
-      "killteamId": "IMP-DKK",
-      "seq": 3,
-      "eqName": "Hand Axes",
-      "description": "Friendly DEATH KORPS operatives have the following melee weapon:\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Hand Axe|3|4+|3/4|\n",
-      "effects": "ADDWEP:Hand Axe|M|3|4+|3/4|"
-    },
-    {
-      "eqId": "IMP-DKK-GB",
-      "killteamId": "IMP-DKK",
-      "seq": 4,
-      "eqName": "Gas Bombardment",
-      "description": "Once per battle STRATEGIC GAMBIT. Place your Gas marker in the killzone; it cannot be placed underneath Vantage terrain.\nWhenever an operative is within 3\" of that marker, subtract 1 from its APL stat. In the Ready step of the next Strategy phase, remove that marker.\nNote that an operative's APL stat is only changed while it is within 3\" of that marker. If it moves more than 3\" from that marker, its APL stat is no longer changed by this rule.",
-      "effects": ""
+      ]
     }
   ]
 }

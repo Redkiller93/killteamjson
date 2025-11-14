@@ -10,6 +10,118 @@
     "Seek & Destroy",
     "Security"
   ],
+  "ploys": [
+    {
+      "ployId": "IMP-DW-S-MT",
+      "killteamId": "IMP-DW",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Mission Tactics",
+      "description": "Select Conceal or Engage. Whenever a friendly DEATHWATCH operative is shooting against or fighting against an enemy operative that has that order, that friendly operative's weapons have the Balanced weapon rule."
+    },
+    {
+      "ployId": "IMP-DW-S-TLV",
+      "killteamId": "IMP-DW",
+      "ployType": "S",
+      "seq": 2,
+      "ployName": "The Long Vigil",
+      "description": "Whenever an operative is shooting a friendly DEATHWATCH operative that's within your territory, you can re-roll one of your defence dice."
+    },
+    {
+      "ployId": "IMP-DW-S-TSTS",
+      "killteamId": "IMP-DW",
+      "ployType": "S",
+      "seq": 3,
+      "ployName": "The Shield That Slays",
+      "description": "Whenever a friendly DEATHWATCH operative is within your opponent's territory, Normal and Critical Dmg of 4 or more inflicts 1 less damage on it."
+    },
+    {
+      "ployId": "IMP-DW-S-ATSKNF",
+      "killteamId": "IMP-DW",
+      "ployType": "S",
+      "seq": 4,
+      "ployName": "And They Shall Know No Fear",
+      "description": "You can ignore any changes to the stats of friendly DEATHWATCH operatives from being injured (including their weapons' stats)."
+    },
+    {
+      "ployId": "IMP-DW-T-SNTA",
+      "killteamId": "IMP-DW",
+      "ployType": "T",
+      "seq": 5,
+      "ployName": "Suffer Not The Alien",
+      "description": "Use this firefight ploy after rolling your attack dice for a friendly DEATHWATCH operative, if it's shooting against or fighting against an operative that doesn't have the CHAOS or IMPERIUM keyword. You can re-roll any of your attack dice."
+    },
+    {
+      "ployId": "IMP-DW-T-AT",
+      "killteamId": "IMP-DW",
+      "ployType": "T",
+      "seq": 6,
+      "ployName": "Auspicator Tracking",
+      "description": "Use this firefight ploy when a friendly DEATHWATCH operative is counteracting, before it performs any actions. You can change its order."
+    },
+    {
+      "ployId": "IMP-DW-T-AAS",
+      "killteamId": "IMP-DW",
+      "ployType": "T",
+      "seq": 7,
+      "ployName": "Advanced Auspex Scan",
+      "description": "Use this firefight ploy when a friendly DEATHWATCH operative performs the Shoot action. Until the end of the activation/counteraction, its ranged weapons have the Saturate weapon rule and enemy operatives cannot be obscured."
+    },
+    {
+      "ployId": "IMP-DW-T-THP",
+      "killteamId": "IMP-DW",
+      "ployType": "T",
+      "seq": 8,
+      "ployName": "Transhuman Physiology",
+      "description": "Use this firefight ploy when an operative is shooting a friendly DEATHWATCH operative, in the Roll Defence Dice step. You can retain one of your normal successes as a critical success instead."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "IMP-DW-DW",
+      "killteamId": "IMP-DW",
+      "seq": 1,
+      "eqName": "Digital Weapons",
+      "description": "Once per turning point, when a friendly DEATHWATCH operative performs the Fight action, at the start of the Roll Attack Dice step, you can use this rule. If you do, inflict 1 damage on the enemy operative in that sequence.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-DW-SST",
+      "killteamId": "IMP-DW",
+      "seq": 2,
+      "eqName": "Scrutavore Servo-Thrall",
+      "description": "Once per turning point, during a friendly DEATHWATCH operative's activation, you can use this rule. If you do, during that activation, that operative can perform a mission action for 1 less AP.\nHaving an enemy operative within its control range doesn't prevent that friendly operative from performing that mission action.\nHowever, in such an instance, after it does so, you and your opponent roll-off. If your opponent wins, you cannot use this equipment for the rest of the battle.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-DW-SVBSC",
+      "killteamId": "IMP-DW",
+      "seq": 3,
+      "eqName": "Sanctus-V Bioscryer Cuffs",
+      "description": "Once during each friendly DEATHWATCH operative's activation, before or after it performs an action, if it's not within control range of enemy operatives, you can use this rule. If you do, select one of the following:\n- That friendly operative regains up to D3 lost wounds.\n- Remove any changes to that friendly operative's APL stat.\n- Remove one of the following tokens that friendly operative has (before that token's activation effects are resolved, if relevant): Neutron Fragment, Poison, Terrorchem.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-DW-AR",
+      "killteamId": "IMP-DW",
+      "seq": 4,
+      "eqName": "Ammunition Reserve",
+      "description": "Once per battle, you can use the Special Issue Ammunition faction rule for up to two Shoot actions during one turning point, but you must select different weapon rules for both uses. This takes precedence over the normal Special Issue Ammunition rules.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "IMP-DW-TA-VEAS",
+      "abilityName": "Veteran Astartes",
+      "description": "During each friendly DEATHWATCH operative's activation, it can perform either two Shoot actions or two Fight actions. If it's two Shoot actions and an auxiliary grenade launcher, frag cannon, heavy plasma incinerator, infernus heavy bolter, plasma pistol or stalker bolt rifle is selected for both, 1 additional AP must be spent for the second action.\n\nEach friendly DEATHWATCH operative can counteract regardless of its order. Whenever it does, it can perform an additional 1AP action for free during that counteraction, but both actions must be different."
+    },
+    {
+      "abilityId": "IMP-DW-TA-SPISAM",
+      "abilityName": "Special Issue Ammunition",
+      "description": "Once per turning point, when a friendly DEATHWATCH operative is performing the Shoot action, in the Select Weapon step, you can use this rule. If you do, select one of the following weapon rules for that operative's ranged weapons to have until the end of the action.\nThis rule cannot be used with explosive grenades (see universal equipment) or melta bombs.\n\n- Blast 1\" (you cannot select this if the weapon profile being used has the Torrent weapon rule)\n- Devastating 1\n- Lethal 5+\n- Piercing 1\n- Rending\n- Saturate\n- Severe"
+    }
+  ],
   "opTypes": [
     {
       "opTypeId": "IMP-DW-SGT",
@@ -115,8 +227,7 @@
           "abilityName": "Strategic Command",
           "description": "You can do each of the following once per battle if this operative is in the killzone:\n- Use a DEATHWATCH strategy ploy for 0CP.\n- Use a DEATHWATCH firefight ploy for 0CP."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-DW-AEG",
@@ -194,8 +305,7 @@
           "abilityName": "Storm Shield",
           "description": "Whenever an operative is shooting this operative, worsen the x of the Piercing weapon rule by 1 (if any). Note that Piercing 1 would therefore be ignored."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-DW-BLM",
@@ -293,8 +403,7 @@
           "abilityName": "Adaptive Swordsmanship",
           "description": "You can ignore any changes to the Hit stat of this operative's Xenophase blade. Whenever this operative is fighting or retaliating, you can resolve one of your successes before the normal order. If you do, that success must be used to block."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-DW-BOM",
@@ -391,8 +500,7 @@
           ]
         }
       ],
-      "abilities": [],
-      "options": []
+      "abilities": []
     },
     {
       "opTypeId": "IMP-DW-BRC",
@@ -529,8 +637,7 @@
           ]
         }
       ],
-      "abilities": [],
-      "options": []
+      "abilities": []
     },
     {
       "opTypeId": "IMP-DW-DEM",
@@ -602,8 +709,7 @@
           "abilityName": "Aggressive Force",
           "description": "Whenever this operative is fighting or retaliating, Normal and Critical Dmg of 3 or more inflicts 1 less damage on it. This isn't cumulative with the Shield that Slays strategy ploy."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-DW-DIS",
@@ -674,8 +780,7 @@
           "abilityName": "Auspex Triangulation",
           "description": "The Advanced Auspex Scan firefight ploy costs you 0CP when both of the following are true:\n- This operative isn't within control range of enemy operatives.\n- The target of that Shoot action (primary target, if relevant) is visible to this operative.\n\nNote that it doesn't have to be this operative performing the Shoot action."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-DW-GNR",
@@ -779,8 +884,7 @@
           ]
         }
       ],
-      "abilities": [],
-      "options": []
+      "abilities": []
     },
     {
       "opTypeId": "IMP-DW-HTK",
@@ -855,8 +959,7 @@
           "abilityName": "Grav-chute and Grapnel Launcher",
           "description": "Whenever this operative is climbing, treat the vertical distance as 2\" (regardless of how far the operative actually moves vertically). Whenever this operative is dropping, ignore the vertical distance."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-DW-HSL",
@@ -981,8 +1084,7 @@
           ]
         }
       ],
-      "abilities": [],
-      "options": []
+      "abilities": []
     },
     {
       "opTypeId": "IMP-DW-MRK",
@@ -1066,120 +1168,7 @@
           "abilityName": "Vigilant Marksman",
           "description": "This operative can perform the Guard action during its activation regardless of the killzone (see close quarters rules, Kill Team: Tomb World).\nWhen using the close quarters rules, once per turning point, after this operative performs a free Shoot action on guard, it can immediately perform a free Guard action.\nHowever, if it does, it cannot counteract (nor Guard twice if it's counteracted)."
         }
-      ],
-      "options": []
-    }
-  ],
-  "ploys": [
-    {
-      "ployId": "IMP-DW-S-MT",
-      "killteamId": "IMP-DW",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Mission Tactics",
-      "description": "Select Conceal or Engage. Whenever a friendly DEATHWATCH operative is shooting against or fighting against an enemy operative that has that order, that friendly operative's weapons have the Balanced weapon rule."
-    },
-    {
-      "ployId": "IMP-DW-S-TLV",
-      "killteamId": "IMP-DW",
-      "ployType": "S",
-      "seq": 2,
-      "ployName": "The Long Vigil",
-      "description": "Whenever an operative is shooting a friendly DEATHWATCH operative that's within your territory, you can re-roll one of your defence dice."
-    },
-    {
-      "ployId": "IMP-DW-S-TSTS",
-      "killteamId": "IMP-DW",
-      "ployType": "S",
-      "seq": 3,
-      "ployName": "The Shield That Slays",
-      "description": "Whenever a friendly DEATHWATCH operative is within your opponent's territory, Normal and Critical Dmg of 4 or more inflicts 1 less damage on it."
-    },
-    {
-      "ployId": "IMP-DW-S-ATSKNF",
-      "killteamId": "IMP-DW",
-      "ployType": "S",
-      "seq": 4,
-      "ployName": "And They Shall Know No Fear",
-      "description": "You can ignore any changes to the stats of friendly DEATHWATCH operatives from being injured (including their weapons' stats)."
-    },
-    {
-      "ployId": "IMP-DW-T-SNTA",
-      "killteamId": "IMP-DW",
-      "ployType": "T",
-      "seq": 5,
-      "ployName": "Suffer Not The Alien",
-      "description": "Use this firefight ploy after rolling your attack dice for a friendly DEATHWATCH operative, if it's shooting against or fighting against an operative that doesn't have the CHAOS or IMPERIUM keyword. You can re-roll any of your attack dice."
-    },
-    {
-      "ployId": "IMP-DW-T-AT",
-      "killteamId": "IMP-DW",
-      "ployType": "T",
-      "seq": 6,
-      "ployName": "Auspicator Tracking",
-      "description": "Use this firefight ploy when a friendly DEATHWATCH operative is counteracting, before it performs any actions. You can change its order."
-    },
-    {
-      "ployId": "IMP-DW-T-AAS",
-      "killteamId": "IMP-DW",
-      "ployType": "T",
-      "seq": 7,
-      "ployName": "Advanced Auspex Scan",
-      "description": "Use this firefight ploy when a friendly DEATHWATCH operative performs the Shoot action. Until the end of the activation/counteraction, its ranged weapons have the Saturate weapon rule and enemy operatives cannot be obscured."
-    },
-    {
-      "ployId": "IMP-DW-T-THP",
-      "killteamId": "IMP-DW",
-      "ployType": "T",
-      "seq": 8,
-      "ployName": "Transhuman Physiology",
-      "description": "Use this firefight ploy when an operative is shooting a friendly DEATHWATCH operative, in the Roll Defence Dice step. You can retain one of your normal successes as a critical success instead."
-    }
-  ],
-  "equipments": [
-    {
-      "eqId": "IMP-DW-DW",
-      "killteamId": "IMP-DW",
-      "seq": 1,
-      "eqName": "Digital Weapons",
-      "description": "Once per turning point, when a friendly DEATHWATCH operative performs the Fight action, at the start of the Roll Attack Dice step, you can use this rule. If you do, inflict 1 damage on the enemy operative in that sequence.",
-      "effects": ""
-    },
-    {
-      "eqId": "IMP-DW-SST",
-      "killteamId": "IMP-DW",
-      "seq": 2,
-      "eqName": "Scrutavore Servo-Thrall",
-      "description": "Once per turning point, during a friendly DEATHWATCH operative's activation, you can use this rule. If you do, during that activation, that operative can perform a mission action for 1 less AP.\nHaving an enemy operative within its control range doesn't prevent that friendly operative from performing that mission action.\nHowever, in such an instance, after it does so, you and your opponent roll-off. If your opponent wins, you cannot use this equipment for the rest of the battle.",
-      "effects": ""
-    },
-    {
-      "eqId": "IMP-DW-SVBSC",
-      "killteamId": "IMP-DW",
-      "seq": 3,
-      "eqName": "Sanctus-V Bioscryer Cuffs",
-      "description": "Once during each friendly DEATHWATCH operative's activation, before or after it performs an action, if it's not within control range of enemy operatives, you can use this rule. If you do, select one of the following:\n- That friendly operative regains up to D3 lost wounds.\n- Remove any changes to that friendly operative's APL stat.\n- Remove one of the following tokens that friendly operative has (before that token's activation effects are resolved, if relevant): Neutron Fragment, Poison, Terrorchem.",
-      "effects": ""
-    },
-    {
-      "eqId": "IMP-DW-AR",
-      "killteamId": "IMP-DW",
-      "seq": 4,
-      "eqName": "Ammunition Reserve",
-      "description": "Once per battle, you can use the Special Issue Ammunition faction rule for up to two Shoot actions during one turning point, but you must select different weapon rules for both uses. This takes precedence over the normal Special Issue Ammunition rules.",
-      "effects": ""
-    }
-  ],
-  "teamAbilities": [
-    {
-      "abilityId": "IMP-DW-TA-VEAS",
-      "abilityName": "Veteran Astartes",
-      "description": "During each friendly DEATHWATCH operative's activation, it can perform either two Shoot actions or two Fight actions. If it's two Shoot actions and an auxiliary grenade launcher, frag cannon, heavy plasma incinerator, infernus heavy bolter, plasma pistol or stalker bolt rifle is selected for both, 1 additional AP must be spent for the second action.\n\nEach friendly DEATHWATCH operative can counteract regardless of its order. Whenever it does, it can perform an additional 1AP action for free during that counteraction, but both actions must be different."
-    },
-    {
-      "abilityId": "IMP-DW-TA-SPISAM",
-      "abilityName": "Special Issue Ammunition",
-      "description": "Once per turning point, when a friendly DEATHWATCH operative is performing the Shoot action, in the Select Weapon step, you can use this rule. If you do, select one of the following weapon rules for that operative's ranged weapons to have until the end of the action.\nThis rule cannot be used with explosive grenades (see universal equipment) or melta bombs.\n\n- Blast 1\" (you cannot select this if the weapon profile being used has the Torrent weapon rule)\n- Devastating 1\n- Lethal 5+\n- Piercing 1\n- Rending\n- Saturate\n- Severe"
+      ]
     }
   ]
 }

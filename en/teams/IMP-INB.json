@@ -10,6 +10,118 @@
     "Security",
     "Seek & Destroy"
   ],
+  "ploys": [
+    {
+      "ployId": "IMP-INB-S-AO",
+      "killteamId": "IMP-INB",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Attack Order",
+      "description": "Place your Attack Order marker in the killzone. Whenever a friendly IMPERIAL NAVY BREACHER operative within 3\" of that marker is shooting, fighting or retaliating, its weapons have the Ceaseless weapon rule.\nIn the Ready step of the next Strategy phase, remove that marker. You cannot use this ploy and the Defence Order strategy ploy in the same Strategy phase.  \n**Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)"
+    },
+    {
+      "ployId": "IMP-INB-S-BFCA",
+      "killteamId": "IMP-INB",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Brace For Counterattack",
+      "description": "Whenever an operative is shooting against, fighting against or retaliating against a friendly IMPERIAL NAVY BREACHER operative that is within your territory or that hasn't performed the Charge, Fall Back or Reposition action during this turning point,\r Normal and Critical Dmg of 3 or more inflicts 1 less damage on that friendly operative."
+    },
+    {
+      "ployId": "IMP-INB-S-CA",
+      "killteamId": "IMP-INB",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Close Assault",
+      "description": "Whenever a friendly IMPERIAL NAVY BREACHER operative is fighting or shooting an operative within 3\" of it, that friendly operative's weapons have the Punishing weapon rule.  \n**Punishing:** If you retain any critical successes, you can retain one of your fails as a normal success instead of discarding it."
+    },
+    {
+      "ployId": "IMP-INB-S-DO",
+      "killteamId": "IMP-INB",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Defence Order",
+      "description": "Place your Defence Order marker in the killzone. Whenever an operative is shooting a friendly IMPERIAL NAVY BREACHER operative that's within 3\" of that marker, you can re-roll any of your defence dice results of one result (e.g. results of 2).\nIn the Ready step of the next Strategy phase, remove that marker. You cannot use this ploy and the Attack Order strategy ploy in the same Strategy phase."
+    },
+    {
+      "ployId": "IMP-INB-T-BL",
+      "killteamId": "IMP-INB",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Blitz",
+      "description": "Use this firefight ploy when a friendly IMPERIAL NAVY BREACHER operative performs the Shoot or Fight action, and you select an enemy operative within 6\" of it as a valid target or to fight against.\nIf it's the first friendly operative to perform either of those actions during this turning point, its weapons have the Accurate 1 weapon rule for that action.\nIf it's the first friendly operative to be activated during this turning point, its weapons also have the Severe weapon rule for that action.  \n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.  \n**Accurate 1:** You can retain 1 Attack Die as a normal success without rolling it."
+    },
+    {
+      "ployId": "IMP-INB-T-DH",
+      "killteamId": "IMP-INB",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Deck Hand",
+      "description": "Use this firefight ploy during a friendly IMPERIAL NAVY BREACHER operative's activation, before or after it performs an action.\r That operative can move through one Accessible terrain feature without it counting as an additional 1\" and/or perform a free Operate Hatch action during its activation, and can do so during the Charge or Fall Back action.\r You cannot use this ploy if the access point has been welded shut (see HATCHCUTTER operative) unless it's a friendly HATCHCUTTER operative's activation."
+    },
+    {
+      "ployId": "IMP-INB-T-LID",
+      "killteamId": "IMP-INB",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Lock it Down",
+      "description": "Use this firefight ploy when a friendly IMPERIAL NAVY BREACHER operative is activated. Select one objective marker.\nUntil the end of the battle or until you use this ploy again (whichever comes first), when determining control of that objective marker, treat that friendly operative's APL stat as 1 higher.\nNote this isn't a change to the APL stat, so any changes are cumulative with this."
+    },
+    {
+      "ployId": "IMP-INB-T-OT",
+      "killteamId": "IMP-INB",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Overwhelm Target",
+      "description": "Use this firefight ploy when you use the Breach and Clear faction rule. Select one of those friendly IMPERIAL NAVY BREACHER operatives. Until the end of that operative's activation, add 1 to its APL stat."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "IMP-INB-RB",
+      "killteamId": "IMP-INB",
+      "seq": 1,
+      "eqName": "Rebreathers",
+      "description": "You can ignore any changes to the APL stats of friendly IMPERIAL NAVY BREACHER operatives, and they aren't affected by enemy operatives' Shock weapon rule.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-INB-SL",
+      "killteamId": "IMP-INB",
+      "seq": 2,
+      "eqName": "Slugs",
+      "description": "Up to three times per turning point, whenever a friendly IMPERIAL NAVY BREACHER operative is performing the Shoot action and you select a navis shotgun (long range), you can use this rule.\nIf you do, until the end of that action, improve the Hit stat of that weapon by 1 and add 1 to both of its Dmg stats.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-INB-CS",
+      "killteamId": "IMP-INB",
+      "seq": 3,
+      "eqName": "Combat Stimms",
+      "description": "You can ignore any changes to the Move stat of friendly IMPERIAL NAVY BREACHER operatives from being injured.",
+      "effects": "NOINJMOV"
+    },
+    {
+      "eqId": "IMP-INB-SORD",
+      "killteamId": "IMP-INB",
+      "seq": 4,
+      "eqName": "System Override Device",
+      "description": "Once per turning point, one friendly IMPERIAL NAVY BREACHER operative can perform the Operate Hatch action for 1 less AP.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "IMP-INB-TA-BRANCL",
+      "abilityName": "Breach And Clear",
+      "description": "Once per turning point, when a ready friendly IMPERIAL NAVY BREACHER operative is activated, you can use this rule.\nIf you do, select one other ready friendly IMPERIAL NAVY BREACHER operative visible to and within 3\" of that operative.\nWhen that first friendly operative is expended, you can activate that other friendly operative before your opponent activates. When that other operative is expended, your opponent then activates as normal."
+    },
+    {
+      "abilityId": "IMP-INB-TA-VOAR",
+      "abilityName": "Void Armour",
+      "description": "Whenever an operative is shooting a friendly IMPERIAL NAVY BREACHER operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule (excluding weapons that have a sweeping profile),\nyou can re-roll one of your defence dice, or up to two of your defence dice if that friendly operative is a GRENADIER.  \n\nFriendly IMPERIAL NAVY BREACHER operatives aren't affected by the x\" Devastating x weapon rule (i.e. Devastating with a distance) unless they are the target during that sequence."
+    }
+  ],
   "opTypes": [
     {
       "opTypeId": "IMP-INB-SGT",
@@ -179,8 +291,7 @@
           "abilityName": "Command Breach",
           "description": "Whenever you would use the Attack Order or Defence Order strategy ploy, if this operative is in the killzone, it costs you 0CP.\nOnce during each of this operative's activations, before or after it performs an action, if your Attack Order or Defence Order marker is in the killzone (see relevant strategy ploy), you can either:\n\n- Remove that marker and place it again.\n- Change the selected ploy to the other (e.g. your Attack Order becomes a Defence Order).\n\nYou cannot do both, and you don't need to spend any CP to change the ploy."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INB-ARM",
@@ -255,8 +366,7 @@
           "abilityName": "Group Activation",
           "description": "Whenever this operative is expended, you must then activate one other ready friendly IMPERIAL NAVY BREACHER ARMSMAN operative (if able) before your opponent activates.\nWhen that other operative is expended, your opponent then activates as normal (in other words, you cannot activate more than two operatives in succession with this rule).\nIgnore this rule when you are using the Breach and Clear faction rule."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INB-AXE",
@@ -326,8 +436,7 @@
           "abilityName": "Emboldened",
           "description": "Whenever an attack dice inflicts damage of 3 or more on this operative during a turning point in which it performed the Charge action, roll one D6: on a 5+, subtract 1 from that inflicted damage."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INB-CAT",
@@ -361,8 +470,7 @@
           "AP": 1,
           "description": "Select one enemy operative visible to this operative. Until the end of the turning point, until that enemy operative is no longer visible to this operative or until this operative performs this action again (whichever comes first),\nwhenever a friendly IMPERIAL NAVY BREACHER operative is shooting that enemy operative, you can use this effect.\nIf you do:\n\n- That friendly operative's ranged weapons have the Seek Light weapon rule.\n- That enemy operative cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INB-END",
@@ -463,8 +571,7 @@
           "abilityName": "*Shield",
           "description": "Whenever this operative is fighting or retaliating with this weapon, each of your blocks can be allocated to block two unresolved successes (instead of one)."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INB-GS",
@@ -498,8 +605,7 @@
           "AP": 1,
           "description": "Until the end of the activation, add 6\" to this operative's Move stat.  \n\nThis operative can only perform this action once per battle, and cannot perform it during the first turning point."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INB-GRN",
@@ -679,8 +785,7 @@
           "abilityName": "Grenadier",
           "description": "This operative can use frag, krak and stun grenades (see universal equipment). Doing so doesn't count towards any limited uses you have (i.e. if you also select those grenades from equipment for other operatives).\nWhenever this operative is using a frag or krak grenade, improve the Hit stat of that weapon by 1."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INB-GNR",
@@ -841,8 +946,7 @@
           ]
         }
       ],
-      "abilities": [],
-      "options": []
+      "abilities": []
     },
     {
       "opTypeId": "IMP-INB-HC",
@@ -922,8 +1026,7 @@
           "AP": 1,
           "description": "Select a closed hatchway (e.g. Killzone: Gallowdark) within this operative's control range. 1 additional AP must be spent for other operatives to perform the Operate Hatch action to open that hatchway.\nThis effect ends when that hatchway is opened. Note this operative isn't affected by this effect.  \n\nThis operative cannot perform this action while within control range of an enemy operative, or if it isn't within 1\" of a closed hatchway."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INB-SRV",
@@ -1006,8 +1109,7 @@
           "AP": 1,
           "description": "**SUPPORT**\nSelect one other friendly IMPERIAL NAVY BREACHER operative (excluding C.A.T. UNIT or GHEISTSKULL) visible to and within 6\" of this operative, or visible to and within 6\" of a friendly IMPERIAL NAVY BREACHER C.A.T. UNIT operative.\nUntil the end of that operative's next activation, add 1 to its APL stat. For the purposes of the Comms Device universal equipment, the operative the distance is being determined from must control that marker.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-INB-VJ",
@@ -1130,120 +1232,7 @@
           "AP": 1,
           "description": "Select one enemy operative visible to and within 8\" of a friendly GHEISTSKULL operative. Roll one D6, adding 1 to the result if that enemy operative is a valid target for that friendly GHEISTSKULL operative:\non a 3+, subtract 1 from that enemy operative's APL stat until the end of its next activation.  \n\nThis operative cannot perform this action while within control range of an enemy operative, or if a friendly GHEISTSKULL operative isn't in the killzone."
         }
-      ],
-      "options": []
-    }
-  ],
-  "ploys": [
-    {
-      "ployId": "IMP-INB-S-AO",
-      "killteamId": "IMP-INB",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Attack Order",
-      "description": "Place your Attack Order marker in the killzone. Whenever a friendly IMPERIAL NAVY BREACHER operative within 3\" of that marker is shooting, fighting or retaliating, its weapons have the Ceaseless weapon rule.\nIn the Ready step of the next Strategy phase, remove that marker. You cannot use this ploy and the Defence Order strategy ploy in the same Strategy phase.  \n**Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)"
-    },
-    {
-      "ployId": "IMP-INB-S-BFCA",
-      "killteamId": "IMP-INB",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Brace For Counterattack",
-      "description": "Whenever an operative is shooting against, fighting against or retaliating against a friendly IMPERIAL NAVY BREACHER operative that is within your territory or that hasn't performed the Charge, Fall Back or Reposition action during this turning point,\r Normal and Critical Dmg of 3 or more inflicts 1 less damage on that friendly operative."
-    },
-    {
-      "ployId": "IMP-INB-S-CA",
-      "killteamId": "IMP-INB",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Close Assault",
-      "description": "Whenever a friendly IMPERIAL NAVY BREACHER operative is fighting or shooting an operative within 3\" of it, that friendly operative's weapons have the Punishing weapon rule.  \n**Punishing:** If you retain any critical successes, you can retain one of your fails as a normal success instead of discarding it."
-    },
-    {
-      "ployId": "IMP-INB-S-DO",
-      "killteamId": "IMP-INB",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Defence Order",
-      "description": "Place your Defence Order marker in the killzone. Whenever an operative is shooting a friendly IMPERIAL NAVY BREACHER operative that's within 3\" of that marker, you can re-roll any of your defence dice results of one result (e.g. results of 2).\nIn the Ready step of the next Strategy phase, remove that marker. You cannot use this ploy and the Attack Order strategy ploy in the same Strategy phase."
-    },
-    {
-      "ployId": "IMP-INB-T-BL",
-      "killteamId": "IMP-INB",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Blitz",
-      "description": "Use this firefight ploy when a friendly IMPERIAL NAVY BREACHER operative performs the Shoot or Fight action, and you select an enemy operative within 6\" of it as a valid target or to fight against.\nIf it's the first friendly operative to perform either of those actions during this turning point, its weapons have the Accurate 1 weapon rule for that action.\nIf it's the first friendly operative to be activated during this turning point, its weapons also have the Severe weapon rule for that action.  \n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.  \n**Accurate 1:** You can retain 1 Attack Die as a normal success without rolling it."
-    },
-    {
-      "ployId": "IMP-INB-T-DH",
-      "killteamId": "IMP-INB",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Deck Hand",
-      "description": "Use this firefight ploy during a friendly IMPERIAL NAVY BREACHER operative's activation, before or after it performs an action.\r That operative can move through one Accessible terrain feature without it counting as an additional 1\" and/or perform a free Operate Hatch action during its activation, and can do so during the Charge or Fall Back action.\r You cannot use this ploy if the access point has been welded shut (see HATCHCUTTER operative) unless it's a friendly HATCHCUTTER operative's activation."
-    },
-    {
-      "ployId": "IMP-INB-T-LID",
-      "killteamId": "IMP-INB",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Lock it Down",
-      "description": "Use this firefight ploy when a friendly IMPERIAL NAVY BREACHER operative is activated. Select one objective marker.\nUntil the end of the battle or until you use this ploy again (whichever comes first), when determining control of that objective marker, treat that friendly operative's APL stat as 1 higher.\nNote this isn't a change to the APL stat, so any changes are cumulative with this."
-    },
-    {
-      "ployId": "IMP-INB-T-OT",
-      "killteamId": "IMP-INB",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Overwhelm Target",
-      "description": "Use this firefight ploy when you use the Breach and Clear faction rule. Select one of those friendly IMPERIAL NAVY BREACHER operatives. Until the end of that operative's activation, add 1 to its APL stat."
-    }
-  ],
-  "equipments": [
-    {
-      "eqId": "IMP-INB-RB",
-      "killteamId": "IMP-INB",
-      "seq": 1,
-      "eqName": "Rebreathers",
-      "description": "You can ignore any changes to the APL stats of friendly IMPERIAL NAVY BREACHER operatives, and they aren't affected by enemy operatives' Shock weapon rule.",
-      "effects": ""
-    },
-    {
-      "eqId": "IMP-INB-SL",
-      "killteamId": "IMP-INB",
-      "seq": 2,
-      "eqName": "Slugs",
-      "description": "Up to three times per turning point, whenever a friendly IMPERIAL NAVY BREACHER operative is performing the Shoot action and you select a navis shotgun (long range), you can use this rule.\nIf you do, until the end of that action, improve the Hit stat of that weapon by 1 and add 1 to both of its Dmg stats.",
-      "effects": ""
-    },
-    {
-      "eqId": "IMP-INB-CS",
-      "killteamId": "IMP-INB",
-      "seq": 3,
-      "eqName": "Combat Stimms",
-      "description": "You can ignore any changes to the Move stat of friendly IMPERIAL NAVY BREACHER operatives from being injured.",
-      "effects": "NOINJMOV"
-    },
-    {
-      "eqId": "IMP-INB-SORD",
-      "killteamId": "IMP-INB",
-      "seq": 4,
-      "eqName": "System Override Device",
-      "description": "Once per turning point, one friendly IMPERIAL NAVY BREACHER operative can perform the Operate Hatch action for 1 less AP.",
-      "effects": ""
-    }
-  ],
-  "teamAbilities": [
-    {
-      "abilityId": "IMP-INB-TA-BRANCL",
-      "abilityName": "Breach And Clear",
-      "description": "Once per turning point, when a ready friendly IMPERIAL NAVY BREACHER operative is activated, you can use this rule.\nIf you do, select one other ready friendly IMPERIAL NAVY BREACHER operative visible to and within 3\" of that operative.\nWhen that first friendly operative is expended, you can activate that other friendly operative before your opponent activates. When that other operative is expended, your opponent then activates as normal."
-    },
-    {
-      "abilityId": "IMP-INB-TA-VOAR",
-      "abilityName": "Void Armour",
-      "description": "Whenever an operative is shooting a friendly IMPERIAL NAVY BREACHER operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule (excluding weapons that have a sweeping profile),\nyou can re-roll one of your defence dice, or up to two of your defence dice if that friendly operative is a GRENADIER.  \n\nFriendly IMPERIAL NAVY BREACHER operatives aren't affected by the x\" Devastating x weapon rule (i.e. Devastating with a distance) unless they are the target during that sequence."
+      ]
     }
   ]
 }

@@ -10,6 +10,113 @@
     "Recon",
     "Security"
   ],
+  "ploys": [
+    {
+      "ployId": "NEC-CAN-S-HS",
+      "killteamId": "NEC-CAN",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Hypershielding",
+      "description": "Whenever an operative is shooting a friendly CANOPTEK CIRCLE operative, if your OBELISK NODE MATRIX is intervening, or that friendly operative is within your OBELISK NODE MATRIX, you can re-roll any of your defence dice results of one result (e.g. results of 2)."
+    },
+    {
+      "ployId": "NEC-CAN-S-TDA",
+      "killteamId": "NEC-CAN",
+      "ployType": "S",
+      "seq": 2,
+      "ployName": "Transdynamic Amplification",
+      "description": "Whenever a friendly CANOPTEK CIRCLE operative is shooting, if your OBELISK NODE MATRIX is intervening, or the target is within your OBELISK NODE MATRIX, that friendly operative's weapons have the Ceaseless weapon rule."
+    },
+    {
+      "ployId": "NEC-CAN-S-CGR",
+      "killteamId": "NEC-CAN",
+      "ployType": "S",
+      "seq": 3,
+      "ployName": "Cryptogravitic Repulsion",
+      "description": "Once per action, the first time an enemy operative would move within your OBELISK NODE MATRIX, the distance is treated as an additional 1\". Note this means if that enemy operative doesn't have sufficient move distance (e.g. it's at the end of its move), that operative cannot move within your OBELISK NODE MATRIX."
+    },
+    {
+      "ployId": "NEC-CAN-S-SD",
+      "killteamId": "NEC-CAN",
+      "ployType": "S",
+      "seq": 4,
+      "ployName": "Souldrain",
+      "description": "Whenever an enemy operative is within your OBELISK NODE MATRIX, or whenever it's fighting or retaliating against a friendly CANOPTEK CIRCLE operative that's within your OBELISK NODE MATRIX, subtract 1 from both Dmg stats of that enemy operative's melee weapons (to a minimum of 2) until the end of the activation/counteraction. Note this means if the enemy operative moves through your OBELISK NODE MATRIX, apply this change at the end of that move action until the end of the activation/counteraction."
+    },
+    {
+      "ployId": "NEC-CAN-T-SF",
+      "killteamId": "NEC-CAN",
+      "ployType": "T",
+      "seq": 5,
+      "ployName": "Shield Flare",
+      "description": "Use this firefight ploy when an attack dice inflicts Normal Dmg on a friendly CANOPTEK CIRCLE operative. If your OBELISK NODE MATRIX is intervening, or that friendly operative is within your OBELISK NODE MATRIX, ignore that inflicted damage. Note your opponent determines intervening (i.e. where on their operative's base to draw the targeting lines from)."
+    },
+    {
+      "ployId": "NEC-CAN-T-AON",
+      "killteamId": "NEC-CAN",
+      "ployType": "T",
+      "seq": 6,
+      "ployName": "Animate Obelisk Nodes",
+      "description": "Use this firefight ploy when it's your turn to activate or counteract. Move any number of your OBELISK NODE markers instead. They can move up to 6\" combined, and distances are always rounded up to the nearest inch (so if you move a marker 1.5\", it's treated as moving it 2\"). For example, you could move one marker 6\", three markers 1\" each, or any combination that doesn't exceed 6\" in total. You can also move them 0\" (to effectively skip an activation). In any case, your opponent activates as normal afterwards."
+    },
+    {
+      "ployId": "NEC-CAN-T-NR",
+      "killteamId": "NEC-CAN",
+      "ployType": "T",
+      "seq": 7,
+      "ployName": "Nodal Response",
+      "description": "Use this firefight ploy during a friendly CANOPTEK CIRCLE operative's activation, before or after it performs an action. You can either change one of the strategy ploys you used during this turning point (only pay additional CP if that ploy costs more), or use a strategy ploy now (pay its CP cost as normal)."
+    },
+    {
+      "ployId": "NEC-CAN-T-ST",
+      "killteamId": "NEC-CAN",
+      "ployType": "T",
+      "seq": 8,
+      "ployName": "Sacrificial Thrall",
+      "description": "Use this firefight ploy when a friendly CANOPTEK CIRCLE GEOMANCER operative is selected as the valid target of a Shoot action or to fight against during the Fight action.\nSelect one other friendly CANOPTEK CIRCLE CANOPTEK operative visible to and within 3\" of that first friendly operative to become the valid target or to be fought against (as appropriate) instead (even if it wouldn't normally be valid for this).\nIf it's the Fight action, treat that other operative as being within the fighting operative's control range for the duration of that action. If it's the Shoot action, that other operative is only in cover or obscured if the original target was.\n\nThis ploy has no effect if it's the Shoot action and the ranged weapon has the Blast or Torrent weapon rule."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "NEC-CAN-MM",
+      "killteamId": "NEC-CAN",
+      "seq": 1,
+      "eqName": "Matrix Manipulator",
+      "description": "Once per battle, during a friendly CANOPTEK CIRCLE operative's activation or counteraction, you can use this rule. If you do, until the end of that activation/counteraction, a friendly CANOPTEK CIRCLE GEOMANCER operative is treated as your fourth OBELISK NODE marker.",
+      "effects": ""
+    },
+    {
+      "eqId": "NEC-CAN-AON",
+      "killteamId": "NEC-CAN",
+      "seq": 2,
+      "eqName": "Awakened Obelisk Nodes",
+      "description": "After revealing this equipment option, roll one D3. You can use the Animate Obelisk Nodes firefight ploy for 0CP a number of times during the battle equal to the result.",
+      "effects": ""
+    },
+    {
+      "eqId": "NEC-CAN-SDC",
+      "killteamId": "NEC-CAN",
+      "seq": 3,
+      "eqName": "Nanoscarab Caskets",
+      "description": "Whenever a friendly CANOPTEK CIRCLE operative is activated, it regains up to D3 lost wounds.",
+      "effects": ""
+    },
+    {
+      "eqId": "NEC-CAN-PS",
+      "killteamId": "NEC-CAN",
+      "seq": 4,
+      "eqName": "Phase Shifter",
+      "description": "Once per turning point, when an operative is shooting a friendly CANOPTEK CIRCLE GEOMANCER operative, at the start of the Roll Defence Dice step, you can use this rule.\nIf you do, worsen the x of the Piercing weapon rule by 1 (if any) until the end of that sequence. Note that Piercing 1 would therefore be ignored.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "NEC-CAN-TA-OBNOMA",
+      "abilityName": "Obelisk Node Matrix",
+      "description": "As a STRATEGIC GAMBIT in the first turning point, place your three OBELISK NODE markers wholly within your territory. As a STRATEGIC GAMBIT in each turning point after the first, you can move your OBELISK NODE markers up to 3\" each.\n\nYour OBELISK NODE markers control other markers within 1\" of them that no enemy operatives contest (treat your OBELISK NODE markers as friendly operatives for this purpose).\nIf more than one player would use their OBELISK NODE markers to control the same marker, no OBELISK NODE markers control it.\n\nWhenever one of your OBELISK NODE markers is within 6\" horizontally of another of your OBELISK NODE markers, those markers and the area between them create an OBELISK NODE MATRIX above and below (in other words, their height in the killzone is irrelevant).\nIf all three of your OBELISK NODE markers fulfil this, it creates a larger combined OBELISK NODE MATRIX.\nWhenever a friendly CANOPTEK CIRCLE operative is within your OBELISK NODE MATRIX:\n- Weapons on its datacard have the Accurate 2 weapon rule.\n- Add 1 to its APL stat (to a maximum of 3)."
+    }
+  ],
   "opTypes": [
     {
       "opTypeId": "NEC-CAN-GEO",
@@ -132,8 +239,7 @@
           "abilityName": "Obelisk Node Control",
           "description": "Whenever this operative would perform a mission action, if it requires this operative to control an objective marker, you can instead determine control from one of your OBELISK NODE markers (see Obelisk Node Matrix faction rule).\nWhenever this operative would perform the Operate Hatch action, you can open or close a hatchway thats access point is within 1\" of one of your OBELISK NODE markers instead.\nNote that you must still fulfil the Operate Hatch action's conditions."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "NEC-CAN-ACC",
@@ -218,8 +324,7 @@
           "AP": 1,
           "description": "Select one other friendly CANOPTEK CIRCLE CANOPTEK operative visible to and within 3\" of this operative. Alternatively, if this operative is within your OBELISK NODE MATRIX, you can select one other friendly CANOPTEK CIRCLE CANOPTEK operative within your OBELISK NODE MATRIX.\nUntil the end of that selected operative's next activation, add 1 to its APL stat.\n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "NEC-CAN-REA",
@@ -295,8 +400,7 @@
           "abilityName": "Reanimate",
           "description": "Once per turning point, when another friendly CANOPTEK CIRCLE operative would be incapacitated, if that operative is visible to and within 6\" of this operative, or if this and that operative are within your OBELISK NODE MATRIX,\nyou can use this rule, providing neither this nor that operative is within control range of an enemy operative.\nIf you do, that friendly operative isn't incapacitated, has 1 wound remaining and cannot be incapacitated for the remainder of the action.\nAfter that action, that friendly operative can immediately perform a free Dash action. If this rule was used during that friendly operative's activation, that activation ends.\n\nYou cannot use this rule if this operative is incapacitated, or if it's a Shoot action and this operative would be a primary or secondary target."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "NEC-CAN-WAR",
@@ -401,8 +505,7 @@
           "abilityName": "Expendable Construct",
           "description": "This operative is ignored for your opponent's kill/elimination op (when it's incapacitated, and when determining your starting number of operatives).\nIt's also ignored for victory conditions and scoring VPs if either require operatives to 'escape', 'survive' or be incapacitated by enemy operatives (if it escapes/survives/is incapacitated, determining how many operatives must escape/survive/be incapacitated, etc.)."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "NEC-CAN-TC",
@@ -521,115 +624,7 @@
           "abilityName": "Weapon Sentinel",
           "description": "Whenever your opponent is selecting a valid target, if this operative has a Conceal order, it cannot use Light terrain for cover. While this can allow this operative to be targeted (assuming it's visible), it doesn't remove its cover save (if any)"
         }
-      ],
-      "options": []
-    }
-  ],
-  "ploys": [
-    {
-      "ployId": "NEC-CAN-S-HS",
-      "killteamId": "NEC-CAN",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Hypershielding",
-      "description": "Whenever an operative is shooting a friendly CANOPTEK CIRCLE operative, if your OBELISK NODE MATRIX is intervening, or that friendly operative is within your OBELISK NODE MATRIX, you can re-roll any of your defence dice results of one result (e.g. results of 2)."
-    },
-    {
-      "ployId": "NEC-CAN-S-TDA",
-      "killteamId": "NEC-CAN",
-      "ployType": "S",
-      "seq": 2,
-      "ployName": "Transdynamic Amplification",
-      "description": "Whenever a friendly CANOPTEK CIRCLE operative is shooting, if your OBELISK NODE MATRIX is intervening, or the target is within your OBELISK NODE MATRIX, that friendly operative's weapons have the Ceaseless weapon rule."
-    },
-    {
-      "ployId": "NEC-CAN-S-CGR",
-      "killteamId": "NEC-CAN",
-      "ployType": "S",
-      "seq": 3,
-      "ployName": "Cryptogravitic Repulsion",
-      "description": "Once per action, the first time an enemy operative would move within your OBELISK NODE MATRIX, the distance is treated as an additional 1\". Note this means if that enemy operative doesn't have sufficient move distance (e.g. it's at the end of its move), that operative cannot move within your OBELISK NODE MATRIX."
-    },
-    {
-      "ployId": "NEC-CAN-S-SD",
-      "killteamId": "NEC-CAN",
-      "ployType": "S",
-      "seq": 4,
-      "ployName": "Souldrain",
-      "description": "Whenever an enemy operative is within your OBELISK NODE MATRIX, or whenever it's fighting or retaliating against a friendly CANOPTEK CIRCLE operative that's within your OBELISK NODE MATRIX, subtract 1 from both Dmg stats of that enemy operative's melee weapons (to a minimum of 2) until the end of the activation/counteraction. Note this means if the enemy operative moves through your OBELISK NODE MATRIX, apply this change at the end of that move action until the end of the activation/counteraction."
-    },
-    {
-      "ployId": "NEC-CAN-T-SF",
-      "killteamId": "NEC-CAN",
-      "ployType": "T",
-      "seq": 5,
-      "ployName": "Shield Flare",
-      "description": "Use this firefight ploy when an attack dice inflicts Normal Dmg on a friendly CANOPTEK CIRCLE operative. If your OBELISK NODE MATRIX is intervening, or that friendly operative is within your OBELISK NODE MATRIX, ignore that inflicted damage. Note your opponent determines intervening (i.e. where on their operative's base to draw the targeting lines from)."
-    },
-    {
-      "ployId": "NEC-CAN-T-AON",
-      "killteamId": "NEC-CAN",
-      "ployType": "T",
-      "seq": 6,
-      "ployName": "Animate Obelisk Nodes",
-      "description": "Use this firefight ploy when it's your turn to activate or counteract. Move any number of your OBELISK NODE markers instead. They can move up to 6\" combined, and distances are always rounded up to the nearest inch (so if you move a marker 1.5\", it's treated as moving it 2\"). For example, you could move one marker 6\", three markers 1\" each, or any combination that doesn't exceed 6\" in total. You can also move them 0\" (to effectively skip an activation). In any case, your opponent activates as normal afterwards."
-    },
-    {
-      "ployId": "NEC-CAN-T-NR",
-      "killteamId": "NEC-CAN",
-      "ployType": "T",
-      "seq": 7,
-      "ployName": "Nodal Response",
-      "description": "Use this firefight ploy during a friendly CANOPTEK CIRCLE operative's activation, before or after it performs an action. You can either change one of the strategy ploys you used during this turning point (only pay additional CP if that ploy costs more), or use a strategy ploy now (pay its CP cost as normal)."
-    },
-    {
-      "ployId": "NEC-CAN-T-ST",
-      "killteamId": "NEC-CAN",
-      "ployType": "T",
-      "seq": 8,
-      "ployName": "Sacrificial Thrall",
-      "description": "Use this firefight ploy when a friendly CANOPTEK CIRCLE GEOMANCER operative is selected as the valid target of a Shoot action or to fight against during the Fight action.\nSelect one other friendly CANOPTEK CIRCLE CANOPTEK operative visible to and within 3\" of that first friendly operative to become the valid target or to be fought against (as appropriate) instead (even if it wouldn't normally be valid for this).\nIf it's the Fight action, treat that other operative as being within the fighting operative's control range for the duration of that action. If it's the Shoot action, that other operative is only in cover or obscured if the original target was.\n\nThis ploy has no effect if it's the Shoot action and the ranged weapon has the Blast or Torrent weapon rule."
-    }
-  ],
-  "equipments": [
-    {
-      "eqId": "NEC-CAN-MM",
-      "killteamId": "NEC-CAN",
-      "seq": 1,
-      "eqName": "Matrix Manipulator",
-      "description": "Once per battle, during a friendly CANOPTEK CIRCLE operative's activation or counteraction, you can use this rule. If you do, until the end of that activation/counteraction, a friendly CANOPTEK CIRCLE GEOMANCER operative is treated as your fourth OBELISK NODE marker.",
-      "effects": ""
-    },
-    {
-      "eqId": "NEC-CAN-AON",
-      "killteamId": "NEC-CAN",
-      "seq": 2,
-      "eqName": "Awakened Obelisk Nodes",
-      "description": "After revealing this equipment option, roll one D3. You can use the Animate Obelisk Nodes firefight ploy for 0CP a number of times during the battle equal to the result.",
-      "effects": ""
-    },
-    {
-      "eqId": "NEC-CAN-SDC",
-      "killteamId": "NEC-CAN",
-      "seq": 3,
-      "eqName": "Nanoscarab Caskets",
-      "description": "Whenever a friendly CANOPTEK CIRCLE operative is activated, it regains up to D3 lost wounds.",
-      "effects": ""
-    },
-    {
-      "eqId": "NEC-CAN-PS",
-      "killteamId": "NEC-CAN",
-      "seq": 4,
-      "eqName": "Phase Shifter",
-      "description": "Once per turning point, when an operative is shooting a friendly CANOPTEK CIRCLE GEOMANCER operative, at the start of the Roll Defence Dice step, you can use this rule.\nIf you do, worsen the x of the Piercing weapon rule by 1 (if any) until the end of that sequence. Note that Piercing 1 would therefore be ignored.",
-      "effects": ""
-    }
-  ],
-  "teamAbilities": [
-    {
-      "abilityId": "NEC-CAN-TA-OBNOMA",
-      "abilityName": "Obelisk Node Matrix",
-      "description": "As a STRATEGIC GAMBIT in the first turning point, place your three OBELISK NODE markers wholly within your territory. As a STRATEGIC GAMBIT in each turning point after the first, you can move your OBELISK NODE markers up to 3\" each.\n\nYour OBELISK NODE markers control other markers within 1\" of them that no enemy operatives contest (treat your OBELISK NODE markers as friendly operatives for this purpose).\nIf more than one player would use their OBELISK NODE markers to control the same marker, no OBELISK NODE markers control it.\n\nWhenever one of your OBELISK NODE markers is within 6\" horizontally of another of your OBELISK NODE markers, those markers and the area between them create an OBELISK NODE MATRIX above and below (in other words, their height in the killzone is irrelevant).\nIf all three of your OBELISK NODE markers fulfil this, it creates a larger combined OBELISK NODE MATRIX.\nWhenever a friendly CANOPTEK CIRCLE operative is within your OBELISK NODE MATRIX:\n- Weapons on its datacard have the Accurate 2 weapon rule.\n- Add 1 to its APL stat (to a maximum of 3)."
+      ]
     }
   ]
 }

@@ -10,6 +10,118 @@
     "Security",
     "Seek & Destroy"
   ],
+  "ploys": [
+    {
+      "ployId": "IMP-AES-S-DJ",
+      "killteamId": "IMP-AES",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Dispense Justice",
+      "description": "Whenever a friendly EXACTION SQUAD operative is fighting or retaliating, if it hasn't moved more than its Move stat during the activation, or if it's a counteraction, its melee weapons have the Ceaseless weapon rule.  \n**Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)"
+    },
+    {
+      "ployId": "IMP-AES-S-GRI",
+      "killteamId": "IMP-AES",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Guilt Reveals Itself",
+      "description": "Whenever you're selecting a valid target for a friendly EXACTION SQUAD operative, enemy operatives within 4\" of it cannot be in cover (instead of 2\").\nWhile this can allow such operatives to be targeted (assuming they're visible), it does not remove their cover save (if any), unless the friendly EXACTION SQUAD operative is within 2\" as normal."
+    },
+    {
+      "ployId": "IMP-AES-S-IVJ",
+      "killteamId": "IMP-AES",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Inviolate Jurisdiction",
+      "description": "Whenever an operative is shooting a friendly EXACTION SQUAD operative that's within 2\" of an objective marker or an enemy operative, you can re-roll one of your defence dice."
+    },
+    {
+      "ployId": "IMP-AES-S-TD",
+      "killteamId": "IMP-AES",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Terminal Decree",
+      "description": "Whenever a friendly EXACTION SQUAD operative is shooting an enemy operative within 6\" of it, or whenever a friendly EXACTION SQUAD GUNNER operative is shooting, that friendly operative's ranged weapons have the Balanced weapon rule.  \n**Balanced:** Can re-roll one Attack die."
+    },
+    {
+      "ployId": "IMP-AES-T-BB",
+      "killteamId": "IMP-AES",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Brutal Backup",
+      "description": "Use this firefight ploy during a friendly EXACTION SQUAD operative's activation, before or after it performs an action.\nSelect one enemy operative within its control range. One other friendly EXACTION SQUAD operative can immediately perform a free Fight action, but it can only fight against that enemy operative."
+    },
+    {
+      "ployId": "IMP-AES-T-EO",
+      "killteamId": "IMP-AES",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Execution Order",
+      "description": "Use this firefight ploy when an enemy operative performs a mission action (excluding Operate Hatch).\r Alternatively, use it at the end of the Firefight phase and select one enemy operative that controls an objective marker.  \n\r In either case, the next time your opponent would activate that enemy operative, you can interrupt that activation and activate a ready friendly EXACTION SQUAD operative.\r If you do, during that activation, that friendly operative must fight against or shoot against that enemy operative, and cannot do so against any other enemy operatives until it does\r (if this isn't possible, that friendly operative's activation is cancelled).  \n\r After completing that friendly operative's activation, continue that enemy operative's activation (if possible). You cannot use this firefight ploy again until that enemy operative is activated or incapacitated."
+    },
+    {
+      "ployId": "IMP-AES-T-EP",
+      "killteamId": "IMP-AES",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Exact Punishment",
+      "description": "Use this firefight ploy after an enemy operative shoots against or fights against a friendly EXACTION SQUAD operative within 6\" of it, and that friendly operative isn't incapacitated as a result.\nThat friendly operative can immediately perform either a free Shoot or a free Fight action, but other enemy operatives cannot be selected as a valid target or to fight against during that action\n(note that secondary targets from the Blast weapon rule can still be targeted)."
+    },
+    {
+      "ployId": "IMP-AES-T-LAOTEL",
+      "killteamId": "IMP-AES",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Long Arm Of The Emperor's Law",
+      "description": "Use this firefight ploy when a friendly EXACTION SQUAD operative is performing the Shoot action and you select a weapon with the Range x weapon rule (excluding frag or krak grenade). Until the end of that action, add 3\" to x."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "IMP-AES-MAN",
+      "killteamId": "IMP-AES",
+      "seq": 1,
+      "eqName": "Manacles",
+      "description": "Whenever an enemy operative would perform the Fall Back action while within control range of a friendly EXACTION SQUAD operative, if no other enemy operatives are within that friendly operative's control range,\nyou can use this rule.\nIf you do, roll two D6, or one D6 if that enemy operative has a higher Wounds stat than that friendly operative.\nIf any result is a 4+, that enemy operative cannot perform that action during that activation or counteraction (no AP are spent on it).",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-AES-SPL",
+      "killteamId": "IMP-AES",
+      "seq": 2,
+      "eqName": "Strobing Phosphor-Lumen",
+      "description": "Whenever an enemy operative is shooting against, fighting against or retaliating against a friendly EXACTION SQUAD operative within 2\" of it, your opponent cannot re-roll their attack dice results of 1.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-AES-SIS",
+      "killteamId": "IMP-AES",
+      "seq": 3,
+      "eqName": "Special-Issue Shells",
+      "description": "Up to twice per turning point, when a friendly EXACTION SQUAD operative is performing the Shoot action and you select a combat shotgun, executioner shotgun, scoped shotpistol or shotpistol, you can use this rule.\nIf you do, select one of the following weapon rules for that weapon to have until the end of that action:\n\n- Saturate.\n- Piercing 1, but only if the target has a Save stat of 3+ or better.\n- Torrent 1\", but you cannot select more than one secondary target.\n",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-AES-RMV",
+      "killteamId": "IMP-AES",
+      "seq": 4,
+      "eqName": "Reinforced Mirror-Visor",
+      "description": "You can ignore any changes to the APL stats of friendly EXACTION SQUAD operatives, and they aren't affected by enemy operatives' Shock weapon rule.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "IMP-AES-TA-MAFOJU",
+      "abilityName": "Marked For Justice",
+      "description": "**STRATEGIC GAMBIT** Select one enemy operative to be your mark for the turning point.\nWhenever a friendly EXACTION SQUAD operative is shooting against, fighting against or retaliating against your mark, that friendly operative's weapons have the Punishing weapon rule.\nWhenever your mark is incapacitated, you can select a new enemy operative to be your mark for the turning point (and can continue to do so during this turning point)."
+    },
+    {
+      "abilityId": "IMP-AES-TA-RUEF",
+      "abilityName": "Ruthless Efficiency",
+      "description": "Whenever a friendly EXACTION SQUAD operative is shooting (excluding with frag or krak grenades) and you're selecting a valid target, you can use this rule.\nIf you do, having other friendly EXACTION SQUAD operatives within an enemy operative's control range doesn't prevent that enemy operative from being selected."
+    }
+  ],
   "opTypes": [
     {
       "opTypeId": "IMP-AES-PE",
@@ -151,8 +263,7 @@
           "AP": 0,
           "description": "If your Nuncio-aquila marker isn't in the killzone, place it within 6\" horizontally of this operative; otherwise, move your Nuncio-aquila marker up to 6\" horizontally.\nIf this operative is removed from the killzone, remove your Nuncio-aquila marker from the killzone.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-AES-CAST",
@@ -246,8 +357,7 @@
           "abilityName": "Zealous Dedication",
           "description": "Whenever an attack dice inflicts damage of 3 or more on this operative, roll one D6: on a 5+, subtract 1 from that inflicted damage."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-AES-CHI",
@@ -329,8 +439,7 @@
           "AP": 1,
           "description": "Select one friendly EXACTION SQUAD operative within this operative's control range to regain up to 2D3 lost wounds.\nIt cannot be an operative that the Medic! rule was used on during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-AES-GNR",
@@ -461,8 +570,7 @@
           ]
         }
       ],
-      "abilities": [],
-      "options": []
+      "abilities": []
     },
     {
       "opTypeId": "IMP-AES-LSH",
@@ -574,8 +682,7 @@
           "AP": 0,
           "description": "Select one friendly EXACTION SQUAD R-VR CYBER-MASTIFF operative and change its attack pattern."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-AES-RVR",
@@ -628,8 +735,7 @@
           "AP": 0,
           "description": "Select one enemy operative within this operative's control range.\nUntil that enemy operative is no longer within this operative's control range, or until this operative performs this action again (whichever comes first),\nworsen the Hit stat of that enemy operative's weapons by 1 (this isn't cumulative with being injured);\nin addition, that enemy operative cannot perform the Fall Back action.  \n\nThis operative cannot perform this action unless an enemy operative is within its control range."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-AES-MAL",
@@ -711,8 +817,7 @@
           "AP": 1,
           "description": "Select one enemy operative visible to this operative. Until the start of this operative's next activation, until it's incapacitated or until it performs this action again (whichever comes first),\r whenever a friendly EXACTION SQUAD operative is shooting against, fighting against or retaliating against that enemy operative, that friendly operative's weapons have the Lethal 5+ and Severe weapon rules.\n\r This operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-AES-MRK",
@@ -815,8 +920,7 @@
           "AP": 1,
           "description": "Until the start of this operative's next activation:\n\n- The concealed and stationary profiles of its executioner shotgun have the Lethal 5+ weapon rule.\n- Whenever it's shooting with its executioner shotgun, enemy operatives cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-AES-REV",
@@ -902,8 +1006,7 @@
           "AP": 1,
           "description": "**SUPPORT**\nSelect one enemy operative visible to this operative. Until the end of the turning point, whenever a friendly EXACTION SQUAD operative within 3\" of this operative is shooting that enemy operative,\nyou can use this effect. If you do:\n\n- That friendly operative's ranged weapons have the Seek Light weapon rule.\n- That enemy operative cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-AES-SUB",
@@ -975,8 +1078,7 @@
           "abilityName": "Stubborn Subjugator",
           "description": "You can ignore any changes to the Hit stat of this operative's melee weapons."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-AES-VIG",
@@ -1051,8 +1153,7 @@
           "abilityName": "Close Quarters Vigilance",
           "description": "This operative can perform the Shoot action (excluding Guard) while within control range of an enemy operative, but only if it hasn't performed the Charge action during the activation,\nor if it's a counteraction. Note this operative isn't restricted from performing the Charge action after performing the Shoot action."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-AES-VOX",
@@ -1128,120 +1229,7 @@
           "AP": 1,
           "description": "**SUPPORT**\nSelect one other friendly EXACTION SQUAD operative visible to this operative. Until the end of that operative's next activation, add 1 to its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
-    }
-  ],
-  "ploys": [
-    {
-      "ployId": "IMP-AES-S-DJ",
-      "killteamId": "IMP-AES",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Dispense Justice",
-      "description": "Whenever a friendly EXACTION SQUAD operative is fighting or retaliating, if it hasn't moved more than its Move stat during the activation, or if it's a counteraction, its melee weapons have the Ceaseless weapon rule.  \n**Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)"
-    },
-    {
-      "ployId": "IMP-AES-S-GRI",
-      "killteamId": "IMP-AES",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Guilt Reveals Itself",
-      "description": "Whenever you're selecting a valid target for a friendly EXACTION SQUAD operative, enemy operatives within 4\" of it cannot be in cover (instead of 2\").\nWhile this can allow such operatives to be targeted (assuming they're visible), it does not remove their cover save (if any), unless the friendly EXACTION SQUAD operative is within 2\" as normal."
-    },
-    {
-      "ployId": "IMP-AES-S-IVJ",
-      "killteamId": "IMP-AES",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Inviolate Jurisdiction",
-      "description": "Whenever an operative is shooting a friendly EXACTION SQUAD operative that's within 2\" of an objective marker or an enemy operative, you can re-roll one of your defence dice."
-    },
-    {
-      "ployId": "IMP-AES-S-TD",
-      "killteamId": "IMP-AES",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Terminal Decree",
-      "description": "Whenever a friendly EXACTION SQUAD operative is shooting an enemy operative within 6\" of it, or whenever a friendly EXACTION SQUAD GUNNER operative is shooting, that friendly operative's ranged weapons have the Balanced weapon rule.  \n**Balanced:** Can re-roll one Attack die."
-    },
-    {
-      "ployId": "IMP-AES-T-BB",
-      "killteamId": "IMP-AES",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Brutal Backup",
-      "description": "Use this firefight ploy during a friendly EXACTION SQUAD operative's activation, before or after it performs an action.\nSelect one enemy operative within its control range. One other friendly EXACTION SQUAD operative can immediately perform a free Fight action, but it can only fight against that enemy operative."
-    },
-    {
-      "ployId": "IMP-AES-T-EO",
-      "killteamId": "IMP-AES",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Execution Order",
-      "description": "Use this firefight ploy when an enemy operative performs a mission action (excluding Operate Hatch).\r Alternatively, use it at the end of the Firefight phase and select one enemy operative that controls an objective marker.  \n\r In either case, the next time your opponent would activate that enemy operative, you can interrupt that activation and activate a ready friendly EXACTION SQUAD operative.\r If you do, during that activation, that friendly operative must fight against or shoot against that enemy operative, and cannot do so against any other enemy operatives until it does\r (if this isn't possible, that friendly operative's activation is cancelled).  \n\r After completing that friendly operative's activation, continue that enemy operative's activation (if possible). You cannot use this firefight ploy again until that enemy operative is activated or incapacitated."
-    },
-    {
-      "ployId": "IMP-AES-T-EP",
-      "killteamId": "IMP-AES",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Exact Punishment",
-      "description": "Use this firefight ploy after an enemy operative shoots against or fights against a friendly EXACTION SQUAD operative within 6\" of it, and that friendly operative isn't incapacitated as a result.\nThat friendly operative can immediately perform either a free Shoot or a free Fight action, but other enemy operatives cannot be selected as a valid target or to fight against during that action\n(note that secondary targets from the Blast weapon rule can still be targeted)."
-    },
-    {
-      "ployId": "IMP-AES-T-LAOTEL",
-      "killteamId": "IMP-AES",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Long Arm Of The Emperor's Law",
-      "description": "Use this firefight ploy when a friendly EXACTION SQUAD operative is performing the Shoot action and you select a weapon with the Range x weapon rule (excluding frag or krak grenade). Until the end of that action, add 3\" to x."
-    }
-  ],
-  "equipments": [
-    {
-      "eqId": "IMP-AES-MAN",
-      "killteamId": "IMP-AES",
-      "seq": 1,
-      "eqName": "Manacles",
-      "description": "Whenever an enemy operative would perform the Fall Back action while within control range of a friendly EXACTION SQUAD operative, if no other enemy operatives are within that friendly operative's control range,\nyou can use this rule.\nIf you do, roll two D6, or one D6 if that enemy operative has a higher Wounds stat than that friendly operative.\nIf any result is a 4+, that enemy operative cannot perform that action during that activation or counteraction (no AP are spent on it).",
-      "effects": ""
-    },
-    {
-      "eqId": "IMP-AES-SPL",
-      "killteamId": "IMP-AES",
-      "seq": 2,
-      "eqName": "Strobing Phosphor-Lumen",
-      "description": "Whenever an enemy operative is shooting against, fighting against or retaliating against a friendly EXACTION SQUAD operative within 2\" of it, your opponent cannot re-roll their attack dice results of 1.",
-      "effects": ""
-    },
-    {
-      "eqId": "IMP-AES-SIS",
-      "killteamId": "IMP-AES",
-      "seq": 3,
-      "eqName": "Special-Issue Shells",
-      "description": "Up to twice per turning point, when a friendly EXACTION SQUAD operative is performing the Shoot action and you select a combat shotgun, executioner shotgun, scoped shotpistol or shotpistol, you can use this rule.\nIf you do, select one of the following weapon rules for that weapon to have until the end of that action:\n\n- Saturate.\n- Piercing 1, but only if the target has a Save stat of 3+ or better.\n- Torrent 1\", but you cannot select more than one secondary target.\n",
-      "effects": ""
-    },
-    {
-      "eqId": "IMP-AES-RMV",
-      "killteamId": "IMP-AES",
-      "seq": 4,
-      "eqName": "Reinforced Mirror-Visor",
-      "description": "You can ignore any changes to the APL stats of friendly EXACTION SQUAD operatives, and they aren't affected by enemy operatives' Shock weapon rule.",
-      "effects": ""
-    }
-  ],
-  "teamAbilities": [
-    {
-      "abilityId": "IMP-AES-TA-MAFOJU",
-      "abilityName": "Marked For Justice",
-      "description": "**STRATEGIC GAMBIT** Select one enemy operative to be your mark for the turning point.\nWhenever a friendly EXACTION SQUAD operative is shooting against, fighting against or retaliating against your mark, that friendly operative's weapons have the Punishing weapon rule.\nWhenever your mark is incapacitated, you can select a new enemy operative to be your mark for the turning point (and can continue to do so during this turning point)."
-    },
-    {
-      "abilityId": "IMP-AES-TA-RUEF",
-      "abilityName": "Ruthless Efficiency",
-      "description": "Whenever a friendly EXACTION SQUAD operative is shooting (excluding with frag or krak grenades) and you're selecting a valid target, you can use this rule.\nIf you do, having other friendly EXACTION SQUAD operatives within an enemy operative's control range doesn't prevent that enemy operative from being selected."
+      ]
     }
   ]
 }

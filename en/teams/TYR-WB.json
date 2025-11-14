@@ -10,6 +10,113 @@
     "Seek & Destroy",
     "Infiltration"
   ],
+  "ploys": [
+    {
+      "ployId": "TYR-WB-S-TDIAH",
+      "killteamId": "TYR-WB",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "The Day Is At Hand",
+      "description": "Whenever a friendly WYRMBLADE operative is activated, if its order is changed from Conceal to Engage, until the end of that activation:\n\n- Its ranged weapons have the Rending weapon rule.\n- Add 1 to the Atk stat of its melee weapons (to a maximum of 5).\n  \n**Rending:** If you retain any critical hits, retain 1 normal hit as a critical hit instead."
+    },
+    {
+      "ployId": "TYR-WB-S-OWTS",
+      "killteamId": "TYR-WB",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "One With The Shadows",
+      "description": "Whenever an operative is shooting a friendly WYRMBLADE operative that has a Conceal order, if Light terrain is intervening, that friendly operative is obscured (unless the intervening Light terrain is within 1\" of either operative)."
+    },
+    {
+      "ployId": "TYR-WB-S-DAD",
+      "killteamId": "TYR-WB",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Divert And Disappear",
+      "description": "Up to three friendly WYRMBLADE operatives can immediately perform a free Dash or Charge action in an order of your choice (choose separately for each, and for the latter, it cannot move more than 3\").\nIf a WYRMBLADE CULT AGENT operative is selected for this ploy, it counts as two operatives, and it can perform a free Fall Back action instead (it cannot move more than 3\"); if it does, subtract 1 from its APL stat until the end of its next activation."
+    },
+    {
+      "ployId": "TYR-WB-S-CF",
+      "killteamId": "TYR-WB",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Crossfire",
+      "description": "Whenever a friendly WYRMBLADE operative is shooting an operative that another friendly WYRMBLADE operative has already shot during this turning point, that first friendly operative's ranged weapons have the Accurate 1 weapon rule.  \n**Accurate 1:** You can retain 1 Attack Die as a normal success without rolling it."
+    },
+    {
+      "ployId": "TYR-WB-T-UQL",
+      "killteamId": "TYR-WB",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Unquestioning Loyalty",
+      "description": "Use this firefight ploy when a friendly WYRMBLADE CULT AGENT or WYRMBLADE LEADER operative is selected as the valid target of a Shoot action or to fight against during the Fight action.\r Select one other friendly WYRMBLADE NEOPHYTE operative (excluding LEADER) visible to and within 3\" of that first friendly operative to become the valid target or to be fought against (as appropriate) instead (even if it wouldn't normally be valid for this).\r If it's the Fight action, treat that other operative as being within the fighting operative's control range for the duration of that action. If it is the Shoot action, that other operative is only in cover or obscured if the original target was.  \n\r This ploy has no effect if it's the Shoot action and the ranged weapon has the Blast or Torrent weapon rule."
+    },
+    {
+      "ployId": "TYR-WB-T-SID",
+      "killteamId": "TYR-WB",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Slink Into Darkness",
+      "description": "Use this firefight ploy at the end of a friendly WYRMBLADE operative's activation. If that operative has an Engage order, change it to Conceal. You cannot use this ploy for each friendly operative more than once per battle."
+    },
+    {
+      "ployId": "TYR-WB-T-CS",
+      "killteamId": "TYR-WB",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Coiled Serpent",
+      "description": "Use this firefight ploy when a friendly WYRMBLADE operative is shooting or fighting, after rolling your attack dice.\nIf that friendly operative's order was changed from Conceal to Engage at the start of that activation and this is the first time it has performed either the Shoot or Fight action during that activation,\nyou can retain one of your normal successes as a critical success instead. Note this ploy cannot come into effect more than once per activation (you cannot use it during both the Shoot and Fight action in the same activation)."
+    },
+    {
+      "ployId": "TYR-WB-T-APGITM",
+      "killteamId": "TYR-WB",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "A Plan Generations In The Making",
+      "description": "Use this firefight ploy when a friendly WYRMBLADE NEOPHYTE operative is incapacitated. It can perform a free mission action before it's removed from the killzone."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "TYR-WB-BC",
+      "killteamId": "TYR-WB",
+      "seq": 1,
+      "eqName": "Blasting Charges",
+      "description": "Once per turning point, a friendly WYRMBLADE NEOPHYTE operative can use the following ranged weapon:\n \n|**Name**|**Atk**|**Hit**|**Dmg**|\n|-----|:-----:|:-----:|:-----:|\n|Blasting Charge|4|4+|3/5|\n|**Weapon Rules**|\n|Range 4\", Blast 1\", Saturate|\n",
+      "effects": "ADDWEP:Blasting Charge|R|4|4+|3/5|"
+    },
+    {
+      "eqId": "TYR-WB-CK",
+      "killteamId": "TYR-WB",
+      "seq": 2,
+      "eqName": "Cult Knives",
+      "description": "Friendly WYRMBLADE NEOPHYTE operatives have the following melee weapon:\n \n|**Name**|**Atk**|**Hit**|**Dmg**|\n|-----|:-----:|:-----:|:-----:|\n|Cult Knife|3|4+|3/4|\n",
+      "effects": "ADDWEP:Cult Knife|M|3|4+|3/4|"
+    },
+    {
+      "eqId": "TYR-WB-XT",
+      "killteamId": "TYR-WB",
+      "seq": 3,
+      "eqName": "Explosive Traps",
+      "description": "This equipment allows you to select two mines (see universal equipment).\nYou cannot also select that equipment as normal (i.e. to give you three), and friendly WYRMBLADE operatives are ignored for your mines' effects (i.e. they cannot trigger or take damage from them).\nThis takes precedence over the normal mines rules.",
+      "effects": ""
+    },
+    {
+      "eqId": "TYR-WB-SL",
+      "killteamId": "TYR-WB",
+      "seq": 4,
+      "eqName": "Spotlights",
+      "description": "Whenever a friendly WYRMBLADE operative is shooting, the target cannot be obscured if it is visible to and within 6\" of a friendly WYRMBLADE NEOPHYTE operative that is not within control range of enemy operatives.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "TYR-WB-TA-CUAM",
+      "abilityName": "Cult Ambush",
+      "description": "Whenever a friendly WYRMBLADE operative is shooting or fighting during its activation, if its order was changed from Conceal to Engage at the start of that activation, or it wasn't visible to enemy operatives at the start of that activation,\nthat friendly operative's weapons have the Ceaseless weapon rule."
+    }
+  ],
   "opTypes": [
     {
       "opTypeId": "TYR-WB-LDR",
@@ -246,8 +353,7 @@
           "abilityName": "Shadow Vector",
           "description": "Once per turning point, you can use the Slink Into Darkness or Coiled Serpent firefight ploy for 0CP if the specified friendly WYRMBLADE operative is a NEOPHYTE visible to this operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "TYR-WB-KLM",
@@ -379,8 +485,7 @@
           "abilityName": "Heroic Inspiration",
           "description": "Whenever a friendly WYRMBLADE NEOPHYTE operative visible to and within 3\" of this operative is shooting, fighting or retaliating, if this operative has incapacitated an enemy operative during this turning point, that friendly operative's weapons have the Severe weapon rule."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "TYR-WB-LOC",
@@ -471,8 +576,7 @@
           "abilityName": "Quicksilver Strike",
           "description": "Once per turning point, after an enemy operative performs an action in which it moves or is set up, you can interrupt that activation/counteraction to use this rule.\nIf you do, this operative can immediately perform a free Charge action (you can change its order to do so), but it cannot move more than 3\", and it must end that move within control range of that enemy operative.\nIf this isn't possible, the interruption is cancelled and this rule hasn't been used."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "TYR-WB-GNR",
@@ -613,8 +717,7 @@
           "abilityName": "Familiar Territory",
           "description": "When setting up a WYRMBLADE kill team before the battle, one third of your kill team can be set up in HIDING: place them to one side instead of in the killzone.\nCULT AGENT operatives cannot be set up in HIDING.  \n\nIn the Firefight phase, friendly WYRMBLADE operatives set up in HIDING are activated as normal.\nWhen you do, you can either expend that operative or have it emerge. If it emerges, set it up in the killzone in a location it can be placed as follows (it's no longer set up in HIDING):\n\n- Wholly within 6\" of your drop zone.\n- More than 6\" from enemy operatives.\n- With an order of your choice.\n\nThe operative is treated as performing the Reposition action (spend the AP accordingly), then continue its activation as normal. If the operative is a WARRIOR, ignore its Group Activation rule.\nFriendly operatives still in HIDING at the end of the second turning point are incapacitated."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "TYR-WB-HGNR",
@@ -784,8 +887,7 @@
           "abilityName": "Familiar Territory",
           "description": "When setting up a WYRMBLADE kill team before the battle, one third of your kill team can be set up in HIDING: place them to one side instead of in the killzone.\nCULT AGENT operatives cannot be set up in HIDING.  \n\nIn the Firefight phase, friendly WYRMBLADE operatives set up in HIDING are activated as normal.\nWhen you do, you can either expend that operative or have it emerge. If it emerges, set it up in the killzone in a location it can be placed as follows (it's no longer set up in HIDING):\n\n- Wholly within 6\" of your drop zone.\n- More than 6\" from enemy operatives.\n- With an order of your choice.\n\nThe operative is treated as performing the Reposition action (spend the AP accordingly), then continue its activation as normal. If the operative is a WARRIOR, ignore its Group Activation rule.\nFriendly operatives still in HIDING at the end of the second turning point are incapacitated."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "TYR-WB-IB",
@@ -881,8 +983,7 @@
           "abilityName": "Overthrow The Oppressors",
           "description": "Once per turning point, when a ready friendly WYRMBLADE NEOPHYTE operative is incapacitated while visible to and within 6\" of this operative, you can use this rule.\nIf you do, before that operative is removed from the killzone, it can either perform one free Shoot action (you can change its order to do so), or you can use the A Plan Generations in the Making firefight ploy for 0CP if that incapacitated\noperative is the specified friendly WYRMBLADE NEOPHYTE operative.  \n\nIt is then removed from the killzone as normal."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "TYR-WB-SNP",
@@ -978,8 +1079,7 @@
           "AP": 1,
           "description": "Until the end of this operative's activation, the stationary profile of its Sanctus sniper rifle has the Lethal 5+ weapon rule.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "TYR-WB-TAL",
@@ -1048,8 +1148,7 @@
           "AP": 1,
           "description": "Select one enemy operative visible to this operative. Until the end of the battle, or until this action is performed again by a friendly operative (whichever comes first),\nthat enemy operative gains one of your Soulsight tokens. Whenever this operative is shooting an enemy operative that has one of your Soulsight tokens,\nits Sanctus bio-dagger has the Brutal and Balanced weapon rules.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "TYR-WB-WAR",
@@ -1139,115 +1238,7 @@
           "abilityName": "Group Activation",
           "description": "Whenever this operative is expended, you must then activate one other ready friendly WYRMBLADE WARRIOR operative (if able) before your opponent activates.\nWhen that other operative is expended, your opponent then activates as normal (in other words, you cannot activate more than two operatives in succession with this rule)."
         }
-      ],
-      "options": []
-    }
-  ],
-  "ploys": [
-    {
-      "ployId": "TYR-WB-S-TDIAH",
-      "killteamId": "TYR-WB",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "The Day Is At Hand",
-      "description": "Whenever a friendly WYRMBLADE operative is activated, if its order is changed from Conceal to Engage, until the end of that activation:\n\n- Its ranged weapons have the Rending weapon rule.\n- Add 1 to the Atk stat of its melee weapons (to a maximum of 5).\n  \n**Rending:** If you retain any critical hits, retain 1 normal hit as a critical hit instead."
-    },
-    {
-      "ployId": "TYR-WB-S-OWTS",
-      "killteamId": "TYR-WB",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "One With The Shadows",
-      "description": "Whenever an operative is shooting a friendly WYRMBLADE operative that has a Conceal order, if Light terrain is intervening, that friendly operative is obscured (unless the intervening Light terrain is within 1\" of either operative)."
-    },
-    {
-      "ployId": "TYR-WB-S-DAD",
-      "killteamId": "TYR-WB",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Divert And Disappear",
-      "description": "Up to three friendly WYRMBLADE operatives can immediately perform a free Dash or Charge action in an order of your choice (choose separately for each, and for the latter, it cannot move more than 3\").\nIf a WYRMBLADE CULT AGENT operative is selected for this ploy, it counts as two operatives, and it can perform a free Fall Back action instead (it cannot move more than 3\"); if it does, subtract 1 from its APL stat until the end of its next activation."
-    },
-    {
-      "ployId": "TYR-WB-S-CF",
-      "killteamId": "TYR-WB",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Crossfire",
-      "description": "Whenever a friendly WYRMBLADE operative is shooting an operative that another friendly WYRMBLADE operative has already shot during this turning point, that first friendly operative's ranged weapons have the Accurate 1 weapon rule.  \n**Accurate 1:** You can retain 1 Attack Die as a normal success without rolling it."
-    },
-    {
-      "ployId": "TYR-WB-T-UQL",
-      "killteamId": "TYR-WB",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Unquestioning Loyalty",
-      "description": "Use this firefight ploy when a friendly WYRMBLADE CULT AGENT or WYRMBLADE LEADER operative is selected as the valid target of a Shoot action or to fight against during the Fight action.\r Select one other friendly WYRMBLADE NEOPHYTE operative (excluding LEADER) visible to and within 3\" of that first friendly operative to become the valid target or to be fought against (as appropriate) instead (even if it wouldn't normally be valid for this).\r If it's the Fight action, treat that other operative as being within the fighting operative's control range for the duration of that action. If it is the Shoot action, that other operative is only in cover or obscured if the original target was.  \n\r This ploy has no effect if it's the Shoot action and the ranged weapon has the Blast or Torrent weapon rule."
-    },
-    {
-      "ployId": "TYR-WB-T-SID",
-      "killteamId": "TYR-WB",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Slink Into Darkness",
-      "description": "Use this firefight ploy at the end of a friendly WYRMBLADE operative's activation. If that operative has an Engage order, change it to Conceal. You cannot use this ploy for each friendly operative more than once per battle."
-    },
-    {
-      "ployId": "TYR-WB-T-CS",
-      "killteamId": "TYR-WB",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Coiled Serpent",
-      "description": "Use this firefight ploy when a friendly WYRMBLADE operative is shooting or fighting, after rolling your attack dice.\nIf that friendly operative's order was changed from Conceal to Engage at the start of that activation and this is the first time it has performed either the Shoot or Fight action during that activation,\nyou can retain one of your normal successes as a critical success instead. Note this ploy cannot come into effect more than once per activation (you cannot use it during both the Shoot and Fight action in the same activation)."
-    },
-    {
-      "ployId": "TYR-WB-T-APGITM",
-      "killteamId": "TYR-WB",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "A Plan Generations In The Making",
-      "description": "Use this firefight ploy when a friendly WYRMBLADE NEOPHYTE operative is incapacitated. It can perform a free mission action before it's removed from the killzone."
-    }
-  ],
-  "equipments": [
-    {
-      "eqId": "TYR-WB-BC",
-      "killteamId": "TYR-WB",
-      "seq": 1,
-      "eqName": "Blasting Charges",
-      "description": "Once per turning point, a friendly WYRMBLADE NEOPHYTE operative can use the following ranged weapon:\n \n|**Name**|**Atk**|**Hit**|**Dmg**|\n|-----|:-----:|:-----:|:-----:|\n|Blasting Charge|4|4+|3/5|\n|**Weapon Rules**|\n|Range 4\", Blast 1\", Saturate|\n",
-      "effects": "ADDWEP:Blasting Charge|R|4|4+|3/5|"
-    },
-    {
-      "eqId": "TYR-WB-CK",
-      "killteamId": "TYR-WB",
-      "seq": 2,
-      "eqName": "Cult Knives",
-      "description": "Friendly WYRMBLADE NEOPHYTE operatives have the following melee weapon:\n \n|**Name**|**Atk**|**Hit**|**Dmg**|\n|-----|:-----:|:-----:|:-----:|\n|Cult Knife|3|4+|3/4|\n",
-      "effects": "ADDWEP:Cult Knife|M|3|4+|3/4|"
-    },
-    {
-      "eqId": "TYR-WB-XT",
-      "killteamId": "TYR-WB",
-      "seq": 3,
-      "eqName": "Explosive Traps",
-      "description": "This equipment allows you to select two mines (see universal equipment).\nYou cannot also select that equipment as normal (i.e. to give you three), and friendly WYRMBLADE operatives are ignored for your mines' effects (i.e. they cannot trigger or take damage from them).\nThis takes precedence over the normal mines rules.",
-      "effects": ""
-    },
-    {
-      "eqId": "TYR-WB-SL",
-      "killteamId": "TYR-WB",
-      "seq": 4,
-      "eqName": "Spotlights",
-      "description": "Whenever a friendly WYRMBLADE operative is shooting, the target cannot be obscured if it is visible to and within 6\" of a friendly WYRMBLADE NEOPHYTE operative that is not within control range of enemy operatives.",
-      "effects": ""
-    }
-  ],
-  "teamAbilities": [
-    {
-      "abilityId": "TYR-WB-TA-CUAM",
-      "abilityName": "Cult Ambush",
-      "description": "Whenever a friendly WYRMBLADE operative is shooting or fighting during its activation, if its order was changed from Conceal to Engage at the start of that activation, or it wasn't visible to enemy operatives at the start of that activation,\nthat friendly operative's weapons have the Ceaseless weapon rule."
+      ]
     }
   ]
 }

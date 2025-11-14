@@ -10,6 +10,118 @@
     "Seek & Destroy",
     "Security"
   ],
+  "ploys": [
+    {
+      "ployId": "ORK-WK-S-AMP",
+      "killteamId": "ORK-WK",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Amped Up",
+      "description": "Each friendly WRECKA KREW operative that has an Engage order can immediately reagin 1D3+1 lost Wounds (roll separately for each)."
+    },
+    {
+      "ployId": "ORK-WK-S-DES",
+      "killteamId": "ORK-WK",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Destruction",
+      "description": "Friendly WRECKA KREW operatives' ranged weapons have the Saturate weapon rule."
+    },
+    {
+      "ployId": "ORK-WK-S-TG",
+      "killteamId": "ORK-WK",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Tuff Gitz",
+      "description": "Whenever an operative is shooting a friendly WRECKA KREW operative that has an Engage order, you can re-roll one of your Defense dice."
+    },
+    {
+      "ployId": "ORK-WK-S-WAAAGH",
+      "killteamId": "ORK-WK",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "WAAAGH!",
+      "description": "Friendly WRECKA KREW operatives' melee weapons have the Balanced weapon rule."
+    },
+    {
+      "ployId": "ORK-WK-T-DEMO",
+      "killteamId": "ORK-WK",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Demolition Job",
+      "description": "Use this Firefight ploy after a friendly WRECKA KREW operative performs the Fight or Shoot action; just before incapacitated operatives are removed (if any).\nPlace one of your Demolition markers within the target's Control Range (if it is using a Blast weapon, the primary target).\nWhenever a friendly WRECKA KREW operative (excluding BOMB SQUIG) is shooting against, fighting against, or retaliating against an operative that is within 3\" of that marker,\nyou can spend a Wrecka Point for free (even if you have none).\nIn the Ready step of the next Strategy phase, remove that marker."
+    },
+    {
+      "ployId": "ORK-WK-T-JSA",
+      "killteamId": "ORK-WK",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Just A Scratch",
+      "description": "Use this Firefight ploy when an attack die inflicts Normal dmg on a friendly WRECKA KREW operative (excluding BOMB SQUIG).\nIgnore that inflicted damage."
+    },
+    {
+      "ployId": "ORK-WK-T-KB",
+      "killteamId": "ORK-WK",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Kaboom!",
+      "description": "Use this Firefight ploy when a friendly WRECKA KREW operative performs the Shoot action and a weapon with the Blast weapon rule is selected.\nUntil the end of that action, add 1\" to that weapons' Blast and it has the Severe weapon rule when shooting the primary target.\nYou cannot use this ploy and the Drill Rokkit rule (see equipment) during the same action.\nNote that Sever does not generate a Wrecka point (as it is not a 6)."
+    },
+    {
+      "ployId": "ORK-WK-T-PS",
+      "killteamId": "ORK-WK",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Proppa Scrap",
+      "description": "Use this Firefight ploy during a friendly WRECKA KREW BREAKA BOY or WRECKA KREW BOSS NOB operative's activation.\nDuring that activation, that operative can perform two Fight actions."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "ORK-WK-DR",
+      "killteamId": "ORK-WK",
+      "seq": 1,
+      "eqName": "Drill Rokkits",
+      "description": "Once per Turning Point, whenever a friendly WRECKA KREW operative is performing the Shoot action and you select a Rokkit Launcha or 'Eavy Rokkit Launcha, you can use this rule.\nIf you do, until the end of that action, that weapon loses the Blast weapon rule but has the Piercing 1 weapon rule.",
+      "effects": ""
+    },
+    {
+      "eqId": "ORK-WK-XA",
+      "killteamId": "ORK-WK",
+      "seq": 2,
+      "eqName": "Extra Armour",
+      "description": "Subtract 1\" from the Move stat of friendly WRECKA KREW operatives improve their Save stat by 1. This excludes BOMB SQUIG operatives and isn't cumulative with the Protective rule of a Portable Barricade from universal equipment.",
+      "effects": "M|-1"
+    },
+    {
+      "eqId": "ORK-WK-EO",
+      "killteamId": "ORK-WK",
+      "seq": 3,
+      "eqName": "Engine Oil",
+      "description": "Once per Turning Point, whenever a friendly WRECKA KREW operative (excluding BOMB SQUIG) is activated, you can use this rule.\nIf you do, until the end of that activation, you can ignore any changes to that operative's stats from being injured (including its weapons' stats).",
+      "effects": ""
+    },
+    {
+      "eqId": "ORK-WK-GL",
+      "killteamId": "ORK-WK",
+      "seq": 4,
+      "eqName": "Glyphs",
+      "description": "When this item of equipment is selected, also select the Waaagh! or Destruction strategy ploy.\nThe first time you would use that ploy during the battle, it costs 0CP; whenever you would use it thereafter, it costs 0CP if you have any Wrecka points.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "ORK-WK-TA-TAUP",
+      "abilityName": "Tanked Up",
+      "description": "The first time a friendly WRECKA KREW operative (excluding BOMB SQUIG) that has an Engage order performs either the Charge, Shoot or Fight action (excluding Guard) during each of its activations/counteractions, add 1 to its APL stat until the start of its next activation."
+    },
+    {
+      "abilityId": "ORK-WK-TA-WRRA",
+      "abilityName": "Wrecka Rampage",
+      "description": "Whenever a friendly WRECKA KREW operative is shooting, fighting, or retaliating, in the Roll Attack Dice step:\n\n- For each attack die result of 6 you retain, you gain one Wrecka point\n- You can spend up to 3 of your Wrecka points (unless it's a BOMB SQUIG). For each point you spend this way, retain one of your fails as a normal success instead of discarding it\n\nYou can gain and spend Wrecka points during the same action and can do so in an order of your choice, unless you started the action with 6, in which case you can only spend them.\nIf you start an action with 6 Wrecka points, you cannot gain any more during that action."
+    }
+  ],
   "opTypes": [
     {
       "opTypeId": "ORK-WK-NOB",
@@ -160,8 +272,7 @@
           "abilityName": "*Salvo",
           "description": "Select up to two valid targets. Shoot this weapon against both primary targets in an order of your choice, then against all remaining secondary targets in the same manner (roll each sequence separately).\nEach target (primary or secondary) cannot be shot more than once during the action."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "ORK-WK-BBFTR",
@@ -207,8 +318,7 @@
           "AP": 1,
           "description": "Select a terrain feature within this operative's control range.\nIf it is Equipment terrain, remove it. Otherwise, place one of your Breach markers within this operative's control range as close as possible to that terrain.\nWhenever an operative is within 1\" of that marker, it treats parts of that terrain feature that are no more than 1\" thick as Accessible terrain.  \n\nThis operative cannot perform this action while within Control Range of an enemy operative, or if a terrain feature is not within its Control Range."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "ORK-WK-BBDEMO",
@@ -277,8 +387,7 @@
           "abilityName": "Reckless Temperament",
           "description": "Normal Dmg of 4 or more inflicts 1 less damage on this operative; if this operative has an Engage order, Critical Dmg or 4 or more also inflicts 1 less damage on this operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "ORK-WK-BBKRU",
@@ -329,8 +438,7 @@
           "abilityName": "Armoured Up",
           "description": "Whenever an enemy operative is shooting this operative, or this operative is fighting or retaliating, your opponent cannot retain attack dice results of less than 6 as critical successes (e.g. as a result of the Lethal, Rending or Severe weapon rules)."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "ORK-WK-TBGNR",
@@ -423,8 +531,7 @@
           "abilityName": "Kompetitive Streak",
           "description": "Once per Shoot action, if this operative shoots an enemy operative that another friendly operative has already shot during this Turning Point, you gain 1 Wrecka point.\nDetermine this when you select a valid target, but you can include any secondary targets when doing so (e.g. from the Blast weapon rule)."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "ORK-WK-TBROK",
@@ -555,8 +662,7 @@
           "abilityName": "Shokkwave",
           "description": "Whenever an operative is withing x\" of your Pulsa marker, worsen the Hit stat of its weapons by 1 and subtract 2\" from its Move stat.\nThis is cumulative with being injured.\nX is that marker's Pulsa points. In the Ready step of each Strategy phase, subtract 1 from your Pulsa marker's points.\nIf a Pulsa marker ever has 0 points, remove it."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "ORK-WK-SQUIG",
@@ -646,120 +752,7 @@
           "abilityName": "Stoopid",
           "description": "During the Firefight phase, whenever you determine this operative's order, you cannot select Conceal.\nThis operative cannot perform any actions other than Charge, Dash, Fight, Reposition, and Shoot, or use any weapons that are not on its datacard."
         }
-      ],
-      "options": []
-    }
-  ],
-  "ploys": [
-    {
-      "ployId": "ORK-WK-S-AMP",
-      "killteamId": "ORK-WK",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Amped Up",
-      "description": "Each friendly WRECKA KREW operative that has an Engage order can immediately reagin 1D3+1 lost Wounds (roll separately for each)."
-    },
-    {
-      "ployId": "ORK-WK-S-DES",
-      "killteamId": "ORK-WK",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Destruction",
-      "description": "Friendly WRECKA KREW operatives' ranged weapons have the Saturate weapon rule."
-    },
-    {
-      "ployId": "ORK-WK-S-TG",
-      "killteamId": "ORK-WK",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Tuff Gitz",
-      "description": "Whenever an operative is shooting a friendly WRECKA KREW operative that has an Engage order, you can re-roll one of your Defense dice."
-    },
-    {
-      "ployId": "ORK-WK-S-WAAAGH",
-      "killteamId": "ORK-WK",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "WAAAGH!",
-      "description": "Friendly WRECKA KREW operatives' melee weapons have the Balanced weapon rule."
-    },
-    {
-      "ployId": "ORK-WK-T-DEMO",
-      "killteamId": "ORK-WK",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Demolition Job",
-      "description": "Use this Firefight ploy after a friendly WRECKA KREW operative performs the Fight or Shoot action; just before incapacitated operatives are removed (if any).\nPlace one of your Demolition markers within the target's Control Range (if it is using a Blast weapon, the primary target).\nWhenever a friendly WRECKA KREW operative (excluding BOMB SQUIG) is shooting against, fighting against, or retaliating against an operative that is within 3\" of that marker,\nyou can spend a Wrecka Point for free (even if you have none).\nIn the Ready step of the next Strategy phase, remove that marker."
-    },
-    {
-      "ployId": "ORK-WK-T-JSA",
-      "killteamId": "ORK-WK",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Just A Scratch",
-      "description": "Use this Firefight ploy when an attack die inflicts Normal dmg on a friendly WRECKA KREW operative (excluding BOMB SQUIG).\nIgnore that inflicted damage."
-    },
-    {
-      "ployId": "ORK-WK-T-KB",
-      "killteamId": "ORK-WK",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Kaboom!",
-      "description": "Use this Firefight ploy when a friendly WRECKA KREW operative performs the Shoot action and a weapon with the Blast weapon rule is selected.\nUntil the end of that action, add 1\" to that weapons' Blast and it has the Severe weapon rule when shooting the primary target.\nYou cannot use this ploy and the Drill Rokkit rule (see equipment) during the same action.\nNote that Sever does not generate a Wrecka point (as it is not a 6)."
-    },
-    {
-      "ployId": "ORK-WK-T-PS",
-      "killteamId": "ORK-WK",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Proppa Scrap",
-      "description": "Use this Firefight ploy during a friendly WRECKA KREW BREAKA BOY or WRECKA KREW BOSS NOB operative's activation.\nDuring that activation, that operative can perform two Fight actions."
-    }
-  ],
-  "equipments": [
-    {
-      "eqId": "ORK-WK-DR",
-      "killteamId": "ORK-WK",
-      "seq": 1,
-      "eqName": "Drill Rokkits",
-      "description": "Once per Turning Point, whenever a friendly WRECKA KREW operative is performing the Shoot action and you select a Rokkit Launcha or 'Eavy Rokkit Launcha, you can use this rule.\nIf you do, until the end of that action, that weapon loses the Blast weapon rule but has the Piercing 1 weapon rule.",
-      "effects": ""
-    },
-    {
-      "eqId": "ORK-WK-XA",
-      "killteamId": "ORK-WK",
-      "seq": 2,
-      "eqName": "Extra Armour",
-      "description": "Subtract 1\" from the Move stat of friendly WRECKA KREW operatives improve their Save stat by 1. This excludes BOMB SQUIG operatives and isn't cumulative with the Protective rule of a Portable Barricade from universal equipment.",
-      "effects": "M|-1"
-    },
-    {
-      "eqId": "ORK-WK-EO",
-      "killteamId": "ORK-WK",
-      "seq": 3,
-      "eqName": "Engine Oil",
-      "description": "Once per Turning Point, whenever a friendly WRECKA KREW operative (excluding BOMB SQUIG) is activated, you can use this rule.\nIf you do, until the end of that activation, you can ignore any changes to that operative's stats from being injured (including its weapons' stats).",
-      "effects": ""
-    },
-    {
-      "eqId": "ORK-WK-GL",
-      "killteamId": "ORK-WK",
-      "seq": 4,
-      "eqName": "Glyphs",
-      "description": "When this item of equipment is selected, also select the Waaagh! or Destruction strategy ploy.\nThe first time you would use that ploy during the battle, it costs 0CP; whenever you would use it thereafter, it costs 0CP if you have any Wrecka points.",
-      "effects": ""
-    }
-  ],
-  "teamAbilities": [
-    {
-      "abilityId": "ORK-WK-TA-TAUP",
-      "abilityName": "Tanked Up",
-      "description": "The first time a friendly WRECKA KREW operative (excluding BOMB SQUIG) that has an Engage order performs either the Charge, Shoot or Fight action (excluding Guard) during each of its activations/counteractions, add 1 to its APL stat until the start of its next activation."
-    },
-    {
-      "abilityId": "ORK-WK-TA-WRRA",
-      "abilityName": "Wrecka Rampage",
-      "description": "Whenever a friendly WRECKA KREW operative is shooting, fighting, or retaliating, in the Roll Attack Dice step:\n\n- For each attack die result of 6 you retain, you gain one Wrecka point\n- You can spend up to 3 of your Wrecka points (unless it's a BOMB SQUIG). For each point you spend this way, retain one of your fails as a normal success instead of discarding it\n\nYou can gain and spend Wrecka points during the same action and can do so in an order of your choice, unless you started the action with 6, in which case you can only spend them.\nIf you start an action with 6 Wrecka points, you cannot gain any more during that action."
+      ]
     }
   ]
 }

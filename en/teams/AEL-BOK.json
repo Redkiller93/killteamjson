@@ -12,6 +12,113 @@
     "Recon",
     "Infiltration"
   ],
+  "ploys": [
+    {
+      "ployId": "AEL-BOK-S-DOD",
+      "killteamId": "AEL-BOK",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Dance Of Death",
+      "description": "Select two friendly BLADES OF KHAINE operatives visible to and within 6\" of each other. Remove them both from the killzone and set them back up in each other's previous locations (in other words, swap their positions)."
+    },
+    {
+      "ployId": "AEL-BOK-S-FW",
+      "killteamId": "AEL-BOK",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Forewarned",
+      "description": "Whenever an operative is shooting a ready friendly BLADES OF KHAINE operative, you can re-roll any of your defence dice results of one result (e.g. results of 2)."
+    },
+    {
+      "ployId": "AEL-BOK-S-KV",
+      "killteamId": "AEL-BOK",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Khaine's Vengeance",
+      "description": "Whenever a friendly BLADES OF KHAINE operative is shooting an expended enemy operative, that friendly operative's ranged weapons have the Ceaseless weapon rule.  \n**Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)"
+    },
+    {
+      "ployId": "AEL-BOK-S-RP",
+      "killteamId": "AEL-BOK",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Ruthless Poise",
+      "description": "Whenever a friendly BLADES OF KHAINE operative is fighting a ready enemy operative, that friendly operative's melee weapons have the Ceaseless weapon rule.  \n**Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)"
+    },
+    {
+      "ployId": "AEL-BOK-T-BW",
+      "killteamId": "AEL-BOK",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Bladewind",
+      "description": "Use this firefight ploy during a friendly BLADES OF KHAINE operative's activation. During that activation, that operative can perform two Fight actions."
+    },
+    {
+      "ployId": "AEL-BOK-T-CON",
+      "killteamId": "AEL-BOK",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Contempt",
+      "description": "Use this firefight ploy when a friendly BLADES OF KHAINE operative is retaliating or an enemy operative is shooting it, after your opponent rolls their attack dice, but before re- rolls.\nUntil the end of the sequence, your opponent cannot re-roll their attack dice (if your opponent declared the use of any firefight ploys during that sequence that would allow them to re-roll,\nthat ploy is cancelled and the CP spent on it is refunded)."
+    },
+    {
+      "ployId": "AEL-BOK-T-FL",
+      "killteamId": "AEL-BOK",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Fading Light",
+      "description": "Use this firefight ploy during a friendly BLADES OF KHAINE operative's activation, before or after it performs an action. During that activation, that operative can perform the Fall Back action for 1 less AP."
+    },
+    {
+      "ployId": "AEL-BOK-T-SF",
+      "killteamId": "AEL-BOK",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Starfall",
+      "description": "Use this firefight ploy during a friendly BLADES OF KHAINE operative's activation. During that activation, that operative can perform two Shoot actions."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "AEL-BOK-ROP",
+      "killteamId": "AEL-BOK",
+      "seq": 1,
+      "eqName": "Rune Of Prophecy",
+      "description": "Once per battle, after rolling off to decide initiative, you can add D3 to, or subtract D3 from, your result.",
+      "effects": ""
+    },
+    {
+      "eqId": "AEL-BOK-ROS",
+      "killteamId": "AEL-BOK",
+      "seq": 2,
+      "eqName": "Rune Of Shielding",
+      "description": "Once per battle, when an attack dice inflicts Normal Dmg on a friendly BLADES OF KHAINE operative, you can ignore that inflicted damage.",
+      "effects": ""
+    },
+    {
+      "eqId": "AEL-BOK-ROF",
+      "killteamId": "AEL-BOK",
+      "seq": 3,
+      "eqName": "Rune Of Foresight",
+      "description": "When this equipment is revealed, roll one D3. In the Strategy phase of the turning point equal to the result, you gain 1 additional CP.",
+      "effects": ""
+    },
+    {
+      "eqId": "AEL-BOK-WBT",
+      "killteamId": "AEL-BOK",
+      "seq": 4,
+      "eqName": "Wraithbone Talisman",
+      "description": "Once per turning point, when a friendly BLADES OF KHAINE operative is shooting, fighting or retaliating, if you roll two or more fails, you can discard one of them to retain another as a normal success instead.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "AEL-BOK-TA-ASTE",
+      "abilityName": "Aspect Techniques",
+      "description": "\n- You cannot use more than one ASPECT TECHNIQUE per activation or counteraction.\n- You cannot use each ASPECT TECHNIQUE more than once per turning point.\n- If every friendly BLADES OF KHAINE operative selected for deployment has the same Aspect keyword (e.g. STRIKING SCORPION), you cannot use each ASPECT TECHNIQUE more than twice per turning point (instead of once).\n\n##### Dire Avenger Aspect Techniques\n**The Slicing Hurricane**  \n\nUse this ASPECT TECHNIQUE when a friendly DIRE AVENGER operative is performing the Reposition action.\nThat operative can perform the Shoot action during that action (it must do so in a location it can be placed, and any remaining move distance it had from that Reposition action can be used after it does so).\nYou must select its shuriken catapult, shuriken pistol or twin shuriken catapult for that Shoot action.\n  \n  \n\n**Death Of A Thousand Blades**  \n\nUse this ASPECT TECHNIQUE when a friendly DIRE AVENGER operative is performing the Shoot action and you select a shuriken catapult or twin shuriken catapult.\nUntil the end of that action, that weapon has the Torrent 2\" weapon rule, but you cannot select more than one secondary target.\n  \n  \n\n**Vigilance Of The Avenger**  \n\nUse this ASPECT TECHNIQUE when a friendly DIRE AVENGER operative is performing the Shoot action and you select a shuriken catapult or twin shuriken catapult. Until the end of that action, that weapon has the Lethal 5+ weapon rule.\n  \n  \n\n**Unstinting, Immovable**  \n\nUse this ASPECT TECHNIQUE when an operative is shooting a friendly DIRE AVENGER operative, and you've rolled two or more fails. You can discard one of them to retain the other as a normal success instead.\n  \n  \n\n**Raging Heat Of The Dying Flame**  \n\nUse this ASPECT TECHNIQUE during a friendly DIRE AVENGER operative's activation. Until the start of that operative's next activation, you can ignore any changes to its stats from being injured (including its weapons' stats)."
+    }
+  ],
   "opTypes": [
     {
       "opTypeId": "AEL-BOK-DAX",
@@ -210,8 +317,7 @@
           "abilityName": "Shimmershield",
           "description": "Whenever an operative is shooting a friendly BLADES OF KHAINE operative that's visible to and within 2\" of this operative, ignore the Piercing weapon rule. This operative only has this rule if you select the shimmershield weapon option."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "AEL-BOK-HBX",
@@ -395,8 +501,7 @@
           "abilityName": "Exarch",
           "description": "This operative can perform two Fight or two Shoot actions during its activation."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "AEL-BOK-SSX",
@@ -551,8 +656,7 @@
           "abilityName": "Exarch",
           "description": "This operative can perform two Fight or two Shoot actions during its activation."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "AEL-BOK-DAW",
@@ -616,8 +720,7 @@
           "abilityName": "Defence Tactics",
           "description": "Whenever this operative contests an objective marker or one of your mission markers, or whenever it's shooting an enemy operative that does, this operative's weapons have the Balanced weapon rule."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "AEL-BOK-HBW",
@@ -690,8 +793,7 @@
           "abilityName": "Banshee Mask",
           "description": "Whenever this operative is fighting, worsen the Hit stat of the enemy operative's melee weapons by 1. This isn't cumulative with being injured."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "AEL-BOK-SSW",
@@ -756,115 +858,7 @@
           ]
         }
       ],
-      "abilities": [],
-      "options": []
-    }
-  ],
-  "ploys": [
-    {
-      "ployId": "AEL-BOK-S-DOD",
-      "killteamId": "AEL-BOK",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Dance Of Death",
-      "description": "Select two friendly BLADES OF KHAINE operatives visible to and within 6\" of each other. Remove them both from the killzone and set them back up in each other's previous locations (in other words, swap their positions)."
-    },
-    {
-      "ployId": "AEL-BOK-S-FW",
-      "killteamId": "AEL-BOK",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Forewarned",
-      "description": "Whenever an operative is shooting a ready friendly BLADES OF KHAINE operative, you can re-roll any of your defence dice results of one result (e.g. results of 2)."
-    },
-    {
-      "ployId": "AEL-BOK-S-KV",
-      "killteamId": "AEL-BOK",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Khaine's Vengeance",
-      "description": "Whenever a friendly BLADES OF KHAINE operative is shooting an expended enemy operative, that friendly operative's ranged weapons have the Ceaseless weapon rule.  \n**Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)"
-    },
-    {
-      "ployId": "AEL-BOK-S-RP",
-      "killteamId": "AEL-BOK",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Ruthless Poise",
-      "description": "Whenever a friendly BLADES OF KHAINE operative is fighting a ready enemy operative, that friendly operative's melee weapons have the Ceaseless weapon rule.  \n**Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)"
-    },
-    {
-      "ployId": "AEL-BOK-T-BW",
-      "killteamId": "AEL-BOK",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Bladewind",
-      "description": "Use this firefight ploy during a friendly BLADES OF KHAINE operative's activation. During that activation, that operative can perform two Fight actions."
-    },
-    {
-      "ployId": "AEL-BOK-T-CON",
-      "killteamId": "AEL-BOK",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Contempt",
-      "description": "Use this firefight ploy when a friendly BLADES OF KHAINE operative is retaliating or an enemy operative is shooting it, after your opponent rolls their attack dice, but before re- rolls.\nUntil the end of the sequence, your opponent cannot re-roll their attack dice (if your opponent declared the use of any firefight ploys during that sequence that would allow them to re-roll,\nthat ploy is cancelled and the CP spent on it is refunded)."
-    },
-    {
-      "ployId": "AEL-BOK-T-FL",
-      "killteamId": "AEL-BOK",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Fading Light",
-      "description": "Use this firefight ploy during a friendly BLADES OF KHAINE operative's activation, before or after it performs an action. During that activation, that operative can perform the Fall Back action for 1 less AP."
-    },
-    {
-      "ployId": "AEL-BOK-T-SF",
-      "killteamId": "AEL-BOK",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Starfall",
-      "description": "Use this firefight ploy during a friendly BLADES OF KHAINE operative's activation. During that activation, that operative can perform two Shoot actions."
-    }
-  ],
-  "equipments": [
-    {
-      "eqId": "AEL-BOK-ROP",
-      "killteamId": "AEL-BOK",
-      "seq": 1,
-      "eqName": "Rune Of Prophecy",
-      "description": "Once per battle, after rolling off to decide initiative, you can add D3 to, or subtract D3 from, your result.",
-      "effects": ""
-    },
-    {
-      "eqId": "AEL-BOK-ROS",
-      "killteamId": "AEL-BOK",
-      "seq": 2,
-      "eqName": "Rune Of Shielding",
-      "description": "Once per battle, when an attack dice inflicts Normal Dmg on a friendly BLADES OF KHAINE operative, you can ignore that inflicted damage.",
-      "effects": ""
-    },
-    {
-      "eqId": "AEL-BOK-ROF",
-      "killteamId": "AEL-BOK",
-      "seq": 3,
-      "eqName": "Rune Of Foresight",
-      "description": "When this equipment is revealed, roll one D3. In the Strategy phase of the turning point equal to the result, you gain 1 additional CP.",
-      "effects": ""
-    },
-    {
-      "eqId": "AEL-BOK-WBT",
-      "killteamId": "AEL-BOK",
-      "seq": 4,
-      "eqName": "Wraithbone Talisman",
-      "description": "Once per turning point, when a friendly BLADES OF KHAINE operative is shooting, fighting or retaliating, if you roll two or more fails, you can discard one of them to retain another as a normal success instead.",
-      "effects": ""
-    }
-  ],
-  "teamAbilities": [
-    {
-      "abilityId": "AEL-BOK-TA-ASTE",
-      "abilityName": "Aspect Techniques",
-      "description": "\n- You cannot use more than one ASPECT TECHNIQUE per activation or counteraction.\n- You cannot use each ASPECT TECHNIQUE more than once per turning point.\n- If every friendly BLADES OF KHAINE operative selected for deployment has the same Aspect keyword (e.g. STRIKING SCORPION), you cannot use each ASPECT TECHNIQUE more than twice per turning point (instead of once).\n\n##### Dire Avenger Aspect Techniques\n**The Slicing Hurricane**  \n\nUse this ASPECT TECHNIQUE when a friendly DIRE AVENGER operative is performing the Reposition action.\nThat operative can perform the Shoot action during that action (it must do so in a location it can be placed, and any remaining move distance it had from that Reposition action can be used after it does so).\nYou must select its shuriken catapult, shuriken pistol or twin shuriken catapult for that Shoot action.\n  \n  \n\n**Death Of A Thousand Blades**  \n\nUse this ASPECT TECHNIQUE when a friendly DIRE AVENGER operative is performing the Shoot action and you select a shuriken catapult or twin shuriken catapult.\nUntil the end of that action, that weapon has the Torrent 2\" weapon rule, but you cannot select more than one secondary target.\n  \n  \n\n**Vigilance Of The Avenger**  \n\nUse this ASPECT TECHNIQUE when a friendly DIRE AVENGER operative is performing the Shoot action and you select a shuriken catapult or twin shuriken catapult. Until the end of that action, that weapon has the Lethal 5+ weapon rule.\n  \n  \n\n**Unstinting, Immovable**  \n\nUse this ASPECT TECHNIQUE when an operative is shooting a friendly DIRE AVENGER operative, and you've rolled two or more fails. You can discard one of them to retain the other as a normal success instead.\n  \n  \n\n**Raging Heat Of The Dying Flame**  \n\nUse this ASPECT TECHNIQUE during a friendly DIRE AVENGER operative's activation. Until the start of that operative's next activation, you can ignore any changes to its stats from being injured (including its weapons' stats)."
+      "abilities": []
     }
   ]
 }

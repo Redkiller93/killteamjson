@@ -10,6 +10,138 @@
     "Infiltration",
     "Recon"
   ],
+  "ploys": [
+    {
+      "ployId": "IMP-PHO-S-ATSKNF",
+      "killteamId": "IMP-PHO",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "And They Shall Know No Fear",
+      "description": "You can ignore any changes to the stats of friendly PHOBOS STRIKE TEAM operatives from being injured (including their weapons' stats)."
+    },
+    {
+      "ployId": "IMP-PHO-S-DS",
+      "killteamId": "IMP-PHO",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Deadly Shots",
+      "description": "Whenever a friendly PHOBOS STRIKE TEAM operative is shooting during an activation in which it has not performed the Charge, Fall Back or Reposition action, or against an operative that is not in cover and is more than 6\" from it,\r that friendly operative's ranged weapons have the Balanced weapon rule.  \r \r Note that for the first requirement, that operative is not restricted from performing those actions after shooting.  \r **Balanced:** Can re-roll one Attack die."
+    },
+    {
+      "ployId": "IMP-PHO-S-GWF",
+      "killteamId": "IMP-PHO",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Guerrila Warfare",
+      "description": "Friendly PHOBOS STRIKE TEAM operatives can perform the following unique action:  \n\r **Guerrila Warfare (1 AP):**\r Change this operative's order.  \n\r An operative cannot perform this action while within control range of an enemy operative."
+    },
+    {
+      "ployId": "IMP-PHO-S-LA",
+      "killteamId": "IMP-PHO",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Lethal Assaults",
+      "description": "Whenever a friendly PHOBOS STRIKE TEAM operative is fighting, its melee weapons have the Balanced weapon rule.\nIf that friendly operative is doing so during an activation in which it performed the Charge action, its melee weapons also have the Lethal 5+ weapon rule.  \n**Balanced:** Can re-roll one Attack die."
+    },
+    {
+      "ployId": "IMP-PHO-T-CS",
+      "killteamId": "IMP-PHO",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Critical Shot",
+      "description": "Use this firefight ploy when you resolve a critical success for a friendly PHOBOS STRIKE TEAM operative that is shooting with a bolt weapon. Inflict D3 additional damage."
+    },
+    {
+      "ployId": "IMP-PHO-T-PA",
+      "killteamId": "IMP-PHO",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Patient Ambush",
+      "description": "Use this firefight ploy when it is your turn to activate a friendly operative. You can skip that activation."
+    },
+    {
+      "ployId": "IMP-PHO-T-SA",
+      "killteamId": "IMP-PHO",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Stealth Assault",
+      "description": "Use this firefight ploy when a friendly PHOBOS STRIKE TEAM operative that has a Conceal order is activated, is given an Engage order, performs the Charge and then the Fight action,\nand you're resolving your first attack dice from this activation.\nAfter doing so, you can immediately resolve another of your attack dice (before your opponent). The operative cannot have performed any other actions during this activation (but can do so after resolving this ploy)."
+    },
+    {
+      "ployId": "IMP-PHO-T-TP",
+      "killteamId": "IMP-PHO",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Transhuman Physiology",
+      "description": "Use this firefight ploy when an operative is shooting a friendly PHOBOS STRIKE TEAM operative, in the Roll Defence Dice step.\nYou can retain one of your normal successes as a critical success instead."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "IMP-PHO-PS",
+      "killteamId": "IMP-PHO",
+      "seq": 1,
+      "eqName": "Purity Seals",
+      "description": "Once per turning point, when a friendly PHOBOS STRIKE TEAM operative is shooting, fighting or retaliating, if you roll two or more fails, you can discard one of them to retain another as a normal success instead.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-PHO-AUG",
+      "killteamId": "IMP-PHO",
+      "seq": 2,
+      "eqName": "Additional Utility Grenades",
+      "description": "This equipment allows you to select four utility grenades from the utility grenades equipment (see universal equipment).  \n\nYou cannot also select that equipment as normal (i.e. to give you six).",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-PHO-CB",
+      "killteamId": "IMP-PHO",
+      "seq": 3,
+      "eqName": "Combat Blades",
+      "description": "Friendly PHOBOS STRIKE TEAM operatives have the following melee weapon:\n \n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Combat Blade|5|3+|3/4|",
+      "effects": "ADDWEP:Combat Blade|M|5|3+|3/4|"
+    },
+    {
+      "eqId": "IMP-PHO-SIA",
+      "killteamId": "IMP-PHO",
+      "seq": 4,
+      "eqName": "Special Issue Ammunition",
+      "description": "Once per turning point, when a friendly PHOBOS STRIKE TEAM operative is performing the Shoot action and you select a bolt carbine, marksman bolt carbine or occulus bolt carbine,\nyou can use this rule. If you do, until the end of the turning point, that weapon has the Piercing 1 weapon rule.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "IMP-PHO-TA-AS",
+      "abilityName": "Astartes",
+      "description": "During each friendly PHOBOS STRIKE TEAM operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt weapon must be selected for at least one of them.\nA bolt weapon is any ranged weapon that includes 'bolt' in its name, e.g. marksman bolt carbine, special issue bolt pistol, etc.  \n\nEach friendly PHOBOS STRIKE TEAM operative can counteract regardless of its order."
+    },
+    {
+      "abilityId": "IMP-PHO-TA-CUBA",
+      "abilityName": "Custom - Balanced",
+      "description": "Custom Bolt Carbine gains the Balanced weapon rule."
+    },
+    {
+      "abilityId": "IMP-PHO-TA-CULE",
+      "abilityName": "Custom - Lethal 5+",
+      "description": "Custom Bolt Carbine gains the Lethal 5+ weapon rule."
+    },
+    {
+      "abilityId": "IMP-PHO-TA-CUPICR",
+      "abilityName": "Custom - Piercing Crits 1",
+      "description": "Custom Bolt Carbine gains the Piercing Crits 1 weapon rule."
+    },
+    {
+      "abilityId": "IMP-PHO-TA-CURE",
+      "abilityName": "Custom - Rending",
+      "description": "Custom Bolt Carbine gains the Rending weapon rule."
+    },
+    {
+      "abilityId": "IMP-PHO-TA-CUSA",
+      "abilityName": "Custom - Saturate",
+      "description": "Custom Bolt Carbine gains the Saturate weapon rule."
+    }
+  ],
   "opTypes": [
     {
       "opTypeId": "IMP-PHO-INFSGT",
@@ -80,8 +212,7 @@
           "abilityName": "Tactical Advantage",
           "description": "You can do each of the following once per battle:\n\n- When rolling-off to decide initiative, if this operative is in the killzone, you can re-roll your dice.\n- You can use a firefight ploy for 0CP if this is the specified PHOBOS STRIKE TEAM operative (including Command Re-roll if the attack or defence dice was rolled for this operative),\nor the Patient Ambush firefight ploy for 0CP if this operative is ready and not within control range of enemy operatives.\n"
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-PHO-INFCOM",
@@ -158,8 +289,7 @@
           "abilityName": "Strategic Oversight",
           "description": "In the Ready step of each Strategy phase, when you gain CP, if this operative is in the killzone and not within control range of enemy operatives, you can use this rule.\nIf you do, roll one D6: on a 4+, you gain one additional CP."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-PHO-INFHEL",
@@ -237,8 +367,7 @@
           "AP": 1,
           "description": "Select one friendly PHOBOS STRIKE TEAM operative within this operative's control range to regain up to 1D3+3 lost wounds.\nIt cannot be an operative that the Medic! rule was used on during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-PHO-INFSAB",
@@ -353,8 +482,7 @@
           "abilityName": "Plant Explosives",
           "description": "This operative is carrying your Explosives marker.\nIt can perform the Pick Up Marker action on that marker, and whenever it performs the Place Marker action on that marker, it can immediately perform a free Dash action."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-PHO-INFVET",
@@ -417,48 +545,6 @@
           "opTypeId": "IMP-PHO-INFVET",
           "abilityName": "Omni-Scrambler",
           "description": "**STRATEGIC GAMBIT** if a friendly INFILTRATOR operative is in the killzone.\nSelect one enemy operative visible to a friendly INFILTRATOR operative, or within 6\" of a friendly VOXBREAKER operative.\nIn the following Firefight phase, that enemy operative cannot be activated or perform actions until one of the following is true:\n\n- Your opponent has activated a number of enemy operatives equal to the number of friendly INFILTRATOR operatives in the killzone when this STRATEGIC GAMBIT was used.\n- It is the last enemy operative to be activated.\n"
-        }
-      ],
-      "options": [
-        {
-          "optionId": "IMP-PHO-INFVET-CUST-BAL",
-          "opTypeId": "IMP-PHO-INFVET",
-          "seq": 10,
-          "optionName": "Custom - Balanced",
-          "description": "Custom Bolt Carbine gains the Balanced weapon rule.",
-          "effects": "wepid:CBC|SR:Balanced"
-        },
-        {
-          "optionId": "IMP-PHO-INFVET-CUST-L5",
-          "opTypeId": "IMP-PHO-INFVET",
-          "seq": 11,
-          "optionName": "Custom - Lethal 5+",
-          "description": "Custom Bolt Carbine gains the Lethal 5+ weapon rule.",
-          "effects": "wepid:CBC|SR:Lethal 5+"
-        },
-        {
-          "optionId": "IMP-PHO-INFVET-CUST-PC1",
-          "opTypeId": "IMP-PHO-INFVET",
-          "seq": 12,
-          "optionName": "Custom - Piercing Crits 1",
-          "description": "Custom Bolt Carbine gains the Piercing Crits 1 weapon rule.",
-          "effects": "wepid:CBC|SR:Piercing Crit 1"
-        },
-        {
-          "optionId": "IMP-PHO-INFVET-CUST-REND",
-          "opTypeId": "IMP-PHO-INFVET",
-          "seq": 13,
-          "optionName": "Custom - Rending",
-          "description": "Custom Bolt Carbine gains the Rending weapon rule.",
-          "effects": "wepid:CBC|SR:Rending"
-        },
-        {
-          "optionId": "IMP-PHO-INFVET-CUST-SAT",
-          "opTypeId": "IMP-PHO-INFVET",
-          "seq": 14,
-          "optionName": "Custom - Saturate",
-          "description": "Custom Bolt Carbine gains the Saturate weapon rule.",
-          "effects": "wepid:CBC|SR:Saturate"
         }
       ]
     },
@@ -538,8 +624,7 @@
           "AP": 1,
           "description": "Until the start of this operative's next activation or until it is incapacitated (whichever comes first),\nwhenever a friendly PHOBOS STRIKE TEAM operative is shooting an enemy operative within 8\" of this operative,\nthat enemy operative cannot be obscured; if that friendly operative is an INCURSOR, its ranged weapons also have the Seek Light weapon rule.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-PHO-INFWAR",
@@ -610,8 +695,7 @@
           "abilityName": "Vanguard",
           "description": "Once per turning point, one friendly PHOBOS STRIKE TEAM operative with this rule can perform the Pick Up Marker or a mission action for 1 less AP."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-PHO-INCSGT",
@@ -681,8 +765,7 @@
           "abilityName": "Tactical Advantage",
           "description": "You can do each of the following once per battle:\n\n- When rolling-off to decide initiative, if this operative is in the killzone, you can re-roll your dice.\n- You can use a firefight ploy for 0CP if this is the specified PHOBOS STRIKE TEAM operative (including Command Re-roll if the attack or defence dice was rolled for this operative),\nor the Patient Ambush firefight ploy for 0CP if this operative is ready and not within control range of enemy operatives.\n"
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-PHO-INCMARK",
@@ -757,8 +840,7 @@
           "abilityName": "Track Target",
           "description": "This operative can perform the Guard action (see close quarters rules, Kill Team Core Book) in any killzone.\nIt can perform the Guard action while it has a Conceal order, but when you perform the free Shoot or Fight action during the interruption, you must change its order to Engage."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-PHO-INCML",
@@ -834,8 +916,7 @@
           "abilityName": "Proximity Mine",
           "description": "The first time your Haywire Mine marker is within another operative's control range,\nremove that marker, subtract 1 from that operative's APL stat until the end of its next activation, and inflict 2D3+3 damage on it;\nif it is not incapacitated, end its action (if any), even if that action's effects aren't fulfilled.\nIf it cannot be placed, move it the minimum amount to do so.\nNote that this operative is ignored for these effects (i.e. it cannot set it off or take damage from that marker)."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-PHO-INCWAR",
@@ -905,8 +986,7 @@
           "abilityName": "Vanguard",
           "description": "Once per turning point, one friendly PHOBOS STRIKE TEAM operative with this rule can perform the Pick Up Marker or a mission action for 1 less AP."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-PHO-RVRSGT",
@@ -1030,8 +1110,7 @@
           "abilityName": "Terror",
           "description": "Whenever an enemy operative is within 3\" of friendly REIVER operatives, your opponent must spend 1 additional AP for that enemy operative to perform the Pick Up Marker and mission actions.  \n\nWhenever determining control of a marker, treat the total APL stat of enemy operatives that contest it as 1 lower if at least one of those enemy operatives is within 3\" of friendly REIVER operatives.\nNote this is not a change to the APL stat, so any changes are cumulative with this."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-PHO-RVRWAR",
@@ -1155,115 +1234,7 @@
           "abilityName": "Vanguard",
           "description": "Once per turning point, one friendly PHOBOS STRIKE TEAM operative with this rule can perform the Pick Up Marker or a mission action for 1 less AP."
         }
-      ],
-      "options": []
-    }
-  ],
-  "ploys": [
-    {
-      "ployId": "IMP-PHO-S-ATSKNF",
-      "killteamId": "IMP-PHO",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "And They Shall Know No Fear",
-      "description": "You can ignore any changes to the stats of friendly PHOBOS STRIKE TEAM operatives from being injured (including their weapons' stats)."
-    },
-    {
-      "ployId": "IMP-PHO-S-DS",
-      "killteamId": "IMP-PHO",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Deadly Shots",
-      "description": "Whenever a friendly PHOBOS STRIKE TEAM operative is shooting during an activation in which it has not performed the Charge, Fall Back or Reposition action, or against an operative that is not in cover and is more than 6\" from it,\r that friendly operative's ranged weapons have the Balanced weapon rule.  \r \r Note that for the first requirement, that operative is not restricted from performing those actions after shooting.  \r **Balanced:** Can re-roll one Attack die."
-    },
-    {
-      "ployId": "IMP-PHO-S-GWF",
-      "killteamId": "IMP-PHO",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Guerrila Warfare",
-      "description": "Friendly PHOBOS STRIKE TEAM operatives can perform the following unique action:  \n\r **Guerrila Warfare (1 AP):**\r Change this operative's order.  \n\r An operative cannot perform this action while within control range of an enemy operative."
-    },
-    {
-      "ployId": "IMP-PHO-S-LA",
-      "killteamId": "IMP-PHO",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Lethal Assaults",
-      "description": "Whenever a friendly PHOBOS STRIKE TEAM operative is fighting, its melee weapons have the Balanced weapon rule.\nIf that friendly operative is doing so during an activation in which it performed the Charge action, its melee weapons also have the Lethal 5+ weapon rule.  \n**Balanced:** Can re-roll one Attack die."
-    },
-    {
-      "ployId": "IMP-PHO-T-CS",
-      "killteamId": "IMP-PHO",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Critical Shot",
-      "description": "Use this firefight ploy when you resolve a critical success for a friendly PHOBOS STRIKE TEAM operative that is shooting with a bolt weapon. Inflict D3 additional damage."
-    },
-    {
-      "ployId": "IMP-PHO-T-PA",
-      "killteamId": "IMP-PHO",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Patient Ambush",
-      "description": "Use this firefight ploy when it is your turn to activate a friendly operative. You can skip that activation."
-    },
-    {
-      "ployId": "IMP-PHO-T-SA",
-      "killteamId": "IMP-PHO",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Stealth Assault",
-      "description": "Use this firefight ploy when a friendly PHOBOS STRIKE TEAM operative that has a Conceal order is activated, is given an Engage order, performs the Charge and then the Fight action,\nand you're resolving your first attack dice from this activation.\nAfter doing so, you can immediately resolve another of your attack dice (before your opponent). The operative cannot have performed any other actions during this activation (but can do so after resolving this ploy)."
-    },
-    {
-      "ployId": "IMP-PHO-T-TP",
-      "killteamId": "IMP-PHO",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Transhuman Physiology",
-      "description": "Use this firefight ploy when an operative is shooting a friendly PHOBOS STRIKE TEAM operative, in the Roll Defence Dice step.\nYou can retain one of your normal successes as a critical success instead."
-    }
-  ],
-  "equipments": [
-    {
-      "eqId": "IMP-PHO-PS",
-      "killteamId": "IMP-PHO",
-      "seq": 1,
-      "eqName": "Purity Seals",
-      "description": "Once per turning point, when a friendly PHOBOS STRIKE TEAM operative is shooting, fighting or retaliating, if you roll two or more fails, you can discard one of them to retain another as a normal success instead.",
-      "effects": ""
-    },
-    {
-      "eqId": "IMP-PHO-AUG",
-      "killteamId": "IMP-PHO",
-      "seq": 2,
-      "eqName": "Additional Utility Grenades",
-      "description": "This equipment allows you to select four utility grenades from the utility grenades equipment (see universal equipment).  \n\nYou cannot also select that equipment as normal (i.e. to give you six).",
-      "effects": ""
-    },
-    {
-      "eqId": "IMP-PHO-CB",
-      "killteamId": "IMP-PHO",
-      "seq": 3,
-      "eqName": "Combat Blades",
-      "description": "Friendly PHOBOS STRIKE TEAM operatives have the following melee weapon:\n \n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Combat Blade|5|3+|3/4|",
-      "effects": "ADDWEP:Combat Blade|M|5|3+|3/4|"
-    },
-    {
-      "eqId": "IMP-PHO-SIA",
-      "killteamId": "IMP-PHO",
-      "seq": 4,
-      "eqName": "Special Issue Ammunition",
-      "description": "Once per turning point, when a friendly PHOBOS STRIKE TEAM operative is performing the Shoot action and you select a bolt carbine, marksman bolt carbine or occulus bolt carbine,\nyou can use this rule. If you do, until the end of the turning point, that weapon has the Piercing 1 weapon rule.",
-      "effects": ""
-    }
-  ],
-  "teamAbilities": [
-    {
-      "abilityId": "IMP-PHO-TA-AS",
-      "abilityName": "Astartes",
-      "description": "During each friendly PHOBOS STRIKE TEAM operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt weapon must be selected for at least one of them.\nA bolt weapon is any ranged weapon that includes 'bolt' in its name, e.g. marksman bolt carbine, special issue bolt pistol, etc.  \n\nEach friendly PHOBOS STRIKE TEAM operative can counteract regardless of its order."
+      ]
     }
   ]
 }

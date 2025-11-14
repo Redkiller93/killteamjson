@@ -10,6 +10,113 @@
     "Security",
     "Seek and Destroy"
   ],
+  "ploys": [
+    {
+      "ployId": "IMP-KAS-S-CS",
+      "killteamId": "IMP-KAS",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Clearance Sweep",
+      "description": "Place your Clearance Sweep marker in the killzone.\r Whenever a friendly KASRKIN operative within 5\" horizontally of that marker is shooting an operative also within 5\" horizontally of that marker,\r that friendly operative's weapons have the Ceaseless weapon rule. In the Ready step of the next Strategy phase, remove that marker."
+    },
+    {
+      "ployId": "IMP-KAS-S-EFC",
+      "killteamId": "IMP-KAS",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Engage From Cover",
+      "description": "Whenever an operative is shooting a friendly KASRKIN operative that's in cover, you can re-roll one of your defence dice."
+    },
+    {
+      "ployId": "IMP-KAS-S-EP",
+      "killteamId": "IMP-KAS",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Elimination Pattern",
+      "description": "Whenever a friendly KASRKIN operative is shooting with a hot-shot weapon against a target that's is either not in cover or is being scanned (see RECON-TROOPER), that weapon has the Piercing Crits 1 weapon rule,\r or Piercing 1 instead if it's a hot-shot volley gun.  \n\r **Piercing 1:** The defender collects 1 less Defence die.  \n\r **Piercing Crits 1:** If you retain any critical successes, the defender collects 1 less Defence die."
+    },
+    {
+      "ployId": "IMP-KAS-S-REL",
+      "killteamId": "IMP-KAS",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Relocate",
+      "description": "Select one friendly KASRKIN operative that is more than 3\" from enemy operatives.\nThat operative, and each other friendly KASRKIN operative that is both within 3\" of that operative and more than 3\" from enemy operatives,\ncan immediately perform a free Dash action in an order of your choice. You cannot use this ploy during the first turning point."
+    },
+    {
+      "ployId": "IMP-KAS-T-CR",
+      "killteamId": "IMP-KAS",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Cover Retreat",
+      "description": "Use this firefight ploy when a friendly KASRKIN operative performs the Fall Back action while visible to and within 6\" of another friendly KASRKIN operative that is not within control range of enemy operatives.\nAfter that friendly operative has finished moving, but before that Fall Back action ends, that other friendly operative can immediately perform a free Shoot action (you can change its order to Engage to do so)."
+    },
+    {
+      "ployId": "IMP-KAS-T-GNG",
+      "killteamId": "IMP-KAS",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Give No Ground",
+      "description": "Use this firefight ploy during a friendly KASRKIN operative's activation, or at the end of the Firefight phase.\nSelect one of your mission markers or an objective marker.\nUntil the end of that activation or until the start of the next turning point respectively, if the total APL of friendly KASRKIN operatives that contest that marker is 2,\nand the total APL of enemy operatives that contest it is the same, friendly KASRKIN operatives control that marker."
+    },
+    {
+      "ployId": "IMP-KAS-T-NT",
+      "killteamId": "IMP-KAS",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Neutralise Target",
+      "description": "Use this firefight ploy when a friendly KASRKIN operative is shooting, after rolling your attack dice if it's shooting an operative that's either not in cover or is being scanned (see RECON-TROOPER). You can re-roll any of your attack dice."
+    },
+    {
+      "ployId": "IMP-KAS-T-STI",
+      "killteamId": "IMP-KAS",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Seize The Initiative",
+      "description": "Use this firefight ploy at the start of the Firefight phase. One friendly KASRKIN operative can immediately perform a 1AP action for free, but it cannot move during that action. You cannot use this ploy if you're the player with initiative."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "IMP-KAS-FG",
+      "killteamId": "IMP-KAS",
+      "seq": 1,
+      "eqName": "Foregrip",
+      "description": "Whenever a friendly KASRKIN operative is shooting an operative within 3\" of it, ranged weapons on its datacard\n(excluding weapons that include 'pistol' in their name, e.g. hot-shot laspistol, all profiles of a plasma pistol, etc.) have the Accurate 1 weapon rule.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-KAS-LRS",
+      "killteamId": "IMP-KAS",
+      "seq": 2,
+      "eqName": "Long-Range Scope",
+      "description": "Whenever a friendly KASRKIN operative is shooting an operative more than 6\" from it, that friendly operative's hot-shot weapons have the Saturate weapon rule.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-KAS-ROC",
+      "killteamId": "IMP-KAS",
+      "seq": 3,
+      "eqName": "Relics Of Cadia",
+      "description": "Once per turning point, when a friendly KASRKIN operative is shooting, fighting or retaliating, if you roll two or more fails, you can discard one of them to retain another as a normal success instead.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-KAS-CD",
+      "killteamId": "IMP-KAS",
+      "seq": 4,
+      "eqName": "Combat Daggers",
+      "description": "Friendly KASRKIN operatives have the following melee weapon:\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Combat Dagger|3|4+|3/4|\n",
+      "effects": "ADDWEP:Combat Dagger|M|3|4+|3/4|"
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "IMP-KAS-TA-SKATAR",
+      "abilityName": "Skill At Arms",
+      "description": "**STRATEGIC GAMBIT** Select a SKILL AT ARMS for friendly KASRKIN operatives to have until the Ready step of the next Strategy phase.\n\n- **Light 'Em Up**  \n Whenever a friendly KASRKIN operative is shooting , its ranged weapons have the Severe weapon rule if any of the following are true for the target:\n\n- It's ready.\n- It's not in cover.\n- It's being scanned (see RECON-TROOPER).\n\n\n- **Strike Fast**  \n Whenever a friendly KASRKIN operative is performing the Reposition action, add 1\" to its Move stat.\n- **Ice In Your Veins**  \n Whenever a friendly KASRKIN operative is fighting or retaliating, or an operative is shooting it, the first time an attack die inflicts Normal Dmg of 3 or more on this operative during that sequence, that dice inflicts 1 less damage on it.\n- **For Cadia!**  \n Add 1 to the Atk stat of friendly KASRKIN operatives' melee weapons (to a maximum of 4). Whenever a friendly KASRKIN operative is fighting, the first time you strike during that sequence, inflict 1 additional damage.\n"
+    }
+  ],
   "opTypes": [
     {
       "opTypeId": "IMP-KAS-SGT",
@@ -215,8 +322,7 @@
           "AP": 0,
           "description": "Select one friendly KASRKIN operative, then select one SKILL AT ARMS for that operative to have until the Ready step of the next Strategy phase. This can be in addition to any SKILL AT ARMS it already has, but they cannot be the same.  \n\nAlternatively, instead of resolving the above effect, if your Clearance Sweep marker is in the killzone, you can remove it and place it again.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-KAS-MDC",
@@ -283,8 +389,7 @@
           "AP": 0,
           "description": "Select one friendly KASRKIN operative within this operative's control range to regain up to 2D3 lost wounds.\nIt cannot be an operative that the Medic! rule was used on during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-KAS-DT",
@@ -355,8 +460,7 @@
           "abilityName": "Proximity Mine",
           "description": "The first time your Melta Mine marker is within another operative's control range, remove that marker and inflict 2D6+3 damage on that operative;\nif it is not incapacitated, end its action (if any), even if that action's effects are not fulfilled.\nIf it cannot be placed, move it the minimum amount to do so.\nNote that this operative is ignored for these effects (i.e. it cannot set it off or take damage from that marker)."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-KAS-GNR",
@@ -583,8 +687,7 @@
           ]
         }
       ],
-      "abilities": [],
-      "options": []
+      "abilities": []
     },
     {
       "opTypeId": "IMP-KAS-RT",
@@ -651,8 +754,7 @@
           "AP": 1,
           "description": "Until the start of this operative's next activation or until it is incapacitated (whichever comes first),\nwhenever an enemy operative is within 8\" of this operative, that enemy operative is being scanned. Whenever a friendly KASRKIN operative is shooting an enemy operative that's being scanned, that enemy operative cannot be obscured.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-KAS-SS",
@@ -754,8 +856,7 @@
           "abilityName": "Camo Cloak",
           "description": "Whenever an operative is shooting this operative:\n\n- Ignore the Saturate weapon rule.\n- If you can retain any cover saves, you can retain one additional cover save, or you can retain one cover save as a critical success instead.]\nThis is not cumulative with improved cover saves from Vantage terrain.\n"
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-KAS-TRP",
@@ -815,8 +916,7 @@
           "abilityName": "Adaptive Equipment",
           "description": "You can do each of the following once per turning point:\n\n- One friendly KASRKIN TROOPER operative can perform the Smoke Grenade action.\n- One friendly KASRKIN TROOPER operative can perform the Stun Grenade action.\n\nThe rules for these actions are found in universal equipment. Performing these actions using this rule does not count towards their action limits (i.e. if you also select those grenades from equipment)."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "IMP-KAS-VOX",
@@ -877,115 +977,7 @@
           "AP": 1,
           "description": "Select one other friendly KASRKIN operative. Until the end of that operative's next activation, add 1 to its APL stat (to a maximum of 3 after all APL stat changes have been totalled).\n\n\nThis operative can perform this action twice during its activation, but cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
-    }
-  ],
-  "ploys": [
-    {
-      "ployId": "IMP-KAS-S-CS",
-      "killteamId": "IMP-KAS",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Clearance Sweep",
-      "description": "Place your Clearance Sweep marker in the killzone.\r Whenever a friendly KASRKIN operative within 5\" horizontally of that marker is shooting an operative also within 5\" horizontally of that marker,\r that friendly operative's weapons have the Ceaseless weapon rule. In the Ready step of the next Strategy phase, remove that marker."
-    },
-    {
-      "ployId": "IMP-KAS-S-EFC",
-      "killteamId": "IMP-KAS",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Engage From Cover",
-      "description": "Whenever an operative is shooting a friendly KASRKIN operative that's in cover, you can re-roll one of your defence dice."
-    },
-    {
-      "ployId": "IMP-KAS-S-EP",
-      "killteamId": "IMP-KAS",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Elimination Pattern",
-      "description": "Whenever a friendly KASRKIN operative is shooting with a hot-shot weapon against a target that's is either not in cover or is being scanned (see RECON-TROOPER), that weapon has the Piercing Crits 1 weapon rule,\r or Piercing 1 instead if it's a hot-shot volley gun.  \n\r **Piercing 1:** The defender collects 1 less Defence die.  \n\r **Piercing Crits 1:** If you retain any critical successes, the defender collects 1 less Defence die."
-    },
-    {
-      "ployId": "IMP-KAS-S-REL",
-      "killteamId": "IMP-KAS",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Relocate",
-      "description": "Select one friendly KASRKIN operative that is more than 3\" from enemy operatives.\nThat operative, and each other friendly KASRKIN operative that is both within 3\" of that operative and more than 3\" from enemy operatives,\ncan immediately perform a free Dash action in an order of your choice. You cannot use this ploy during the first turning point."
-    },
-    {
-      "ployId": "IMP-KAS-T-CR",
-      "killteamId": "IMP-KAS",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Cover Retreat",
-      "description": "Use this firefight ploy when a friendly KASRKIN operative performs the Fall Back action while visible to and within 6\" of another friendly KASRKIN operative that is not within control range of enemy operatives.\nAfter that friendly operative has finished moving, but before that Fall Back action ends, that other friendly operative can immediately perform a free Shoot action (you can change its order to Engage to do so)."
-    },
-    {
-      "ployId": "IMP-KAS-T-GNG",
-      "killteamId": "IMP-KAS",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Give No Ground",
-      "description": "Use this firefight ploy during a friendly KASRKIN operative's activation, or at the end of the Firefight phase.\nSelect one of your mission markers or an objective marker.\nUntil the end of that activation or until the start of the next turning point respectively, if the total APL of friendly KASRKIN operatives that contest that marker is 2,\nand the total APL of enemy operatives that contest it is the same, friendly KASRKIN operatives control that marker."
-    },
-    {
-      "ployId": "IMP-KAS-T-NT",
-      "killteamId": "IMP-KAS",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Neutralise Target",
-      "description": "Use this firefight ploy when a friendly KASRKIN operative is shooting, after rolling your attack dice if it's shooting an operative that's either not in cover or is being scanned (see RECON-TROOPER). You can re-roll any of your attack dice."
-    },
-    {
-      "ployId": "IMP-KAS-T-STI",
-      "killteamId": "IMP-KAS",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Seize The Initiative",
-      "description": "Use this firefight ploy at the start of the Firefight phase. One friendly KASRKIN operative can immediately perform a 1AP action for free, but it cannot move during that action. You cannot use this ploy if you're the player with initiative."
-    }
-  ],
-  "equipments": [
-    {
-      "eqId": "IMP-KAS-FG",
-      "killteamId": "IMP-KAS",
-      "seq": 1,
-      "eqName": "Foregrip",
-      "description": "Whenever a friendly KASRKIN operative is shooting an operative within 3\" of it, ranged weapons on its datacard\n(excluding weapons that include 'pistol' in their name, e.g. hot-shot laspistol, all profiles of a plasma pistol, etc.) have the Accurate 1 weapon rule.",
-      "effects": ""
-    },
-    {
-      "eqId": "IMP-KAS-LRS",
-      "killteamId": "IMP-KAS",
-      "seq": 2,
-      "eqName": "Long-Range Scope",
-      "description": "Whenever a friendly KASRKIN operative is shooting an operative more than 6\" from it, that friendly operative's hot-shot weapons have the Saturate weapon rule.",
-      "effects": ""
-    },
-    {
-      "eqId": "IMP-KAS-ROC",
-      "killteamId": "IMP-KAS",
-      "seq": 3,
-      "eqName": "Relics Of Cadia",
-      "description": "Once per turning point, when a friendly KASRKIN operative is shooting, fighting or retaliating, if you roll two or more fails, you can discard one of them to retain another as a normal success instead.",
-      "effects": ""
-    },
-    {
-      "eqId": "IMP-KAS-CD",
-      "killteamId": "IMP-KAS",
-      "seq": 4,
-      "eqName": "Combat Daggers",
-      "description": "Friendly KASRKIN operatives have the following melee weapon:\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Combat Dagger|3|4+|3/4|\n",
-      "effects": "ADDWEP:Combat Dagger|M|3|4+|3/4|"
-    }
-  ],
-  "teamAbilities": [
-    {
-      "abilityId": "IMP-KAS-TA-SKATAR",
-      "abilityName": "Skill At Arms",
-      "description": "**STRATEGIC GAMBIT** Select a SKILL AT ARMS for friendly KASRKIN operatives to have until the Ready step of the next Strategy phase.\n\n- **Light 'Em Up**  \n Whenever a friendly KASRKIN operative is shooting , its ranged weapons have the Severe weapon rule if any of the following are true for the target:\n\n- It's ready.\n- It's not in cover.\n- It's being scanned (see RECON-TROOPER).\n\n\n- **Strike Fast**  \n Whenever a friendly KASRKIN operative is performing the Reposition action, add 1\" to its Move stat.\n- **Ice In Your Veins**  \n Whenever a friendly KASRKIN operative is fighting or retaliating, or an operative is shooting it, the first time an attack die inflicts Normal Dmg of 3 or more on this operative during that sequence, that dice inflicts 1 less damage on it.\n- **For Cadia!**  \n Add 1 to the Atk stat of friendly KASRKIN operatives' melee weapons (to a maximum of 4). Whenever a friendly KASRKIN operative is fighting, the first time you strike during that sequence, inflict 1 additional damage.\n"
+      ]
     }
   ]
 }

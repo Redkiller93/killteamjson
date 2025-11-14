@@ -10,6 +10,113 @@
     "Infiltration",
     "Security"
   ],
+  "ploys": [
+    {
+      "ployId": "TYR-BBRO-S-CD",
+      "killteamId": "TYR-BBRO",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Cult Devotion",
+      "description": "Whenever a friendly BROOD BROTHER operative (excluding PATRIARCH) is incapacitated when fighting or retaliating,\nif you have any unresolved attack dice, you can roll 1D6.\nIf the result is a success as if it were the Roll Attack Dice step of that sequence (i.e, using the same weapon, but with no re-rolls), you can strike the enemy operative in that sequence with one of your unresolved\nnormal successes, or any of your successes instead if the 1D6 result is a critical success. In either case, that friendly operative is removed from the killzone afterwards."
+    },
+    {
+      "ployId": "TYR-BBRO-S-EB",
+      "killteamId": "TYR-BBRO",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Embedded",
+      "description": "Whenever an enemy operative is shooting a friendly BROOD BROTHER operative, if you can retain any cover saves as a result of Heavy terrain, you can retain one additional cover save."
+    },
+    {
+      "ployId": "TYR-BBRO-S-PER",
+      "killteamId": "TYR-BBRO",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Pervasive",
+      "description": "During friendly BROOD BROTHER operative's activation, you can ignore the first vertical distance of 2\" they move during one climb up."
+    },
+    {
+      "ployId": "TYR-BBRO-S-UPR",
+      "killteamId": "TYR-BBRO",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Uprising",
+      "description": "The first time each friendly BROOD BROTHER operative performs either the Shoot or Fight action during each of its activations,\nif its order was changed from Conceal to Engage at the start of that activation,\nthe enemy operative selected as the valid target or to fight against gains one of your Crossfire tokens as soon as it is selected (instead of after resolving your attack dice).  \n\nThis ploy has no effect if that friendly operative was activated within control range of an enemy operative.  \n\nNote this ploy cannot come into effect more than once per activation (you cannot use it during both the shoot and the fight action in the same activation)."
+    },
+    {
+      "ployId": "TYR-BBRO-T-UL",
+      "killteamId": "TYR-BBRO",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Unquestioning Loyalty",
+      "description": "Use this firefight ploy when a friendly BROOD BROTHER LEADER operative is selected as the valid target of a Shoot action or to fight against during the Fight action.\r Select one other friendly BROOD BROTHER BROODGUARD operative (excluding LEADER) visible to and within 3\" of that LEADER operative to become the valid target or to be fought against (as appropriate) instead (even if it normally\r would not be valid for this.\r If it is the Fight action, treat that other operative as being within the fighting operative's control range for the duration of that action. If it is the Shoot action, that other operative is only in cover or obscured if the original target was.  \n\r This ploy has no effect if it is the Shoot action and the ranged weapon has the Blast or Torrent weapon rule."
+    },
+    {
+      "ployId": "TYR-BBRO-T-RC",
+      "killteamId": "TYR-BBRO",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Ruthless Coordination",
+      "description": "Use this firefight ploy when selecting a valid target for a friendly BROOD BROTHER operative.\r Until the end of the action, determine Visibility as normal, but you can instead determine intervening (for cover and obscured) from another friendly BROOD BROTHER operative that both that friendly operative and the potential valid\r target are visible to, but that is not itself within control range of enemy operatives.  \n\r Note the friendly operative does not gain the additional benefits of Vantage terrain if the other operative is on it (e.g, to target an enemy operative that has a conceal order that is in cover provided by only Light Terrain."
+    },
+    {
+      "ployId": "TYR-BBRO-T-INS",
+      "killteamId": "TYR-BBRO",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Insidious",
+      "description": "Use this firefight ploy after an activation. Before the next activation, you can perform a free Dash action with one friendly BROOD BROTHER operative, as long as it is not a valid target for an enemy operative when it starts and ends that action. You cannot use this ploy during the first turning point."
+    },
+    {
+      "ployId": "TYR-BBRO-T-IDL",
+      "killteamId": "TYR-BBRO",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Idolisation",
+      "description": "Use this firefight ploy when a friendly BROOD BROTHER operative (excluding LEADER) within 6\" of a friendly BROOD BROTHER LEADER or friendly BROOD BROTHER ICONWARD operative is shooting,\nfighting or retaliating, in the Roll Attack Dice Step. You can retain one of your fails as a normal success instead of discarding it, or retain one of your normal successes as a critical success instead."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "TYR-BBRO-CD",
+      "killteamId": "TYR-BBRO",
+      "seq": 1,
+      "eqName": "Covert Disguises",
+      "description": "After revealing this equipment option, roll 1D3.\nAs a STRATEGIC GAMBIT in the first turning point, a number of friendly BROOD BROTHER BROODGUARD operatives equal to the result that are wholly within your drop zone can immediately perform a free\nReposition action, but must end that move wholly within 3\" of your drop zone.",
+      "effects": ""
+    },
+    {
+      "eqId": "TYR-BBRO-CK",
+      "killteamId": "TYR-BBRO",
+      "seq": 2,
+      "eqName": "Cult Knives",
+      "description": "Friendly BROOD BROTHER BROODGUARD operatives have the following melee weapon:\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Cult Knife|3|4+|3/4|\n",
+      "effects": "ADDWEP:Cult Knife|M|3|4+|3/4|"
+    },
+    {
+      "eqId": "TYR-BBRO-CT",
+      "killteamId": "TYR-BBRO",
+      "seq": 3,
+      "eqName": "Cult Talisman",
+      "description": "Once per turning point, when an operative is shooting a friendly BROOD BROTHER operative (Excluding Patriarch), in the roll defence dice step, you can retain one of your normal successes as a critical success instead.",
+      "effects": ""
+    },
+    {
+      "eqId": "TYR-BBRO-LO",
+      "killteamId": "TYR-BBRO",
+      "seq": 4,
+      "eqName": "Lookout",
+      "description": "STRATEGIC GAMBIT: Select one enemy operative visible to a friendly BROOD BROTHER operative to gain one of your Crossfire tokens.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "TYR-BBRO-TA-CR",
+      "abilityName": "Crossfire",
+      "description": "Whenever a friendly BROOD BROTHER operative is shooting against or fighting against an enemy operative, after resolving all of your attack dice, if that enemy operative is not incapacitated it gains one of your Crossfire tokens.  \n\nWhenever a friendly BROOD BROTHER operative is shooting against, fighting against or retaliating against an enemy operative that has any of your Crossfire tokens, you can remove any of those tokens. For each that you do, you can re-roll one of your attack dice."
+    }
+  ],
   "opTypes": [
     {
       "opTypeId": "TYR-BBRO-CMDR",
@@ -174,8 +281,7 @@
           "abilityName": "Coordinate",
           "description": "STRATEGIC GAMBIT. Select one enemy operative to gain one of your Crossfire tokens."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "TYR-BBRO-AGIT",
@@ -226,8 +332,7 @@
           "abilityName": "Psiren Caster",
           "description": "Whenever a friendly BROOD BROTHER operative is shooting against, fighting against or retaliating against an enemy operative within 6\" of this operative, you can re-roll one of your attack dice."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "TYR-BBRO-GNR",
@@ -409,8 +514,7 @@
           ]
         }
       ],
-      "abilities": [],
-      "options": []
+      "abilities": []
     },
     {
       "opTypeId": "TYR-BBRO-IW",
@@ -457,8 +561,7 @@
           "abilityName": "Cult Icon",
           "description": "Whenever determining control of a marker within 4\" of this operative, treat the total APL stat of friendly BROOD BROTHER operatives that control it as 1 higher if at least one friendly BROOD BROTHER operative contests that marker.\nNote this is not a change to the APL stat, so any changes are cumulative with this."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "TYR-BBRO-KF",
@@ -513,8 +616,7 @@
           "abilityName": "Counterattack",
           "description": "Whenever this operative is fighting or retaliating, whenever your opponent resolves a normal success, inflict 1 damage on the enemy operative in that sequence."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "TYR-BBRO-MED",
@@ -609,8 +711,7 @@
           "AP": 1,
           "description": "Select one friendly BROOD BROTHER operative (excluding PATRIARCH) within this operative's control range to regain 2D3 lost wounds.\nIt cannot be an operative that the Medic! Rule was used on during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "TYR-BBRO-SAP",
@@ -707,8 +808,7 @@
           "AP": 1,
           "description": "The first time this operative performs this action during the battle, place your Explosives marker within its control range.\nThe second time this operative performs this action during the battle, inflict 2D6 damage on each operative within 2\" of that marker (roll separately for each) unless Heavy Terrain is wholly intervening between that operative and that marker.  \n\nThis operative cannot perform this action more than twice per battle, while within control range of an enemy operative, or during the same activation in which it performed the Charge, Dash or Fall Back action (or vice-versa)."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "TYR-BBRO-SNP",
@@ -803,8 +903,7 @@
           ]
         }
       ],
-      "abilities": [],
-      "options": []
+      "abilities": []
     },
     {
       "opTypeId": "TYR-BBRO-VET",
@@ -889,8 +988,7 @@
           "abilityName": "Resilient",
           "description": "Normal damage of 3 or more inflicts 1 less damage on this operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "TYR-BBRO-VOX",
@@ -958,8 +1056,7 @@
           "AP": 1,
           "description": "**SUPPORT**  \n\nSelect one other friendly BROOD BROTHER BROODGUARD operative visible to and within 6\" of this operative. Until the end of that operative's next activation add 1 to its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "TYR-BBRO-TRP",
@@ -1019,8 +1116,7 @@
           "abilityName": "Group Activation",
           "description": "Whenever this operative is expended, you must then activate any other ready friendly BROOD BROTHER TROOPER operative (if able) before your opponent activates.\nWhen that other operative is expended, your opponent then activates as normal (in other words, you cannot activate more than two operatives as specified with this rule)."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "TYR-BBRO-MAG",
@@ -1130,8 +1226,7 @@
           "AP": 1,
           "description": "*PSYCHIC*  \n\nSelect one enemy operative visible to this operative. Until the end of that operative's next activation, subtract 1 from its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "TYR-BBRO-FAM",
@@ -1188,8 +1283,7 @@
           "abilityName": "Small",
           "description": "This operative cannot use any weapons that are not on its datacard, or perform unique actions.\r Whenever this operative has a Conceal order and is in cover, it cannot be selected as a valid target, taking precedence over all other rules (i.e, Seek, Vantage Terrain) except being within 2\".\r This operative can perform the Fall Back action for 1 less AP."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "TYR-BBRO-PAT",
@@ -1257,8 +1351,7 @@
           "AP": 2,
           "description": "*PSYCHIC*  \n\nSelect one enemy operative visible to and within 2\" of this operative.\nBoth players roll 1D6 and add their respective operative's APL stat to the total.\nIf your total is higher than your opponent's you can resolve this action's second effect.  \n\nUntil the end of the activation, that enemy operative is a friendly operative (an enemy operative for you opponent), you can change its order and it can immediately perofrm one free action.\nIt cannot perform an action in which it moves other than Dash (in which case specify the location for your opponent to move this operative to).\nYou can only resolve this action's second effect once per battle.  \n\nThis operative cannot perform this action while within control range of an enemy operative, unless the only enemy operative it is within control range of is selected for this action."
         }
-      ],
-      "options": []
+      ]
     },
     {
       "opTypeId": "TYR-BBRO-PRIM",
@@ -1365,115 +1458,7 @@
           "AP": 1,
           "description": "You gain 1 CP.  \n\nThis operative cannot perform this action while within control range of an enemy operative, or more than once per turning point."
         }
-      ],
-      "options": []
-    }
-  ],
-  "ploys": [
-    {
-      "ployId": "TYR-BBRO-S-CD",
-      "killteamId": "TYR-BBRO",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Cult Devotion",
-      "description": "Whenever a friendly BROOD BROTHER operative (excluding PATRIARCH) is incapacitated when fighting or retaliating,\nif you have any unresolved attack dice, you can roll 1D6.\nIf the result is a success as if it were the Roll Attack Dice step of that sequence (i.e, using the same weapon, but with no re-rolls), you can strike the enemy operative in that sequence with one of your unresolved\nnormal successes, or any of your successes instead if the 1D6 result is a critical success. In either case, that friendly operative is removed from the killzone afterwards."
-    },
-    {
-      "ployId": "TYR-BBRO-S-EB",
-      "killteamId": "TYR-BBRO",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Embedded",
-      "description": "Whenever an enemy operative is shooting a friendly BROOD BROTHER operative, if you can retain any cover saves as a result of Heavy terrain, you can retain one additional cover save."
-    },
-    {
-      "ployId": "TYR-BBRO-S-PER",
-      "killteamId": "TYR-BBRO",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Pervasive",
-      "description": "During friendly BROOD BROTHER operative's activation, you can ignore the first vertical distance of 2\" they move during one climb up."
-    },
-    {
-      "ployId": "TYR-BBRO-S-UPR",
-      "killteamId": "TYR-BBRO",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Uprising",
-      "description": "The first time each friendly BROOD BROTHER operative performs either the Shoot or Fight action during each of its activations,\nif its order was changed from Conceal to Engage at the start of that activation,\nthe enemy operative selected as the valid target or to fight against gains one of your Crossfire tokens as soon as it is selected (instead of after resolving your attack dice).  \n\nThis ploy has no effect if that friendly operative was activated within control range of an enemy operative.  \n\nNote this ploy cannot come into effect more than once per activation (you cannot use it during both the shoot and the fight action in the same activation)."
-    },
-    {
-      "ployId": "TYR-BBRO-T-UL",
-      "killteamId": "TYR-BBRO",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Unquestioning Loyalty",
-      "description": "Use this firefight ploy when a friendly BROOD BROTHER LEADER operative is selected as the valid target of a Shoot action or to fight against during the Fight action.\r Select one other friendly BROOD BROTHER BROODGUARD operative (excluding LEADER) visible to and within 3\" of that LEADER operative to become the valid target or to be fought against (as appropriate) instead (even if it normally\r would not be valid for this.\r If it is the Fight action, treat that other operative as being within the fighting operative's control range for the duration of that action. If it is the Shoot action, that other operative is only in cover or obscured if the original target was.  \n\r This ploy has no effect if it is the Shoot action and the ranged weapon has the Blast or Torrent weapon rule."
-    },
-    {
-      "ployId": "TYR-BBRO-T-RC",
-      "killteamId": "TYR-BBRO",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Ruthless Coordination",
-      "description": "Use this firefight ploy when selecting a valid target for a friendly BROOD BROTHER operative.\r Until the end of the action, determine Visibility as normal, but you can instead determine intervening (for cover and obscured) from another friendly BROOD BROTHER operative that both that friendly operative and the potential valid\r target are visible to, but that is not itself within control range of enemy operatives.  \n\r Note the friendly operative does not gain the additional benefits of Vantage terrain if the other operative is on it (e.g, to target an enemy operative that has a conceal order that is in cover provided by only Light Terrain."
-    },
-    {
-      "ployId": "TYR-BBRO-T-INS",
-      "killteamId": "TYR-BBRO",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Insidious",
-      "description": "Use this firefight ploy after an activation. Before the next activation, you can perform a free Dash action with one friendly BROOD BROTHER operative, as long as it is not a valid target for an enemy operative when it starts and ends that action. You cannot use this ploy during the first turning point."
-    },
-    {
-      "ployId": "TYR-BBRO-T-IDL",
-      "killteamId": "TYR-BBRO",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Idolisation",
-      "description": "Use this firefight ploy when a friendly BROOD BROTHER operative (excluding LEADER) within 6\" of a friendly BROOD BROTHER LEADER or friendly BROOD BROTHER ICONWARD operative is shooting,\nfighting or retaliating, in the Roll Attack Dice Step. You can retain one of your fails as a normal success instead of discarding it, or retain one of your normal successes as a critical success instead."
-    }
-  ],
-  "equipments": [
-    {
-      "eqId": "TYR-BBRO-CD",
-      "killteamId": "TYR-BBRO",
-      "seq": 1,
-      "eqName": "Covert Disguises",
-      "description": "After revealing this equipment option, roll 1D3.\nAs a STRATEGIC GAMBIT in the first turning point, a number of friendly BROOD BROTHER BROODGUARD operatives equal to the result that are wholly within your drop zone can immediately perform a free\nReposition action, but must end that move wholly within 3\" of your drop zone.",
-      "effects": ""
-    },
-    {
-      "eqId": "TYR-BBRO-CK",
-      "killteamId": "TYR-BBRO",
-      "seq": 2,
-      "eqName": "Cult Knives",
-      "description": "Friendly BROOD BROTHER BROODGUARD operatives have the following melee weapon:\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Cult Knife|3|4+|3/4|\n",
-      "effects": "ADDWEP:Cult Knife|M|3|4+|3/4|"
-    },
-    {
-      "eqId": "TYR-BBRO-CT",
-      "killteamId": "TYR-BBRO",
-      "seq": 3,
-      "eqName": "Cult Talisman",
-      "description": "Once per turning point, when an operative is shooting a friendly BROOD BROTHER operative (Excluding Patriarch), in the roll defence dice step, you can retain one of your normal successes as a critical success instead.",
-      "effects": ""
-    },
-    {
-      "eqId": "TYR-BBRO-LO",
-      "killteamId": "TYR-BBRO",
-      "seq": 4,
-      "eqName": "Lookout",
-      "description": "STRATEGIC GAMBIT: Select one enemy operative visible to a friendly BROOD BROTHER operative to gain one of your Crossfire tokens.",
-      "effects": ""
-    }
-  ],
-  "teamAbilities": [
-    {
-      "abilityId": "TYR-BBRO-TA-CR",
-      "abilityName": "Crossfire",
-      "description": "Whenever a friendly BROOD BROTHER operative is shooting against or fighting against an enemy operative, after resolving all of your attack dice, if that enemy operative is not incapacitated it gains one of your Crossfire tokens.  \n\nWhenever a friendly BROOD BROTHER operative is shooting against, fighting against or retaliating against an enemy operative that has any of your Crossfire tokens, you can remove any of those tokens. For each that you do, you can re-roll one of your attack dice."
+      ]
     }
   ]
 }

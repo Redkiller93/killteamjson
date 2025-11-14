@@ -10,6 +10,123 @@
     "Security",
     "Seek & Destroy"
   ],
+  "ploys": [
+    {
+      "ployId": "CHAOS-GPI-S-BOI",
+      "killteamId": "CHAOS-GPI",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Blessings Of Infection",
+      "description": "Whenever a friendly GELLERPOX INFECTED operative is fighting or retaliating, you can do one of the following:\n\n- If you roll three or more fails, you can discard one of them to retain another as a normal success instead.\n- If you roll three or more successes, you can discard one of your fails to retain one of your normal successes as a critical success instead.\n"
+    },
+    {
+      "ployId": "CHAOS-GPI-S-DTTH",
+      "killteamId": "CHAOS-GPI",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Drawn To The Hum",
+      "description": "Select one objective marker. Whenever a friendly GELLERPOX INFECTED operative performs the Reposition or Charge action during its activation, you can use this rule.\r If you do, add 1\" to its Move stat until the end of that activation, but it must end that move within 2\" of that objective marker."
+    },
+    {
+      "ployId": "CHAOS-GPI-S-PRD",
+      "killteamId": "CHAOS-GPI",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Plagueridden Determination",
+      "description": "Whenever an operative is shooting a friendly GELLERPOX INFECTED operative (excluding MUTOID VERMIN) that has an Engage order, you can re-roll one of your defence dice."
+    },
+    {
+      "ployId": "CHAOS-GPI-S-RE",
+      "killteamId": "CHAOS-GPI",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Rust Emanations",
+      "description": "Whenever a friendly GELLERPOX INFECTED NIGHTMARE HULK operative is fighting, your opponent cannot retain results of 3 as successes."
+    },
+    {
+      "ployId": "CHAOS-GPI-T-BA",
+      "killteamId": "CHAOS-GPI",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Barge",
+      "description": "Use this firefight ploy during a friendly GELLERPOX INFECTED NIGHTMARE HULK operative's activation or counteraction, before or after it performs an action.\nDuring that activation/counteraction:\n\n- It can move through enemy operatives and within control range of them.\n- It can perform the Charge and Reposition actions while within control range of an enemy operative, and can leave that operative's control range to do so (but then normal requirements for that move apply).\n"
+    },
+    {
+      "ployId": "CHAOS-GPI-T-FOS",
+      "killteamId": "CHAOS-GPI",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Frightening Onslaught",
+      "description": "Use this firefight ploy after a friendly GELLERPOX INFECTED NIGHTMARE HULK operative performs the Fight action, if it is not incapacitated.\nIt can immediately perform a free Fight action (you do not have to select the same enemy operative to fight against). This takes precedence over action restrictions."
+    },
+    {
+      "ployId": "CHAOS-GPI-T-PD",
+      "killteamId": "CHAOS-GPI",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Putrescent Demise",
+      "description": "Use this firefight ploy when a friendly GELLERPOX INFECTED operative (excluding MUTOID VERMIN) is incapacitated, before it is removed from the killzone.\r Inflict 1 damage (or D3 damage instead if that friendly operative is a NIGHTMARE HULK) on each enemy operative visible to and within 2\" of that friendly operative."
+    },
+    {
+      "ployId": "CHAOS-GPI-T-RT",
+      "killteamId": "CHAOS-GPI",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Revolting Technology",
+      "description": "Use this firefight ploy when an enemy operative is shooting a friendly GELLERPOX INFECTED operative.\nThat operative's ranged weapons have the Hot weapon rule until the end of that sequence; if the weapon already has that weapon rule, when your opponent rolls one D6 for that weapon rule,\nyou can add or subtract 1 from the result. Note that for the latter you can see the result of your opponent's roll for the Hot weapon rule before deciding to use this ploy.  \n\n**Hot:** After using this weapon, roll 1D6. If the result is less than the weapon's HIT stat, inflict Damage on that operative equal to the result multiplied by 2. If it is used multiple times in one action (e.g. Blast), roll only 1D6."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "CHAOS-GPI-MV",
+      "killteamId": "CHAOS-GPI",
+      "seq": 1,
+      "eqName": "Mutoid Vermin",
+      "description": "After revealing this equipment option, add two GELLERPOX INFECTED MUTOID VERMIN operatives to your kill team for the battle.",
+      "effects": ""
+    },
+    {
+      "eqId": "CHAOS-GPI-PS",
+      "killteamId": "CHAOS-GPI",
+      "seq": 2,
+      "eqName": "Polluted Stockpile",
+      "description": "After revealing this equipment option, roll 2D6: on a 7+, remove one of your opponent's selected equipment options; otherwise, that player removes one of their own selected equipment options.\nThey cannot select that equipment again during the game sequence (e.g. in the Scouting step of Approved Ops). You cannot select this equipment option after the Select Operatives step.",
+      "effects": ""
+    },
+    {
+      "eqId": "CHAOS-GPI-MS",
+      "killteamId": "CHAOS-GPI",
+      "seq": 3,
+      "eqName": "Mutated Symptoms",
+      "description": "Once per battle, when you activate a friendly GELLERPOX INFECTED operative, you can select one additional TECHNO-CURSE for that operative to gain until the end of the turning point (it must be different from your existing TECHNO-CURSE). Note that if a rule refers to an enemy operative being affected by your selected TECHNO-CURSE rule (e.g. VULGRAR THIRCE-CURSED operative''s Spread The Glorious Gifts rule), it is affected by your additional TECHNO-CURSE rule too.",
+      "effects": ""
+    },
+    {
+      "eqId": "CHAOS-GPI-PB",
+      "killteamId": "CHAOS-GPI",
+      "seq": 4,
+      "eqName": "Plague Bellows",
+      "description": "Whenever an operative is shooting a friendly GELLERPOX INFECTED NIGHTMARE HULK operative that's more than 6\" from it, you can retain one of your defence dice results of 3 as a normal success instead of discarding it.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "CHAOS-GPI-TA-BA",
+      "abilityName": "Barrelwarp",
+      "description": "**Techno-Curse**  \n\nSubtract 1 from the Atk stat of that enemy operative's ranged weapons."
+    },
+    {
+      "abilityId": "CHAOS-GPI-TA-SCRU",
+      "abilityName": "Screaming Rustspikes",
+      "description": "**Techno-Curse**  \n\nWhenever that enemy operative is fighting or retaliating against a friendly GELLERPOX INFECTED operative, if your opponent discards any attack dice as a fail, inflict 1 damage on that enemy operative."
+    },
+    {
+      "abilityId": "CHAOS-GPI-TA-VIVOST",
+      "abilityName": "Viral Vox-Static",
+      "description": "**Techno-Curse**  \n\nThat enemy operative's APL stat cannot be added to (remove all positive APL stat changes it has)."
+    }
+  ],
   "opTypes": [
     {
       "opTypeId": "CHAOS-GPI-VTC",
@@ -125,32 +242,6 @@
           "abilityName": "Techno-Curse",
           "description": "At the end of the Select Operatives step, select one TECHNO-CURSE for friendly GELLERPOX INFECTED operatives to gain for the battle.\n Whenever an enemy operative is within your selected TECHNo_CURSE's infection range,\n that enemy operative is affected by the symptom of the selected TECHNO-CURSE. Each TECHNO-CURSE, its infection range, and its symptom is listed below:  \n\n Each TECHNO-CURSE is listed below:\n \n - \n \t\t**Barrelwarp**  \n\n        Infection Range: Within 2\" of a friendly GELLERPOX INFECTED operative (excluding MUTOID VERMIN), or within 3\" of a friendly GELLERPOX INFECTED GLITCHLING operative.   \n\n        Symptom: Subtract 1 from the Atk stat of that enemy operative's ranged weapons.\n \t\n     - \n \t\t**Screaming Rustspikes**\n\t\tInfection Range: Within control range of a friendly GELLERPOX INFECTED operative (excluding MUTOID VERMIN).  \n\n\t\tSymptom: Whenever that enemy operative is fighting or retaliating against a friendly GELLERPOX INFECTED operative, if your opponent discards any attack dice as a fail, inflict 1 damage on that enemy operative.\n \t\n     - \n \t\t**Viral Vox-static**\n\t\tInfection Range: Within 3\" of a friendly GELLERPOX INFECTED operative (excluding MUTOID VERMIN), or within 4\" of a friendly GELLERPOX INFECTED GLITCHLING operative.  \n\n\t\tSymptom: That enemy operative's APL stat cannot be added to (remove all positive APL stat changes it has).\n \t\n "
         }
-      ],
-      "options": [
-        {
-          "optionId": "CHAOS-GPI-VTC-TC-BW",
-          "opTypeId": "CHAOS-GPI-VTC",
-          "seq": 101,
-          "optionName": "Barrelwarp",
-          "description": "**Techno-Curse**  \n\nSubtract 1 from the Atk stat of that enemy operative's ranged weapons.",
-          "effects": ""
-        },
-        {
-          "optionId": "CHAOS-GPI-VTC-TC-SRS",
-          "opTypeId": "CHAOS-GPI-VTC",
-          "seq": 102,
-          "optionName": "Screaming Rustspikes",
-          "description": "**Techno-Curse**  \n\nWhenever that enemy operative is fighting or retaliating against a friendly GELLERPOX INFECTED operative, if your opponent discards any attack dice as a fail, inflict 1 damage on that enemy operative.",
-          "effects": ""
-        },
-        {
-          "optionId": "CHAOS-GPI-VTC-TC-VVS",
-          "opTypeId": "CHAOS-GPI-VTC",
-          "seq": 103,
-          "optionName": "Viral Vox-Static",
-          "description": "**Techno-Curse**  \n\nThat enemy operative's APL stat cannot be added to (remove all positive APL stat changes it has).",
-          "effects": ""
-        }
       ]
     },
     {
@@ -252,32 +343,6 @@
           "abilityName": "Tentacled Grasp",
           "description": "Whenever an enemy operative would perform the Fall Back action while within control range of this operative, you can use this rule.\nIf you do, roll one D6, adding 1 to the result if that enemy operative has a Wounds stat of 8 or less: on a 4+, that enemy operative cannot perform that action during that activation/counteraction (the AP spent on it isn't refunded)."
         }
-      ],
-      "options": [
-        {
-          "optionId": "CHAOS-GPI-BS-TC-BW",
-          "opTypeId": "CHAOS-GPI-BS",
-          "seq": 101,
-          "optionName": "Barrelwarp",
-          "description": "**Techno-Curse**  \n\nSubtract 1 from the Atk stat of that enemy operative's ranged weapons.",
-          "effects": ""
-        },
-        {
-          "optionId": "CHAOS-GPI-BS-TC-SRS",
-          "opTypeId": "CHAOS-GPI-BS",
-          "seq": 102,
-          "optionName": "Screaming Rustspikes",
-          "description": "**Techno-Curse**  \n\nWhenever that enemy operative is fighting or retaliating against a friendly GELLERPOX INFECTED operative, if your opponent discards any attack dice as a fail, inflict 1 damage on that enemy operative.",
-          "effects": ""
-        },
-        {
-          "optionId": "CHAOS-GPI-BS-TC-VVS",
-          "opTypeId": "CHAOS-GPI-BS",
-          "seq": 103,
-          "optionName": "Viral Vox-Static",
-          "description": "**Techno-Curse**  \n\nThat enemy operative's APL stat cannot be added to (remove all positive APL stat changes it has).",
-          "effects": ""
-        }
       ]
     },
     {
@@ -352,32 +417,6 @@
           "abilityName": "Techno-Curse",
           "description": "At the end of the Select Operatives step, select one TECHNO-CURSE for friendly GELLERPOX INFECTED operatives to gain for the battle.\n Whenever an enemy operative is within your selected TECHNo_CURSE's infection range,\n that enemy operative is affected by the symptom of the selected TECHNO-CURSE. Each TECHNO-CURSE, its infection range, and its symptom is listed below:  \n\n Each TECHNO-CURSE is listed below:\n \n - \n \t\t**Barrelwarp**  \n\n        Infection Range: Within 2\" of a friendly GELLERPOX INFECTED operative (excluding MUTOID VERMIN), or within 3\" of a friendly GELLERPOX INFECTED GLITCHLING operative.   \n\n        Symptom: Subtract 1 from the Atk stat of that enemy operative's ranged weapons.\n \t\n     - \n \t\t**Screaming Rustspikes**\n\t\tInfection Range: Within control range of a friendly GELLERPOX INFECTED operative (excluding MUTOID VERMIN).  \n\n\t\tSymptom: Whenever that enemy operative is fighting or retaliating against a friendly GELLERPOX INFECTED operative, if your opponent discards any attack dice as a fail, inflict 1 damage on that enemy operative.\n \t\n     - \n \t\t**Viral Vox-static**\n\t\tInfection Range: Within 3\" of a friendly GELLERPOX INFECTED operative (excluding MUTOID VERMIN), or within 4\" of a friendly GELLERPOX INFECTED GLITCHLING operative.  \n\n\t\tSymptom: That enemy operative's APL stat cannot be added to (remove all positive APL stat changes it has).\n \t\n "
         }
-      ],
-      "options": [
-        {
-          "optionId": "CHAOS-GPI-FS-TC-BW",
-          "opTypeId": "CHAOS-GPI-FS",
-          "seq": 101,
-          "optionName": "Barrelwarp",
-          "description": "**Techno-Curse**  \n\nSubtract 1 from the Atk stat of that enemy operative's ranged weapons.",
-          "effects": ""
-        },
-        {
-          "optionId": "CHAOS-GPI-FS-TC-SRS",
-          "opTypeId": "CHAOS-GPI-FS",
-          "seq": 102,
-          "optionName": "Screaming Rustspikes",
-          "description": "**Techno-Curse**  \n\nWhenever that enemy operative is fighting or retaliating against a friendly GELLERPOX INFECTED operative, if your opponent discards any attack dice as a fail, inflict 1 damage on that enemy operative.",
-          "effects": ""
-        },
-        {
-          "optionId": "CHAOS-GPI-FS-TC-VVS",
-          "opTypeId": "CHAOS-GPI-FS",
-          "seq": 103,
-          "optionName": "Viral Vox-Static",
-          "description": "**Techno-Curse**  \n\nThat enemy operative's APL stat cannot be added to (remove all positive APL stat changes it has).",
-          "effects": ""
-        }
       ]
     },
     {
@@ -440,32 +479,6 @@
           "opTypeId": "CHAOS-GPI-LG",
           "abilityName": "Techno-Curse",
           "description": "At the end of the Select Operatives step, select one TECHNO-CURSE for friendly GELLERPOX INFECTED operatives to gain for the battle.\n Whenever an enemy operative is within your selected TECHNo_CURSE's infection range,\n that enemy operative is affected by the symptom of the selected TECHNO-CURSE. Each TECHNO-CURSE, its infection range, and its symptom is listed below:  \n\n Each TECHNO-CURSE is listed below:\n \n - \n \t\t**Barrelwarp**  \n\n        Infection Range: Within 2\" of a friendly GELLERPOX INFECTED operative (excluding MUTOID VERMIN), or within 3\" of a friendly GELLERPOX INFECTED GLITCHLING operative.   \n\n        Symptom: Subtract 1 from the Atk stat of that enemy operative's ranged weapons.\n \t\n     - \n \t\t**Screaming Rustspikes**\n\t\tInfection Range: Within control range of a friendly GELLERPOX INFECTED operative (excluding MUTOID VERMIN).  \n\n\t\tSymptom: Whenever that enemy operative is fighting or retaliating against a friendly GELLERPOX INFECTED operative, if your opponent discards any attack dice as a fail, inflict 1 damage on that enemy operative.\n \t\n     - \n \t\t**Viral Vox-static**\n\t\tInfection Range: Within 3\" of a friendly GELLERPOX INFECTED operative (excluding MUTOID VERMIN), or within 4\" of a friendly GELLERPOX INFECTED GLITCHLING operative.  \n\n\t\tSymptom: That enemy operative's APL stat cannot be added to (remove all positive APL stat changes it has).\n \t\n "
-        }
-      ],
-      "options": [
-        {
-          "optionId": "CHAOS-GPI-LG-TC-BW",
-          "opTypeId": "CHAOS-GPI-LG",
-          "seq": 101,
-          "optionName": "Barrelwarp",
-          "description": "**Techno-Curse**  \n\nSubtract 1 from the Atk stat of that enemy operative's ranged weapons.",
-          "effects": ""
-        },
-        {
-          "optionId": "CHAOS-GPI-LG-TC-SRS",
-          "opTypeId": "CHAOS-GPI-LG",
-          "seq": 102,
-          "optionName": "Screaming Rustspikes",
-          "description": "**Techno-Curse**  \n\nWhenever that enemy operative is fighting or retaliating against a friendly GELLERPOX INFECTED operative, if your opponent discards any attack dice as a fail, inflict 1 damage on that enemy operative.",
-          "effects": ""
-        },
-        {
-          "optionId": "CHAOS-GPI-LG-TC-VVS",
-          "opTypeId": "CHAOS-GPI-LG",
-          "seq": 103,
-          "optionName": "Viral Vox-Static",
-          "description": "**Techno-Curse**  \n\nThat enemy operative's APL stat cannot be added to (remove all positive APL stat changes it has).",
-          "effects": ""
         }
       ]
     },
@@ -588,32 +601,6 @@
           "abilityName": "Techno-Curse",
           "description": "At the end of the Select Operatives step, select one TECHNO-CURSE for friendly GELLERPOX INFECTED operatives to gain for the battle.\n Whenever an enemy operative is within your selected TECHNo_CURSE's infection range,\n that enemy operative is affected by the symptom of the selected TECHNO-CURSE. Each TECHNO-CURSE, its infection range, and its symptom is listed below:  \n\n Each TECHNO-CURSE is listed below:\n \n - \n \t\t**Barrelwarp**  \n\n        Infection Range: Within 2\" of a friendly GELLERPOX INFECTED operative (excluding MUTOID VERMIN), or within 3\" of a friendly GELLERPOX INFECTED GLITCHLING operative.   \n\n        Symptom: Subtract 1 from the Atk stat of that enemy operative's ranged weapons.\n \t\n     - \n \t\t**Screaming Rustspikes**\n\t\tInfection Range: Within control range of a friendly GELLERPOX INFECTED operative (excluding MUTOID VERMIN).  \n\n\t\tSymptom: Whenever that enemy operative is fighting or retaliating against a friendly GELLERPOX INFECTED operative, if your opponent discards any attack dice as a fail, inflict 1 damage on that enemy operative.\n \t\n     - \n \t\t**Viral Vox-static**\n\t\tInfection Range: Within 3\" of a friendly GELLERPOX INFECTED operative (excluding MUTOID VERMIN), or within 4\" of a friendly GELLERPOX INFECTED GLITCHLING operative.  \n\n\t\tSymptom: That enemy operative's APL stat cannot be added to (remove all positive APL stat changes it has).\n \t\n "
         }
-      ],
-      "options": [
-        {
-          "optionId": "CHAOS-GPI-GM-TC-BW",
-          "opTypeId": "CHAOS-GPI-GM",
-          "seq": 101,
-          "optionName": "Barrelwarp",
-          "description": "**Techno-Curse**  \n\nSubtract 1 from the Atk stat of that enemy operative's ranged weapons.",
-          "effects": ""
-        },
-        {
-          "optionId": "CHAOS-GPI-GM-TC-SRS",
-          "opTypeId": "CHAOS-GPI-GM",
-          "seq": 102,
-          "optionName": "Screaming Rustspikes",
-          "description": "**Techno-Curse**  \n\nWhenever that enemy operative is fighting or retaliating against a friendly GELLERPOX INFECTED operative, if your opponent discards any attack dice as a fail, inflict 1 damage on that enemy operative.",
-          "effects": ""
-        },
-        {
-          "optionId": "CHAOS-GPI-GM-TC-VVS",
-          "opTypeId": "CHAOS-GPI-GM",
-          "seq": 103,
-          "optionName": "Viral Vox-Static",
-          "description": "**Techno-Curse**  \n\nThat enemy operative's APL stat cannot be added to (remove all positive APL stat changes it has).",
-          "effects": ""
-        }
       ]
     },
     {
@@ -697,32 +684,6 @@
           "abilityName": "Techno-Curse",
           "description": "At the end of the Select Operatives step, select one TECHNO-CURSE for friendly GELLERPOX INFECTED operatives to gain for the battle.\n Whenever an enemy operative is within your selected TECHNo_CURSE's infection range,\n that enemy operative is affected by the symptom of the selected TECHNO-CURSE. Each TECHNO-CURSE, its infection range, and its symptom is listed below:  \n\n Each TECHNO-CURSE is listed below:\n \n - \n \t\t**Barrelwarp**  \n\n        Infection Range: Within 2\" of a friendly GELLERPOX INFECTED operative (excluding MUTOID VERMIN), or within 3\" of a friendly GELLERPOX INFECTED GLITCHLING operative.   \n\n        Symptom: Subtract 1 from the Atk stat of that enemy operative's ranged weapons.\n \t\n     - \n \t\t**Screaming Rustspikes**\n\t\tInfection Range: Within control range of a friendly GELLERPOX INFECTED operative (excluding MUTOID VERMIN).  \n\n\t\tSymptom: Whenever that enemy operative is fighting or retaliating against a friendly GELLERPOX INFECTED operative, if your opponent discards any attack dice as a fail, inflict 1 damage on that enemy operative.\n \t\n     - \n \t\t**Viral Vox-static**\n\t\tInfection Range: Within 3\" of a friendly GELLERPOX INFECTED operative (excluding MUTOID VERMIN), or within 4\" of a friendly GELLERPOX INFECTED GLITCHLING operative.  \n\n\t\tSymptom: That enemy operative's APL stat cannot be added to (remove all positive APL stat changes it has).\n \t\n "
         }
-      ],
-      "options": [
-        {
-          "optionId": "CHAOS-GPI-GL-TC-BW",
-          "opTypeId": "CHAOS-GPI-GL",
-          "seq": 101,
-          "optionName": "Barrelwarp",
-          "description": "**Techno-Curse**  \n\nSubtract 1 from the Atk stat of that enemy operative's ranged weapons.",
-          "effects": ""
-        },
-        {
-          "optionId": "CHAOS-GPI-GL-TC-SRS",
-          "opTypeId": "CHAOS-GPI-GL",
-          "seq": 102,
-          "optionName": "Screaming Rustspikes",
-          "description": "**Techno-Curse**  \n\nWhenever that enemy operative is fighting or retaliating against a friendly GELLERPOX INFECTED operative, if your opponent discards any attack dice as a fail, inflict 1 damage on that enemy operative.",
-          "effects": ""
-        },
-        {
-          "optionId": "CHAOS-GPI-GL-TC-VVS",
-          "opTypeId": "CHAOS-GPI-GL",
-          "seq": 103,
-          "optionName": "Viral Vox-Static",
-          "description": "**Techno-Curse**  \n\nThat enemy operative's APL stat cannot be added to (remove all positive APL stat changes it has).",
-          "effects": ""
-        }
       ]
     },
     {
@@ -776,32 +737,6 @@
           "opTypeId": "CHAOS-GPI-CM",
           "abilityName": "Mutoid Vermin",
           "description": "MUTOID VERMIN operatives cannot perform any actions other than Charge, Dash, Fall Back, Fight, Reposition and Shoot, or use any weapons that aren't on their datacard.\nThey can perform the Fall Back action for 1 less AP.  \n\nMUTOID VERMIN operatives cannot contest markers or areas of the killzone, and are ignored for your opponent's kill/elimination op (when they are incapacitated, and when determining your starting number of operatives).\nThey are also ignored for victory conditions and scoring VPs if either require operatives to 'escape', 'survive' or be incapacitated by enemy operatives (if they escape/survive/are incapacitated, determining how many operatives must escape/survive/be incapacitated, etc.).  \n\nOperatives can move through MUTOID VERMIN operatives, and enemy operatives can move within control range of them.\nHaving only MUTOID VERMIN operatives within their control range does not prevent enemy operatives from performing the Charge, Dash and Reposition action, and enemy operatives can leave MUTOID VERMIN operatives' control range when performing the Charge action."
-        }
-      ],
-      "options": [
-        {
-          "optionId": "CHAOS-GPI-CM-TC-BW",
-          "opTypeId": "CHAOS-GPI-CM",
-          "seq": 101,
-          "optionName": "Barrelwarp",
-          "description": "**Techno-Curse**  \n\nSubtract 1 from the Atk stat of that enemy operative's ranged weapons.",
-          "effects": ""
-        },
-        {
-          "optionId": "CHAOS-GPI-CM-TC-SRS",
-          "opTypeId": "CHAOS-GPI-CM",
-          "seq": 102,
-          "optionName": "Screaming Rustspikes",
-          "description": "**Techno-Curse**  \n\nWhenever that enemy operative is fighting or retaliating against a friendly GELLERPOX INFECTED operative, if your opponent discards any attack dice as a fail, inflict 1 damage on that enemy operative.",
-          "effects": ""
-        },
-        {
-          "optionId": "CHAOS-GPI-CM-TC-VVS",
-          "opTypeId": "CHAOS-GPI-CM",
-          "seq": 103,
-          "optionName": "Viral Vox-Static",
-          "description": "**Techno-Curse**  \n\nThat enemy operative's APL stat cannot be added to (remove all positive APL stat changes it has).",
-          "effects": ""
         }
       ]
     },
@@ -880,32 +815,6 @@
           "opTypeId": "CHAOS-GPI-ESS",
           "abilityName": "Mutoid Vermin",
           "description": "MUTOID VERMIN operatives cannot perform any actions other than Charge, Dash, Fall Back, Fight, Reposition and Shoot, or use any weapons that aren't on their datacard.\nThey can perform the Fall Back action for 1 less AP.  \n\nMUTOID VERMIN operatives cannot contest markers or areas of the killzone, and are ignored for your opponent's kill/elimination op (when they are incapacitated, and when determining your starting number of operatives).\nThey are also ignored for victory conditions and scoring VPs if either require operatives to 'escape', 'survive' or be incapacitated by enemy operatives (if they escape/survive/are incapacitated, determining how many operatives must escape/survive/be incapacitated, etc.).  \n\nOperatives can move through MUTOID VERMIN operatives, and enemy operatives can move within control range of them.\nHaving only MUTOID VERMIN operatives within their control range does not prevent enemy operatives from performing the Charge, Dash and Reposition action, and enemy operatives can leave MUTOID VERMIN operatives' control range when performing the Charge action."
-        }
-      ],
-      "options": [
-        {
-          "optionId": "CHAOS-GPI-ESS-TC-BW",
-          "opTypeId": "CHAOS-GPI-ESS",
-          "seq": 101,
-          "optionName": "Barrelwarp",
-          "description": "**Techno-Curse**  \n\nSubtract 1 from the Atk stat of that enemy operative's ranged weapons.",
-          "effects": ""
-        },
-        {
-          "optionId": "CHAOS-GPI-ESS-TC-SRS",
-          "opTypeId": "CHAOS-GPI-ESS",
-          "seq": 102,
-          "optionName": "Screaming Rustspikes",
-          "description": "**Techno-Curse**  \n\nWhenever that enemy operative is fighting or retaliating against a friendly GELLERPOX INFECTED operative, if your opponent discards any attack dice as a fail, inflict 1 damage on that enemy operative.",
-          "effects": ""
-        },
-        {
-          "optionId": "CHAOS-GPI-ESS-TC-VVS",
-          "opTypeId": "CHAOS-GPI-ESS",
-          "seq": 103,
-          "optionName": "Viral Vox-Static",
-          "description": "**Techno-Curse**  \n\nThat enemy operative's APL stat cannot be added to (remove all positive APL stat changes it has).",
-          "effects": ""
         }
       ]
     },
@@ -993,133 +902,7 @@
           "abilityName": "Mutoid Vermin",
           "description": "MUTOID VERMIN operatives cannot perform any actions other than Charge, Dash, Fall Back, Fight, Reposition and Shoot, or use any weapons that aren't on their datacard.\nThey can perform the Fall Back action for 1 less AP.  \n\nMUTOID VERMIN operatives cannot contest markers or areas of the killzone, and are ignored for your opponent's kill/elimination op (when they are incapacitated, and when determining your starting number of operatives).\nThey are also ignored for victory conditions and scoring VPs if either require operatives to 'escape', 'survive' or be incapacitated by enemy operatives (if they escape/survive/are incapacitated, determining how many operatives must escape/survive/be incapacitated, etc.).  \n\nOperatives can move through MUTOID VERMIN operatives, and enemy operatives can move within control range of them.\nHaving only MUTOID VERMIN operatives within their control range does not prevent enemy operatives from performing the Charge, Dash and Reposition action, and enemy operatives can leave MUTOID VERMIN operatives' control range when performing the Charge action."
         }
-      ],
-      "options": [
-        {
-          "optionId": "CHAOS-GPI-SG-TC-BW",
-          "opTypeId": "CHAOS-GPI-SG",
-          "seq": 101,
-          "optionName": "Barrelwarp",
-          "description": "**Techno-Curse**  \n\nSubtract 1 from the Atk stat of that enemy operative's ranged weapons.",
-          "effects": ""
-        },
-        {
-          "optionId": "CHAOS-GPI-SG-TC-SRS",
-          "opTypeId": "CHAOS-GPI-SG",
-          "seq": 102,
-          "optionName": "Screaming Rustspikes",
-          "description": "**Techno-Curse**  \n\nWhenever that enemy operative is fighting or retaliating against a friendly GELLERPOX INFECTED operative, if your opponent discards any attack dice as a fail, inflict 1 damage on that enemy operative.",
-          "effects": ""
-        },
-        {
-          "optionId": "CHAOS-GPI-SG-TC-VVS",
-          "opTypeId": "CHAOS-GPI-SG",
-          "seq": 103,
-          "optionName": "Viral Vox-Static",
-          "description": "**Techno-Curse**  \n\nThat enemy operative's APL stat cannot be added to (remove all positive APL stat changes it has).",
-          "effects": ""
-        }
       ]
-    }
-  ],
-  "ploys": [
-    {
-      "ployId": "CHAOS-GPI-S-BOI",
-      "killteamId": "CHAOS-GPI",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Blessings Of Infection",
-      "description": "Whenever a friendly GELLERPOX INFECTED operative is fighting or retaliating, you can do one of the following:\n\n- If you roll three or more fails, you can discard one of them to retain another as a normal success instead.\n- If you roll three or more successes, you can discard one of your fails to retain one of your normal successes as a critical success instead.\n"
-    },
-    {
-      "ployId": "CHAOS-GPI-S-DTTH",
-      "killteamId": "CHAOS-GPI",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Drawn To The Hum",
-      "description": "Select one objective marker. Whenever a friendly GELLERPOX INFECTED operative performs the Reposition or Charge action during its activation, you can use this rule.\r If you do, add 1\" to its Move stat until the end of that activation, but it must end that move within 2\" of that objective marker."
-    },
-    {
-      "ployId": "CHAOS-GPI-S-PRD",
-      "killteamId": "CHAOS-GPI",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Plagueridden Determination",
-      "description": "Whenever an operative is shooting a friendly GELLERPOX INFECTED operative (excluding MUTOID VERMIN) that has an Engage order, you can re-roll one of your defence dice."
-    },
-    {
-      "ployId": "CHAOS-GPI-S-RE",
-      "killteamId": "CHAOS-GPI",
-      "ployType": "S",
-      "seq": 1,
-      "ployName": "Rust Emanations",
-      "description": "Whenever a friendly GELLERPOX INFECTED NIGHTMARE HULK operative is fighting, your opponent cannot retain results of 3 as successes."
-    },
-    {
-      "ployId": "CHAOS-GPI-T-BA",
-      "killteamId": "CHAOS-GPI",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Barge",
-      "description": "Use this firefight ploy during a friendly GELLERPOX INFECTED NIGHTMARE HULK operative's activation or counteraction, before or after it performs an action.\nDuring that activation/counteraction:\n\n- It can move through enemy operatives and within control range of them.\n- It can perform the Charge and Reposition actions while within control range of an enemy operative, and can leave that operative's control range to do so (but then normal requirements for that move apply).\n"
-    },
-    {
-      "ployId": "CHAOS-GPI-T-FOS",
-      "killteamId": "CHAOS-GPI",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Frightening Onslaught",
-      "description": "Use this firefight ploy after a friendly GELLERPOX INFECTED NIGHTMARE HULK operative performs the Fight action, if it is not incapacitated.\nIt can immediately perform a free Fight action (you do not have to select the same enemy operative to fight against). This takes precedence over action restrictions."
-    },
-    {
-      "ployId": "CHAOS-GPI-T-PD",
-      "killteamId": "CHAOS-GPI",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Putrescent Demise",
-      "description": "Use this firefight ploy when a friendly GELLERPOX INFECTED operative (excluding MUTOID VERMIN) is incapacitated, before it is removed from the killzone.\r Inflict 1 damage (or D3 damage instead if that friendly operative is a NIGHTMARE HULK) on each enemy operative visible to and within 2\" of that friendly operative."
-    },
-    {
-      "ployId": "CHAOS-GPI-T-RT",
-      "killteamId": "CHAOS-GPI",
-      "ployType": "T",
-      "seq": 1,
-      "ployName": "Revolting Technology",
-      "description": "Use this firefight ploy when an enemy operative is shooting a friendly GELLERPOX INFECTED operative.\nThat operative's ranged weapons have the Hot weapon rule until the end of that sequence; if the weapon already has that weapon rule, when your opponent rolls one D6 for that weapon rule,\nyou can add or subtract 1 from the result. Note that for the latter you can see the result of your opponent's roll for the Hot weapon rule before deciding to use this ploy.  \n\n**Hot:** After using this weapon, roll 1D6. If the result is less than the weapon's HIT stat, inflict Damage on that operative equal to the result multiplied by 2. If it is used multiple times in one action (e.g. Blast), roll only 1D6."
-    }
-  ],
-  "equipments": [
-    {
-      "eqId": "CHAOS-GPI-MV",
-      "killteamId": "CHAOS-GPI",
-      "seq": 1,
-      "eqName": "Mutoid Vermin",
-      "description": "After revealing this equipment option, add two GELLERPOX INFECTED MUTOID VERMIN operatives to your kill team for the battle.",
-      "effects": ""
-    },
-    {
-      "eqId": "CHAOS-GPI-PS",
-      "killteamId": "CHAOS-GPI",
-      "seq": 2,
-      "eqName": "Polluted Stockpile",
-      "description": "After revealing this equipment option, roll 2D6: on a 7+, remove one of your opponent's selected equipment options; otherwise, that player removes one of their own selected equipment options.\nThey cannot select that equipment again during the game sequence (e.g. in the Scouting step of Approved Ops). You cannot select this equipment option after the Select Operatives step.",
-      "effects": ""
-    },
-    {
-      "eqId": "CHAOS-GPI-MS",
-      "killteamId": "CHAOS-GPI",
-      "seq": 3,
-      "eqName": "Mutated Symptoms",
-      "description": "Once per battle, when you activate a friendly GELLERPOX INFECTED operative, you can select one additional TECHNO-CURSE for that operative to gain until the end of the turning point (it must be different from your existing TECHNO-CURSE). Note that if a rule refers to an enemy operative being affected by your selected TECHNO-CURSE rule (e.g. VULGRAR THIRCE-CURSED operative''s Spread The Glorious Gifts rule), it is affected by your additional TECHNO-CURSE rule too.",
-      "effects": ""
-    },
-    {
-      "eqId": "CHAOS-GPI-PB",
-      "killteamId": "CHAOS-GPI",
-      "seq": 4,
-      "eqName": "Plague Bellows",
-      "description": "Whenever an operative is shooting a friendly GELLERPOX INFECTED NIGHTMARE HULK operative that's more than 6\" from it, you can retain one of your defence dice results of 3 as a normal success instead of discarding it.",
-      "effects": ""
     }
   ]
 }
